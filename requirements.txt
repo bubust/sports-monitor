@@ -1,6 +1,5 @@
 # Render 用（只跑 web server）
 flask>=3.0.0
-curl_cffi>=0.7.0
 gunicorn>=21.0.0
 
 # GitHub Actions 用（跑 scraper）

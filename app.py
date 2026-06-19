@@ -4,8 +4,9 @@ app.py — 從 GitHub raw 讀取抓取結果並提供 API
 import threading
 import time
 import logging
+import json
+import urllib.request
 from flask import Flask, render_template, jsonify
-from curl_cffi import requests as cf_requests
 import config
 
 logging.basicConfig(
@@ -35,22 +36,26 @@ _lock = threading.Lock()
 def _fetch_loop():
     while True:
         try:
-            resp = cf_requests.get(GITHUB_RAW, timeout=15, impersonate="chrome110")
-            if resp.status_code == 200:
-                data = resp.json()
-                with _lock:
-                    _cache["data"]       = data.get("data")
-                    _cache["status"]     = data.get("status", "正常")
-                    _cache["error"]      = data.get("error", "")
-                    _cache["updated_at"] = data.get("updated_at", "")
-                logger.info("資料已從 GitHub 更新")
-            elif resp.status_code == 404:
+            req = urllib.request.Request(
+                GITHUB_RAW,
+                headers={"User-Agent": "sports-monitor/1.0", "Cache-Control": "no-cache"}
+            )
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+            with _lock:
+                _cache["data"]       = data.get("data")
+                _cache["status"]     = data.get("status", "正常")
+                _cache["error"]      = data.get("error", "")
+                _cache["updated_at"] = data.get("updated_at", "")
+            logger.info(f"資料已從 GitHub 更新，策略數: {len((data.get('data') or {}).get('strategies', {}))}")
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
                 with _lock:
                     _cache["status"] = "等待第一次抓取..."
-                    _cache["error"]  = "GitHub 尚無資料（Actions 還未執行）"
+                    _cache["error"]  = "GitHub 尚無資料"
                 logger.warning("GitHub 資料尚未存在（404）")
             else:
-                logger.warning(f"GitHub 回傳 {resp.status_code}")
+                logger.error(f"讀取 GitHub 失敗 HTTP {e.code}")
         except Exception as e:
             logger.error(f"讀取 GitHub 失敗：{e}")
 
