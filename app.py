@@ -115,6 +115,32 @@ def api_status():
         })
 
 
+@app.route("/api/debug")
+def api_debug():
+    """臨時除錯：測試能否連到目標網站並找到登入表單"""
+    import requests as req
+    from bs4 import BeautifulSoup
+    import config as cfg
+    result = {}
+    try:
+        r = req.get(cfg.BASE_URL, timeout=15,
+                    headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/125.0"})
+        result["status_code"] = r.status_code
+        result["final_url"] = r.url
+        soup = BeautifulSoup(r.content, "html.parser")
+        form = soup.find("form")
+        result["form_found"] = form is not None
+        if form:
+            result["form_action"] = form.get("action", "")
+            inputs = [{"type": i.get("type",""), "name": i.get("name",""), "placeholder": i.get("placeholder","")}
+                      for i in form.find_all("input")]
+            result["inputs"] = inputs
+        result["body_snippet"] = r.text[:300]
+    except Exception as e:
+        result["error"] = str(e)
+    return jsonify(result)
+
+
 # ---------------------------------------------------------------
 # 啟動（gunicorn 或直接執行皆可）
 # ---------------------------------------------------------------
