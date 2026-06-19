@@ -5,31 +5,22 @@ scraper.py — requests 版本（不需要瀏覽器）
 import time
 import logging
 import pyotp
-import requests
+from curl_cffi import requests as cf_requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 import config
 
 logger = logging.getLogger(__name__)
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/125.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
-}
-
 
 class SportsScraper:
     def __init__(self):
-        self.session = requests.Session()
-        self.session.headers.update(HEADERS)
+        # impersonate="chrome110" 讓 curl_cffi 模擬真實 Chrome，繞過 Cloudflare
+        self.session = cf_requests.Session(impersonate="chrome110")
         self.logged_in = False
 
     def start(self):
-        logger.info("Scraper 已啟動（requests 模式）")
+        logger.info("Scraper 已啟動（curl_cffi 模式）")
 
     def stop(self):
         self.session.close()

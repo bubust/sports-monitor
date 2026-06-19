@@ -118,13 +118,12 @@ def api_status():
 @app.route("/api/debug")
 def api_debug():
     """臨時除錯：測試能否連到目標網站並找到登入表單"""
-    import requests as req
+    from curl_cffi import requests as cf_req
     from bs4 import BeautifulSoup
     import config as cfg
     result = {}
     try:
-        r = req.get(cfg.BASE_URL, timeout=15,
-                    headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/125.0"})
+        r = cf_req.get(cfg.BASE_URL, timeout=15, impersonate="chrome110")
         result["status_code"] = r.status_code
         result["final_url"] = r.url
         soup = BeautifulSoup(r.content, "html.parser")
