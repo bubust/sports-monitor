@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>足球策略訊號</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg:     #0f1117;
+  --card:   #1a1d27;
+  --border: #2a2d3a;
+  --text:   #e2e8f0;
+  --muted:  #64748b;
+  --green:  #22c55e;
+  --yellow: #f59e0b;
+  --red:    #ef4444;
+  --blue:   #3b82f6;
+}
+body { background: var(--bg); color: var(--text); font-family: system-ui, sans-serif;
+       font-size: 14px; min-height: 100vh; }
+
+/* ── Header ── */
+.header {
+  background: var(--card); border-bottom: 1px solid var(--border);
+  padding: 12px 20px; display: flex; align-items: center; gap: 12px;
+  position: sticky; top: 0; z-index: 10;
+}
+.header h1 { font-size: 16px; font-weight: 700; color: var(--blue); }
+.dot { width: 8px; height: 8px; border-radius: 50%; }
+.dot-ok  { background: var(--green); box-shadow: 0 0 6px var(--green); }
+.dot-err { background: var(--red);   box-shadow: 0 0 6px var(--red); }
+.dot-spin { background: var(--yellow); animation: blink 1s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+.updated { font-size: 12px; color: var(--muted); margin-left: auto; }
+.btn-refresh {
+  background: none; border: 1px solid var(--border); color: var(--muted);
+  padding: 4px 12px; border-radius: 6px; cursor: pointer; font-size: 12px;
+}
+.btn-refresh:hover { border-color: var(--blue); color: var(--blue); }
+
+/* ── Grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px; padding: 20px;
+}
+
+/* ── Card ── */
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 10px;
+}
+.card-head { display: flex; align-items: center; gap: 8px; }
+.card-name { font-size: 15px; font-weight: 700; }
+.signal-badge {
+  margin-left: auto; font-size: 11px; font-weight: 700;
+  padding: 2px 8px; border-radius: 20px;
+}
+.has-signal   { background: rgba(34,197,94,.18); color: var(--green); }
+.no-signal    { background: var(--border); color: var(--muted); }
+.card-divider { border: none; border-top: 1px solid var(--border); }
+
+/* ── 訊號列表 ── */
+.signal-list { display: flex; flex-direction: column; gap: 6px; }
+.signal-item {
+  background: rgba(34,197,94,.08); border: 1px solid rgba(34,197,94,.2);
+  border-radius: 6px; padding: 8px 10px;
+}
+.signal-item.warn {
+  background: rgba(245,158,11,.08); border-color: rgba(245,158,11,.2);
+}
+.signal-rec  { font-size: 13px; font-weight: 600; color: var(--green); }
+.signal-item.warn .signal-rec { color: var(--yellow); }
+.signal-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+.winrate     { display: inline-block; font-size: 12px; font-weight: 700;
+               margin-left: 6px; }
+.wr-high { color: var(--green); }
+.wr-mid  { color: var(--yellow); }
+.wr-low  { color: var(--red); }
+
+.no-signal-msg { color: var(--muted); font-size: 12px; text-align: center; padding: 8px 0; }
+.card-footer   { font-size: 11px; color: var(--muted); }
+.error-msg     { color: var(--red); font-size: 12px; }
+
+/* ── 空狀態 ── */
+.empty { text-align: center; color: var(--muted); padding: 60px 20px; }
+.empty p { margin-top: 8px; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="dot dot-spin" id="dot"></div>
+  <h1>⚽ 足球策略訊號</h1>
+  <span class="updated" id="updated">載入中...</span>
+  <button class="btn-refresh" onclick="fetchData()">更新</button>
+</div>
+
+<div class="grid" id="grid">
+  <div class="empty"><div style="font-size:32px">⏳</div><p>等待第一次抓取...</p></div>
+</div>
+
+<script>
+const REFRESH = 120;
+let timer, cd = REFRESH;
+
+async function fetchData() {
+  clearInterval(timer);
+  cd = REFRESH;
+  setDot('spin');
+  try {
+    const r = await fetch('/api/data');
+    const j = await r.json();
+    render(j);
+  } catch(e) {
+    setDot('err');
+  }
+  startTimer();
+}
+
+function render(j) {
+  const strategies = j.data?.strategies || {};
+  const keys = Object.keys(strategies);
+  const grid = document.getElementById('grid');
+
+  if (j.updated_at) {
+    document.getElementById('updated').textContent = '更新 ' + j.updated_at;
+  }
+
+  if (keys.length === 0) {
+    setDot('err');
+    grid.innerHTML = '<div class="empty"><p>' + (j.error || '尚無資料') + '</p></div>';
+    return;
+  }
+  setDot(j.status === '正常' ? 'ok' : 'err');
+
+  grid.innerHTML = keys.map(name => buildCard(name, strategies[name])).join('');
+}
+
+function buildCard(name, page) {
+  if (!page || page.error) {
+    return `<div class="card">
+      <div class="card-head"><span class="card-name">${esc(name)}</span></div>
+      <div class="error-msg">${esc(page?.error || '無資料')}</div>
+    </div>`;
+  }
+
+  // 從所有 sections 收集訊號（高亮行）
+  const signals = [];
+  let winRateInfo = null;
+
+  (page.sections || []).forEach(sec => {
+    (sec.matches || []).forEach(m => {
+      const rec = m.cols[m.cols.length - 1] || '';   // 最後欄 = 參考
+      const data = m.cols[2] || '';                   // 數據欄
+
+      // 找勝率（如有百分比數字）
+      const wrMatch = rec.match(/(\d+\.?\d*)%/) || data.match(/勝率[：:]?\s*(\d+\.?\d*)%/);
+      const wr = wrMatch ? parseFloat(wrMatch[1]) : null;
+
+      if (m.highlight === 'success' || m.highlight === 'warning') {
+        signals.push({ rec, data, wr, type: m.highlight });
+      }
+      // 也收集直接包含勝率的行
+      if (wr !== null && !signals.find(s => s.rec === rec)) {
+        winRateInfo = wr;
+      }
+    });
+  });
+
+  const hasSig = signals.length > 0;
+
+  let sigHtml;
+  if (hasSig) {
+    sigHtml = signals.slice(0, 5).map(s => {
+      const wrHtml = s.wr !== null
+        ? `<span class="winrate ${s.wr>=60?'wr-high':s.wr>=40?'wr-mid':'wr-low'}">${s.wr}%</span>`
+        : '';
+      return `<div class="signal-item ${s.type==='warning'?'warn':''}">
+        <div class="signal-rec">${esc(s.rec)}${wrHtml}</div>
+        <div class="signal-meta">${esc(s.data.substring(0,60))}${s.data.length>60?'…':''}</div>
+      </div>`;
+    }).join('');
+    if (signals.length > 5) {
+      sigHtml += `<div class="signal-meta" style="text-align:center">...另有 ${signals.length-5} 個訊號</div>`;
+    }
+  } else {
+    sigHtml = '<div class="no-signal-msg">目前無訊號</div>';
+  }
+
+  return `<div class="card">
+    <div class="card-head">
+      <span class="card-name">${esc(name)}</span>
+      <span class="signal-badge ${hasSig?'has-signal':'no-signal'}">
+        ${hasSig ? signals.length + ' 個訊號' : '無訊號'}
+      </span>
+    </div>
+    <hr class="card-divider">
+    <div class="signal-list">${sigHtml}</div>
+    <div class="card-footer">⏱ ${esc(page.scraped_at||'')}　場次：${totalMatches(page)}</div>
+  </div>`;
+}
+
+function totalMatches(page) {
+  return (page.sections||[]).reduce((n,s) => n + (s.matches||[]).length, 0);
+}
+
+function esc(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function setDot(s) {
+  document.getElementById('dot').className =
+    'dot ' + {ok:'dot-ok', err:'dot-err', spin:'dot-spin'}[s];
+}
+
+function startTimer() {
+  timer = setInterval(() => {
+    cd--;
+    const u = document.getElementById('updated');
+    const base = u.textContent.split(' (')[0];
+    u.textContent = base + ` (${cd}s)`;
+    if (cd <= 0) { clearInterval(timer); fetchData(); }
+  }, 1000);
+}
+
+fetchData();
+</script>
+</body>
+</html>
