@@ -9,6 +9,7 @@
 :root {
   --bg:     #0f1117;
   --card:   #1a1d27;
+  --card2:  #20243280;
   --border: #2a2d3a;
   --text:   #e2e8f0;
   --muted:  #64748b;
@@ -18,7 +19,7 @@
   --blue:   #3b82f6;
 }
 body { background: var(--bg); color: var(--text); font-family: system-ui, sans-serif;
-       font-size: 14px; min-height: 100vh; }
+       font-size: 14px; min-height: 100vh; overflow-x: hidden; }
 
 /* ── Header ── */
 .header {
@@ -27,12 +28,12 @@ body { background: var(--bg); color: var(--text); font-family: system-ui, sans-s
   position: sticky; top: 0; z-index: 10;
 }
 .header h1 { font-size: 16px; font-weight: 700; color: var(--blue); }
-.dot { width: 8px; height: 8px; border-radius: 50%; }
+.dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 .dot-ok  { background: var(--green); box-shadow: 0 0 6px var(--green); }
 .dot-err { background: var(--red);   box-shadow: 0 0 6px var(--red); }
 .dot-spin { background: var(--yellow); animation: blink 1s infinite; }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
-.updated { font-size: 12px; color: var(--muted); margin-left: auto; }
+.updated { font-size: 12px; color: var(--muted); margin-left: auto; white-space: nowrap; }
 .btn-refresh {
   background: none; border: 1px solid var(--border); color: var(--muted);
   padding: 4px 12px; border-radius: 6px; cursor: pointer; font-size: 12px;
@@ -50,7 +51,9 @@ body { background: var(--bg); color: var(--text); font-family: system-ui, sans-s
 .card {
   background: var(--card); border: 1px solid var(--border);
   border-radius: 10px; padding: 16px; display: flex; flex-direction: column; gap: 10px;
+  cursor: pointer; transition: border-color .15s, transform .1s;
 }
+.card:hover { border-color: var(--blue); transform: translateY(-2px); }
 .card-head { display: flex; align-items: center; gap: 8px; }
 .card-name { font-size: 15px; font-weight: 700; }
 .signal-badge {
@@ -73,8 +76,7 @@ body { background: var(--bg); color: var(--text); font-family: system-ui, sans-s
 .signal-rec  { font-size: 13px; font-weight: 600; color: var(--green); }
 .signal-item.warn .signal-rec { color: var(--yellow); }
 .signal-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
-.winrate     { display: inline-block; font-size: 12px; font-weight: 700;
-               margin-left: 6px; }
+.winrate     { display: inline-block; font-size: 12px; font-weight: 700; margin-left: 6px; }
 .wr-high { color: var(--green); }
 .wr-mid  { color: var(--yellow); }
 .wr-low  { color: var(--red); }
@@ -82,10 +84,76 @@ body { background: var(--bg); color: var(--text); font-family: system-ui, sans-s
 .no-signal-msg { color: var(--muted); font-size: 12px; text-align: center; padding: 8px 0; }
 .card-footer   { font-size: 11px; color: var(--muted); }
 .error-msg     { color: var(--red); font-size: 12px; }
-
-/* ── 空狀態 ── */
 .empty { text-align: center; color: var(--muted); padding: 60px 20px; }
 .empty p { margin-top: 8px; font-size: 13px; }
+
+/* ── Detail Panel (drawer from right) ── */
+.overlay {
+  display: none; position: fixed; inset: 0; background: rgba(0,0,0,.6);
+  z-index: 100; backdrop-filter: blur(2px);
+}
+.overlay.open { display: block; }
+
+.drawer {
+  position: fixed; top: 0; right: -100%; width: min(720px, 100vw);
+  height: 100vh; background: #12151f; border-left: 1px solid var(--border);
+  z-index: 101; transition: right .25s ease; display: flex; flex-direction: column;
+  overflow: hidden;
+}
+.drawer.open { right: 0; }
+
+.drawer-header {
+  padding: 16px 20px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 12px; flex-shrink: 0;
+  background: var(--card);
+}
+.drawer-title { font-size: 17px; font-weight: 700; }
+.drawer-close {
+  margin-left: auto; background: none; border: none; color: var(--muted);
+  font-size: 22px; cursor: pointer; line-height: 1; padding: 0 4px;
+}
+.drawer-close:hover { color: var(--text); }
+
+.drawer-body { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 20px; }
+
+/* ── Stat bar ── */
+.stat-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.stat-box {
+  background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  padding: 12px 18px; text-align: center; flex: 1; min-width: 90px;
+}
+.stat-num { font-size: 24px; font-weight: 800; }
+.stat-lbl { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+/* ── Section block ── */
+.section-block { display: flex; flex-direction: column; gap: 8px; }
+.section-title { font-size: 13px; font-weight: 700; color: var(--blue); padding-bottom: 4px;
+                 border-bottom: 1px solid var(--border); }
+
+/* ── Table ── */
+.tbl-wrap { overflow-x: auto; border-radius: 8px; border: 1px solid var(--border); }
+table { width: 100%; border-collapse: collapse; font-size: 12px; }
+thead th {
+  background: #1e2233; color: var(--muted); padding: 8px 10px;
+  text-align: left; white-space: nowrap; font-weight: 600;
+}
+tbody tr { border-top: 1px solid var(--border); transition: background .1s; }
+tbody tr:hover { background: rgba(255,255,255,.03); }
+tbody td { padding: 8px 10px; vertical-align: top; }
+
+tr.row-success { background: rgba(34,197,94,.06); }
+tr.row-warning { background: rgba(245,158,11,.06); }
+tr.row-danger  { background: rgba(239,68,68,.06); }
+
+td.rec-success { color: var(--green); font-weight: 600; }
+td.rec-warning { color: var(--yellow); font-weight: 600; }
+td.rec-danger  { color: var(--red); font-weight: 600; }
+
+/* ── Win-rate bar ── */
+.wr-bar-wrap { margin-top: 4px; }
+.wr-bar-track { background: var(--border); border-radius: 4px; height: 6px; overflow: hidden; }
+.wr-bar-fill  { height: 100%; border-radius: 4px; transition: width .5s; }
+.wr-bar-lbl   { font-size: 11px; color: var(--muted); margin-top: 3px; }
 </style>
 </head>
 <body>
@@ -101,9 +169,20 @@ body { background: var(--bg); color: var(--text); font-family: system-ui, sans-s
   <div class="empty"><div style="font-size:32px">⏳</div><p>等待第一次抓取...</p></div>
 </div>
 
+<!-- Detail Drawer -->
+<div class="overlay" id="overlay" onclick="closeDrawer()"></div>
+<div class="drawer" id="drawer">
+  <div class="drawer-header">
+    <div style="font-size:18px">📊</div>
+    <span class="drawer-title" id="drawer-title">策略詳情</span>
+    <button class="drawer-close" onclick="closeDrawer()">✕</button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</div>
+
 <script>
 const REFRESH = 120;
-let timer, cd = REFRESH;
+let timer, cd = REFRESH, allData = {};
 
 async function fetchData() {
   clearInterval(timer);
@@ -112,6 +191,7 @@ async function fetchData() {
   try {
     const r = await fetch('/api/data');
     const j = await r.json();
+    allData = j.data?.strategies || {};
     render(j);
   } catch(e) {
     setDot('err');
@@ -134,62 +214,39 @@ function render(j) {
     return;
   }
   setDot(j.status === '正常' ? 'ok' : 'err');
-
   grid.innerHTML = keys.map(name => buildCard(name, strategies[name])).join('');
 }
 
+/* ────────────── Card ────────────── */
 function buildCard(name, page) {
   if (!page || page.error) {
-    return `<div class="card">
+    return `<div class="card" onclick="openDrawer('${esc(name)}')">
       <div class="card-head"><span class="card-name">${esc(name)}</span></div>
       <div class="error-msg">${esc(page?.error || '無資料')}</div>
     </div>`;
   }
 
-  // 從所有 sections 收集訊號（高亮行）
-  const signals = [];
-  let winRateInfo = null;
-
-  (page.sections || []).forEach(sec => {
-    (sec.matches || []).forEach(m => {
-      const rec = m.cols[m.cols.length - 1] || '';   // 最後欄 = 參考
-      const data = m.cols[2] || '';                   // 數據欄
-
-      // 找勝率（如有百分比數字）
-      const wrMatch = rec.match(/(\d+\.?\d*)%/) || data.match(/勝率[：:]?\s*(\d+\.?\d*)%/);
-      const wr = wrMatch ? parseFloat(wrMatch[1]) : null;
-
-      if (m.highlight === 'success' || m.highlight === 'warning') {
-        signals.push({ rec, data, wr, type: m.highlight });
-      }
-      // 也收集直接包含勝率的行
-      if (wr !== null && !signals.find(s => s.rec === rec)) {
-        winRateInfo = wr;
-      }
-    });
-  });
-
+  const signals = collectSignals(page);
   const hasSig = signals.length > 0;
 
   let sigHtml;
   if (hasSig) {
-    sigHtml = signals.slice(0, 5).map(s => {
+    sigHtml = signals.slice(0, 4).map(s => {
       const wrHtml = s.wr !== null
         ? `<span class="winrate ${s.wr>=60?'wr-high':s.wr>=40?'wr-mid':'wr-low'}">${s.wr}%</span>`
         : '';
       return `<div class="signal-item ${s.type==='warning'?'warn':''}">
         <div class="signal-rec">${esc(s.rec)}${wrHtml}</div>
-        <div class="signal-meta">${esc(s.data.substring(0,60))}${s.data.length>60?'…':''}</div>
+        <div class="signal-meta">${esc((s.data||'').substring(0,60))}${(s.data||'').length>60?'…':''}</div>
       </div>`;
     }).join('');
-    if (signals.length > 5) {
-      sigHtml += `<div class="signal-meta" style="text-align:center">...另有 ${signals.length-5} 個訊號</div>`;
-    }
+    if (signals.length > 4)
+      sigHtml += `<div class="signal-meta" style="text-align:center;margin-top:4px">⋯ 另有 ${signals.length-4} 個，點擊查看全部</div>`;
   } else {
     sigHtml = '<div class="no-signal-msg">目前無訊號</div>';
   }
 
-  return `<div class="card">
+  return `<div class="card" onclick="openDrawer('${esc(name)}')">
     <div class="card-head">
       <span class="card-name">${esc(name)}</span>
       <span class="signal-badge ${hasSig?'has-signal':'no-signal'}">
@@ -202,8 +259,148 @@ function buildCard(name, page) {
   </div>`;
 }
 
+/* ────────────── Drawer ────────────── */
+function openDrawer(name) {
+  const page = allData[name];
+  document.getElementById('drawer-title').textContent = name;
+  document.getElementById('drawer-body').innerHTML = buildDetail(name, page);
+  document.getElementById('overlay').classList.add('open');
+  document.getElementById('drawer').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDrawer() {
+  document.getElementById('overlay').classList.remove('open');
+  document.getElementById('drawer').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+function buildDetail(name, page) {
+  if (!page || page.error) {
+    return `<div class="error-msg">${esc(page?.error || '無資料')}</div>`;
+  }
+
+  // ── 統計 ──
+  let total = 0, highlighted = 0, successCnt = 0, warnCnt = 0, dangerCnt = 0;
+  const wrNums = [];
+  (page.sections||[]).forEach(sec => {
+    (sec.matches||[]).forEach(m => {
+      total++;
+      if (m.highlight === 'success') { highlighted++; successCnt++; }
+      if (m.highlight === 'warning') { highlighted++; warnCnt++; }
+      if (m.highlight === 'danger')  { dangerCnt++; }
+      const rec = m.cols[m.cols.length-1]||'';
+      const wrM = rec.match(/(\d+\.?\d*)%/);
+      if (wrM) wrNums.push(parseFloat(wrM[1]));
+    });
+  });
+
+  const sigRate = total > 0 ? Math.round(highlighted/total*100) : 0;
+  const avgWr   = wrNums.length > 0 ? Math.round(wrNums.reduce((a,b)=>a+b,0)/wrNums.length) : null;
+  const wrColor = avgWr===null ? '--muted' : avgWr>=60?'--green':avgWr>=40?'--yellow':'--red';
+  const sigColor = sigRate>=30?'--green':sigRate>=10?'--yellow':'--muted';
+
+  let statsHtml = `<div class="stat-row">
+    <div class="stat-box">
+      <div class="stat-num" style="color:var(${sigColor})">${highlighted}</div>
+      <div class="stat-lbl">訊號場次</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">${total}</div>
+      <div class="stat-lbl">總場次</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num" style="color:var(${sigColor})">${sigRate}%</div>
+      <div class="stat-lbl">訊號率</div>
+    </div>`;
+
+  if (avgWr !== null) {
+    statsHtml += `<div class="stat-box">
+      <div class="stat-num" style="color:var(${wrColor})">${avgWr}%</div>
+      <div class="stat-lbl">平均勝率</div>
+    </div>`;
+  }
+  statsHtml += `</div>`;
+
+  // win-rate bar
+  if (avgWr !== null) {
+    const barColor = avgWr>=60?'#22c55e':avgWr>=40?'#f59e0b':'#ef4444';
+    statsHtml += `<div class="wr-bar-wrap">
+      <div class="wr-bar-track"><div class="wr-bar-fill" style="width:${avgWr}%;background:${barColor}"></div></div>
+      <div class="wr-bar-lbl">平均勝率 ${avgWr}%（共 ${wrNums.length} 筆有勝率數據）</div>
+    </div>`;
+  }
+
+  // ── 各 section 表格 ──
+  let sectionsHtml = '';
+  (page.sections||[]).forEach((sec, si) => {
+    if (!sec.matches || sec.matches.length === 0) return;
+
+    // 計算本 section 勝率
+    let sTotal=0, sHighlight=0;
+    const sWrNums=[];
+    sec.matches.forEach(m => {
+      sTotal++;
+      if (m.highlight==='success'||m.highlight==='warning') sHighlight++;
+      const rec = m.cols[m.cols.length-1]||'';
+      const wrM = rec.match(/(\d+\.?\d*)%/);
+      if (wrM) sWrNums.push(parseFloat(wrM[1]));
+    });
+    const sWr = sWrNums.length>0 ? Math.round(sWrNums.reduce((a,b)=>a+b,0)/sWrNums.length) : null;
+    const sSigRate = sTotal>0 ? Math.round(sHighlight/sTotal*100) : 0;
+
+    const headerRow = sec.headers && sec.headers.length > 0
+      ? `<thead><tr>${sec.headers.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead>`
+      : '';
+
+    const rows = sec.matches.map(m => {
+      const recIdx = m.cols.length - 1;
+      const tds = m.cols.map((c, ci) => {
+        const cls = ci===recIdx && m.highlight
+          ? ` class="rec-${m.highlight}"` : '';
+        return `<td${cls}>${esc(c)}</td>`;
+      }).join('');
+      return `<tr class="${m.highlight?'row-'+m.highlight:''}">${tds}</tr>`;
+    }).join('');
+
+    const sWrTag = sWr !== null
+      ? `<span style="color:var(${sWr>=60?'--green':sWr>=40?'--yellow':'--red'});font-size:12px;font-weight:700"> · 勝率 ${sWr}%</span>`
+      : '';
+    const sSigTag = sHighlight > 0
+      ? `<span style="color:var(--green);font-size:12px"> · ${sHighlight}/${sTotal} 訊號 (${sSigRate}%)</span>`
+      : '';
+
+    sectionsHtml += `<div class="section-block">
+      <div class="section-title">${esc(sec.title||('區塊 '+(si+1)))}${sWrTag}${sSigTag}</div>
+      <div class="tbl-wrap"><table>${headerRow}<tbody>${rows}</tbody></table></div>
+    </div>`;
+  });
+
+  if (!sectionsHtml) sectionsHtml = '<div class="no-signal-msg">此策略目前無資料</div>';
+
+  return statsHtml + sectionsHtml;
+}
+
+/* ────────────── Helpers ────────────── */
+function collectSignals(page) {
+  const signals = [];
+  (page.sections||[]).forEach(sec => {
+    (sec.matches||[]).forEach(m => {
+      const rec  = m.cols[m.cols.length-1]||'';
+      const data = m.cols[2]||'';
+      const wrM  = rec.match(/(\d+\.?\d*)%/)||data.match(/(\d+\.?\d*)%/);
+      const wr   = wrM ? parseFloat(wrM[1]) : null;
+      if (m.highlight==='success'||m.highlight==='warning')
+        signals.push({ rec, data, wr, type: m.highlight });
+    });
+  });
+  return signals;
+}
+
 function totalMatches(page) {
-  return (page.sections||[]).reduce((n,s) => n + (s.matches||[]).length, 0);
+  return (page.sections||[]).reduce((n,s) => n+(s.matches||[]).length, 0);
 }
 
 function esc(s) {
@@ -212,7 +409,7 @@ function esc(s) {
 
 function setDot(s) {
   document.getElementById('dot').className =
-    'dot ' + {ok:'dot-ok', err:'dot-err', spin:'dot-spin'}[s];
+    'dot '+{ok:'dot-ok',err:'dot-err',spin:'dot-spin'}[s];
 }
 
 function startTimer() {
@@ -221,7 +418,7 @@ function startTimer() {
     const u = document.getElementById('updated');
     const base = u.textContent.split(' (')[0];
     u.textContent = base + ` (${cd}s)`;
-    if (cd <= 0) { clearInterval(timer); fetchData(); }
+    if (cd<=0) { clearInterval(timer); fetchData(); }
   }, 1000);
 }
 
