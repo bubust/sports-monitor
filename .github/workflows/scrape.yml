@@ -1,0 +1,44 @@
+name: Scrape Sports Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # 每 30 分鐘執行一次
+  workflow_dispatch:           # 允許手動觸發
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python deps
+        run: pip install playwright pyotp beautifulsoup4 lxml
+
+      - name: Install Chromium
+        run: |
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run scraper
+        env:
+          SPORTS_USER: ${{ secrets.SPORTS_USER }}
+          SPORTS_PASS: ${{ secrets.SPORTS_PASS }}
+          SPORTS_TOTP: ${{ secrets.SPORTS_TOTP }}
+          HEADLESS: "true"
+        run: python scrape_to_file.py
+
+      - name: Commit data
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add data/latest.json
+          git diff --staged --quiet || git commit -m "data: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

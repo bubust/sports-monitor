@@ -1,13 +1,11 @@
 """
-app.py — Flask 後端 + 背景抓取執行緒
+app.py — 從 GitHub raw 讀取抓取結果並提供 API
 """
-
 import threading
 import time
 import logging
-from datetime import datetime
 from flask import Flask, render_template, jsonify
-from scraper import SportsScraper
+from curl_cffi import requests as cf_requests
 import config
 
 logging.basicConfig(
@@ -19,72 +17,47 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 
+# GitHub raw JSON 位置
+GITHUB_RAW = "https://raw.githubusercontent.com/bubust/sports-monitor/master/data/latest.json"
 
-def _restart_scraper(scraper):
-    try:
-        scraper.stop()
-    except Exception:
-        pass
-
-
-def _new_scraper():
-    s = SportsScraper()
-    s.start()
-    return s
-
-# ---------------------------------------------------------------
-# 全域資料快取
-# ---------------------------------------------------------------
 _cache = {
-    "data":      None,
-    "status":    "初始化中，請稍候...",
+    "data":       None,
+    "status":     "初始化中，請稍候...",
     "updated_at": "",
-    "error":     "",
+    "error":      "",
 }
 _lock = threading.Lock()
 
 
 # ---------------------------------------------------------------
-# 背景抓取執行緒
+# 背景：每 2 分鐘從 GitHub 拉一次資料
 # ---------------------------------------------------------------
-def _scraper_loop():
-    scraper = _new_scraper()
-
+def _fetch_loop():
     while True:
         try:
-            logger.info("── 開始抓取 ──")
-            data = scraper.scrape_all()
-
-            with _lock:
-                _cache["data"]      = data
-                _cache["status"]    = "正常"
-                _cache["error"]     = ""
-                _cache["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                logger.info(f"抓取完成，共 {len(data.get('strategies', {}))} 個策略")
-
+            resp = cf_requests.get(GITHUB_RAW, timeout=15, impersonate="chrome110")
+            if resp.status_code == 200:
+                data = resp.json()
+                with _lock:
+                    _cache["data"]       = data.get("data")
+                    _cache["status"]     = data.get("status", "正常")
+                    _cache["error"]      = data.get("error", "")
+                    _cache["updated_at"] = data.get("updated_at", "")
+                logger.info("資料已從 GitHub 更新")
+            elif resp.status_code == 404:
+                with _lock:
+                    _cache["status"] = "等待第一次抓取..."
+                    _cache["error"]  = "GitHub 尚無資料（Actions 還未執行）"
+                logger.warning("GitHub 資料尚未存在（404）")
+            else:
+                logger.warning(f"GitHub 回傳 {resp.status_code}")
         except Exception as e:
-            logger.error(f"抓取例外：{e}", exc_info=True)
-            with _lock:
-                _cache["status"] = f"例外錯誤"
-                _cache["error"]  = str(e)
-            _restart_scraper(scraper)
-            scraper = _new_scraper()
-            time.sleep(10)
-            continue
+            logger.error(f"讀取 GitHub 失敗：{e}")
 
-        # 登入失敗時也重啟瀏覽器
-        if "error" in data and not data.get("strategies"):
-            err_msg = data.get("error", "")
-            logger.warning(f"抓取失敗（{err_msg}），重啟瀏覽器...")
-            with _lock:
-                _cache["status"] = "抓取失敗，重試中..."
-                _cache["error"]  = err_msg
-            _restart_scraper(scraper)
-            scraper = _new_scraper()
-            time.sleep(10)
-            continue
+        time.sleep(120)
 
-        time.sleep(config.SCRAPE_INTERVAL)
+
+threading.Thread(target=_fetch_loop, daemon=True).start()
 
 
 # ---------------------------------------------------------------
@@ -92,7 +65,7 @@ def _scraper_loop():
 # ---------------------------------------------------------------
 @app.route("/")
 def index():
-    return render_template("index.html", port=config.PORT)
+    return render_template("index.html")
 
 
 @app.route("/api/data")
@@ -115,40 +88,5 @@ def api_status():
         })
 
 
-@app.route("/api/debug")
-def api_debug():
-    """臨時除錯：測試能否連到目標網站並找到登入表單"""
-    from curl_cffi import requests as cf_req
-    from bs4 import BeautifulSoup
-    import config as cfg
-    result = {}
-    try:
-        r = cf_req.get(cfg.BASE_URL, timeout=15, impersonate="chrome110")
-        result["status_code"] = r.status_code
-        result["final_url"] = r.url
-        soup = BeautifulSoup(r.content, "html.parser")
-        form = soup.find("form")
-        result["form_found"] = form is not None
-        if form:
-            result["form_action"] = form.get("action", "")
-            inputs = [{"type": i.get("type",""), "name": i.get("name",""), "placeholder": i.get("placeholder","")}
-                      for i in form.find_all("input")]
-            result["inputs"] = inputs
-        result["body_snippet"] = r.text[:300]
-    except Exception as e:
-        result["error"] = str(e)
-    return jsonify(result)
-
-
-# ---------------------------------------------------------------
-# 啟動（gunicorn 或直接執行皆可）
-# ---------------------------------------------------------------
-def _start_background():
-    t = threading.Thread(target=_scraper_loop, daemon=True)
-    t.start()
-
-_start_background()
-
 if __name__ == "__main__":
-    logger.info(f"儀表板已啟動：http://localhost:{config.PORT}")
-    app.run(host="0.0.0.0", port=config.PORT, debug=False, use_reloader=False)
+    app.run(host="0.0.0.0", port=config.PORT, debug=False)

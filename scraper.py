@@ -1,11 +1,11 @@
 """
-scraper.py — requests 版本（不需要瀏覽器）
+scraper.py — Playwright 版本，給 GitHub Actions 用（scrape_to_file.py 呼叫）
 """
 
 import time
 import logging
 import pyotp
-from curl_cffi import requests as cf_requests
+from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 from bs4 import BeautifulSoup
 from datetime import datetime
 import config
@@ -15,16 +15,47 @@ logger = logging.getLogger(__name__)
 
 class SportsScraper:
     def __init__(self):
-        # impersonate="chrome110" 讓 curl_cffi 模擬真實 Chrome，繞過 Cloudflare
-        self.session = cf_requests.Session(impersonate="chrome110")
+        self._pw      = None
+        self._browser = None
+        self._ctx     = None
+        self.page     = None
         self.logged_in = False
 
     def start(self):
-        logger.info("Scraper 已啟動（curl_cffi 模式）")
+        self._pw = sync_playwright().start()
+        self._browser = self._pw.chromium.launch(
+            headless=config.HEADLESS,
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-blink-features=AutomationControlled",
+            ]
+        )
+        self._ctx = self._browser.new_context(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/125.0.0.0 Safari/537.36"
+            ),
+            viewport={"width": 1600, "height": 900},
+            locale="zh-TW",
+        )
+        self._ctx.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+            Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});
+            window.chrome = { runtime: {} };
+        """)
+        self.page = self._ctx.new_page()
+        logger.info("瀏覽器已啟動")
 
     def stop(self):
-        self.session.close()
-        logger.info("Scraper 已關閉")
+        try:
+            if self._ctx:    self._ctx.close()
+            if self._browser: self._browser.close()
+            if self._pw:     self._pw.stop()
+        except Exception:
+            pass
+        logger.info("瀏覽器已關閉")
 
     # ------------------------------------------------------------------
     # TOTP
@@ -36,8 +67,7 @@ class SportsScraper:
             logger.info(f"TOTP 即將過期（剩 {remaining}s），等下一個週期...")
             time.sleep(remaining + 1)
         code = totp.now()
-        remaining2 = 30 - (int(time.time()) % 30)
-        logger.info(f"TOTP: {code}（剩 {remaining2}s）")
+        logger.info(f"TOTP: {code}（剩 {30-(int(time.time())%30)}s）")
         return code
 
     # ------------------------------------------------------------------
@@ -46,99 +76,87 @@ class SportsScraper:
     def login(self) -> bool:
         logger.info("前往登入頁...")
         try:
-            resp = self.session.get(config.BASE_URL, timeout=30)
-            soup = BeautifulSoup(resp.content, "lxml")
+            self.page.goto(config.BASE_URL, wait_until="domcontentloaded", timeout=30000)
+            time.sleep(3)
 
-            # 如果已登入
-            if self._is_logged_in(resp.text):
+            if self._is_main_page():
                 logger.info("已登入")
                 self.logged_in = True
                 return True
 
-            # 找 form
-            form = soup.find("form")
-            if not form:
-                logger.error("找不到登入表單")
-                return False
-
-            # form action
-            action = form.get("action", "").strip()
-            if not action:
-                action = config.BASE_URL
-            elif not action.startswith("http"):
-                base = config.BASE_URL.rstrip("/")
-                action = base + "/" + action.lstrip("/")
-            logger.info(f"Form action: {action}")
-
-            # 收集所有欄位
-            data = {}
-            for inp in form.find_all("input"):
-                name = inp.get("name", "")
-                val  = inp.get("value", "")
-                if name:
-                    data[name] = val
-
-            # 找 text inputs（帳號 / 認證碼）
-            text_inputs = form.find_all("input", {"type": ["text", None]})
-            text_inputs = [i for i in text_inputs
-                           if i.get("type", "text").lower() not in ("hidden", "submit", "button", "checkbox", "radio")]
-
-            # 找 password input
-            pw_inputs = form.find_all("input", {"type": "password"})
-
-            logger.info(f"text inputs: {[i.get('name','?') for i in text_inputs]}")
-            logger.info(f"pw inputs:   {[i.get('name','?') for i in pw_inputs]}")
-
-            # 填帳號（第1個 text）
-            if text_inputs:
-                data[text_inputs[0].get("name", "email")] = config.USERNAME
-                logger.info(f"填帳號 → {text_inputs[0].get('name')}")
+            # 填帳號（第 1 個 text input）
+            try:
+                self.page.locator('input[type="text"]').first.fill(config.USERNAME, timeout=5000)
+                logger.info("填入帳號")
+            except Exception as e:
+                logger.warning(f"填帳號失敗：{e}")
 
             # 填密碼
-            if pw_inputs:
-                data[pw_inputs[0].get("name", "password")] = config.PASSWORD
-                logger.info(f"填密碼 → {pw_inputs[0].get('name')}")
+            try:
+                self.page.fill('input[type="password"]', config.PASSWORD, timeout=5000)
+                logger.info("填入密碼")
+            except Exception as e:
+                logger.warning(f"填密碼失敗：{e}")
 
-            # 填認證碼（第2個 text）
-            if len(text_inputs) >= 2:
+            # 填認證碼（第 2 個 text input）
+            try:
                 code = self._totp()
-                data[text_inputs[1].get("name", "code")] = code
-                logger.info(f"填 TOTP → {text_inputs[1].get('name')}")
-            else:
-                logger.warning("找不到第2個 text input，TOTP 欄位可能未填")
+                self.page.locator('input[type="text"]').nth(1).fill(code, timeout=3000)
+                logger.info("TOTP 已填入")
+            except Exception as e:
+                logger.warning(f"填 TOTP 失敗：{e}")
 
             # 送出
-            logger.info(f"送出登入：{list(data.keys())}")
-            resp2 = self.session.post(action, data=data, timeout=30,
-                                      allow_redirects=True)
-            logger.info(f"登入後 URL: {resp2.url}  狀態: {resp2.status_code}")
+            self._click_submit()
+            time.sleep(5)
+            try:
+                self.page.wait_for_load_state("networkidle", timeout=8000)
+            except Exception:
+                pass
 
-            if self._is_logged_in(resp2.text):
+            if self._is_main_page():
                 logger.info("登入成功！")
                 self.logged_in = True
                 return True
             else:
-                snippet = resp2.text[:400].replace("\n", " ")
-                logger.error(f"登入失敗，回應: {snippet}")
+                logger.error("登入失敗，頁面：" + self.page.content()[:300])
+                self.page.screenshot(path="debug_login_fail.png")
                 return False
 
         except Exception as e:
             logger.error(f"login() 例外：{e}")
             return False
 
-    def _is_logged_in(self, html: str) -> bool:
-        fail = ["驗證碼輸入錯誤", "請先登入", "0x403", "0x401"]
-        if any(k in html for k in fail):
+    def _click_submit(self):
+        for sel in ['button[type="submit"]', 'input[type="submit"]',
+                    'button.btn-primary', 'button.btn', 'button']:
+            try:
+                self.page.click(sel, timeout=3000)
+                self.page.wait_for_load_state("domcontentloaded", timeout=10000)
+                return
+            except Exception:
+                continue
+
+    def _is_main_page(self) -> bool:
+        try:
+            content = self.page.content()
+            url = self.page.url
+            logger.info(f"目前 URL: {url}")
+            fail_signs = ["驗證碼輸入錯誤", "請先登入", "會員登入", "0x403", "0x401"]
+            if any(k in content for k in fail_signs):
+                return False
+            if "會員帳號" in content:
+                return False
+            return True
+        except Exception:
             return False
-        if "會員帳號" in html:
-            return False
-        return True
 
     # ------------------------------------------------------------------
     # 解析頁面
     # ------------------------------------------------------------------
-    def _parse_html(self, html: str, url: str) -> dict:
-        soup = BeautifulSoup(html, "lxml")
+    def _parse_page(self) -> dict:
+        content = self.page.content()
+        soup = BeautifulSoup(content, "lxml")
         sections = []
         tables = soup.find_all("table")
 
@@ -208,7 +226,7 @@ class SportsScraper:
                 break
 
         return {
-            "url":         url,
+            "url":         self.page.url,
             "update_info": update_info,
             "sections":    sections,
             "scraped_at":  datetime.now().strftime("%H:%M:%S"),
@@ -231,18 +249,19 @@ class SportsScraper:
         for name, url in config.PAGES.items():
             try:
                 logger.info(f"抓取 {name}: {url}")
-                resp = self.session.get(url, timeout=30)
+                self.page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                time.sleep(1.5)
 
-                # 被登出
-                if "請先登入" in resp.text or "會員帳號" in resp.text:
+                if "請先登入" in self.page.content() or "會員帳號" in self.page.content():
                     self.logged_in = False
                     logger.warning("Session 失效，重新登入...")
                     if not self.login():
                         result["error"] = "重新登入失敗"
                         return result
-                    resp = self.session.get(url, timeout=30)
+                    self.page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                    time.sleep(1.5)
 
-                result["strategies"][name] = self._parse_html(resp.text, url)
+                result["strategies"][name] = self._parse_page()
 
             except Exception as e:
                 logger.error(f"{name} 失敗：{e}")
@@ -262,6 +281,4 @@ def _row_highlight(row_tag) -> str:
         return "success"
     if bg in ("#ffffcc", "yellow", "#ffff99") or "yellow" in cls:
         return "warning"
-    if "gray" in bg or "grey" in bg or "gray" in cls:
-        return "secondary"
     return ""
