@@ -5,6 +5,9 @@ on:
     - cron: '*/30 * * * *'   # 每 30 分鐘執行一次
   workflow_dispatch:           # 允許手動觸發
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
