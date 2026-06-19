@@ -116,12 +116,14 @@ def api_status():
 
 
 # ---------------------------------------------------------------
-# 啟動
+# 啟動（gunicorn 或直接執行皆可）
 # ---------------------------------------------------------------
-if __name__ == "__main__":
+def _start_background():
     t = threading.Thread(target=_scraper_loop, daemon=True)
     t.start()
 
+_start_background()
+
+if __name__ == "__main__":
     logger.info(f"儀表板已啟動：http://localhost:{config.PORT}")
-    logger.info("分享給朋友：告訴朋友輸入 http://[你的IP]:{config.PORT}")
     app.run(host="0.0.0.0", port=config.PORT, debug=False, use_reloader=False)

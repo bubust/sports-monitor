@@ -1,110 +1,45 @@
 """
-scraper.py — Playwright 自動登入 + 抓取各策略頁面
+scraper.py — requests 版本（不需要瀏覽器）
 """
 
 import time
 import logging
 import pyotp
-from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 import config
 
 logger = logging.getLogger(__name__)
 
-# 策略頁面關鍵字（對應導覽列文字）
-STRATEGIES = ["獨贏", "大小", "賽事", "假賽", "非常用賽"]
-PAGE_TYPES  = ["面板", "即時", "統計"]
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/125.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+}
 
 
 class SportsScraper:
     def __init__(self):
-        self._pw        = None
-        self._browser   = None
-        self._ctx       = None
-        self.page       = None
-        self.logged_in  = False
-        self.nav_links  = {}   # {strategy: {page_type: url}}
+        self.session = requests.Session()
+        self.session.headers.update(HEADERS)
+        self.logged_in = False
 
-    # ------------------------------------------------------------------
-    # 生命週期
-    # ------------------------------------------------------------------
     def start(self):
-        self._pw = sync_playwright().start()
-        self._browser = self._pw.chromium.launch(
-            headless=config.HEADLESS,
-            args=[
-                "--no-sandbox",
-                "--disable-blink-features=AutomationControlled",
-                "--disable-dev-shm-usage",
-            ]
-        )
-        self._ctx = self._browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/125.0.0.0 Safari/537.36"
-            ),
-            viewport={"width": 1600, "height": 900},
-            locale="zh-TW",
-        )
-        self._ctx.add_init_script("""
-            Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-            Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});
-            Object.defineProperty(navigator, 'languages', {get: () => ['zh-TW','zh','en']});
-            window.chrome = { runtime: {} };
-        """)
-
-        # 從 Chrome 讀取 Cookie 並注入
-        self._inject_chrome_cookies()
-
-        self.page = self._ctx.new_page()
-        logger.info("瀏覽器已啟動")
-
-    def _inject_chrome_cookies(self):
-        """從本機 Chrome 讀取 Cookie 並注入 Playwright context"""
-        try:
-            import browser_cookie3
-            cj = browser_cookie3.chrome(domain_name='icux.xyz')
-            cookies = []
-            for c in cj:
-                cookie = {
-                    "name":   c.name,
-                    "value":  c.value,
-                    "domain": c.domain if c.domain else '.icux.xyz',
-                    "path":   c.path or '/',
-                }
-                if c.expires and c.expires > 0:
-                    cookie["expires"] = float(c.expires)
-                cookies.append(cookie)
-
-            if cookies:
-                self._ctx.add_cookies(cookies)
-                logger.info(f"已注入 {len(cookies)} 個 Chrome Cookie")
-                self.logged_in = True   # 有 Cookie 先假設已登入
-            else:
-                logger.warning("找不到 icux.xyz 的 Cookie，需要重新登入")
-        except Exception as e:
-            logger.warning(f"讀取 Chrome Cookie 失敗：{e}，將嘗試手動登入")
+        logger.info("Scraper 已啟動（requests 模式）")
 
     def stop(self):
-        try:
-            if self._ctx:
-                self._ctx.close()
-            if self._browser:
-                self._browser.close()
-            if self._pw:
-                self._pw.stop()
-        except Exception:
-            pass
-        logger.info("瀏覽器已關閉")
+        self.session.close()
+        logger.info("Scraper 已關閉")
 
     # ------------------------------------------------------------------
     # TOTP
     # ------------------------------------------------------------------
     def _totp(self):
         totp = pyotp.TOTP(config.TOTP_SECRET)
-        # 距離下個週期不足 8 秒就等新的，避免送出時已過期
         remaining = 30 - (int(time.time()) % 30)
         if remaining < 8:
             logger.info(f"TOTP 即將過期（剩 {remaining}s），等下一個週期...")
@@ -120,151 +55,107 @@ class SportsScraper:
     def login(self) -> bool:
         logger.info("前往登入頁...")
         try:
-            self.page.goto(config.BASE_URL, wait_until="domcontentloaded", timeout=30000)
-            time.sleep(2)
+            resp = self.session.get(config.BASE_URL, timeout=30)
+            soup = BeautifulSoup(resp.content, "lxml")
 
-            # 如果已經在主頁，不需要登入
-            if self._is_main_page():
+            # 如果已登入
+            if self._is_logged_in(resp.text):
                 logger.info("已登入")
                 self.logged_in = True
                 return True
 
-            # 填帳號（第 1 個 text input）
-            try:
-                self.page.locator('input[type="text"]').first.fill(config.USERNAME, timeout=5000)
-                logger.info("填入帳號")
-            except Exception as e:
-                logger.warning(f"填帳號失敗：{e}")
+            # 找 form
+            form = soup.find("form")
+            if not form:
+                logger.error("找不到登入表單")
+                return False
+
+            # form action
+            action = form.get("action", "").strip()
+            if not action:
+                action = config.BASE_URL
+            elif not action.startswith("http"):
+                base = config.BASE_URL.rstrip("/")
+                action = base + "/" + action.lstrip("/")
+            logger.info(f"Form action: {action}")
+
+            # 收集所有欄位
+            data = {}
+            for inp in form.find_all("input"):
+                name = inp.get("name", "")
+                val  = inp.get("value", "")
+                if name:
+                    data[name] = val
+
+            # 找 text inputs（帳號 / 認證碼）
+            text_inputs = form.find_all("input", {"type": ["text", None]})
+            text_inputs = [i for i in text_inputs
+                           if i.get("type", "text").lower() not in ("hidden", "submit", "button", "checkbox", "radio")]
+
+            # 找 password input
+            pw_inputs = form.find_all("input", {"type": "password"})
+
+            logger.info(f"text inputs: {[i.get('name','?') for i in text_inputs]}")
+            logger.info(f"pw inputs:   {[i.get('name','?') for i in pw_inputs]}")
+
+            # 填帳號（第1個 text）
+            if text_inputs:
+                data[text_inputs[0].get("name", "email")] = config.USERNAME
+                logger.info(f"填帳號 → {text_inputs[0].get('name')}")
 
             # 填密碼
-            try:
-                self.page.fill('input[type="password"]', config.PASSWORD, timeout=5000)
-                logger.info("填入密碼")
-            except Exception as e:
-                logger.warning(f"填密碼失敗：{e}")
+            if pw_inputs:
+                data[pw_inputs[0].get("name", "password")] = config.PASSWORD
+                logger.info(f"填密碼 → {pw_inputs[0].get('name')}")
 
-            # 填認證碼（第 2 個 text input）
-            try:
+            # 填認證碼（第2個 text）
+            if len(text_inputs) >= 2:
                 code = self._totp()
-                logger.info(f"輸入 TOTP: {code}")
-                self.page.locator('input[type="text"]').nth(1).fill(code, timeout=3000)
-                logger.info("TOTP 已填入（第 2 個 text input）")
-            except Exception as e:
-                logger.warning(f"填 TOTP 失敗：{e}")
+                data[text_inputs[1].get("name", "code")] = code
+                logger.info(f"填 TOTP → {text_inputs[1].get('name')}")
+            else:
+                logger.warning("找不到第2個 text input，TOTP 欄位可能未填")
 
-            # 送出（只送一次）
-            self._click_submit()
-            time.sleep(5)
-            # 等頁面完全載入
-            try:
-                self.page.wait_for_load_state("networkidle", timeout=8000)
-            except Exception:
-                pass
+            # 送出
+            logger.info(f"送出登入：{list(data.keys())}")
+            resp2 = self.session.post(action, data=data, timeout=30,
+                                      allow_redirects=True)
+            logger.info(f"登入後 URL: {resp2.url}  狀態: {resp2.status_code}")
 
-            if self._is_main_page():
+            if self._is_logged_in(resp2.text):
                 logger.info("登入成功！")
                 self.logged_in = True
                 return True
             else:
-                logger.error("登入失敗，頁面內容：" + self.page.content()[:500])
-                self.page.screenshot(path="debug_login_fail.png")
+                snippet = resp2.text[:400].replace("\n", " ")
+                logger.error(f"登入失敗，回應: {snippet}")
                 return False
 
         except Exception as e:
             logger.error(f"login() 例外：{e}")
-            try:
-                self.page.screenshot(path="debug_exception.png")
-            except Exception:
-                pass
             return False
 
-    def _click_submit(self):
-        for sel in ['button[type="submit"]', 'input[type="submit"]',
-                    'button.btn-primary', 'button.btn', 'button']:
-            try:
-                self.page.click(sel, timeout=3000)
-                self.page.wait_for_load_state("domcontentloaded", timeout=10000)
-                return
-            except Exception:
-                continue
-
-    def _is_main_page(self) -> bool:
-        try:
-            content = self.page.content()
-            url = self.page.url
-            logger.info(f"目前 URL: {url}")
-            # 有這些代表還在登入頁或登入失敗
-            fail_signs = ["驗證碼輸入錯誤", "請先登入", "會員登入", "0x403", "0x401"]
-            if any(k in content for k in fail_signs):
-                return False
-            # 還停在登入頁 URL（BASE_URL 且有登入表單）
-            if "會員帳號" in content or "input[type" in content.lower():
-                return False
-            return True
-        except Exception:
+    def _is_logged_in(self, html: str) -> bool:
+        fail = ["驗證碼輸入錯誤", "請先登入", "0x403", "0x401"]
+        if any(k in html for k in fail):
             return False
-
-    def _need_totp(self) -> bool:
-        content = self.page.content()
-        return any(k in content for k in ["驗證碼", "OTP", "otp", "authenticator",
-                                           "兩步驟", "2FA", "動態"])
+        if "會員帳號" in html:
+            return False
+        return True
 
     # ------------------------------------------------------------------
-    # 取得導覽列連結
+    # 解析頁面
     # ------------------------------------------------------------------
-    def _parse_nav(self):
-        """解析當前頁面的導覽列，建立 nav_links 字典"""
-        content = self.page.content()
-        soup = BeautifulSoup(content, "lxml")
-        links = {}
-
-        for a in soup.find_all("a", href=True):
-            href = a.get("href", "").strip()
-            text = a.get_text(strip=True)
-            if not href or href == "#":
-                continue
-
-            # 轉成絕對 URL
-            if href.startswith("//"):
-                href = "https:" + href
-            elif href.startswith("/"):
-                href = "https://sports.icux.xyz" + href
-            elif not href.startswith("http"):
-                href = "https://sports.icux.xyz/" + href
-
-            for strategy in STRATEGIES:
-                for ptype in PAGE_TYPES:
-                    if strategy in text and ptype in text:
-                        links.setdefault(strategy, {})[ptype] = href
-
-        self.nav_links = links
-        logger.info(f"導覽連結：{links}")
-        # debug：印出頁面上所有連結（前 30 個）
-        all_links = [(a.get_text(strip=True), a.get("href","")) for a in soup.find_all("a", href=True)]
-        logger.info(f"頁面所有連結（前30）：{all_links[:30]}")
-
-    # ------------------------------------------------------------------
-    # 解析單一頁面
-    # ------------------------------------------------------------------
-    def _parse_page(self) -> dict:
-        content = self.page.content()
-        soup = BeautifulSoup(content, "lxml")
+    def _parse_html(self, html: str, url: str) -> dict:
+        soup = BeautifulSoup(html, "lxml")
         sections = []
-
-        # 找出所有 「即時隊伍 XX (Min)」的段落
-        # 通常是 <b> 或 <th> 文字，後面跟著一個 <table>
-        # 也可能整張是一個大 table，第一列是標頭
-
-        # 嘗試找到含「即時隊伍」、「面板」、「統計」的 table
         tables = soup.find_all("table")
+
         for tbl in tables:
-            # 找標題（table 前的文字 或 table 第一個 th colspan）
             title = ""
             prev = tbl.find_previous(["b", "strong", "h3", "h4", "div"])
             if prev:
                 title = prev.get_text(strip=True)
-
-            # 尋找 colspan header 作為標題
             first_th = tbl.find("th")
             if first_th:
                 th_text = first_th.get_text(strip=True)
@@ -275,7 +166,6 @@ class SportsScraper:
             if len(rows) < 2:
                 continue
 
-            # 找 header row（包含 th 或文字類似欄位名的 td）
             headers = []
             data_start = 0
             for i, row in enumerate(rows):
@@ -285,7 +175,6 @@ class SportsScraper:
                     headers = texts
                     data_start = i + 1
                     if not title:
-                        # 如果 header 第一欄有「即時隊伍」等
                         title = texts[0] if texts else ""
                     break
 
@@ -296,26 +185,21 @@ class SportsScraper:
                 if not cells:
                     continue
                 row_text = " ".join(c.get_text(strip=True) for c in cells)
-                # 「總場次」行
                 if "總場次" in row_text:
                     try:
                         total = int(row_text.split(":")[-1].strip())
                     except Exception:
                         total = 0
                     continue
-
                 if len(cells) < 2:
                     continue
-
-                # 第一欄可能是比賽連結
                 link_tag = cells[0].find("a")
-                match_entry = {
+                matches.append({
                     "team":      link_tag.get_text(strip=True) if link_tag else cells[0].get_text(strip=True),
                     "team_url":  link_tag.get("href", "") if link_tag else "",
                     "cols":      [c.get_text(strip=True) for c in cells],
                     "highlight": _row_highlight(row),
-                }
-                matches.append(match_entry)
+                })
 
             if matches or total:
                 sections.append({
@@ -325,7 +209,6 @@ class SportsScraper:
                     "total":   total,
                 })
 
-        # 取頁面頂部更新資訊
         update_info = ""
         for tag in soup.find_all(["div", "p", "span"]):
             t = tag.get_text(strip=True)
@@ -334,7 +217,7 @@ class SportsScraper:
                 break
 
         return {
-            "url":         self.page.url,
+            "url":         url,
             "update_info": update_info,
             "sections":    sections,
             "scraped_at":  datetime.now().strftime("%H:%M:%S"),
@@ -356,24 +239,22 @@ class SportsScraper:
 
         for name, url in config.PAGES.items():
             try:
-                logger.info(f"抓取 {name} : {url}")
-                self.page.goto(url, wait_until="domcontentloaded", timeout=30000)
-                time.sleep(1.5)
+                logger.info(f"抓取 {name}: {url}")
+                resp = self.session.get(url, timeout=30)
 
-                # 被登出了
-                if "請先登入" in self.page.content() or "會員帳號" in self.page.content():
+                # 被登出
+                if "請先登入" in resp.text or "會員帳號" in resp.text:
                     self.logged_in = False
                     logger.warning("Session 失效，重新登入...")
                     if not self.login():
                         result["error"] = "重新登入失敗"
                         return result
-                    self.page.goto(url, wait_until="domcontentloaded", timeout=30000)
-                    time.sleep(1.5)
+                    resp = self.session.get(url, timeout=30)
 
-                result["strategies"][name] = self._parse_page()
+                result["strategies"][name] = self._parse_html(resp.text, url)
 
             except Exception as e:
-                logger.error(f"{name} 抓取失敗：{e}")
+                logger.error(f"{name} 失敗：{e}")
                 result["strategies"][name] = {
                     "error": str(e), "sections": [], "scraped_at": ""
                 }
@@ -381,12 +262,8 @@ class SportsScraper:
         return result
 
 
-# ------------------------------------------------------------------
-# 輔助函式
-# ------------------------------------------------------------------
 def _row_highlight(row_tag) -> str:
-    """根據 <tr> 的 bgcolor / class 判斷顏色（用於前端顯色）"""
-    bg = row_tag.get("bgcolor", "").lower()
+    bg  = row_tag.get("bgcolor", "").lower()
     cls = " ".join(row_tag.get("class", [])).lower()
     if bg in ("#ffcccc", "red", "#ff9999") or "red" in cls:
         return "danger"
