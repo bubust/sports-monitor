@@ -4,9 +4,9 @@
 
 import os
 
-USERNAME      = os.environ.get("SPORTS_USER", "bubust@gmail.com")
-PASSWORD      = os.environ.get("SPORTS_PASS", "1234567")
-TOTP_SECRET   = os.environ.get("SPORTS_TOTP", "2EU3UPWU3LY5PMOW")
+USERNAME      = os.environ.get("SPORTS_USER", "")
+PASSWORD      = os.environ.get("SPORTS_PASS", "")
+TOTP_SECRET   = os.environ.get("SPORTS_TOTP", "")
 
 BASE_URL      = "https://sports.icux.xyz/"
 
