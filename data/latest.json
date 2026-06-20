@@ -1,81 +1,348 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-06-20 14:40:04",
+  "updated_at": "2026-06-20 16:14:47",
   "data": {
-    "timestamp": "2026-06-20 14:40:04",
+    "timestamp": "2026-06-20 16:14:47",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
-        "update_info": "",
+        "update_info": "更新59",
         "sections": [],
-        "scraped_at": "14:40:06"
+        "scraped_at": "16:14:49"
       },
       "獨贏二": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
-        "sections": [],
-        "scraped_at": "14:40:07"
+        "url": "https://sports.icux.xyz/football/index1.php?t=6",
+        "update_info": "更新59",
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時隊伍 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Chabab-Atlas-Khénifra-vs-KAC-",
+                "team_url": "https://betsapi.com/r/12049019/Chabab-Atlas-Khénifra-vs-KAC-Kenitra",
+                "cols": [
+                  "Chabab-Atlas-Khénifra-vs-KAC-",
+                  "2026-06-21 00:05:02",
+                  "Chabab Atlas Khénifra (射正4 射偏4) | 1-0 | KAC Kenitra (射正0 射偏1) | 偵測時間45",
+                  "押獨贏二(A) Chabab Atlas Khénifra"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Petrolul-ZF-1948-Berca-vs-ACS-",
+                "team_url": "https://betsapi.com/r/12073201/Petrolul-ZF-1948-Berca-vs-ACS-Pescarusul-Sarichioi",
+                "cols": [
+                  "Petrolul-ZF-1948-Berca-vs-ACS-",
+                  "2026-06-21 00:00:03",
+                  "Petrolul ZF 1948 Berca (射正5 射偏15) | 2-0 | ACS Pescarusul Sarichioi (射正0 射偏2) | 偵測時間45",
+                  "押獨贏二(A) Petrolul ZF 1948 Berca"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Agnita-vs-Corona-Brasov",
+                "team_url": "https://betsapi.com/r/12073200/Agnita-vs-Corona-Brasov",
+                "cols": [
+                  "Agnita-vs-Corona-Brasov",
+                  "2026-06-21 00:00:03",
+                  "Agnita (射正0 射偏1) | 0-1 | Corona Brasov (射正3 射偏5) | 偵測時間45",
+                  "押獨贏二(B) Corona Brasov"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 3
+          }
+        ],
+        "scraped_at": "16:14:50"
       },
       "大分二": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
-        "sections": [],
-        "scraped_at": "14:40:09"
+        "url": "https://sports.icux.xyz/football/index3.php?t=2",
+        "update_info": "更新59",
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Reynir",
+                "team_url": "https://betsapi.com/r/11721097/KFG-Gardabaer-vs-Dalvik/Reynir",
+                "cols": [
+                  "Reynir",
+                  "2026-06-21 00:00:03",
+                  "KFG Gardabaer (射正2 射偏4) | 0-5 | Dalvik/Reynir (射正5 射偏2) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "16:14:52"
       },
       "大分三": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
+        "url": "https://sports.icux.xyz/football/index3.php?t=3",
+        "update_info": "更新59",
         "sections": [],
-        "scraped_at": "14:40:10"
+        "scraped_at": "16:14:54"
       },
       "策略一": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
-        "sections": [],
-        "scraped_at": "14:40:12"
+        "url": "https://sports.icux.xyz/football/index5.php?t=6",
+        "update_info": "更新59",
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Chabab-Atlas-Khénifra-vs-KAC-",
+                "team_url": "https://betsapi.com/r/12049019/Chabab-Atlas-Khénifra-vs-KAC-Kenitra",
+                "cols": [
+                  "Chabab-Atlas-Khénifra-vs-KAC-",
+                  "2026-06-21 00:05:02",
+                  "Chabab Atlas Khénifra (射正4 射偏4) | 1-0 | KAC Kenitra (射正0 射偏1) | 偵測時間45",
+                  "押策略一2(A) Chabab Atlas Khénifra"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "AS-Spicul-Valcelele-vs-ACS-Ome",
+                "team_url": "https://betsapi.com/r/12073197/AS-Spicul-Valcelele-vs-ACS-Omega-Bucuresti",
+                "cols": [
+                  "AS-Spicul-Valcelele-vs-ACS-Ome",
+                  "2026-06-21 00:00:03",
+                  "AS Spicul Valcelele (射正0 射偏1) | 0-0 | ACS Omega Bucuresti (射正3 射偏2) | 偵測時間45",
+                  "押策略一2(B) ACS Omega Bucuresti"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "16:14:55"
       },
       "策略二": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
-        "sections": [],
-        "scraped_at": "14:40:13"
+        "url": "https://sports.icux.xyz/football/index5.php?t=2",
+        "update_info": "更新59",
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "CS-Portul-Constanta-vs-CS-Faur",
+                "team_url": "https://betsapi.com/r/12073199/CS-Portul-Constanta-vs-CS-Faurei",
+                "cols": [
+                  "CS-Portul-Constanta-vs-CS-Faur",
+                  "2026-06-21 00:05:02",
+                  "CS Portul Constanta (射正2 射偏2) | 0-0 | CS Faurei (射正0 射偏5) | 偵測時間45",
+                  "押策略二(A) CS Portul Constanta"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "16:14:57"
       },
       "策略四": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
+        "url": "https://sports.icux.xyz/football/index7.php?t=0",
+        "update_info": "更新59",
         "sections": [],
-        "scraped_at": "14:40:15"
+        "scraped_at": "16:14:59"
       },
       "策略五": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
-        "sections": [],
-        "scraped_at": "14:40:16"
+        "url": "https://sports.icux.xyz/football/index7.php?t=2",
+        "update_info": "更新59",
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時假賽 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Chabab-Atlas-Khénifra-vs-KAC-",
+                "team_url": "https://betsapi.com/r/12049019/Chabab-Atlas-Khénifra-vs-KAC-Kenitra",
+                "cols": [
+                  "Chabab-Atlas-Khénifra-vs-KAC-",
+                  "2026-06-21 00:05:02",
+                  "Chabab Atlas Khénifra (射正4 射偏4) | 1-0 | KAC Kenitra (射正0 射偏1) | 偵測時間45",
+                  "押策略五(A) Chabab Atlas Khénifra"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Petrolul-ZF-1948-Berca-vs-ACS-",
+                "team_url": "https://betsapi.com/r/12073201/Petrolul-ZF-1948-Berca-vs-ACS-Pescarusul-Sarichioi",
+                "cols": [
+                  "Petrolul-ZF-1948-Berca-vs-ACS-",
+                  "2026-06-21 00:00:03",
+                  "Petrolul ZF 1948 Berca (射正5 射偏15) | 2-0 | ACS Pescarusul Sarichioi (射正0 射偏2) | 偵測時間45",
+                  "押策略五(A) Petrolul ZF 1948 Berca"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "AS-Spicul-Valcelele-vs-ACS-Ome",
+                "team_url": "https://betsapi.com/r/12073197/AS-Spicul-Valcelele-vs-ACS-Omega-Bucuresti",
+                "cols": [
+                  "AS-Spicul-Valcelele-vs-ACS-Ome",
+                  "2026-06-21 00:00:03",
+                  "AS Spicul Valcelele (射正0 射偏1) | 0-0 | ACS Omega Bucuresti (射正3 射偏2) | 偵測時間45",
+                  "押策略五(B) ACS Omega Bucuresti"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ordabasy-vs-FK-Kaspyi-Aktau",
+                "team_url": "https://betsapi.com/r/11520060/Ordabasy-vs-FK-Kaspyi-Aktau",
+                "cols": [
+                  "Ordabasy-vs-FK-Kaspyi-Aktau",
+                  "2026-06-21 00:00:03",
+                  "Ordabasy (射正5 射偏6) | 2-0 | FK Kaspyi Aktau (射正1 射偏1) | 偵測時間45",
+                  "押策略五(A) Ordabasy"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 4
+          }
+        ],
+        "scraped_at": "16:15:00"
       },
       "隊伍三": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
+        "url": "https://sports.icux.xyz/football/index7.php?t=4",
+        "update_info": "更新59",
         "sections": [],
-        "scraped_at": "14:40:18"
+        "scraped_at": "16:15:02"
       },
       "數據一": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
-        "sections": [],
-        "scraped_at": "14:40:20"
+        "url": "https://sports.icux.xyz/football/index9.php?t=0",
+        "update_info": "更新59",
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "AS-Spicul-Valcelele-vs-ACS-Ome",
+                "team_url": "https://betsapi.com/r/12073197/AS-Spicul-Valcelele-vs-ACS-Omega-Bucuresti",
+                "cols": [
+                  "AS-Spicul-Valcelele-vs-ACS-Ome",
+                  "2026-06-21 00:00:03",
+                  "AS Spicul Valcelele (射正0 射偏1) | 0-0 | ACS Omega Bucuresti (射正3 射偏2) | 偵測時間45",
+                  "押數據一(B) ACS Omega Bucuresti"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "16:15:03"
       },
       "數據二": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
-        "sections": [],
-        "scraped_at": "14:40:21"
+        "url": "https://sports.icux.xyz/football/index9.php?t=2",
+        "update_info": "更新59",
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Chabab-Atlas-Khénifra-vs-KAC-",
+                "team_url": "https://betsapi.com/r/12049019/Chabab-Atlas-Khénifra-vs-KAC-Kenitra",
+                "cols": [
+                  "Chabab-Atlas-Khénifra-vs-KAC-",
+                  "2026-06-21 00:05:02",
+                  "Chabab Atlas Khénifra (射正4 射偏4) | 1-0 | KAC Kenitra (射正0 射偏1) | 偵測時間45",
+                  "押數據二(A) Chabab Atlas Khénifra"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Petrolul-ZF-1948-Berca-vs-ACS-",
+                "team_url": "https://betsapi.com/r/12073201/Petrolul-ZF-1948-Berca-vs-ACS-Pescarusul-Sarichioi",
+                "cols": [
+                  "Petrolul-ZF-1948-Berca-vs-ACS-",
+                  "2026-06-21 00:00:03",
+                  "Petrolul ZF 1948 Berca (射正5 射偏15) | 2-0 | ACS Pescarusul Sarichioi (射正0 射偏2) | 偵測時間45",
+                  "押數據二(A) Petrolul ZF 1948 Berca"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ordabasy-vs-FK-Kaspyi-Aktau",
+                "team_url": "https://betsapi.com/r/11520060/Ordabasy-vs-FK-Kaspyi-Aktau",
+                "cols": [
+                  "Ordabasy-vs-FK-Kaspyi-Aktau",
+                  "2026-06-21 00:00:03",
+                  "Ordabasy (射正5 射偏6) | 2-0 | FK Kaspyi Aktau (射正1 射偏1) | 偵測時間45",
+                  "押數據二(A) Ordabasy"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Agnita-vs-Corona-Brasov",
+                "team_url": "https://betsapi.com/r/12073200/Agnita-vs-Corona-Brasov",
+                "cols": [
+                  "Agnita-vs-Corona-Brasov",
+                  "2026-06-21 00:00:03",
+                  "Agnita (射正0 射偏1) | 0-1 | Corona Brasov (射正3 射偏5) | 偵測時間45",
+                  "押數據二(B) Corona Brasov"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 4
+          }
+        ],
+        "scraped_at": "16:15:05"
       },
       "數據三": {
-        "url": "https://sports.icux.xyz/football/",
-        "update_info": "",
+        "url": "https://sports.icux.xyz/football/index9.php?t=4",
+        "update_info": "更新59",
         "sections": [],
-        "scraped_at": "14:40:23"
+        "scraped_at": "16:15:07"
       }
     }
   }
