@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-06-24 21:11:42",
+  "updated_at": "2026-06-24 22:46:00",
   "data": {
-    "timestamp": "2026-06-24 21:11:42",
+    "timestamp": "2026-06-24 22:46:00",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "21:11:44"
+        "scraped_at": "22:46:02"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -274,7 +274,7 @@
             "total": 6
           }
         ],
-        "scraped_at": "21:11:45"
+        "scraped_at": "22:46:04"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -289,6 +289,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Barquisimeto-vs-Yaracuyanos",
+                "team_url": "https://betsapi.com/r/12083904/Barquisimeto-vs-Yaracuyanos",
+                "cols": [
+                  "Barquisimeto-vs-Yaracuyanos",
+                  "2026-06-25 05:20:01",
+                  "Barquisimeto (射正4 射偏5) | 0-3 | Yaracuyanos (射正6 射偏3) | 偵測時間58",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Barquisimeto (射正4 射偏4) | 0-3 | Yaracuyanos (射正6 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Karlbergs-BK-vs-Piteå-IF",
                 "team_url": "https://betsapi.com/r/11339634/Karlbergs-BK-vs-Piteå-IF",
@@ -374,7 +395,7 @@
                 "highlight": ""
               }
             ],
-            "total": 4
+            "total": 5
           },
           {
             "title": "參考",
@@ -422,7 +443,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "21:11:47"
+        "scraped_at": "22:46:05"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -612,7 +633,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "21:11:49"
+        "scraped_at": "22:46:07"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -718,7 +739,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "21:11:51"
+        "scraped_at": "22:46:09"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -733,6 +754,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Barquisimeto-vs-Yaracuyanos",
+                "team_url": "https://betsapi.com/r/12083904/Barquisimeto-vs-Yaracuyanos",
+                "cols": [
+                  "Barquisimeto-vs-Yaracuyanos",
+                  "2026-06-25 05:20:01",
+                  "Barquisimeto (射正4 射偏5) | 0-3 | Yaracuyanos (射正6 射偏3) | 偵測時間58",
+                  "押策略二(B) Yaracuyanos"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Barquisimeto (射正4 射偏4) | 0-3 | Yaracuyanos (射正6 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Al-Ansar-Beirut-vs-Jwaya-FC",
                 "team_url": "https://betsapi.com/r/11943977/Al-Ansar-Beirut-vs-Jwaya-FC",
@@ -881,7 +923,7 @@
                 "highlight": ""
               }
             ],
-            "total": 7
+            "total": 8
           },
           {
             "title": "參考",
@@ -995,7 +1037,7 @@
             "total": 9
           }
         ],
-        "scraped_at": "21:11:52"
+        "scraped_at": "22:46:11"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -1069,7 +1111,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "21:11:54"
+        "scraped_at": "22:46:12"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -1496,6 +1538,17 @@
             ],
             "matches": [
               {
+                "team": "Scotland-vs-Brazil",
+                "team_url": "https://betsapi.com/r/11090782/Scotland-vs-Brazil",
+                "cols": [
+                  "Scotland-vs-Brazil",
+                  "2026-06-25 06:45:01",
+                  "Scotland (射正0 射偏2) | 0-1 | Brazil (射正2 射偏6) | 偵測時間43",
+                  "押策略五(B) Brazil"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "La-Serena-vs-Cobresal",
                 "team_url": "https://betsapi.com/r/11859365/La-Serena-vs-Cobresal",
                 "cols": [
@@ -1694,10 +1747,10 @@
                 "highlight": ""
               }
             ],
-            "total": 18
+            "total": 19
           }
         ],
-        "scraped_at": "21:11:56"
+        "scraped_at": "22:46:14"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -1760,7 +1813,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "21:11:58"
+        "scraped_at": "22:46:16"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -1929,7 +1982,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "21:11:59"
+        "scraped_at": "22:46:18"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -1944,6 +1997,90 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Zamora-vs-Atletico-El-Vigia",
+                "team_url": "https://betsapi.com/r/12083914/Zamora-vs-Atletico-El-Vigia",
+                "cols": [
+                  "Zamora-vs-Atletico-El-Vigia",
+                  "2026-06-25 06:20:01",
+                  "Zamora (射正8 射偏5) | 5-1 | Atletico El Vigia (射正2 射偏5) | 偵測時間60",
+                  "押數據二(A) Zamora"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Zamora (射正5 射偏4) | 4-1 | Atletico El Vigia (射正2 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Barquisimeto-vs-Yaracuyanos",
+                "team_url": "https://betsapi.com/r/12083904/Barquisimeto-vs-Yaracuyanos",
+                "cols": [
+                  "Barquisimeto-vs-Yaracuyanos",
+                  "2026-06-25 05:20:01",
+                  "Barquisimeto (射正4 射偏5) | 0-3 | Yaracuyanos (射正6 射偏3) | 偵測時間58",
+                  "押數據二(B) Yaracuyanos"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Barquisimeto (射正4 射偏4) | 0-3 | Yaracuyanos (射正6 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "La-Serena-vs-Cobresal",
+                "team_url": "https://betsapi.com/r/11859365/La-Serena-vs-Cobresal",
+                "cols": [
+                  "La-Serena-vs-Cobresal",
+                  "2026-06-25 05:20:01",
+                  "La Serena (射正3 射偏9) | 0-0 | Cobresal (射正2 射偏1) | 偵測時間59",
+                  "押數據二(A) La Serena"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "La Serena (射正3 射偏6) | 0-0 | Cobresal (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Caracas-vs-Aragua",
+                "team_url": "https://betsapi.com/r/12083905/Caracas-vs-Aragua",
+                "cols": [
+                  "Caracas-vs-Aragua",
+                  "2026-06-25 05:15:01",
+                  "Caracas (射正3 射偏6) | 1-0 | Aragua (射正4 射偏7) | 偵測時間57",
+                  "押數據二(B) Aragua"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Caracas (射正2 射偏6) | 0-0 | Aragua (射正3 射偏7) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Mineros-vs-Bolivar-SC",
                 "team_url": "https://betsapi.com/r/12083882/Mineros-vs-Bolivar-SC",
@@ -2092,6 +2229,27 @@
                 "highlight": ""
               },
               {
+                "team": "Töölön-Taisto-vs-VJS-Vantaa",
+                "team_url": "https://betsapi.com/r/11720754/Töölön-Taisto-vs-VJS-Vantaa-II",
+                "cols": [
+                  "Töölön-Taisto-vs-VJS-Vantaa",
+                  "2026-06-25 02:15:01",
+                  "Töölön Taisto (射正4 射偏6) | 3-0 | VJS Vantaa II (射正3 射偏5) | 偵測時間59",
+                  "押數據二(A) Töölön Taisto"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Karlbergs-BK-vs-Piteå-IF",
                 "team_url": "https://betsapi.com/r/11339634/Karlbergs-BK-vs-Piteå-IF",
                 "cols": [
@@ -2192,27 +2350,6 @@
                 "cols": [
                   "",
                   "FC Haka Juniors (射正5 射偏11) | 2-0 | TP-49 (射正1 射偏3) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Töölön-Taisto-vs-VJS-Vantaa",
-                "team_url": "https://betsapi.com/r/11720754/Töölön-Taisto-vs-VJS-Vantaa-II",
-                "cols": [
-                  "Töölön-Taisto-vs-VJS-Vantaa",
-                  "2026-06-25 02:15:01",
-                  "Töölön Taisto (射正4 射偏6) | 3-0 | VJS Vantaa II (射正3 射偏5) | 偵測時間59",
-                  "押數據二(A) Töölön Taisto"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
                   ""
                 ],
                 "highlight": ""
@@ -2554,7 +2691,7 @@
                 "highlight": ""
               }
             ],
-            "total": 29
+            "total": 33
           },
           {
             "title": "參考",
@@ -2565,6 +2702,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Morocco-vs-Haiti",
+                "team_url": "https://betsapi.com/r/11089890/Morocco-vs-Haiti",
+                "cols": [
+                  "Morocco-vs-Haiti",
+                  "2026-06-25 06:45:01",
+                  "Morocco (射正4 射偏5) | 1-2 | Haiti (射正1 射偏3) | 偵測時間44",
+                  "押數據二(A) Morocco"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Zamora-vs-Atletico-El-Vigia",
+                "team_url": "https://betsapi.com/r/12083914/Zamora-vs-Atletico-El-Vigia",
+                "cols": [
+                  "Zamora-vs-Atletico-El-Vigia",
+                  "2026-06-25 06:05:02",
+                  "Zamora (射正5 射偏4) | 4-1 | Atletico El Vigia (射正2 射偏4) | 偵測時間45",
+                  "押數據二(A) Zamora"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "La-Serena-vs-Cobresal",
                 "team_url": "https://betsapi.com/r/11859365/La-Serena-vs-Cobresal",
@@ -2665,6 +2824,17 @@
                 "highlight": ""
               },
               {
+                "team": "SV-Tasmania-Berlin-vs-BFC-Preu",
+                "team_url": "https://betsapi.com/r/12089981/SV-Tasmania-Berlin-vs-BFC-Preussen",
+                "cols": [
+                  "SV-Tasmania-Berlin-vs-BFC-Preu",
+                  "2026-06-25 02:00:02",
+                  "SV Tasmania Berlin (射正0 射偏2) | 0-2 | BFC Preussen (射正6 射偏4) | 偵測時間45",
+                  "押數據二(B) BFC Preussen"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "IFK-Norrkoping-(W)-vs-Vittsjö",
                 "team_url": "https://betsapi.com/r/11152030/IFK-Norrkoping-(W)-vs-Vittsjö-GIK-(W)",
                 "cols": [
@@ -2672,17 +2842,6 @@
                   "2026-06-25 02:00:02",
                   "IFK Norrkoping (W) (射正2 射偏5) | 1-0 | Vittsjö GIK (W) (射正5 射偏5) | 偵測時間45",
                   "押數據二(B) Vittsjö GIK (W)"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Gamle-Oslo-vs-Lokomotiv-Oslo",
-                "team_url": "https://betsapi.com/r/11307055/Gamle-Oslo-vs-Lokomotiv-Oslo",
-                "cols": [
-                  "Gamle-Oslo-vs-Lokomotiv-Oslo",
-                  "2026-06-25 02:00:02",
-                  "Gamle Oslo (射正5 射偏8) | 2-0 | Lokomotiv Oslo (射正0 射偏2) | 偵測時間45",
-                  "押數據二(A) Gamle Oslo"
                 ],
                 "highlight": ""
               },
@@ -2698,13 +2857,13 @@
                 "highlight": ""
               },
               {
-                "team": "SV-Tasmania-Berlin-vs-BFC-Preu",
-                "team_url": "https://betsapi.com/r/12089981/SV-Tasmania-Berlin-vs-BFC-Preussen",
+                "team": "Gamle-Oslo-vs-Lokomotiv-Oslo",
+                "team_url": "https://betsapi.com/r/11307055/Gamle-Oslo-vs-Lokomotiv-Oslo",
                 "cols": [
-                  "SV-Tasmania-Berlin-vs-BFC-Preu",
+                  "Gamle-Oslo-vs-Lokomotiv-Oslo",
                   "2026-06-25 02:00:02",
-                  "SV Tasmania Berlin (射正0 射偏2) | 0-2 | BFC Preussen (射正6 射偏4) | 偵測時間45",
-                  "押數據二(B) BFC Preussen"
+                  "Gamle Oslo (射正5 射偏8) | 2-0 | Lokomotiv Oslo (射正0 射偏2) | 偵測時間45",
+                  "押數據二(A) Gamle Oslo"
                 ],
                 "highlight": ""
               },
@@ -2841,16 +3000,16 @@
                 "highlight": ""
               }
             ],
-            "total": 25
+            "total": 27
           }
         ],
-        "scraped_at": "21:12:01"
+        "scraped_at": "22:46:19"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "21:12:03"
+        "scraped_at": "22:46:21"
       }
     }
   }
