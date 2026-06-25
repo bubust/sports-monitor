@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-06-25 20:53:16",
+  "updated_at": "2026-06-25 22:18:18",
   "data": {
-    "timestamp": "2026-06-25 20:53:16",
+    "timestamp": "2026-06-25 22:18:18",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "20:53:18"
+        "scraped_at": "22:18:20"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -136,7 +136,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "20:53:19"
+        "scraped_at": "22:18:22"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -357,7 +357,7 @@
                 "team_url": "https://betsapi.com/r/12092965/RB-Keflavik-vs-BF-108",
                 "cols": [
                   "RB-Keflavik-vs-BF-108",
-                  "2026-06-26 04:50:01",
+                  "2026-06-26 05:00:02",
                   "RB Keflavik (射正6 射偏5) | 2-1 | BF 108 (射正3 射偏2) | 偵測時間45",
                   "押大分二"
                 ],
@@ -422,7 +422,7 @@
             "total": 6
           }
         ],
-        "scraped_at": "20:53:21"
+        "scraped_at": "22:18:24"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -708,7 +708,7 @@
             "total": 6
           }
         ],
-        "scraped_at": "20:53:22"
+        "scraped_at": "22:18:25"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -888,7 +888,7 @@
             "total": 4
           }
         ],
-        "scraped_at": "20:53:24"
+        "scraped_at": "22:18:27"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -1026,7 +1026,7 @@
             "total": 4
           }
         ],
-        "scraped_at": "20:53:26"
+        "scraped_at": "22:18:29"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -1066,7 +1066,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "20:53:27"
+        "scraped_at": "22:18:31"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -1081,6 +1081,69 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Alafoss-vs-Ulfarnir",
+                "team_url": "https://betsapi.com/r/11750048/Alafoss-vs-Ulfarnir",
+                "cols": [
+                  "Alafoss-vs-Ulfarnir",
+                  "2026-06-26 05:20:02",
+                  "Alafoss (射正1 射偏5) | 1-1 | Ulfarnir (射正6 射偏8) | 偵測時間58",
+                  "押策略五(B) Ulfarnir"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Alafoss (射正1 射偏4) | 1-1 | Ulfarnir (射正5 射偏8) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ecuador-vs-Germany",
+                "team_url": "https://betsapi.com/r/11090765/Ecuador-vs-Germany",
+                "cols": [
+                  "Ecuador-vs-Germany",
+                  "2026-06-26 05:20:02",
+                  "Ecuador (射正1 射偏2) | 1-1 | Germany (射正2 射偏5) | 偵測時間59",
+                  "押策略五(B) Germany"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Ecuador (射正1 射偏1) | 1-1 | Germany (射正2 射偏5) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "RB-Keflavik-vs-BF-108",
+                "team_url": "https://betsapi.com/r/12092965/RB-Keflavik-vs-BF-108",
+                "cols": [
+                  "RB-Keflavik-vs-BF-108",
+                  "2026-06-26 05:15:01",
+                  "RB Keflavik (射正6 射偏7) | 2-1 | BF 108 (射正3 射偏2) | 偵測時間60",
+                  "押策略五(A) RB Keflavik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "RB Keflavik (射正6 射偏5) | 2-1 | BF 108 (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Vaengir-Jupiters-vs-KF-Hafnir",
                 "team_url": "https://betsapi.com/r/11750049/Vaengir-Jupiters-vs-KF-Hafnir",
@@ -1481,7 +1544,7 @@
                 "highlight": ""
               }
             ],
-            "total": 19
+            "total": 22
           },
           {
             "title": "參考",
@@ -1493,33 +1556,11 @@
             ],
             "matches": [
               {
-                "team": "RB-Keflavik-vs-BF-108",
-                "team_url": "https://betsapi.com/r/12092965/RB-Keflavik-vs-BF-108",
-                "cols": [
-                  "RB-Keflavik-vs-BF-108",
-                  "2026-06-26 04:50:01",
-                  "RB Keflavik (射正6 射偏5) | 2-1 | BF 108 (射正3 射偏2) | 偵測時間45",
-                  "押策略五(A) RB Keflavik"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Lettir-Reykjavik-vs-Stokkseyri",
-                "team_url": "https://betsapi.com/r/12092964/Lettir-Reykjavik-vs-Stokkseyri",
-                "cols": [
-                  "Lettir-Reykjavik-vs-Stokkseyri",
-                  "2026-06-26 04:50:01",
-                  "Lettir Reykjavik (射正4 射偏7) | 1-2 | Stokkseyri (射正3 射偏5) | 偵測時間45",
-                  "押策略五(A) Lettir Reykjavik"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Alafoss-vs-Ulfarnir",
                 "team_url": "https://betsapi.com/r/11750048/Alafoss-vs-Ulfarnir",
                 "cols": [
                   "Alafoss-vs-Ulfarnir",
-                  "2026-06-26 04:50:01",
+                  "2026-06-26 05:05:01",
                   "Alafoss (射正1 射偏4) | 1-1 | Ulfarnir (射正5 射偏8) | 偵測時間45",
                   "押策略五(B) Ulfarnir"
                 ],
@@ -1530,9 +1571,31 @@
                 "team_url": "https://betsapi.com/r/11090765/Ecuador-vs-Germany",
                 "cols": [
                   "Ecuador-vs-Germany",
-                  "2026-06-26 04:50:01",
+                  "2026-06-26 05:05:01",
                   "Ecuador (射正1 射偏1) | 1-1 | Germany (射正2 射偏5) | 偵測時間45",
                   "押策略五(B) Germany"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "RB-Keflavik-vs-BF-108",
+                "team_url": "https://betsapi.com/r/12092965/RB-Keflavik-vs-BF-108",
+                "cols": [
+                  "RB-Keflavik-vs-BF-108",
+                  "2026-06-26 05:00:02",
+                  "RB Keflavik (射正6 射偏5) | 2-1 | BF 108 (射正3 射偏2) | 偵測時間45",
+                  "押策略五(A) RB Keflavik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Lettir-Reykjavik-vs-Stokkseyri",
+                "team_url": "https://betsapi.com/r/12092964/Lettir-Reykjavik-vs-Stokkseyri",
+                "cols": [
+                  "Lettir-Reykjavik-vs-Stokkseyri",
+                  "2026-06-26 05:00:02",
+                  "Lettir Reykjavik (射正4 射偏7) | 1-2 | Stokkseyri (射正3 射偏5) | 偵測時間45",
+                  "押策略五(A) Lettir Reykjavik"
                 ],
                 "highlight": ""
               },
@@ -1683,7 +1746,7 @@
             "total": 17
           }
         ],
-        "scraped_at": "20:53:29"
+        "scraped_at": "22:18:33"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -1778,7 +1841,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "20:53:30"
+        "scraped_at": "22:18:34"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -1948,7 +2011,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "20:53:32"
+        "scraped_at": "22:18:36"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -1963,6 +2026,69 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Alafoss-vs-Ulfarnir",
+                "team_url": "https://betsapi.com/r/11750048/Alafoss-vs-Ulfarnir",
+                "cols": [
+                  "Alafoss-vs-Ulfarnir",
+                  "2026-06-26 05:20:02",
+                  "Alafoss (射正1 射偏5) | 1-1 | Ulfarnir (射正6 射偏8) | 偵測時間58",
+                  "押數據二(B) Ulfarnir"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Alafoss (射正1 射偏4) | 1-1 | Ulfarnir (射正5 射偏8) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "RB-Keflavik-vs-BF-108",
+                "team_url": "https://betsapi.com/r/12092965/RB-Keflavik-vs-BF-108",
+                "cols": [
+                  "RB-Keflavik-vs-BF-108",
+                  "2026-06-26 05:15:01",
+                  "RB Keflavik (射正6 射偏7) | 2-1 | BF 108 (射正3 射偏2) | 偵測時間60",
+                  "押數據二(A) RB Keflavik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "RB Keflavik (射正6 射偏5) | 2-1 | BF 108 (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Lettir-Reykjavik-vs-Stokkseyri",
+                "team_url": "https://betsapi.com/r/12092964/Lettir-Reykjavik-vs-Stokkseyri",
+                "cols": [
+                  "Lettir-Reykjavik-vs-Stokkseyri",
+                  "2026-06-26 05:15:01",
+                  "Lettir Reykjavik (射正4 射偏9) | 1-4 | Stokkseyri (射正5 射偏6) | 偵測時間57",
+                  "押數據二(B) Stokkseyri"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Lettir Reykjavik (射正4 射偏7) | 1-2 | Stokkseyri (射正3 射偏5) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Vaengir-Jupiters-vs-KF-Hafnir",
                 "team_url": "https://betsapi.com/r/11750049/Vaengir-Jupiters-vs-KF-Hafnir",
@@ -2132,27 +2258,6 @@
                 "highlight": ""
               },
               {
-                "team": "HPS-II-vs-ToTe",
-                "team_url": "https://betsapi.com/r/11720753/HPS-II-vs-ToTe",
-                "cols": [
-                  "HPS-II-vs-ToTe",
-                  "2026-06-26 02:30:01",
-                  "HPS II (射正3 射偏6) | 1-3 | ToTe (射正5 射偏2) | 偵測時間58",
-                  "押數據二(B) ToTe"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "HPS II (射正3 射偏5) | 1-3 | ToTe (射正4 射偏2) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "HooGee-vs-EIF-Academy",
                 "team_url": "https://betsapi.com/r/11612437/HooGee-vs-EIF-Academy",
                 "cols": [
@@ -2174,6 +2279,27 @@
                 "highlight": ""
               },
               {
+                "team": "HPS-II-vs-ToTe",
+                "team_url": "https://betsapi.com/r/11720753/HPS-II-vs-ToTe",
+                "cols": [
+                  "HPS-II-vs-ToTe",
+                  "2026-06-26 02:30:01",
+                  "HPS II (射正3 射偏6) | 1-3 | ToTe (射正5 射偏2) | 偵測時間58",
+                  "押數據二(B) ToTe"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "HPS II (射正3 射偏5) | 1-3 | ToTe (射正4 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Olympique-Dcheira-vs-Ittihad-T",
                 "team_url": "https://betsapi.com/r/12060713/Olympique-Dcheira-vs-Ittihad-Tanger",
                 "cols": [
@@ -2190,6 +2316,27 @@
                 "cols": [
                   "",
                   "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "RSB-Berkane-vs-FAR-Rabat",
+                "team_url": "https://betsapi.com/r/12060717/RSB-Berkane-vs-FAR-Rabat",
+                "cols": [
+                  "RSB-Berkane-vs-FAR-Rabat",
+                  "2026-06-26 02:20:02",
+                  "RSB Berkane (射正2 射偏2) | 1-1 | FAR Rabat (射正5 射偏1) | 偵測時間59",
+                  "押數據二(B) FAR Rabat"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "RSB Berkane (射正2 射偏2) | 1-1 | FAR Rabat (射正4 射偏1) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -2258,13 +2405,13 @@
                 "highlight": ""
               },
               {
-                "team": "RSB-Berkane-vs-FAR-Rabat",
-                "team_url": "https://betsapi.com/r/12060717/RSB-Berkane-vs-FAR-Rabat",
+                "team": "IFK-Skövde-FK-vs-Lidköpings-",
+                "team_url": "https://betsapi.com/r/11338952/IFK-Skövde-FK-vs-Lidköpings-FK",
                 "cols": [
-                  "RSB-Berkane-vs-FAR-Rabat",
-                  "2026-06-26 02:20:02",
-                  "RSB Berkane (射正2 射偏2) | 1-1 | FAR Rabat (射正5 射偏1) | 偵測時間59",
-                  "押數據二(B) FAR Rabat"
+                  "IFK-Skövde-FK-vs-Lidköpings-",
+                  "2026-06-26 02:15:02",
+                  "IFK Skövde FK (射正6 射偏5) | 0-2 | Lidköpings FK (射正5 射偏1) | 偵測時間58",
+                  "押數據二(A) IFK Skövde FK"
                 ],
                 "highlight": ""
               },
@@ -2273,7 +2420,7 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "RSB Berkane (射正2 射偏2) | 1-1 | FAR Rabat (射正4 射偏1) | 偵測時間45",
+                  "",
                   ""
                 ],
                 "highlight": ""
@@ -2286,27 +2433,6 @@
                   "2026-06-26 02:15:02",
                   "Nykopings BIS (射正6 射偏4) | 4-0 | Nacka FC (射正1 射偏4) | 偵測時間60",
                   "押數據二(A) Nykopings BIS"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "IFK-Skövde-FK-vs-Lidköpings-",
-                "team_url": "https://betsapi.com/r/11338952/IFK-Skövde-FK-vs-Lidköpings-FK",
-                "cols": [
-                  "IFK-Skövde-FK-vs-Lidköpings-",
-                  "2026-06-26 02:15:02",
-                  "IFK Skövde FK (射正6 射偏5) | 0-2 | Lidköpings FK (射正5 射偏1) | 偵測時間58",
-                  "押數據二(A) IFK Skövde FK"
                 ],
                 "highlight": ""
               },
@@ -2426,27 +2552,6 @@
                 "highlight": ""
               },
               {
-                "team": "PM-vs-Tips-Vantaa",
-                "team_url": "https://betsapi.com/r/11720814/Atlantis-FC/PM-vs-Tips-Vantaa",
-                "cols": [
-                  "PM-vs-Tips-Vantaa",
-                  "2026-06-26 01:20:02",
-                  "Atlantis FC/PM (射正7 射偏6) | 4-1 | Tips Vantaa (射正3 射偏3) | 偵測時間60",
-                  "押數據二(A) Atlantis FC/PM"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Atlantis FC/PM (射正7 射偏4) | 4-0 | Tips Vantaa (射正2 射偏3) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Vag-FK-vs-Viking-2",
                 "team_url": "https://betsapi.com/r/11287149/Vag-FK-vs-Viking-2",
                 "cols": [
@@ -2484,6 +2589,27 @@
                 "cols": [
                   "",
                   "FC Jazz (射正4 射偏4) | 0-0 | Tampere Utd (射正3 射偏10) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "PM-vs-Tips-Vantaa",
+                "team_url": "https://betsapi.com/r/11720814/Atlantis-FC/PM-vs-Tips-Vantaa",
+                "cols": [
+                  "PM-vs-Tips-Vantaa",
+                  "2026-06-26 01:20:02",
+                  "Atlantis FC/PM (射正7 射偏6) | 4-1 | Tips Vantaa (射正3 射偏3) | 偵測時間60",
+                  "押數據二(A) Atlantis FC/PM"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Atlantis FC/PM (射正7 射偏4) | 4-0 | Tips Vantaa (射正2 射偏3) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -2657,7 +2783,7 @@
                 "highlight": ""
               }
             ],
-            "total": 33
+            "total": 36
           },
           {
             "title": "參考",
@@ -2669,11 +2795,22 @@
             ],
             "matches": [
               {
+                "team": "Alafoss-vs-Ulfarnir",
+                "team_url": "https://betsapi.com/r/11750048/Alafoss-vs-Ulfarnir",
+                "cols": [
+                  "Alafoss-vs-Ulfarnir",
+                  "2026-06-26 05:05:01",
+                  "Alafoss (射正1 射偏4) | 1-1 | Ulfarnir (射正5 射偏8) | 偵測時間45",
+                  "押數據二(B) Ulfarnir"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "RB-Keflavik-vs-BF-108",
                 "team_url": "https://betsapi.com/r/12092965/RB-Keflavik-vs-BF-108",
                 "cols": [
                   "RB-Keflavik-vs-BF-108",
-                  "2026-06-26 04:50:01",
+                  "2026-06-26 05:00:02",
                   "RB Keflavik (射正6 射偏5) | 2-1 | BF 108 (射正3 射偏2) | 偵測時間45",
                   "押數據二(A) RB Keflavik"
                 ],
@@ -2684,20 +2821,9 @@
                 "team_url": "https://betsapi.com/r/12092964/Lettir-Reykjavik-vs-Stokkseyri",
                 "cols": [
                   "Lettir-Reykjavik-vs-Stokkseyri",
-                  "2026-06-26 04:50:01",
+                  "2026-06-26 05:00:02",
                   "Lettir Reykjavik (射正4 射偏7) | 1-2 | Stokkseyri (射正3 射偏5) | 偵測時間45",
                   "押數據二(A) Lettir Reykjavik"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Alafoss-vs-Ulfarnir",
-                "team_url": "https://betsapi.com/r/11750048/Alafoss-vs-Ulfarnir",
-                "cols": [
-                  "Alafoss-vs-Ulfarnir",
-                  "2026-06-26 04:50:01",
-                  "Alafoss (射正1 射偏4) | 1-1 | Ulfarnir (射正5 射偏8) | 偵測時間45",
-                  "押數據二(B) Ulfarnir"
                 ],
                 "highlight": ""
               },
@@ -2969,13 +3095,13 @@
             "total": 27
           }
         ],
-        "scraped_at": "20:53:34"
+        "scraped_at": "22:18:38"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "20:53:35"
+        "scraped_at": "22:18:40"
       }
     }
   }
