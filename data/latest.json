@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-06-25 11:13:44",
+  "updated_at": "2026-06-25 13:34:42",
   "data": {
-    "timestamp": "2026-06-25 11:13:44",
+    "timestamp": "2026-06-25 13:34:42",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:13:45"
+        "scraped_at": "13:34:44"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -508,7 +508,7 @@
             "total": 12
           }
         ],
-        "scraped_at": "11:13:47"
+        "scraped_at": "13:34:45"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -767,6 +767,17 @@
             ],
             "matches": [
               {
+                "team": "Khoromkhon-Club-vs-Ulaangom-Ci",
+                "team_url": "https://betsapi.com/r/12092139/Khoromkhon-Club-vs-Ulaangom-City-FC",
+                "cols": [
+                  "Khoromkhon-Club-vs-Ulaangom-Ci",
+                  "2026-06-25 20:00:02",
+                  "Khoromkhon Club (射正3 射偏5) | 2-1 | Ulaangom City FC (射正3 射偏0) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Stars-FC-vs-City-SC-San-Diego",
                 "team_url": "https://betsapi.com/r/12046275/Stars-FC-vs-City-SC-San-Diego",
                 "cols": [
@@ -855,10 +866,10 @@
                 "highlight": ""
               }
             ],
-            "total": 8
+            "total": 9
           }
         ],
-        "scraped_at": "11:13:49"
+        "scraped_at": "13:34:47"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -1124,7 +1135,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "11:13:51"
+        "scraped_at": "13:34:49"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -1348,7 +1359,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "11:13:52"
+        "scraped_at": "13:34:50"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -1363,6 +1374,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Khoromkhon-Club-vs-Ulaangom-Ci",
+                "team_url": "https://betsapi.com/r/12092139/Khoromkhon-Club-vs-Ulaangom-City-FC",
+                "cols": [
+                  "Khoromkhon-Club-vs-Ulaangom-Ci",
+                  "2026-06-25 20:15:01",
+                  "Khoromkhon Club (射正3 射偏7) | 2-2 | Ulaangom City FC (射正4 射偏0) | 偵測時間56",
+                  "押策略二(B) Ulaangom City FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Selangor-U20-vs-Penang-U20",
                 "team_url": "https://betsapi.com/r/12092058/Selangor-U20-vs-Penang-U20",
@@ -1658,7 +1690,7 @@
                 "highlight": ""
               }
             ],
-            "total": 14
+            "total": 15
           },
           {
             "title": "參考",
@@ -1827,7 +1859,7 @@
             "total": 14
           }
         ],
-        "scraped_at": "11:13:54"
+        "scraped_at": "13:34:52"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -1901,7 +1933,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "11:13:56"
+        "scraped_at": "13:34:53"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -2601,6 +2633,28 @@
             ],
             "matches": [
               {
+                "team": "Vilankulo-FC-vs-Ferroviario-Ma",
+                "team_url": "https://betsapi.com/r/12082656/Vilankulo-FC-vs-Ferroviario-Maputo",
+                "cols": [
+                  "Vilankulo-FC-vs-Ferroviario-Ma",
+                  "2026-06-25 21:30:02",
+                  "Vilankulo FC (射正4 射偏5) | 0-0 | Ferroviario Maputo (射正0 射偏3) | 偵測時間45",
+                  "押策略五(A) Vilankulo FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Nejmeh-vs-Tadamon-Sour",
+                "team_url": "https://betsapi.com/r/11943978/Al-Nejmeh-vs-Tadamon-Sour",
+                "cols": [
+                  "Al-Nejmeh-vs-Tadamon-Sour",
+                  "2026-06-25 21:30:02",
+                  "Al Nejmeh (射正2 射偏6) | 1-0 | Tadamon Sour (射正1 射偏2) | 偵測時間45",
+                  "押策略五(A) Al Nejmeh"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Selangor-U20-vs-Penang-U20",
                 "team_url": "https://betsapi.com/r/12092058/Selangor-U20-vs-Penang-U20",
                 "cols": [
@@ -2942,10 +2996,10 @@
                 "highlight": ""
               }
             ],
-            "total": 31
+            "total": 33
           }
         ],
-        "scraped_at": "11:13:58"
+        "scraped_at": "13:34:55"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -3029,7 +3083,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "11:13:59"
+        "scraped_at": "13:34:57"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -3044,6 +3098,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Khoromkhon-Club-vs-Ulaangom-Ci",
+                "team_url": "https://betsapi.com/r/12092139/Khoromkhon-Club-vs-Ulaangom-City-FC",
+                "cols": [
+                  "Khoromkhon-Club-vs-Ulaangom-Ci",
+                  "2026-06-25 20:15:01",
+                  "Khoromkhon Club (射正3 射偏7) | 2-2 | Ulaangom City FC (射正4 射偏0) | 偵測時間56",
+                  "押數據一(B) Ulaangom City FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "CA-Patrocinense-vs-Boa",
                 "team_url": "https://betsapi.com/r/11457237/CA-Patrocinense-vs-Boa",
@@ -3192,7 +3267,7 @@
                 "highlight": ""
               }
             ],
-            "total": 7
+            "total": 8
           },
           {
             "title": "參考",
@@ -3273,7 +3348,7 @@
             "total": 6
           }
         ],
-        "scraped_at": "11:14:01"
+        "scraped_at": "13:34:58"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -4141,6 +4216,17 @@
             ],
             "matches": [
               {
+                "team": "Vilankulo-FC-vs-Ferroviario-Ma",
+                "team_url": "https://betsapi.com/r/12082656/Vilankulo-FC-vs-Ferroviario-Maputo",
+                "cols": [
+                  "Vilankulo-FC-vs-Ferroviario-Ma",
+                  "2026-06-25 21:30:02",
+                  "Vilankulo FC (射正4 射偏5) | 0-0 | Ferroviario Maputo (射正0 射偏3) | 偵測時間45",
+                  "押數據二(A) Vilankulo FC"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Darwin-Hearts-vs-Port-Darwin-F",
                 "team_url": "https://betsapi.com/r/11998964/Darwin-Hearts-vs-Port-Darwin-FC",
                 "cols": [
@@ -4460,13 +4546,13 @@
                 "highlight": ""
               },
               {
-                "team": "FC-Haka-Juniors-vs-TP-49",
-                "team_url": "https://betsapi.com/r/11613648/FC-Haka-Juniors-vs-TP-49",
+                "team": "SV-Tasmania-Berlin-vs-BFC-Preu",
+                "team_url": "https://betsapi.com/r/12089981/SV-Tasmania-Berlin-vs-BFC-Preussen",
                 "cols": [
-                  "FC-Haka-Juniors-vs-TP-49",
+                  "SV-Tasmania-Berlin-vs-BFC-Preu",
                   "2026-06-25 02:00:02",
-                  "FC Haka Juniors (射正5 射偏11) | 2-0 | TP-49 (射正1 射偏3) | 偵測時間45",
-                  "押數據二(A) FC Haka Juniors"
+                  "SV Tasmania Berlin (射正0 射偏2) | 0-2 | BFC Preussen (射正6 射偏4) | 偵測時間45",
+                  "押數據二(B) BFC Preussen"
                 ],
                 "highlight": ""
               },
@@ -4504,13 +4590,13 @@
                 "highlight": ""
               },
               {
-                "team": "SV-Tasmania-Berlin-vs-BFC-Preu",
-                "team_url": "https://betsapi.com/r/12089981/SV-Tasmania-Berlin-vs-BFC-Preussen",
+                "team": "FC-Haka-Juniors-vs-TP-49",
+                "team_url": "https://betsapi.com/r/11613648/FC-Haka-Juniors-vs-TP-49",
                 "cols": [
-                  "SV-Tasmania-Berlin-vs-BFC-Preu",
+                  "FC-Haka-Juniors-vs-TP-49",
                   "2026-06-25 02:00:02",
-                  "SV Tasmania Berlin (射正0 射偏2) | 0-2 | BFC Preussen (射正6 射偏4) | 偵測時間45",
-                  "押數據二(B) BFC Preussen"
+                  "FC Haka Juniors (射正5 射偏11) | 2-0 | TP-49 (射正1 射偏3) | 偵測時間45",
+                  "押數據二(A) FC Haka Juniors"
                 ],
                 "highlight": ""
               },
@@ -4568,29 +4654,18 @@
                   "押數據二(A) LAUTP"
                 ],
                 "highlight": ""
-              },
-              {
-                "team": "FC-Rosengård-(W)-vs-Djurgarde",
-                "team_url": "https://betsapi.com/r/11152031/FC-Rosengård-(W)-vs-Djurgardens-(W)",
-                "cols": [
-                  "FC-Rosengård-(W)-vs-Djurgarde",
-                  "2026-06-25 01:00:02",
-                  "FC Rosengård (W) (射正4 射偏0) | 2-0 | Djurgardens (W) (射正1 射偏2) | 偵測時間45",
-                  "押數據二(A) FC Rosengård (W)"
-                ],
-                "highlight": ""
               }
             ],
             "total": 40
           }
         ],
-        "scraped_at": "11:14:03"
+        "scraped_at": "13:35:00"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:14:05"
+        "scraped_at": "13:35:02"
       }
     }
   }
