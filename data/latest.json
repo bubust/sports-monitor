@@ -1,54 +1,488 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-06-29 16:23:55",
+  "updated_at": "2026-06-29 18:29:09",
   "data": {
-    "timestamp": "2026-06-29 16:23:55",
+    "timestamp": "2026-06-29 18:29:09",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:23:57"
+        "scraped_at": "18:29:11"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:23:58"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時隊伍 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "VIFK-vs-Virkia",
+                "team_url": "https://betsapi.com/r/11612695/VIFK-vs-Virkia",
+                "cols": [
+                  "VIFK-vs-Virkia",
+                  "2026-06-30 01:10:02",
+                  "VIFK (射正6 射偏5) | 2-0 | Virkia (射正2 射偏4) | 偵測時間58",
+                  "押獨贏二(A) VIFK"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "VIFK (射正4 射偏5) | 1-0 | Virkia (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時隊伍 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "VIFK-vs-Virkia",
+                "team_url": "https://betsapi.com/r/11612695/VIFK-vs-Virkia",
+                "cols": [
+                  "VIFK-vs-Virkia",
+                  "2026-06-30 00:55:01",
+                  "VIFK (射正4 射偏5) | 1-0 | Virkia (射正1 射偏3) | 偵測時間45",
+                  "押獨贏二(A) VIFK"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VJS-Vantaa-vs-TPV",
+                "team_url": "https://betsapi.com/r/11369370/VJS-Vantaa-vs-TPV",
+                "cols": [
+                  "VJS-Vantaa-vs-TPV",
+                  "2026-06-30 00:35:02",
+                  "VJS Vantaa (射正3 射偏3) | 1-0 | TPV (射正1 射偏2) | 偵測時間45",
+                  "押獨贏二(A) VJS Vantaa"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "18:29:13"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:24:00"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時大小 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FK-Siauliai-vs-FK-Transinvest",
+                "team_url": "https://betsapi.com/r/11982940/FK-Siauliai-vs-FK-Transinvest",
+                "cols": [
+                  "FK-Siauliai-vs-FK-Transinvest",
+                  "2026-06-30 00:45:02",
+                  "FK Siauliai (射正3 射偏1) | 1-2 | FK Transinvest (射正6 射偏4) | 偵測時間56",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Vikingur-Gota-vs-NSI-Runavik",
+                "team_url": "https://betsapi.com/r/11288746/Vikingur-Gota-vs-NSI-Runavik",
+                "cols": [
+                  "Vikingur-Gota-vs-NSI-Runavik",
+                  "2026-06-30 02:25:02",
+                  "Vikingur Gota (射正5 射偏3) | 3-1 | NSI Runavik (射正1 射偏1) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:29:14"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:24:02"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "HB-Torshavn-vs-Skala-IF",
+                "team_url": "https://betsapi.com/r/11288837/HB-Torshavn-vs-Skala-IF",
+                "cols": [
+                  "HB-Torshavn-vs-Skala-IF",
+                  "2026-06-30 02:25:02",
+                  "HB Torshavn (射正5 射偏1) | 2-0 | Skala IF (射正1 射偏2) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Panevezys-vs-Suduva-Marijampol",
+                "team_url": "https://betsapi.com/r/11982939/Panevezys-vs-Suduva-Marijampole",
+                "cols": [
+                  "Panevezys-vs-Suduva-Marijampol",
+                  "2026-06-30 00:50:01",
+                  "Panevezys (射正2 射偏4) | 1-0 | Suduva Marijampole (射正5 射偏2) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "18:29:16"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:24:03"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FK-Siauliai-vs-FK-Transinvest",
+                "team_url": "https://betsapi.com/r/11982940/FK-Siauliai-vs-FK-Transinvest",
+                "cols": [
+                  "FK-Siauliai-vs-FK-Transinvest",
+                  "2026-06-30 00:45:02",
+                  "FK Siauliai (射正3 射偏1) | 1-2 | FK Transinvest (射正6 射偏4) | 偵測時間56",
+                  "押策略一2(B) FK Transinvest"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "VJS-Vantaa-vs-TPV",
+                "team_url": "https://betsapi.com/r/11369370/VJS-Vantaa-vs-TPV",
+                "cols": [
+                  "VJS-Vantaa-vs-TPV",
+                  "2026-06-30 00:35:02",
+                  "VJS Vantaa (射正3 射偏3) | 1-0 | TPV (射正1 射偏2) | 偵測時間45",
+                  "押策略一2(A) VJS Vantaa"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:29:18"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:24:05"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Panevezys-vs-Suduva-Marijampol",
+                "team_url": "https://betsapi.com/r/11982939/Panevezys-vs-Suduva-Marijampole",
+                "cols": [
+                  "Panevezys-vs-Suduva-Marijampol",
+                  "2026-06-30 01:05:02",
+                  "Panevezys (射正2 射偏4) | 1-0 | Suduva Marijampole (射正5 射偏3) | 偵測時間57",
+                  "押策略二(B) Suduva Marijampole"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Panevezys (射正2 射偏4) | 1-0 | Suduva Marijampole (射正5 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "HB-Torshavn-vs-Skala-IF",
+                "team_url": "https://betsapi.com/r/11288837/HB-Torshavn-vs-Skala-IF",
+                "cols": [
+                  "HB-Torshavn-vs-Skala-IF",
+                  "2026-06-30 02:25:02",
+                  "HB Torshavn (射正5 射偏1) | 2-0 | Skala IF (射正1 射偏2) | 偵測時間45",
+                  "押策略二(A) HB Torshavn"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Panevezys-vs-Suduva-Marijampol",
+                "team_url": "https://betsapi.com/r/11982939/Panevezys-vs-Suduva-Marijampole",
+                "cols": [
+                  "Panevezys-vs-Suduva-Marijampol",
+                  "2026-06-30 00:50:01",
+                  "Panevezys (射正2 射偏4) | 1-0 | Suduva Marijampole (射正5 射偏2) | 偵測時間45",
+                  "押策略二(B) Suduva Marijampole"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "18:29:20"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:24:06"
+        "scraped_at": "18:29:21"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
+        "update_info": "更新59",
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時假賽 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Brazil-vs-Japan",
+                "team_url": "https://betsapi.com/r/12103731/Brazil-vs-Japan",
+                "cols": [
+                  "Brazil-vs-Japan",
+                  "2026-06-30 02:20:01",
+                  "Brazil (射正5 射偏8) | 1-1 | Japan (射正1 射偏3) | 偵測時間58",
+                  "押策略五(A) Brazil"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Brazil (射正2 射偏6) | 0-1 | Japan (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VJS-Vantaa-vs-TPV",
+                "team_url": "https://betsapi.com/r/11369370/VJS-Vantaa-vs-TPV",
+                "cols": [
+                  "VJS-Vantaa-vs-TPV",
+                  "2026-06-30 00:50:01",
+                  "VJS Vantaa (射正3 射偏4) | 1-1 | TPV (射正2 射偏2) | 偵測時間58",
+                  "押策略五(A) VJS Vantaa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "VJS Vantaa (射正3 射偏3) | 1-0 | TPV (射正1 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Siauliai-vs-FK-Transinvest",
+                "team_url": "https://betsapi.com/r/11982940/FK-Siauliai-vs-FK-Transinvest",
+                "cols": [
+                  "FK-Siauliai-vs-FK-Transinvest",
+                  "2026-06-30 00:45:02",
+                  "FK Siauliai (射正3 射偏1) | 1-2 | FK Transinvest (射正6 射偏4) | 偵測時間56",
+                  "押策略五(B) FK Transinvest"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Siauliai (射正2 射偏1) | 1-1 | FK Transinvest (射正3 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 3
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時假賽 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Vikingur-Gota-vs-NSI-Runavik",
+                "team_url": "https://betsapi.com/r/11288746/Vikingur-Gota-vs-NSI-Runavik",
+                "cols": [
+                  "Vikingur-Gota-vs-NSI-Runavik",
+                  "2026-06-30 02:25:02",
+                  "Vikingur Gota (射正5 射偏3) | 3-1 | NSI Runavik (射正1 射偏1) | 偵測時間45",
+                  "押策略五(A) Vikingur Gota"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Brazil-vs-Japan",
+                "team_url": "https://betsapi.com/r/12103731/Brazil-vs-Japan",
+                "cols": [
+                  "Brazil-vs-Japan",
+                  "2026-06-30 02:05:01",
+                  "Brazil (射正2 射偏6) | 0-1 | Japan (射正1 射偏3) | 偵測時間45",
+                  "押策略五(A) Brazil"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Arges-Pitesti-vs-Vllaznia-S",
+                "team_url": "https://betsapi.com/r/12108289/FC-Arges-Pitesti-vs-Vllaznia-Shkoder",
+                "cols": [
+                  "FC-Arges-Pitesti-vs-Vllaznia-S",
+                  "2026-06-30 01:00:01",
+                  "FC Arges Pitesti (射正1 射偏0) | 1-1 | Vllaznia Shkoder (射正2 射偏2) | 偵測時間45",
+                  "押策略五(B) Vllaznia Shkoder"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VJS-Vantaa-vs-TPV",
+                "team_url": "https://betsapi.com/r/11369370/VJS-Vantaa-vs-TPV",
+                "cols": [
+                  "VJS-Vantaa-vs-TPV",
+                  "2026-06-30 00:35:02",
+                  "VJS Vantaa (射正3 射偏3) | 1-0 | TPV (射正1 射偏2) | 偵測時間45",
+                  "押策略五(A) VJS Vantaa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Siauliai-vs-FK-Transinvest",
+                "team_url": "https://betsapi.com/r/11982940/FK-Siauliai-vs-FK-Transinvest",
+                "cols": [
+                  "FK-Siauliai-vs-FK-Transinvest",
+                  "2026-06-30 00:30:01",
+                  "FK Siauliai (射正2 射偏1) | 1-1 | FK Transinvest (射正3 射偏3) | 偵測時間45",
+                  "押策略五(B) FK Transinvest"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 5
+          }
+        ],
+        "scraped_at": "18:29:23"
+      },
+      "隊伍三": {
+        "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [
           {
@@ -61,13 +495,13 @@
             ],
             "matches": [
               {
-                "team": "FK-Siauliai-vs-FK-Transinvest",
-                "team_url": "https://betsapi.com/r/11982940/FK-Siauliai-vs-FK-Transinvest",
+                "team": "HB-Torshavn-vs-Skala-IF",
+                "team_url": "https://betsapi.com/r/11288837/HB-Torshavn-vs-Skala-IF",
                 "cols": [
-                  "FK-Siauliai-vs-FK-Transinvest",
-                  "2026-06-30 00:20:02",
-                  "FK Siauliai (射正2 射偏1) | 1-1 | FK Transinvest (射正3 射偏3) | 偵測時間45",
-                  "押策略五(B) FK Transinvest"
+                  "HB-Torshavn-vs-Skala-IF",
+                  "2026-06-30 02:25:02",
+                  "HB Torshavn (射正5 射偏1) | 2-0 | Skala IF (射正1 射偏2) | 偵測時間45",
+                  "押隊伍三(A) HB Torshavn"
                 ],
                 "highlight": ""
               }
@@ -75,19 +509,37 @@
             "total": 1
           }
         ],
-        "scraped_at": "16:24:08"
-      },
-      "隊伍三": {
-        "url": "https://sports.icux.xyz/football/index7.php?t=4",
-        "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:24:10"
+        "scraped_at": "18:29:25"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:24:11"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "HB-Torshavn-vs-Skala-IF",
+                "team_url": "https://betsapi.com/r/11288837/HB-Torshavn-vs-Skala-IF",
+                "cols": [
+                  "HB-Torshavn-vs-Skala-IF",
+                  "2026-06-30 02:25:02",
+                  "HB Torshavn (射正5 射偏1) | 2-0 | Skala IF (射正1 射偏2) | 偵測時間45",
+                  "押數據一(A) HB Torshavn"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:29:26"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -102,6 +554,111 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Brazil-vs-Japan",
+                "team_url": "https://betsapi.com/r/12103731/Brazil-vs-Japan",
+                "cols": [
+                  "Brazil-vs-Japan",
+                  "2026-06-30 02:20:01",
+                  "Brazil (射正5 射偏8) | 1-1 | Japan (射正1 射偏3) | 偵測時間58",
+                  "押數據二(A) Brazil"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VIFK-vs-Virkia",
+                "team_url": "https://betsapi.com/r/11612695/VIFK-vs-Virkia",
+                "cols": [
+                  "VIFK-vs-Virkia",
+                  "2026-06-30 01:10:02",
+                  "VIFK (射正6 射偏5) | 2-0 | Virkia (射正2 射偏4) | 偵測時間58",
+                  "押數據二(A) VIFK"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "VIFK (射正4 射偏5) | 1-0 | Virkia (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Panevezys-vs-Suduva-Marijampol",
+                "team_url": "https://betsapi.com/r/11982939/Panevezys-vs-Suduva-Marijampole",
+                "cols": [
+                  "Panevezys-vs-Suduva-Marijampol",
+                  "2026-06-30 01:05:02",
+                  "Panevezys (射正2 射偏4) | 1-0 | Suduva Marijampole (射正5 射偏3) | 偵測時間57",
+                  "押數據二(B) Suduva Marijampole"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Panevezys (射正2 射偏4) | 1-0 | Suduva Marijampole (射正5 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VJS-Vantaa-vs-TPV",
+                "team_url": "https://betsapi.com/r/11369370/VJS-Vantaa-vs-TPV",
+                "cols": [
+                  "VJS-Vantaa-vs-TPV",
+                  "2026-06-30 00:50:01",
+                  "VJS Vantaa (射正3 射偏4) | 1-1 | TPV (射正2 射偏2) | 偵測時間58",
+                  "押數據二(A) VJS Vantaa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "VJS Vantaa (射正3 射偏3) | 1-0 | TPV (射正1 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Siauliai-vs-FK-Transinvest",
+                "team_url": "https://betsapi.com/r/11982940/FK-Siauliai-vs-FK-Transinvest",
+                "cols": [
+                  "FK-Siauliai-vs-FK-Transinvest",
+                  "2026-06-30 00:45:02",
+                  "FK Siauliai (射正3 射偏1) | 1-2 | FK Transinvest (射正6 射偏4) | 偵測時間56",
+                  "押數據二(B) FK Transinvest"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Siauliai (射正2 射偏1) | 1-1 | FK Transinvest (射正3 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "FK-Auda-vs-Riga-FC",
                 "team_url": "https://betsapi.com/r/11366649/FK-Auda-vs-Riga-FC",
@@ -124,7 +681,7 @@
                 "highlight": ""
               }
             ],
-            "total": 1
+            "total": 6
           },
           {
             "title": "參考",
@@ -136,11 +693,66 @@
             ],
             "matches": [
               {
+                "team": "Vikingur-Gota-vs-NSI-Runavik",
+                "team_url": "https://betsapi.com/r/11288746/Vikingur-Gota-vs-NSI-Runavik",
+                "cols": [
+                  "Vikingur-Gota-vs-NSI-Runavik",
+                  "2026-06-30 02:25:02",
+                  "Vikingur Gota (射正5 射偏3) | 3-1 | NSI Runavik (射正1 射偏1) | 偵測時間45",
+                  "押數據二(A) Vikingur Gota"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "B68-Toftir-vs-AB-Argir",
+                "team_url": "https://betsapi.com/r/11288782/B68-Toftir-vs-AB-Argir",
+                "cols": [
+                  "B68-Toftir-vs-AB-Argir",
+                  "2026-06-30 02:25:02",
+                  "B68 Toftir (射正0 射偏2) | 0-1 | AB Argir (射正3 射偏1) | 偵測時間45",
+                  "押數據二(B) AB Argir"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VIFK-vs-Virkia",
+                "team_url": "https://betsapi.com/r/11612695/VIFK-vs-Virkia",
+                "cols": [
+                  "VIFK-vs-Virkia",
+                  "2026-06-30 00:55:01",
+                  "VIFK (射正4 射偏5) | 1-0 | Virkia (射正1 射偏3) | 偵測時間45",
+                  "押數據二(A) VIFK"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Panevezys-vs-Suduva-Marijampol",
+                "team_url": "https://betsapi.com/r/11982939/Panevezys-vs-Suduva-Marijampole",
+                "cols": [
+                  "Panevezys-vs-Suduva-Marijampol",
+                  "2026-06-30 00:50:01",
+                  "Panevezys (射正2 射偏4) | 1-0 | Suduva Marijampole (射正5 射偏2) | 偵測時間45",
+                  "押數據二(B) Suduva Marijampole"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VJS-Vantaa-vs-TPV",
+                "team_url": "https://betsapi.com/r/11369370/VJS-Vantaa-vs-TPV",
+                "cols": [
+                  "VJS-Vantaa-vs-TPV",
+                  "2026-06-30 00:35:02",
+                  "VJS Vantaa (射正3 射偏3) | 1-0 | TPV (射正1 射偏2) | 偵測時間45",
+                  "押數據二(A) VJS Vantaa"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "FK-Siauliai-vs-FK-Transinvest",
                 "team_url": "https://betsapi.com/r/11982940/FK-Siauliai-vs-FK-Transinvest",
                 "cols": [
                   "FK-Siauliai-vs-FK-Transinvest",
-                  "2026-06-30 00:20:02",
+                  "2026-06-30 00:30:01",
                   "FK Siauliai (射正2 射偏1) | 1-1 | FK Transinvest (射正3 射偏3) | 偵測時間45",
                   "押數據二(B) FK Transinvest"
                 ],
@@ -158,16 +770,16 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 7
           }
         ],
-        "scraped_at": "16:24:13"
+        "scraped_at": "18:29:28"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:24:15"
+        "scraped_at": "18:29:30"
       }
     }
   }
