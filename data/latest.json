@@ -1,81 +1,827 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-06-30 16:01:39",
+  "updated_at": "2026-06-30 18:18:40",
   "data": {
-    "timestamp": "2026-06-30 16:01:39",
+    "timestamp": "2026-06-30 18:18:40",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:01:41"
+        "scraped_at": "18:18:41"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:01:43"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時隊伍 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "NK-Brinje-Grosuplje-vs-HNK-Rij",
+                "team_url": "https://betsapi.com/r/12120400/NK-Brinje-Grosuplje-vs-HNK-Rijeka",
+                "cols": [
+                  "NK-Brinje-Grosuplje-vs-HNK-Rij",
+                  "2026-07-01 01:40:02",
+                  "NK Brinje Grosuplje (射正0 射偏2) | 0-3 | HNK Rijeka (射正3 射偏8) | 偵測時間59",
+                  "押獨贏二(B) HNK Rijeka"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時隊伍 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FK-Liepaja-vs-Ogre-United",
+                "team_url": "https://betsapi.com/r/11368665/FK-Liepaja-vs-Ogre-United",
+                "cols": [
+                  "FK-Liepaja-vs-Ogre-United",
+                  "2026-07-01 01:05:01",
+                  "FK Liepaja (射正4 射偏4) | 3-0 | Ogre United (射正1 射偏3) | 偵測時間45",
+                  "押獨贏二(A) FK Liepaja"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:18:43"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:01:44"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時大小 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Levski-Sofia-vs-FK-Radnik-Surd",
+                "team_url": "https://betsapi.com/r/12094226/Levski-Sofia-vs-FK-Radnik-Surdulica",
+                "cols": [
+                  "Levski-Sofia-vs-FK-Radnik-Surd",
+                  "2026-07-01 01:30:01",
+                  "Levski Sofia (射正4 射偏6) | 3-0 | FK Radnik Surdulica (射正3 射偏0) | 偵測時間58",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "JK-Nomme-United-II-vs-FC-Flora",
+                "team_url": "https://betsapi.com/r/11805972/JK-Nomme-United-II-vs-FC-Flora-Tallinn-II",
+                "cols": [
+                  "JK-Nomme-United-II-vs-FC-Flora",
+                  "2026-07-01 01:20:01",
+                  "JK Nomme United II (射正4 射偏3) | 2-1 | FC Flora Tallinn II (射正4 射偏4) | 偵測時間60",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Altona-93-vs-St-Pauli",
+                "team_url": "https://betsapi.com/r/12121881/Altona-93-vs-St-Pauli",
+                "cols": [
+                  "Altona-93-vs-St-Pauli",
+                  "2026-07-01 01:20:01",
+                  "Altona 93 (射正5 射偏2) | 2-4 | St Pauli (射正6 射偏8) | 偵測時間59",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "SK-Sturm-Graz-vs-LNZ-Lebedyn",
+                "team_url": "https://betsapi.com/r/12106483/SK-Sturm-Graz-vs-LNZ-Lebedyn",
+                "cols": [
+                  "SK-Sturm-Graz-vs-LNZ-Lebedyn",
+                  "2026-07-01 01:20:01",
+                  "SK Sturm Graz (射正3 射偏0) | 1-5 | LNZ Lebedyn (射正6 射偏6) | 偵測時間60",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "SK Sturm Graz (射正2 射偏0) | 1-4 | LNZ Lebedyn (射正4 射偏5) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Panevezys-II-vs-Vilnius-Foo",
+                "team_url": "https://betsapi.com/r/11633981/FK-Panevezys-II-vs-Vilnius-Football-Academy",
+                "cols": [
+                  "FK-Panevezys-II-vs-Vilnius-Foo",
+                  "2026-07-01 00:20:02",
+                  "FK Panevezys II (射正5 射偏3) | 3-2 | Vilnius Football Academy (射正5 射偏4) | 偵測時間58",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Panevezys II (射正4 射偏3) | 2-1 | Vilnius Football Academy (射正3 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 5
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "SK-Sturm-Graz-vs-LNZ-Lebedyn",
+                "team_url": "https://betsapi.com/r/12106483/SK-Sturm-Graz-vs-LNZ-Lebedyn",
+                "cols": [
+                  "SK-Sturm-Graz-vs-LNZ-Lebedyn",
+                  "2026-07-01 01:05:01",
+                  "SK Sturm Graz (射正2 射偏0) | 1-4 | LNZ Lebedyn (射正4 射偏5) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Panevezys-II-vs-Vilnius-Foo",
+                "team_url": "https://betsapi.com/r/11633981/FK-Panevezys-II-vs-Vilnius-Football-Academy",
+                "cols": [
+                  "FK-Panevezys-II-vs-Vilnius-Foo",
+                  "2026-07-01 00:05:01",
+                  "FK Panevezys II (射正4 射偏3) | 2-1 | Vilnius Football Academy (射正3 射偏3) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "18:18:45"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:01:46"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時大小 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Shkendija-Tetovo-vs-FC-Zorya-L",
+                "team_url": "https://betsapi.com/r/12122911/Shkendija-Tetovo-vs-FC-Zorya-Lugansk",
+                "cols": [
+                  "Shkendija-Tetovo-vs-FC-Zorya-L",
+                  "2026-07-01 01:10:01",
+                  "Shkendija Tetovo (射正3 射偏2) | 1-1 | FC Zorya Lugansk (射正3 射偏3) | 偵測時間56",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Shkendija Tetovo (射正3 射偏2) | 1-1 | FC Zorya Lugansk (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Shkendija-Tetovo-vs-FC-Zorya-L",
+                "team_url": "https://betsapi.com/r/12122911/Shkendija-Tetovo-vs-FC-Zorya-Lugansk",
+                "cols": [
+                  "Shkendija-Tetovo-vs-FC-Zorya-L",
+                  "2026-07-01 00:55:01",
+                  "Shkendija Tetovo (射正3 射偏2) | 1-1 | FC Zorya Lugansk (射正3 射偏2) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:18:47"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:01:47"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "General-Caballero-Campo-Grande",
+                "team_url": "https://betsapi.com/r/12120808/General-Caballero-Campo-Grande-vs-29-de-Septiembre-FBC",
+                "cols": [
+                  "General-Caballero-Campo-Grande",
+                  "2026-07-01 01:15:01",
+                  "General Caballero Campo Grande (射正1 射偏0) | 0-1 | 29 de Septiembre FBC (射正4 射偏3) | 偵測時間58",
+                  "押策略一2(B) 29 de Septiembre FBC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:18:48"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:01:49"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "RFS-vs-BFC-Daugavpils",
+                "team_url": "https://betsapi.com/r/11366648/RFS-vs-BFC-Daugavpils",
+                "cols": [
+                  "RFS-vs-BFC-Daugavpils",
+                  "2026-07-01 00:05:01",
+                  "RFS (射正1 射偏5) | 1-0 | BFC Daugavpils (射正2 射偏2) | 偵測時間45",
+                  "押策略二(B) BFC Daugavpils"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:18:50"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:01:50"
+        "scraped_at": "18:18:52"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:01:52"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時假賽 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "PM",
+                "team_url": "https://betsapi.com/r/11720751/PPJ/Lauttasaari-vs-Atlantis-FC/PM",
+                "cols": [
+                  "PM",
+                  "2026-07-01 02:15:02",
+                  "PPJ/Lauttasaari (射正6 射偏10) | 4-1 | Atlantis FC/PM (射正3 射偏3) | 偵測時間57",
+                  "押策略五(A) PPJ/Lauttasaari"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Levski-Sofia-vs-FK-Radnik-Surd",
+                "team_url": "https://betsapi.com/r/12094226/Levski-Sofia-vs-FK-Radnik-Surdulica",
+                "cols": [
+                  "Levski-Sofia-vs-FK-Radnik-Surd",
+                  "2026-07-01 01:30:01",
+                  "Levski Sofia (射正4 射偏6) | 3-0 | FK Radnik Surdulica (射正3 射偏0) | 偵測時間58",
+                  "押策略五(A) Levski Sofia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Altona-93-vs-St-Pauli",
+                "team_url": "https://betsapi.com/r/12121881/Altona-93-vs-St-Pauli",
+                "cols": [
+                  "Altona-93-vs-St-Pauli",
+                  "2026-07-01 01:20:01",
+                  "Altona 93 (射正5 射偏2) | 2-4 | St Pauli (射正6 射偏8) | 偵測時間59",
+                  "押策略五(B) St Pauli"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "General-Caballero-Campo-Grande",
+                "team_url": "https://betsapi.com/r/12120808/General-Caballero-Campo-Grande-vs-29-de-Septiembre-FBC",
+                "cols": [
+                  "General-Caballero-Campo-Grande",
+                  "2026-07-01 01:15:01",
+                  "General Caballero Campo Grande (射正1 射偏0) | 0-1 | 29 de Septiembre FBC (射正4 射偏3) | 偵測時間58",
+                  "押策略五(B) 29 de Septiembre FBC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 4
+          }
+        ],
+        "scraped_at": "18:18:53"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:01:54"
+        "scraped_at": "18:18:55"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:01:55"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FC-Silon-Taborsko-vs-SKU-Amste",
+                "team_url": "https://betsapi.com/r/12094801/FC-Silon-Taborsko-vs-SKU-Amstetten",
+                "cols": [
+                  "FC-Silon-Taborsko-vs-SKU-Amste",
+                  "2026-07-01 00:10:02",
+                  "FC Silon Taborsko (射正3 射偏2) | 0-1 | SKU Amstetten (射正2 射偏2) | 偵測時間56",
+                  "押數據一(A) FC Silon Taborsko"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:18:57"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:01:57"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "PM",
+                "team_url": "https://betsapi.com/r/11720751/PPJ/Lauttasaari-vs-Atlantis-FC/PM",
+                "cols": [
+                  "PM",
+                  "2026-07-01 02:15:02",
+                  "PPJ/Lauttasaari (射正6 射偏10) | 4-1 | Atlantis FC/PM (射正3 射偏3) | 偵測時間57",
+                  "押數據二(A) PPJ/Lauttasaari"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "PPJ/Lauttasaari (射正4 射偏6) | 3-1 | Atlantis FC/PM (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "NK-Brinje-Grosuplje-vs-HNK-Rij",
+                "team_url": "https://betsapi.com/r/12120400/NK-Brinje-Grosuplje-vs-HNK-Rijeka",
+                "cols": [
+                  "NK-Brinje-Grosuplje-vs-HNK-Rij",
+                  "2026-07-01 01:40:02",
+                  "NK Brinje Grosuplje (射正0 射偏2) | 0-3 | HNK Rijeka (射正3 射偏8) | 偵測時間59",
+                  "押數據二(B) HNK Rijeka"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Levski-Sofia-vs-FK-Radnik-Surd",
+                "team_url": "https://betsapi.com/r/12094226/Levski-Sofia-vs-FK-Radnik-Surdulica",
+                "cols": [
+                  "Levski-Sofia-vs-FK-Radnik-Surd",
+                  "2026-07-01 01:30:01",
+                  "Levski Sofia (射正4 射偏6) | 3-0 | FK Radnik Surdulica (射正3 射偏0) | 偵測時間58",
+                  "押數據二(A) Levski Sofia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Levski Sofia (射正3 射偏5) | 2-0 | FK Radnik Surdulica (射正2 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Liepaja-vs-Ogre-United",
+                "team_url": "https://betsapi.com/r/11368665/FK-Liepaja-vs-Ogre-United",
+                "cols": [
+                  "FK-Liepaja-vs-Ogre-United",
+                  "2026-07-01 01:20:01",
+                  "FK Liepaja (射正4 射偏6) | 3-0 | Ogre United (射正2 射偏6) | 偵測時間59",
+                  "押數據二(A) FK Liepaja"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Liepaja (射正4 射偏4) | 3-0 | Ogre United (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Altona-93-vs-St-Pauli",
+                "team_url": "https://betsapi.com/r/12121881/Altona-93-vs-St-Pauli",
+                "cols": [
+                  "Altona-93-vs-St-Pauli",
+                  "2026-07-01 01:20:01",
+                  "Altona 93 (射正5 射偏2) | 2-4 | St Pauli (射正6 射偏8) | 偵測時間59",
+                  "押數據二(B) St Pauli"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "General-Caballero-Campo-Grande",
+                "team_url": "https://betsapi.com/r/12120808/General-Caballero-Campo-Grande-vs-29-de-Septiembre-FBC",
+                "cols": [
+                  "General-Caballero-Campo-Grande",
+                  "2026-07-01 01:15:01",
+                  "General Caballero Campo Grande (射正1 射偏0) | 0-1 | 29 de Septiembre FBC (射正4 射偏3) | 偵測時間58",
+                  "押數據二(B) 29 de Septiembre FBC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "General Caballero Campo Grande (射正1 射偏0) | 0-1 | 29 de Septiembre FBC (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "SJK-Akatemia-II-vs-FC-Vaajakos",
+                "team_url": "https://betsapi.com/r/11484940/SJK-Akatemia-II-vs-FC-Vaajakoski",
+                "cols": [
+                  "SJK-Akatemia-II-vs-FC-Vaajakos",
+                  "2026-07-01 00:45:01",
+                  "SJK Akatemia II (射正5 射偏2) | 2-0 | FC Vaajakoski (射正0 射偏7) | 偵測時間57",
+                  "押數據二(A) SJK Akatemia II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VPS-Vaasa-vs-FC-Inter",
+                "team_url": "https://betsapi.com/r/12022278/VPS-Vaasa-vs-FC-Inter",
+                "cols": [
+                  "VPS-Vaasa-vs-FC-Inter",
+                  "2026-07-01 00:20:02",
+                  "VPS Vaasa (射正4 射偏5) | 1-1 | FC Inter (射正2 射偏5) | 偵測時間60",
+                  "押數據二(A) VPS Vaasa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "VPS Vaasa (射正4 射偏4) | 1-0 | FC Inter (射正1 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Brno-vs-Nyiregyhaza-Spartac",
+                "team_url": "https://betsapi.com/r/12120337/FC-Brno-vs-Nyiregyhaza-Spartacus",
+                "cols": [
+                  "FC-Brno-vs-Nyiregyhaza-Spartac",
+                  "2026-07-01 00:10:02",
+                  "FC Brno (射正3 射偏1) | 2-0 | Nyiregyhaza Spartacus (射正2 射偏4) | 偵測時間58",
+                  "押數據二(A) FC Brno"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 9
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "PM",
+                "team_url": "https://betsapi.com/r/11720751/PPJ/Lauttasaari-vs-Atlantis-FC/PM",
+                "cols": [
+                  "PM",
+                  "2026-07-01 02:00:01",
+                  "PPJ/Lauttasaari (射正4 射偏6) | 3-1 | Atlantis FC/PM (射正3 射偏2) | 偵測時間45",
+                  "押數據二(A) PPJ/Lauttasaari"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Levski-Sofia-vs-FK-Radnik-Surd",
+                "team_url": "https://betsapi.com/r/12094226/Levski-Sofia-vs-FK-Radnik-Surdulica",
+                "cols": [
+                  "Levski-Sofia-vs-FK-Radnik-Surd",
+                  "2026-07-01 01:15:01",
+                  "Levski Sofia (射正3 射偏5) | 2-0 | FK Radnik Surdulica (射正2 射偏0) | 偵測時間45",
+                  "押數據二(A) Levski Sofia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Liepaja-vs-Ogre-United",
+                "team_url": "https://betsapi.com/r/11368665/FK-Liepaja-vs-Ogre-United",
+                "cols": [
+                  "FK-Liepaja-vs-Ogre-United",
+                  "2026-07-01 01:05:01",
+                  "FK Liepaja (射正4 射偏4) | 3-0 | Ogre United (射正1 射偏3) | 偵測時間45",
+                  "押數據二(A) FK Liepaja"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "SK-Sturm-Graz-vs-LNZ-Lebedyn",
+                "team_url": "https://betsapi.com/r/12106483/SK-Sturm-Graz-vs-LNZ-Lebedyn",
+                "cols": [
+                  "SK-Sturm-Graz-vs-LNZ-Lebedyn",
+                  "2026-07-01 01:05:01",
+                  "SK Sturm Graz (射正2 射偏0) | 1-4 | LNZ Lebedyn (射正4 射偏5) | 偵測時間45",
+                  "押數據二(B) LNZ Lebedyn"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "General-Caballero-Campo-Grande",
+                "team_url": "https://betsapi.com/r/12120808/General-Caballero-Campo-Grande-vs-29-de-Septiembre-FBC",
+                "cols": [
+                  "General-Caballero-Campo-Grande",
+                  "2026-07-01 01:00:01",
+                  "General Caballero Campo Grande (射正1 射偏0) | 0-1 | 29 de Septiembre FBC (射正3 射偏2) | 偵測時間45",
+                  "押數據二(B) 29 de Septiembre FBC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VPS-Vaasa-vs-FC-Inter",
+                "team_url": "https://betsapi.com/r/12022278/VPS-Vaasa-vs-FC-Inter",
+                "cols": [
+                  "VPS-Vaasa-vs-FC-Inter",
+                  "2026-07-01 00:05:01",
+                  "VPS Vaasa (射正4 射偏4) | 1-0 | FC Inter (射正1 射偏4) | 偵測時間45",
+                  "押數據二(A) VPS Vaasa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Panevezys-II-vs-Vilnius-Foo",
+                "team_url": "https://betsapi.com/r/11633981/FK-Panevezys-II-vs-Vilnius-Football-Academy",
+                "cols": [
+                  "FK-Panevezys-II-vs-Vilnius-Foo",
+                  "2026-07-01 00:05:01",
+                  "FK Panevezys II (射正4 射偏3) | 2-1 | Vilnius Football Academy (射正3 射偏3) | 偵測時間45",
+                  "押數據二(A) FK Panevezys II"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 7
+          }
+        ],
+        "scraped_at": "18:18:59"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:01:58"
+        "scraped_at": "18:19:00"
       }
     }
   }
