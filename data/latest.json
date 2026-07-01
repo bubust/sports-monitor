@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-01 01:38:55",
+  "updated_at": "2026-07-01 06:21:56",
   "data": {
-    "timestamp": "2026-07-01 01:38:55",
+    "timestamp": "2026-07-01 06:21:56",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "01:38:57"
+        "scraped_at": "06:21:58"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -24,6 +24,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Snohomish-United-vs-Tacoma-Sta",
+                "team_url": "https://betsapi.com/r/12046524/Snohomish-United-vs-Tacoma-Stars",
+                "cols": [
+                  "Snohomish-United-vs-Tacoma-Sta",
+                  "2026-07-01 10:25:01",
+                  "Snohomish United (射正4 射偏7) | 2-1 | Tacoma Stars (射正2 射偏5) | 偵測時間59",
+                  "押獨贏二(A) Snohomish United"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Universidad-Catolica-vs-Everto",
+                "team_url": "https://betsapi.com/r/11859359/Universidad-Catolica-vs-Everton-de-Vina",
+                "cols": [
+                  "Universidad-Catolica-vs-Everto",
+                  "2026-07-01 09:50:01",
+                  "Universidad Catolica (射正6 射偏4) | 2-1 | Everton de Vina (射正1 射偏2) | 偵測時間58",
+                  "押獨贏二(A) Universidad Catolica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Volta-Redonda-vs-Amazonas-FC",
                 "team_url": "https://betsapi.com/r/11501347/Volta-Redonda-vs-Amazonas-FC",
@@ -214,7 +256,7 @@
                 "highlight": ""
               }
             ],
-            "total": 9
+            "total": 11
           },
           {
             "title": "參考",
@@ -273,7 +315,7 @@
             "total": 4
           }
         ],
-        "scraped_at": "01:38:59"
+        "scraped_at": "06:22:00"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -288,6 +330,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Universidad-Catolica-vs-Everto",
+                "team_url": "https://betsapi.com/r/11859359/Universidad-Catolica-vs-Everton-de-Vina",
+                "cols": [
+                  "Universidad-Catolica-vs-Everto",
+                  "2026-07-01 09:50:01",
+                  "Universidad Catolica (射正6 射偏4) | 2-1 | Everton de Vina (射正1 射偏2) | 偵測時間58",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Gretna-2008-vs-Annan-Athletic",
                 "team_url": "https://betsapi.com/r/12063502/Gretna-2008-vs-Annan-Athletic",
@@ -457,7 +520,7 @@
                 "highlight": ""
               }
             ],
-            "total": 8
+            "total": 9
           },
           {
             "title": "參考",
@@ -516,7 +579,7 @@
             "total": 4
           }
         ],
-        "scraped_at": "01:39:00"
+        "scraped_at": "06:22:02"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -696,7 +759,7 @@
             "total": 4
           }
         ],
-        "scraped_at": "01:39:02"
+        "scraped_at": "06:22:04"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -711,6 +774,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Universidad-Catolica-vs-Everto",
+                "team_url": "https://betsapi.com/r/11859359/Universidad-Catolica-vs-Everton-de-Vina",
+                "cols": [
+                  "Universidad-Catolica-vs-Everto",
+                  "2026-07-01 09:50:01",
+                  "Universidad Catolica (射正6 射偏4) | 2-1 | Everton de Vina (射正1 射偏2) | 偵測時間58",
+                  "押策略一2(A) Universidad Catolica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Universidad Catolica (射正4 射偏4) | 1-1 | Everton de Vina (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Forfar-vs-St-Johnstone",
                 "team_url": "https://betsapi.com/r/12029334/Forfar-vs-St-Johnstone",
@@ -775,7 +859,7 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 4
           },
           {
             "title": "參考",
@@ -845,7 +929,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "01:39:04"
+        "scraped_at": "06:22:05"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -919,13 +1003,13 @@
             "total": 2
           }
         ],
-        "scraped_at": "01:39:06"
+        "scraped_at": "06:22:07"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "01:39:07"
+        "scraped_at": "06:22:09"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -940,6 +1024,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Snohomish-United-vs-Tacoma-Sta",
+                "team_url": "https://betsapi.com/r/12046524/Snohomish-United-vs-Tacoma-Stars",
+                "cols": [
+                  "Snohomish-United-vs-Tacoma-Sta",
+                  "2026-07-01 10:25:01",
+                  "Snohomish United (射正4 射偏7) | 2-1 | Tacoma Stars (射正2 射偏5) | 偵測時間59",
+                  "押策略五(A) Snohomish United"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Universidad-Catolica-vs-Everto",
+                "team_url": "https://betsapi.com/r/11859359/Universidad-Catolica-vs-Everton-de-Vina",
+                "cols": [
+                  "Universidad-Catolica-vs-Everto",
+                  "2026-07-01 09:50:01",
+                  "Universidad Catolica (射正6 射偏4) | 2-1 | Everton de Vina (射正1 射偏2) | 偵測時間58",
+                  "押策略五(A) Universidad Catolica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Universidad Catolica (射正4 射偏4) | 1-1 | Everton de Vina (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Botafogo-PB-vs-Brusque",
                 "team_url": "https://betsapi.com/r/11501925/Botafogo-PB-vs-Brusque",
@@ -1235,7 +1361,7 @@
                 "highlight": ""
               }
             ],
-            "total": 14
+            "total": 16
           },
           {
             "title": "參考",
@@ -1349,7 +1475,7 @@
             "total": 9
           }
         ],
-        "scraped_at": "01:39:09"
+        "scraped_at": "06:22:10"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -1412,7 +1538,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "01:39:11"
+        "scraped_at": "06:22:12"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -1539,7 +1665,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "01:39:13"
+        "scraped_at": "06:22:14"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -1554,6 +1680,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Snohomish-United-vs-Tacoma-Sta",
+                "team_url": "https://betsapi.com/r/12046524/Snohomish-United-vs-Tacoma-Stars",
+                "cols": [
+                  "Snohomish-United-vs-Tacoma-Sta",
+                  "2026-07-01 10:25:01",
+                  "Snohomish United (射正4 射偏7) | 2-1 | Tacoma Stars (射正2 射偏5) | 偵測時間59",
+                  "押數據二(A) Snohomish United"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Universidad-Catolica-vs-Everto",
+                "team_url": "https://betsapi.com/r/11859359/Universidad-Catolica-vs-Everton-de-Vina",
+                "cols": [
+                  "Universidad-Catolica-vs-Everto",
+                  "2026-07-01 09:50:01",
+                  "Universidad Catolica (射正6 射偏4) | 2-1 | Everton de Vina (射正1 射偏2) | 偵測時間58",
+                  "押數據二(A) Universidad Catolica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Universidad Catolica (射正4 射偏4) | 1-1 | Everton de Vina (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Botafogo-PB-vs-Brusque",
                 "team_url": "https://betsapi.com/r/11501925/Botafogo-PB-vs-Brusque",
@@ -1765,13 +1933,13 @@
                 "highlight": ""
               },
               {
-                "team": "Clachnacuddin-vs-Ross-County",
-                "team_url": "https://betsapi.com/r/12125530/Clachnacuddin-vs-Ross-County",
+                "team": "Alloa-vs-Livingston",
+                "team_url": "https://betsapi.com/r/12029129/Alloa-vs-Livingston",
                 "cols": [
-                  "Clachnacuddin-vs-Ross-County",
+                  "Alloa-vs-Livingston",
                   "2026-07-01 03:45:02",
-                  "Clachnacuddin (射正1 射偏2) | 0-1 | Ross County (射正7 射偏15) | 偵測時間56",
-                  "押數據二(B) Ross County"
+                  "Alloa (射正0 射偏2) | 0-2 | Livingston (射正9 射偏8) | 偵測時間58",
+                  "押數據二(B) Livingston"
                 ],
                 "highlight": ""
               },
@@ -1780,7 +1948,7 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "Clachnacuddin (射正1 射偏1) | 0-1 | Ross County (射正6 射偏14) | 偵測時間45",
+                  "Alloa (射正0 射偏2) | 0-2 | Livingston (射正8 射偏4) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1807,13 +1975,13 @@
                 "highlight": ""
               },
               {
-                "team": "Alloa-vs-Livingston",
-                "team_url": "https://betsapi.com/r/12029129/Alloa-vs-Livingston",
+                "team": "Clachnacuddin-vs-Ross-County",
+                "team_url": "https://betsapi.com/r/12125530/Clachnacuddin-vs-Ross-County",
                 "cols": [
-                  "Alloa-vs-Livingston",
+                  "Clachnacuddin-vs-Ross-County",
                   "2026-07-01 03:45:02",
-                  "Alloa (射正0 射偏2) | 0-2 | Livingston (射正9 射偏8) | 偵測時間58",
-                  "押數據二(B) Livingston"
+                  "Clachnacuddin (射正1 射偏2) | 0-1 | Ross County (射正7 射偏15) | 偵測時間56",
+                  "押數據二(B) Ross County"
                 ],
                 "highlight": ""
               },
@@ -1822,7 +1990,7 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "Alloa (射正0 射偏2) | 0-2 | Livingston (射正8 射偏4) | 偵測時間45",
+                  "Clachnacuddin (射正1 射偏1) | 0-1 | Ross County (射正6 射偏14) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -2101,7 +2269,7 @@
                 "highlight": ""
               }
             ],
-            "total": 26
+            "total": 28
           },
           {
             "title": "參考",
@@ -2314,13 +2482,13 @@
             "total": 18
           }
         ],
-        "scraped_at": "01:39:14"
+        "scraped_at": "06:22:16"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "01:39:16"
+        "scraped_at": "06:22:17"
       }
     }
   }
