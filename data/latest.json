@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-01 18:23:44",
+  "updated_at": "2026-07-01 20:22:28",
   "data": {
-    "timestamp": "2026-07-01 18:23:44",
+    "timestamp": "2026-07-01 20:22:28",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "18:23:46"
+        "scraped_at": "20:22:30"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -146,7 +146,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "18:23:48"
+        "scraped_at": "20:22:31"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -304,7 +304,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "18:23:50"
+        "scraped_at": "20:22:33"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -389,7 +389,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "18:23:51"
+        "scraped_at": "20:22:35"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -404,6 +404,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "FC-03-Differdange-vs-F91-Dudel",
+                "team_url": "https://betsapi.com/r/12131806/FC-03-Differdange-vs-F91-Dudelange",
+                "cols": [
+                  "FC-03-Differdange-vs-F91-Dudel",
+                  "2026-07-02 02:45:01",
+                  "FC 03 Differdange (射正3 射偏4) | 0-0 | F91 Dudelange (射正1 射偏3) | 偵測時間57",
+                  "押策略一2(A) FC 03 Differdange"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FC 03 Differdange (射正3 射偏3) | 0-0 | F91 Dudelange (射正1 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "De-Treffers-vs-NEC",
                 "team_url": "https://betsapi.com/r/12122444/De-Treffers-vs-NEC",
@@ -447,7 +468,7 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 3
           },
           {
             "title": "參考",
@@ -459,12 +480,23 @@
             ],
             "matches": [
               {
+                "team": "Haukar-vs-Kari",
+                "team_url": "https://betsapi.com/r/11721063/Haukar-vs-Kari",
+                "cols": [
+                  "Haukar-vs-Kari",
+                  "2026-07-02 04:15:01",
+                  "Haukar (射正5 射偏3) | 2-0 | Kari (射正0 射偏3) | 偵測時間45",
+                  "押策略一2(A) Haukar"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "FC-03-Differdange-vs-F91-Dudel",
                 "team_url": "https://betsapi.com/r/12131806/FC-03-Differdange-vs-F91-Dudelange",
                 "cols": [
                   "FC-03-Differdange-vs-F91-Dudel",
-                  "2026-07-02 02:20:02",
-                  "FC 03 Differdange (射正3 射偏3) | 0-0 | F91 Dudelange (射正1 射偏2) | 偵測時間44",
+                  "2026-07-02 02:30:02",
+                  "FC 03 Differdange (射正3 射偏3) | 0-0 | F91 Dudelange (射正1 射偏2) | 偵測時間45",
                   "押策略一2(A) FC 03 Differdange"
                 ],
                 "highlight": ""
@@ -503,10 +535,10 @@
                 "highlight": ""
               }
             ],
-            "total": 4
+            "total": 5
           }
         ],
-        "scraped_at": "18:23:53"
+        "scraped_at": "20:22:37"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -522,11 +554,53 @@
             ],
             "matches": [
               {
+                "team": "Coimbra-vs-Villa-Nova",
+                "team_url": "https://betsapi.com/r/11460833/Coimbra-vs-Villa-Nova",
+                "cols": [
+                  "Coimbra-vs-Villa-Nova",
+                  "2026-07-02 03:20:02",
+                  "Coimbra (射正2 射偏3) | 0-1 | Villa Nova (射正1 射偏5) | 偵測時間60",
+                  "押策略二(A) Coimbra"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Coimbra (射正2 射偏3) | 0-1 | Villa Nova (射正1 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Juventud-vs-Humaita-F",
+                "team_url": "https://betsapi.com/r/12132147/Atletico-Juventud-vs-Humaita-FBC",
+                "cols": [
+                  "Atletico-Juventud-vs-Humaita-F",
+                  "2026-07-02 03:15:02",
+                  "Atletico Juventud (射正1 射偏2) | 0-0 | Humaita FBC (射正2 射偏1) | 偵測時間57",
+                  "押策略二(B) Humaita FBC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "SV-Tasmania-Berlin-vs-TeBe-Ber",
                 "team_url": "https://betsapi.com/r/12095531/SV-Tasmania-Berlin-vs-TeBe-Berlin",
                 "cols": [
                   "SV-Tasmania-Berlin-vs-TeBe-Ber",
-                  "2026-07-02 02:20:02",
+                  "2026-07-02 03:05:01",
                   "SV Tasmania Berlin (射正4 射偏2) | 2-0 | TeBe Berlin (射正0 射偏3) | 偵測時間57",
                   "押策略二(A) SV Tasmania Berlin"
                 ],
@@ -564,7 +638,7 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 4
           },
           {
             "title": "參考",
@@ -575,6 +649,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Coimbra-vs-Villa-Nova",
+                "team_url": "https://betsapi.com/r/11460833/Coimbra-vs-Villa-Nova",
+                "cols": [
+                  "Coimbra-vs-Villa-Nova",
+                  "2026-07-02 03:05:01",
+                  "Coimbra (射正2 射偏3) | 0-1 | Villa Nova (射正1 射偏4) | 偵測時間45",
+                  "押策略二(A) Coimbra"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "HJK-Helsinki-vs-FC-Ilves",
                 "team_url": "https://betsapi.com/r/12022277/HJK-Helsinki-vs-FC-Ilves",
@@ -609,16 +694,16 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 4
           }
         ],
-        "scraped_at": "18:23:55"
+        "scraped_at": "20:22:38"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "18:23:57"
+        "scraped_at": "20:22:40"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -633,6 +718,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "FC-03-Differdange-vs-F91-Dudel",
+                "team_url": "https://betsapi.com/r/12131806/FC-03-Differdange-vs-F91-Dudelange",
+                "cols": [
+                  "FC-03-Differdange-vs-F91-Dudel",
+                  "2026-07-02 02:45:01",
+                  "FC 03 Differdange (射正3 射偏4) | 0-0 | F91 Dudelange (射正1 射偏3) | 偵測時間57",
+                  "押策略五(A) FC 03 Differdange"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Husqvarna-FF-vs-Lidköpings-FK",
+                "team_url": "https://betsapi.com/r/11350971/Husqvarna-FF-vs-Lidköpings-FK",
+                "cols": [
+                  "Husqvarna-FF-vs-Lidköpings-FK",
+                  "2026-07-02 02:45:01",
+                  "Husqvarna FF (射正1 射偏6) | 0-0 | Lidköpings FK (射正0 射偏4) | 偵測時間56",
+                  "押策略五(A) Husqvarna FF"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "De-Treffers-vs-NEC",
                 "team_url": "https://betsapi.com/r/12122444/De-Treffers-vs-NEC",
@@ -802,7 +929,7 @@
                 "highlight": ""
               }
             ],
-            "total": 8
+            "total": 10
           },
           {
             "title": "參考",
@@ -813,6 +940,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Ellidi-vs-Alftanes",
+                "team_url": "https://betsapi.com/r/11750056/Ellidi-vs-Alftanes",
+                "cols": [
+                  "Ellidi-vs-Alftanes",
+                  "2026-07-02 04:15:01",
+                  "Ellidi (射正2 射偏3) | 1-1 | Alftanes (射正4 射偏8) | 偵測時間45",
+                  "押策略五(B) Alftanes"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "MPS-vs-EIF-Academy",
+                "team_url": "https://betsapi.com/r/11715500/MPS-vs-EIF-Academy",
+                "cols": [
+                  "MPS-vs-EIF-Academy",
+                  "2026-07-02 02:45:01",
+                  "MPS (射正1 射偏1) | 0-2 | EIF Academy (射正2 射偏2) | 偵測時間45",
+                  "押策略五(B) EIF Academy"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "FK-Arsenal-vs-OFK-Mladost-DG",
                 "team_url": "https://betsapi.com/r/12131805/FK-Arsenal-vs-OFK-Mladost-DG",
@@ -913,10 +1062,10 @@
                 "highlight": ""
               }
             ],
-            "total": 9
+            "total": 11
           }
         ],
-        "scraped_at": "18:23:58"
+        "scraped_at": "20:22:42"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -946,7 +1095,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "18:24:00"
+        "scraped_at": "20:22:43"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -966,7 +1115,7 @@
                 "team_url": "https://betsapi.com/r/12095531/SV-Tasmania-Berlin-vs-TeBe-Berlin",
                 "cols": [
                   "SV-Tasmania-Berlin-vs-TeBe-Ber",
-                  "2026-07-02 02:20:02",
+                  "2026-07-02 03:05:01",
                   "SV Tasmania Berlin (射正4 射偏2) | 2-0 | TeBe Berlin (射正0 射偏3) | 偵測時間57",
                   "押數據一(A) SV Tasmania Berlin"
                 ],
@@ -1073,7 +1222,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "18:24:02"
+        "scraped_at": "20:22:45"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -1088,6 +1237,90 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Montrose-vs-Civil-Service-Stro",
+                "team_url": "https://betsapi.com/r/12131779/Montrose-vs-Civil-Service-Strollers",
+                "cols": [
+                  "Montrose-vs-Civil-Service-Stro",
+                  "2026-07-02 03:40:01",
+                  "Montrose (射正1 射偏5) | 0-1 | Civil Service Strollers (射正3 射偏2) | 偵測時間58",
+                  "押數據二(B) Civil Service Strollers"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Montrose (射正1 射偏2) | 0-1 | Civil Service Strollers (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Defensores-Unidos-Reserves-vs-",
+                "team_url": "https://betsapi.com/r/12129339/Defensores-Unidos-Reserves-vs-Sportivo-Italiano-Reserves",
+                "cols": [
+                  "Defensores-Unidos-Reserves-vs-",
+                  "2026-07-02 03:20:02",
+                  "Defensores Unidos Reserves (射正1 射偏3) | 1-2 | Sportivo Italiano Reserves (射正3 射偏2) | 偵測時間60",
+                  "押數據二(B) Sportivo Italiano Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bonsucesso-FC-vs-America-RJ",
+                "team_url": "https://betsapi.com/r/12011231/Bonsucesso-FC-vs-America-RJ",
+                "cols": [
+                  "Bonsucesso-FC-vs-America-RJ",
+                  "2026-07-02 03:10:02",
+                  "Bonsucesso FC (射正3 射偏2) | 2-2 | America RJ (射正2 射偏6) | 偵測時間59",
+                  "押數據二(A) Bonsucesso FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-03-Differdange-vs-F91-Dudel",
+                "team_url": "https://betsapi.com/r/12131806/FC-03-Differdange-vs-F91-Dudelange",
+                "cols": [
+                  "FC-03-Differdange-vs-F91-Dudel",
+                  "2026-07-02 02:45:01",
+                  "FC 03 Differdange (射正3 射偏4) | 0-0 | F91 Dudelange (射正1 射偏3) | 偵測時間57",
+                  "押數據二(A) FC 03 Differdange"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FC 03 Differdange (射正3 射偏3) | 0-0 | F91 Dudelange (射正1 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "De-Treffers-vs-NEC",
                 "team_url": "https://betsapi.com/r/12122444/De-Treffers-vs-NEC",
@@ -1467,7 +1700,7 @@
                 "highlight": ""
               }
             ],
-            "total": 18
+            "total": 22
           },
           {
             "title": "參考",
@@ -1479,12 +1712,45 @@
             ],
             "matches": [
               {
+                "team": "Haukar-vs-Kari",
+                "team_url": "https://betsapi.com/r/11721063/Haukar-vs-Kari",
+                "cols": [
+                  "Haukar-vs-Kari",
+                  "2026-07-02 04:15:01",
+                  "Haukar (射正5 射偏3) | 2-0 | Kari (射正0 射偏3) | 偵測時間45",
+                  "押數據二(A) Haukar"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ellidi-vs-Alftanes",
+                "team_url": "https://betsapi.com/r/11750056/Ellidi-vs-Alftanes",
+                "cols": [
+                  "Ellidi-vs-Alftanes",
+                  "2026-07-02 04:15:01",
+                  "Ellidi (射正2 射偏3) | 1-1 | Alftanes (射正4 射偏8) | 偵測時間45",
+                  "押數據二(B) Alftanes"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Montrose-vs-Civil-Service-Stro",
+                "team_url": "https://betsapi.com/r/12131779/Montrose-vs-Civil-Service-Strollers",
+                "cols": [
+                  "Montrose-vs-Civil-Service-Stro",
+                  "2026-07-02 03:25:01",
+                  "Montrose (射正1 射偏2) | 0-1 | Civil Service Strollers (射正3 射偏2) | 偵測時間45",
+                  "押數據二(B) Civil Service Strollers"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "FC-03-Differdange-vs-F91-Dudel",
                 "team_url": "https://betsapi.com/r/12131806/FC-03-Differdange-vs-F91-Dudelange",
                 "cols": [
                   "FC-03-Differdange-vs-F91-Dudel",
-                  "2026-07-02 02:20:02",
-                  "FC 03 Differdange (射正3 射偏3) | 0-0 | F91 Dudelange (射正1 射偏2) | 偵測時間44",
+                  "2026-07-02 02:30:02",
+                  "FC 03 Differdange (射正3 射偏3) | 0-0 | F91 Dudelange (射正1 射偏2) | 偵測時間45",
                   "押數據二(A) FC 03 Differdange"
                 ],
                 "highlight": ""
@@ -1567,13 +1833,13 @@
                 "highlight": ""
               },
               {
-                "team": "Radnicki-Nis-vs-FK-Csikszereda",
-                "team_url": "https://betsapi.com/r/12127565/Radnicki-Nis-vs-FK-Csikszereda-Miercurea-Ciuc",
+                "team": "Neuchatel-Xamax-vs-FC-Sion",
+                "team_url": "https://betsapi.com/r/12127052/Neuchatel-Xamax-vs-FC-Sion",
                 "cols": [
-                  "Radnicki-Nis-vs-FK-Csikszereda",
+                  "Neuchatel-Xamax-vs-FC-Sion",
                   "2026-07-02 01:00:02",
-                  "Radnicki Nis (射正3 射偏9) | 0-0 | FK Csikszereda Miercurea Ciuc (射正2 射偏0) | 偵測時間45",
-                  "押數據二(A) Radnicki Nis"
+                  "Neuchatel Xamax (射正2 射偏4) | 1-2 | FC Sion (射正3 射偏6) | 偵測時間45",
+                  "押數據二(B) FC Sion"
                 ],
                 "highlight": ""
               },
@@ -1589,13 +1855,13 @@
                 "highlight": ""
               },
               {
-                "team": "Neuchatel-Xamax-vs-FC-Sion",
-                "team_url": "https://betsapi.com/r/12127052/Neuchatel-Xamax-vs-FC-Sion",
+                "team": "Radnicki-Nis-vs-FK-Csikszereda",
+                "team_url": "https://betsapi.com/r/12127565/Radnicki-Nis-vs-FK-Csikszereda-Miercurea-Ciuc",
                 "cols": [
-                  "Neuchatel-Xamax-vs-FC-Sion",
+                  "Radnicki-Nis-vs-FK-Csikszereda",
                   "2026-07-02 01:00:02",
-                  "Neuchatel Xamax (射正2 射偏4) | 1-2 | FC Sion (射正3 射偏6) | 偵測時間45",
-                  "押數據二(B) FC Sion"
+                  "Radnicki Nis (射正3 射偏9) | 0-0 | FK Csikszereda Miercurea Ciuc (射正2 射偏0) | 偵測時間45",
+                  "押數據二(A) Radnicki Nis"
                 ],
                 "highlight": ""
               },
@@ -1644,16 +1910,16 @@
                 "highlight": ""
               }
             ],
-            "total": 15
+            "total": 18
           }
         ],
-        "scraped_at": "18:24:04"
+        "scraped_at": "20:22:47"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "18:24:05"
+        "scraped_at": "20:22:49"
       }
     }
   }
