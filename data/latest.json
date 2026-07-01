@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-01 10:29:09",
+  "updated_at": "2026-07-01 13:18:19",
   "data": {
-    "timestamp": "2026-07-01 10:29:09",
+    "timestamp": "2026-07-01 13:18:19",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "10:29:11"
+        "scraped_at": "13:18:20"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -289,6 +289,17 @@
             ],
             "matches": [
               {
+                "team": "FK-Qarabag-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12126309/FK-Qarabag-vs-FC-Kharkiv",
+                "cols": [
+                  "FK-Qarabag-vs-FC-Kharkiv",
+                  "2026-07-01 20:00:02",
+                  "FK Qarabag (射正0 射偏1) | 0-3 | FC Kharkiv (射正4 射偏5) | 偵測時間45",
+                  "押獨贏二(B) FC Kharkiv"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Zalaegerszegi-TE-vs-FC-Ajka",
                 "team_url": "https://betsapi.com/r/12127641/Zalaegerszegi-TE-vs-FC-Ajka",
                 "cols": [
@@ -355,10 +366,10 @@
                 "highlight": ""
               }
             ],
-            "total": 6
+            "total": 7
           }
         ],
-        "scraped_at": "10:29:12"
+        "scraped_at": "13:18:22"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -665,7 +676,7 @@
             "total": 6
           }
         ],
-        "scraped_at": "10:29:14"
+        "scraped_at": "13:18:24"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -877,7 +888,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "10:29:16"
+        "scraped_at": "13:18:25"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -1058,7 +1069,7 @@
             "total": 6
           }
         ],
-        "scraped_at": "10:29:17"
+        "scraped_at": "13:18:27"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -1128,6 +1139,17 @@
             ],
             "matches": [
               {
+                "team": "Mount-Gravatt-Hawks-vs-Springf",
+                "team_url": "https://betsapi.com/r/12075412/Mount-Gravatt-Hawks-vs-Springfield-United",
+                "cols": [
+                  "Mount-Gravatt-Hawks-vs-Springf",
+                  "2026-07-01 19:30:02",
+                  "Mount Gravatt Hawks (射正1 射偏5) | 0-1 | Springfield United (射正5 射偏2) | 偵測時間45",
+                  "押策略二(B) Springfield United"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Charlotte-Eagles-vs-Hickory-FC",
                 "team_url": "https://betsapi.com/r/12047267/Charlotte-Eagles-vs-Hickory-FC",
                 "cols": [
@@ -1150,16 +1172,16 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 3
           }
         ],
-        "scraped_at": "10:29:19"
+        "scraped_at": "13:18:29"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "10:29:20"
+        "scraped_at": "13:18:30"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -1174,6 +1196,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "FK-Qarabag-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12126309/FK-Qarabag-vs-FC-Kharkiv",
+                "cols": [
+                  "FK-Qarabag-vs-FC-Kharkiv",
+                  "2026-07-01 20:15:02",
+                  "FK Qarabag (射正1 射偏1) | 1-3 | FC Kharkiv (射正5 射偏6) | 偵測時間59",
+                  "押策略五(B) FC Kharkiv"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Qarabag (射正0 射偏1) | 0-3 | FC Kharkiv (射正4 射偏5) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Khovd-FC-vs-Khoromkhon-Club",
+                "team_url": "https://betsapi.com/r/12125476/Khovd-FC-vs-Khoromkhon-Club",
+                "cols": [
+                  "Khovd-FC-vs-Khoromkhon-Club",
+                  "2026-07-01 20:15:02",
+                  "Khovd FC (射正7 射偏10) | 5-1 | Khoromkhon Club (射正2 射偏1) | 偵測時間56",
+                  "押策略五(A) Khovd FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Khovd FC (射正3 射偏10) | 2-0 | Khoromkhon Club (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Wisla-Krakow-vs-Puszcza-Niepol",
                 "team_url": "https://betsapi.com/r/12130037/Wisla-Krakow-vs-Puszcza-Niepolomice",
@@ -1322,13 +1386,13 @@
                 "highlight": ""
               },
               {
-                "team": "Caerau-Ely-vs-Cardiff-Corinthi",
-                "team_url": "https://betsapi.com/r/12121926/Caerau-Ely-vs-Cardiff-Corinthians-AFC",
+                "team": "Forfar-vs-St-Johnstone",
+                "team_url": "https://betsapi.com/r/12029334/Forfar-vs-St-Johnstone",
                 "cols": [
-                  "Caerau-Ely-vs-Cardiff-Corinthi",
+                  "Forfar-vs-St-Johnstone",
                   "2026-07-01 04:00:01",
-                  "Caerau Ely (射正2 射偏5) | 0-0 | Cardiff Corinthians AFC (射正1 射偏1) | 偵測時間56",
-                  "押策略五(A) Caerau Ely"
+                  "Forfar (射正1 射偏2) | 0-3 | St Johnstone (射正9 射偏4) | 偵測時間59",
+                  "押策略五(B) St Johnstone"
                 ],
                 "highlight": ""
               },
@@ -1343,13 +1407,13 @@
                 "highlight": ""
               },
               {
-                "team": "Forfar-vs-St-Johnstone",
-                "team_url": "https://betsapi.com/r/12029334/Forfar-vs-St-Johnstone",
+                "team": "Caerau-Ely-vs-Cardiff-Corinthi",
+                "team_url": "https://betsapi.com/r/12121926/Caerau-Ely-vs-Cardiff-Corinthians-AFC",
                 "cols": [
-                  "Forfar-vs-St-Johnstone",
+                  "Caerau-Ely-vs-Cardiff-Corinthi",
                   "2026-07-01 04:00:01",
-                  "Forfar (射正1 射偏2) | 0-3 | St Johnstone (射正9 射偏4) | 偵測時間59",
-                  "押策略五(B) St Johnstone"
+                  "Caerau Ely (射正2 射偏5) | 0-0 | Cardiff Corinthians AFC (射正1 射偏1) | 偵測時間56",
+                  "押策略五(A) Caerau Ely"
                 ],
                 "highlight": ""
               },
@@ -1553,7 +1617,7 @@
                 "highlight": ""
               }
             ],
-            "total": 18
+            "total": 20
           },
           {
             "title": "參考",
@@ -1564,6 +1628,39 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Austria-Lustenau-vs-Young-Boys",
+                "team_url": "https://betsapi.com/r/12013657/Austria-Lustenau-vs-Young-Boys",
+                "cols": [
+                  "Austria-Lustenau-vs-Young-Boys",
+                  "2026-07-01 21:05:01",
+                  "Austria Lustenau (射正2 射偏0) | 0-0 | Young Boys (射正3 射偏5) | 偵測時間45",
+                  "押策略五(B) Young Boys"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Khovd-FC-vs-Khoromkhon-Club",
+                "team_url": "https://betsapi.com/r/12125476/Khovd-FC-vs-Khoromkhon-Club",
+                "cols": [
+                  "Khovd-FC-vs-Khoromkhon-Club",
+                  "2026-07-01 20:00:02",
+                  "Khovd FC (射正3 射偏10) | 2-0 | Khoromkhon Club (射正1 射偏1) | 偵測時間45",
+                  "押策略五(A) Khovd FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Qarabag-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12126309/FK-Qarabag-vs-FC-Kharkiv",
+                "cols": [
+                  "FK-Qarabag-vs-FC-Kharkiv",
+                  "2026-07-01 20:00:02",
+                  "FK Qarabag (射正0 射偏1) | 0-3 | FC Kharkiv (射正4 射偏5) | 偵測時間45",
+                  "押策略五(B) FC Kharkiv"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "FK-Zemun-vs-FK-Mornar-Bar",
                 "team_url": "https://betsapi.com/r/12131295/FK-Zemun-vs-FK-Mornar-Bar",
@@ -1686,10 +1783,10 @@
                 "highlight": ""
               }
             ],
-            "total": 11
+            "total": 14
           }
         ],
-        "scraped_at": "10:29:22"
+        "scraped_at": "13:18:32"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -1784,7 +1881,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "10:29:24"
+        "scraped_at": "13:18:34"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -1911,7 +2008,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "10:29:25"
+        "scraped_at": "13:18:35"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -1926,6 +2023,132 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Glentoran-vs-Kilmarnock",
+                "team_url": "https://betsapi.com/r/12029133/Glentoran-vs-Kilmarnock",
+                "cols": [
+                  "Glentoran-vs-Kilmarnock",
+                  "2026-07-01 21:15:02",
+                  "Glentoran (射正1 射偏6) | 0-2 | Kilmarnock (射正3 射偏4) | 偵測時間58",
+                  "押數據二(B) Kilmarnock"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Glentoran (射正1 射偏6) | 0-2 | Kilmarnock (射正3 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Qarabag-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12126309/FK-Qarabag-vs-FC-Kharkiv",
+                "cols": [
+                  "FK-Qarabag-vs-FC-Kharkiv",
+                  "2026-07-01 20:15:02",
+                  "FK Qarabag (射正1 射偏1) | 1-3 | FC Kharkiv (射正5 射偏6) | 偵測時間59",
+                  "押數據二(B) FC Kharkiv"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Qarabag (射正0 射偏1) | 0-3 | FC Kharkiv (射正4 射偏5) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Khovd-FC-vs-Khoromkhon-Club",
+                "team_url": "https://betsapi.com/r/12125476/Khovd-FC-vs-Khoromkhon-Club",
+                "cols": [
+                  "Khovd-FC-vs-Khoromkhon-Club",
+                  "2026-07-01 20:15:02",
+                  "Khovd FC (射正7 射偏10) | 5-1 | Khoromkhon Club (射正2 射偏1) | 偵測時間56",
+                  "押數據二(A) Khovd FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Khovd FC (射正3 射偏10) | 2-0 | Khoromkhon Club (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Radomiak-Radom-vs-Hapoel-Beer-",
+                "team_url": "https://betsapi.com/r/12127739/Radomiak-Radom-vs-Hapoel-Beer-Sheva",
+                "cols": [
+                  "Radomiak-Radom-vs-Hapoel-Beer-",
+                  "2026-07-01 19:45:01",
+                  "Radomiak Radom (射正4 射偏4) | 2-1 | Hapoel Beer Sheva (射正3 射偏7) | 偵測時間57",
+                  "押數據二(A) Radomiak Radom"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Mount-Gravatt-Hawks-vs-Springf",
+                "team_url": "https://betsapi.com/r/12075412/Mount-Gravatt-Hawks-vs-Springfield-United",
+                "cols": [
+                  "Mount-Gravatt-Hawks-vs-Springf",
+                  "2026-07-01 19:45:01",
+                  "Mount Gravatt Hawks (射正2 射偏6) | 0-2 | Springfield United (射正6 射偏3) | 偵測時間58",
+                  "押數據二(B) Springfield United"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Mount Gravatt Hawks (射正1 射偏5) | 0-1 | Springfield United (射正5 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Newcastle-Olympic-FC-vs-Charle",
+                "team_url": "https://betsapi.com/r/12042504/Newcastle-Olympic-FC-vs-Charlestown-Azzurri",
+                "cols": [
+                  "Newcastle-Olympic-FC-vs-Charle",
+                  "2026-07-01 18:50:01",
+                  "Newcastle Olympic FC (射正9 射偏4) | 6-1 | Charlestown Azzurri (射正3 射偏8) | 偵測時間59",
+                  "押數據二(A) Newcastle Olympic FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Newcastle Olympic FC (射正6 射偏3) | 4-0 | Charlestown Azzurri (射正1 射偏7) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "LKS-Lodz-vs-Dinamo-Bucharest",
                 "team_url": "https://betsapi.com/r/12130038/LKS-Lodz-vs-Dinamo-Bucharest",
@@ -2639,30 +2862,9 @@
                   ""
                 ],
                 "highlight": ""
-              },
-              {
-                "team": "FC-Brno-vs-Nyiregyhaza-Spartac",
-                "team_url": "https://betsapi.com/r/12120337/FC-Brno-vs-Nyiregyhaza-Spartacus",
-                "cols": [
-                  "FC-Brno-vs-Nyiregyhaza-Spartac",
-                  "2026-07-01 00:10:02",
-                  "FC Brno (射正3 射偏1) | 2-0 | Nyiregyhaza Spartacus (射正2 射偏4) | 偵測時間58",
-                  "押數據二(A) FC Brno"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
               }
             ],
-            "total": 35
+            "total": 40
           },
           {
             "title": "參考",
@@ -2674,11 +2876,66 @@
             ],
             "matches": [
               {
+                "team": "Austria-Lustenau-vs-Young-Boys",
+                "team_url": "https://betsapi.com/r/12013657/Austria-Lustenau-vs-Young-Boys",
+                "cols": [
+                  "Austria-Lustenau-vs-Young-Boys",
+                  "2026-07-01 21:05:01",
+                  "Austria Lustenau (射正2 射偏0) | 0-0 | Young Boys (射正3 射偏5) | 偵測時間45",
+                  "押數據二(B) Young Boys"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Glentoran-vs-Kilmarnock",
+                "team_url": "https://betsapi.com/r/12029133/Glentoran-vs-Kilmarnock",
+                "cols": [
+                  "Glentoran-vs-Kilmarnock",
+                  "2026-07-01 21:00:02",
+                  "Glentoran (射正1 射偏6) | 0-2 | Kilmarnock (射正3 射偏3) | 偵測時間45",
+                  "押數據二(B) Kilmarnock"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Qarabag-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12126309/FK-Qarabag-vs-FC-Kharkiv",
+                "cols": [
+                  "FK-Qarabag-vs-FC-Kharkiv",
+                  "2026-07-01 20:00:02",
+                  "FK Qarabag (射正0 射偏1) | 0-3 | FC Kharkiv (射正4 射偏5) | 偵測時間45",
+                  "押數據二(B) FC Kharkiv"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Khovd-FC-vs-Khoromkhon-Club",
+                "team_url": "https://betsapi.com/r/12125476/Khovd-FC-vs-Khoromkhon-Club",
+                "cols": [
+                  "Khovd-FC-vs-Khoromkhon-Club",
+                  "2026-07-01 20:00:02",
+                  "Khovd FC (射正3 射偏10) | 2-0 | Khoromkhon Club (射正1 射偏1) | 偵測時間45",
+                  "押數據二(A) Khovd FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Mount-Gravatt-Hawks-vs-Springf",
+                "team_url": "https://betsapi.com/r/12075412/Mount-Gravatt-Hawks-vs-Springfield-United",
+                "cols": [
+                  "Mount-Gravatt-Hawks-vs-Springf",
+                  "2026-07-01 19:30:02",
+                  "Mount Gravatt Hawks (射正1 射偏5) | 0-1 | Springfield United (射正5 射偏2) | 偵測時間45",
+                  "押數據二(B) Springfield United"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Newcastle-Olympic-FC-vs-Charle",
                 "team_url": "https://betsapi.com/r/12042504/Newcastle-Olympic-FC-vs-Charlestown-Azzurri",
                 "cols": [
                   "Newcastle-Olympic-FC-vs-Charle",
-                  "2026-07-01 18:25:01",
+                  "2026-07-01 18:35:02",
                   "Newcastle Olympic FC (射正6 射偏3) | 4-0 | Charlestown Azzurri (射正1 射偏7) | 偵測時間45",
                   "押數據二(A) Newcastle Olympic FC"
                 ],
@@ -2927,16 +3184,16 @@
                 "highlight": ""
               }
             ],
-            "total": 23
+            "total": 28
           }
         ],
-        "scraped_at": "10:29:27"
+        "scraped_at": "13:18:37"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "10:29:28"
+        "scraped_at": "13:18:39"
       }
     }
   }
