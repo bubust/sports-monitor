@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-06 23:02:38",
+  "updated_at": "2026-07-07 01:15:45",
   "data": {
-    "timestamp": "2026-07-06 23:02:38",
+    "timestamp": "2026-07-07 01:15:45",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "23:02:39"
+        "scraped_at": "01:15:46"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -24,6 +24,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Colo-Colo-vs-Deportes-Recoleta",
+                "team_url": "https://betsapi.com/r/11859308/Colo-Colo-vs-Deportes-Recoleta",
+                "cols": [
+                  "Colo-Colo-vs-Deportes-Recoleta",
+                  "2026-07-07 08:55:01",
+                  "Colo Colo (射正7 射偏10) | 2-1 | Deportes Recoleta (射正3 射偏7) | 偵測時間59",
+                  "押獨贏二(A) Colo Colo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Universidad-Catolica-del-Ecuad",
                 "team_url": "https://betsapi.com/r/12116443/Universidad-Catolica-del-Ecuador-vs-Mushuc-Runa",
@@ -46,7 +67,7 @@
                 "highlight": ""
               }
             ],
-            "total": 1
+            "total": 2
           },
           {
             "title": "參考",
@@ -57,6 +78,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "USA-vs-Belgium",
+                "team_url": "https://betsapi.com/r/12138040/USA-vs-Belgium",
+                "cols": [
+                  "USA-vs-Belgium",
+                  "2026-07-07 09:05:01",
+                  "USA (射正1 射偏2) | 1-2 | Belgium (射正5 射偏6) | 偵測時間45",
+                  "押獨贏二(B) Belgium"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Universidad-Catolica-del-Ecuad",
                 "team_url": "https://betsapi.com/r/12116443/Universidad-Catolica-del-Ecuador-vs-Mushuc-Runa",
@@ -80,10 +112,10 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 3
           }
         ],
-        "scraped_at": "23:02:41"
+        "scraped_at": "01:15:48"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -98,6 +130,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Black-Rock-FC-vs-Seacoast-Unit",
+                "team_url": "https://betsapi.com/r/12047106/Black-Rock-FC-vs-Seacoast-United-Phantoms",
+                "cols": [
+                  "Black-Rock-FC-vs-Seacoast-Unit",
+                  "2026-07-07 08:20:01",
+                  "Black Rock FC (射正4 射偏3) | 3-2 | Seacoast United Phantoms (射正7 射偏4) | 偵測時間59",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Black Rock FC (射正4 射偏1) | 2-2 | Seacoast United Phantoms (射正4 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Lansing-City-Football-vs-Flint",
                 "team_url": "https://betsapi.com/r/12047235/Lansing-City-Football-vs-Flint-City-Bucks",
@@ -183,7 +236,7 @@
                 "highlight": ""
               }
             ],
-            "total": 4
+            "total": 5
           },
           {
             "title": "參考",
@@ -194,6 +247,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Black-Rock-FC-vs-Seacoast-Unit",
+                "team_url": "https://betsapi.com/r/12047106/Black-Rock-FC-vs-Seacoast-United-Phantoms",
+                "cols": [
+                  "Black-Rock-FC-vs-Seacoast-Unit",
+                  "2026-07-07 08:05:01",
+                  "Black Rock FC (射正4 射偏1) | 2-2 | Seacoast United Phantoms (射正4 射偏3) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Lansing-City-Football-vs-Flint",
                 "team_url": "https://betsapi.com/r/12047235/Lansing-City-Football-vs-Flint-City-Bucks",
@@ -217,10 +281,10 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 3
           }
         ],
-        "scraped_at": "23:02:42"
+        "scraped_at": "01:15:50"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -315,7 +379,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "23:02:44"
+        "scraped_at": "01:15:51"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -410,12 +474,66 @@
             "total": 2
           }
         ],
-        "scraped_at": "23:02:46"
+        "scraped_at": "01:15:53"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
         "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Vila-Nova-vs-Sao-Bernardo-SP",
+                "team_url": "https://betsapi.com/r/11416999/Vila-Nova-vs-Sao-Bernardo-SP",
+                "cols": [
+                  "Vila-Nova-vs-Sao-Bernardo-SP",
+                  "2026-07-07 07:20:01",
+                  "Vila Nova (射正3 射偏5) | 1-1 | Sao Bernardo SP (射正4 射偏3) | 偵測時間57",
+                  "押策略二(B) Sao Bernardo SP"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Botafogo-SP-vs-Avai",
+                "team_url": "https://betsapi.com/r/11417193/Botafogo-SP-vs-Avai",
+                "cols": [
+                  "Botafogo-SP-vs-Avai",
+                  "2026-07-07 07:15:01",
+                  "Botafogo SP (射正4 射偏2) | 2-1 | Avai (射正2 射偏5) | 偵測時間57",
+                  "押策略二(A) Botafogo SP"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Botafogo SP (射正2 射偏2) | 1-0 | Avai (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          },
           {
             "title": "參考",
             "headers": [
@@ -462,13 +580,13 @@
             "total": 3
           }
         ],
-        "scraped_at": "23:02:47"
+        "scraped_at": "01:15:54"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "23:02:49"
+        "scraped_at": "01:15:56"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -483,6 +601,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Colo-Colo-vs-Deportes-Recoleta",
+                "team_url": "https://betsapi.com/r/11859308/Colo-Colo-vs-Deportes-Recoleta",
+                "cols": [
+                  "Colo-Colo-vs-Deportes-Recoleta",
+                  "2026-07-07 08:55:01",
+                  "Colo Colo (射正7 射偏10) | 2-1 | Deportes Recoleta (射正3 射偏7) | 偵測時間59",
+                  "押策略五(A) Colo Colo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Colo Colo (射正5 射偏9) | 1-1 | Deportes Recoleta (射正2 射偏7) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Portugal-vs-Spain",
                 "team_url": "https://betsapi.com/r/12148197/Portugal-vs-Spain",
@@ -589,7 +728,7 @@
                 "highlight": ""
               }
             ],
-            "total": 5
+            "total": 6
           },
           {
             "title": "參考",
@@ -600,6 +739,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "USA-vs-Belgium",
+                "team_url": "https://betsapi.com/r/12138040/USA-vs-Belgium",
+                "cols": [
+                  "USA-vs-Belgium",
+                  "2026-07-07 09:05:01",
+                  "USA (射正1 射偏2) | 1-2 | Belgium (射正5 射偏6) | 偵測時間45",
+                  "押策略五(B) Belgium"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Colo-Colo-vs-Deportes-Recoleta",
+                "team_url": "https://betsapi.com/r/11859308/Colo-Colo-vs-Deportes-Recoleta",
+                "cols": [
+                  "Colo-Colo-vs-Deportes-Recoleta",
+                  "2026-07-07 08:40:02",
+                  "Colo Colo (射正5 射偏9) | 1-1 | Deportes Recoleta (射正2 射偏7) | 偵測時間45",
+                  "押策略五(A) Colo Colo"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Portugal-vs-Spain",
                 "team_url": "https://betsapi.com/r/12148197/Portugal-vs-Spain",
@@ -634,401 +795,34 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 5
           }
         ],
-        "scraped_at": "23:02:50"
+        "scraped_at": "01:15:58"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "23:02:52"
+        "scraped_at": "01:15:59"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "陳庚溥",
-            "headers": [
-              "即時賽事 60 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Liverpool-Montevideo-Reserves-",
-                "team_url": "https://betsapi.com/r/12141899/Liverpool-Montevideo-Reserves-vs-Cerro-Largo-Reserves",
-                "cols": [
-                  "Liverpool-Montevideo-Reserves-",
-                  "2026-07-07 03:15:01",
-                  "Liverpool Montevideo Reserves (射正5 射偏1) | 3-0 | Cerro Largo Reserves (射正1 射偏1) | 偵測時間56",
-                  "押數據一(A) Liverpool Montevideo Reserves"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 1
-          }
-        ],
-        "scraped_at": "23:02:53"
+        "sections": [],
+        "scraped_at": "01:16:01"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "陳庚溥",
-            "headers": [
-              "即時賽事 60 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Lansing-City-Football-vs-Flint",
-                "team_url": "https://betsapi.com/r/12047235/Lansing-City-Football-vs-Flint-City-Bucks",
-                "cols": [
-                  "Lansing-City-Football-vs-Flint",
-                  "2026-07-07 06:15:02",
-                  "Lansing City Football (射正2 射偏0) | 1-4 | Flint City Bucks (射正12 射偏10) | 偵測時間57",
-                  "押數據二(B) Flint City Bucks"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Lansing City Football (射正2 射偏0) | 1-3 | Flint City Bucks (射正7 射偏8) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Portugal-vs-Spain",
-                "team_url": "https://betsapi.com/r/12148197/Portugal-vs-Spain",
-                "cols": [
-                  "Portugal-vs-Spain",
-                  "2026-07-07 04:20:01",
-                  "Portugal (射正2 射偏3) | 0-0 | Spain (射正3 射偏5) | 偵測時間57",
-                  "押數據二(B) Spain"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Portugal (射正2 射偏3) | 0-0 | Spain (射正3 射偏5) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Deportivo-Muniz-vs-Deportivo-E",
-                "team_url": "https://betsapi.com/r/12166421/Deportivo-Muniz-vs-Deportivo-Espanol",
-                "cols": [
-                  "Deportivo-Muniz-vs-Deportivo-E",
-                  "2026-07-07 03:25:02",
-                  "Deportivo Muniz (射正3 射偏0) | 1-0 | Deportivo Espanol (射正0 射偏3) | 偵測時間60",
-                  "押數據二(A) Deportivo Muniz"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Montevideo-Wanderers-Reserves-",
-                "team_url": "https://betsapi.com/r/12141825/Montevideo-Wanderers-Reserves-vs-Central-Espanol-Reserves",
-                "cols": [
-                  "Montevideo-Wanderers-Reserves-",
-                  "2026-07-07 03:20:01",
-                  "Montevideo Wanderers Reserves (射正2 射偏3) | 0-1 | Central Espanol Reserves (射正5 射偏3) | 偵測時間59",
-                  "押數據二(B) Central Espanol Reserves"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Brommapojkarna-vs-GAIS",
-                "team_url": "https://betsapi.com/r/11975871/Brommapojkarna-vs-GAIS",
-                "cols": [
-                  "Brommapojkarna-vs-GAIS",
-                  "2026-07-07 02:15:01",
-                  "Brommapojkarna (射正1 射偏2) | 1-1 | GAIS (射正4 射偏8) | 偵測時間58",
-                  "押數據二(B) GAIS"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Brommapojkarna (射正1 射偏2) | 1-1 | GAIS (射正4 射偏4) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "BK-Hacken-vs-Djurgarden",
-                "team_url": "https://betsapi.com/r/11975855/BK-Hacken-vs-Djurgarden",
-                "cols": [
-                  "BK-Hacken-vs-Djurgarden",
-                  "2026-07-07 02:15:01",
-                  "BK Hacken (射正4 射偏4) | 1-2 | Djurgarden (射正7 射偏5) | 偵測時間56",
-                  "押數據二(B) Djurgarden"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "BK Hacken (射正3 射偏4) | 1-2 | Djurgarden (射正6 射偏5) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Sacachispas-U20-vs-Defensores-",
-                "team_url": "https://betsapi.com/r/12166098/Sacachispas-U20-vs-Defensores-de-Glew-U20",
-                "cols": [
-                  "Sacachispas-U20-vs-Defensores-",
-                  "2026-07-07 01:30:01",
-                  "Sacachispas U20 (射正10 射偏4) | 2-1 | Defensores de Glew U20 (射正4 射偏4) | 偵測時間56",
-                  "押數據二(A) Sacachispas U20"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Sacachispas U20 (射正5 射偏2) | 1-1 | Defensores de Glew U20 (射正4 射偏3) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Suduva-Marijampole-vs-FK-Trans",
-                "team_url": "https://betsapi.com/r/11982930/Suduva-Marijampole-vs-FK-Transinvest",
-                "cols": [
-                  "Suduva-Marijampole-vs-FK-Trans",
-                  "2026-07-07 01:00:02",
-                  "Suduva Marijampole (射正3 射偏4) | 0-0 | FK Transinvest (射正0 射偏1) | 偵測時間59",
-                  "押數據二(A) Suduva Marijampole"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Suduva Marijampole (射正3 射偏3) | 0-0 | FK Transinvest (射正0 射偏1) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Partizan-Belgrade-vs-Neftchi-B",
-                "team_url": "https://betsapi.com/r/12166621/Partizan-Belgrade-vs-Neftchi-Baku",
-                "cols": [
-                  "Partizan-Belgrade-vs-Neftchi-B",
-                  "2026-07-07 00:45:01",
-                  "Partizan Belgrade (射正3 射偏4) | 1-0 | Neftchi Baku (射正1 射偏1) | 偵測時間58",
-                  "押數據二(A) Partizan Belgrade"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Soccer-Law-vs-Real-Santuario",
-                "team_url": "https://betsapi.com/r/12164339/Soccer-Law-vs-Real-Santuario",
-                "cols": [
-                  "Soccer-Law-vs-Real-Santuario",
-                  "2026-07-07 00:25:01",
-                  "Soccer Law (射正3 射偏4) | 1-0 | Real Santuario (射正2 射偏0) | 偵測時間57",
-                  "押數據二(A) Soccer Law"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Cracovia-Krakow-vs-Istanbul-Ba",
-                "team_url": "https://betsapi.com/r/12164270/Cracovia-Krakow-vs-Istanbul-Basaksehir",
-                "cols": [
-                  "Cracovia-Krakow-vs-Istanbul-Ba",
-                  "2026-07-07 00:15:02",
-                  "Cracovia Krakow (射正2 射偏1) | 2-1 | Istanbul Basaksehir (射正5 射偏9) | 偵測時間57",
-                  "押數據二(B) Istanbul Basaksehir"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Cracovia Krakow (射正2 射偏1) | 2-1 | Istanbul Basaksehir (射正5 射偏5) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 11
-          },
-          {
-            "title": "參考",
-            "headers": [
-              "即時賽事 45 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Lansing-City-Football-vs-Flint",
-                "team_url": "https://betsapi.com/r/12047235/Lansing-City-Football-vs-Flint-City-Bucks",
-                "cols": [
-                  "Lansing-City-Football-vs-Flint",
-                  "2026-07-07 06:00:02",
-                  "Lansing City Football (射正2 射偏0) | 1-3 | Flint City Bucks (射正7 射偏8) | 偵測時間45",
-                  "押數據二(B) Flint City Bucks"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Portugal-vs-Spain",
-                "team_url": "https://betsapi.com/r/12148197/Portugal-vs-Spain",
-                "cols": [
-                  "Portugal-vs-Spain",
-                  "2026-07-07 04:05:01",
-                  "Portugal (射正2 射偏3) | 0-0 | Spain (射正3 射偏5) | 偵測時間45",
-                  "押數據二(B) Spain"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Brommapojkarna-vs-GAIS",
-                "team_url": "https://betsapi.com/r/11975871/Brommapojkarna-vs-GAIS",
-                "cols": [
-                  "Brommapojkarna-vs-GAIS",
-                  "2026-07-07 02:00:02",
-                  "Brommapojkarna (射正1 射偏2) | 1-1 | GAIS (射正4 射偏4) | 偵測時間45",
-                  "押數據二(B) GAIS"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "BK-Hacken-vs-Djurgarden",
-                "team_url": "https://betsapi.com/r/11975855/BK-Hacken-vs-Djurgarden",
-                "cols": [
-                  "BK-Hacken-vs-Djurgarden",
-                  "2026-07-07 02:00:02",
-                  "BK Hacken (射正3 射偏4) | 1-2 | Djurgarden (射正6 射偏5) | 偵測時間45",
-                  "押數據二(B) Djurgarden"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Sacachispas-U20-vs-Defensores-",
-                "team_url": "https://betsapi.com/r/12166098/Sacachispas-U20-vs-Defensores-de-Glew-U20",
-                "cols": [
-                  "Sacachispas-U20-vs-Defensores-",
-                  "2026-07-07 01:15:02",
-                  "Sacachispas U20 (射正5 射偏2) | 1-1 | Defensores de Glew U20 (射正4 射偏3) | 偵測時間45",
-                  "押數據二(A) Sacachispas U20"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Suduva-Marijampole-vs-FK-Trans",
-                "team_url": "https://betsapi.com/r/11982930/Suduva-Marijampole-vs-FK-Transinvest",
-                "cols": [
-                  "Suduva-Marijampole-vs-FK-Trans",
-                  "2026-07-07 00:45:01",
-                  "Suduva Marijampole (射正3 射偏3) | 0-0 | FK Transinvest (射正0 射偏1) | 偵測時間45",
-                  "押數據二(A) Suduva Marijampole"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Cracovia-Krakow-vs-Istanbul-Ba",
-                "team_url": "https://betsapi.com/r/12164270/Cracovia-Krakow-vs-Istanbul-Basaksehir",
-                "cols": [
-                  "Cracovia-Krakow-vs-Istanbul-Ba",
-                  "2026-07-07 00:00:03",
-                  "Cracovia Krakow (射正2 射偏1) | 2-1 | Istanbul Basaksehir (射正5 射偏5) | 偵測時間45",
-                  "押數據二(B) Istanbul Basaksehir"
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 7
-          }
-        ],
-        "scraped_at": "23:02:55"
+        "sections": [],
+        "scraped_at": "01:16:02"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "23:02:57"
+        "scraped_at": "01:16:04"
       }
     }
   }
