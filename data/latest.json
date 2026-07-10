@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-10 06:26:52",
+  "updated_at": "2026-07-10 10:08:09",
   "data": {
-    "timestamp": "2026-07-10 06:26:52",
+    "timestamp": "2026-07-10 10:08:09",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "06:26:54"
+        "scraped_at": "10:08:11"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -251,7 +251,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "06:26:56"
+        "scraped_at": "10:08:12"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -266,6 +266,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Wolfsberger-AC-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12165941/Wolfsberger-AC-vs-FC-Kharkiv",
+                "cols": [
+                  "Wolfsberger-AC-vs-FC-Kharkiv",
+                  "2026-07-10 17:45:01",
+                  "Wolfsberger AC (射正6 射偏7) | 2-2 | FC Kharkiv (射正4 射偏2) | 偵測時間58",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Wolfsberger AC (射正5 射偏5) | 2-2 | FC Kharkiv (射正4 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Lettir-Reykjavik-vs-KB-Breidho",
                 "team_url": "https://betsapi.com/r/12190546/Lettir-Reykjavik-vs-KB-Breidholt",
@@ -372,7 +393,7 @@
                 "highlight": ""
               }
             ],
-            "total": 5
+            "total": 6
           },
           {
             "title": "參考",
@@ -383,6 +404,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Rodez-Aveyron-vs-SC-Bastia",
+                "team_url": "https://betsapi.com/r/12190337/Rodez-Aveyron-vs-SC-Bastia",
+                "cols": [
+                  "Rodez-Aveyron-vs-SC-Bastia",
+                  "2026-07-10 18:05:01",
+                  "Rodez Aveyron (射正4 射偏2) | 3-1 | SC Bastia (射正2 射偏1) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Wolfsberger-AC-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12165941/Wolfsberger-AC-vs-FC-Kharkiv",
+                "cols": [
+                  "Wolfsberger-AC-vs-FC-Kharkiv",
+                  "2026-07-10 17:30:01",
+                  "Wolfsberger AC (射正5 射偏5) | 2-2 | FC Kharkiv (射正4 射偏1) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Lettir-Reykjavik-vs-KB-Breidho",
                 "team_url": "https://betsapi.com/r/12190546/Lettir-Reykjavik-vs-KB-Breidholt",
@@ -417,16 +460,73 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 5
           }
         ],
-        "scraped_at": "06:26:58"
+        "scraped_at": "10:08:14"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "06:26:59"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時大小 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Bnei-Yehuda-Tel-Aviv-vs-Hapoel",
+                "team_url": "https://betsapi.com/r/12197873/Bnei-Yehuda-Tel-Aviv-vs-Hapoel-Jerusalem",
+                "cols": [
+                  "Bnei-Yehuda-Tel-Aviv-vs-Hapoel",
+                  "2026-07-10 15:50:01",
+                  "Bnei Yehuda Tel Aviv (射正3 射偏1) | 1-1 | Hapoel Jerusalem (射正4 射偏1) | 偵測時間56",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Bnei Yehuda Tel Aviv (射正3 射偏1) | 1-1 | Hapoel Jerusalem (射正4 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Bnei-Yehuda-Tel-Aviv-vs-Hapoel",
+                "team_url": "https://betsapi.com/r/12197873/Bnei-Yehuda-Tel-Aviv-vs-Hapoel-Jerusalem",
+                "cols": [
+                  "Bnei-Yehuda-Tel-Aviv-vs-Hapoel",
+                  "2026-07-10 15:35:02",
+                  "Bnei Yehuda Tel Aviv (射正3 射偏1) | 1-1 | Hapoel Jerusalem (射正4 射偏1) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "10:08:16"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -559,6 +659,17 @@
             ],
             "matches": [
               {
+                "team": "Rodez-Aveyron-vs-SC-Bastia",
+                "team_url": "https://betsapi.com/r/12190337/Rodez-Aveyron-vs-SC-Bastia",
+                "cols": [
+                  "Rodez-Aveyron-vs-SC-Bastia",
+                  "2026-07-10 18:05:01",
+                  "Rodez Aveyron (射正4 射偏2) | 3-1 | SC Bastia (射正2 射偏1) | 偵測時間45",
+                  "押策略一2(A) Rodez Aveyron"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Hajduk-Split-vs-MSK-Zilina",
                 "team_url": "https://betsapi.com/r/12052186/Hajduk-Split-vs-MSK-Zilina",
                 "cols": [
@@ -592,10 +703,10 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 4
           }
         ],
-        "scraped_at": "06:27:01"
+        "scraped_at": "10:08:17"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -686,6 +797,17 @@
             ],
             "matches": [
               {
+                "team": "Wieczysta-Krakow-vs-Ruch-Chorz",
+                "team_url": "https://betsapi.com/r/12193266/Wieczysta-Krakow-vs-Ruch-Chorzow",
+                "cols": [
+                  "Wieczysta-Krakow-vs-Ruch-Chorz",
+                  "2026-07-10 18:05:01",
+                  "Wieczysta Krakow (射正1 射偏2) | 0-0 | Ruch Chorzow (射正0 射偏5) | 偵測時間45",
+                  "押策略二(A) Wieczysta Krakow"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Flamengo-(W)-vs-Club-Atletico-",
                 "team_url": "https://betsapi.com/r/12183399/Flamengo-(W)-vs-Club-Atletico-Penarol-(W)",
                 "cols": [
@@ -752,10 +874,10 @@
                 "highlight": ""
               }
             ],
-            "total": 6
+            "total": 7
           }
         ],
-        "scraped_at": "06:27:03"
+        "scraped_at": "10:08:19"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -785,7 +907,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "06:27:04"
+        "scraped_at": "10:08:21"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -800,6 +922,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Wolfsberger-AC-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12165941/Wolfsberger-AC-vs-FC-Kharkiv",
+                "cols": [
+                  "Wolfsberger-AC-vs-FC-Kharkiv",
+                  "2026-07-10 17:45:01",
+                  "Wolfsberger AC (射正6 射偏7) | 2-2 | FC Kharkiv (射正4 射偏2) | 偵測時間58",
+                  "押策略五(A) Wolfsberger AC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ludogorets-Razgrad-vs-Septemvr",
+                "team_url": "https://betsapi.com/r/12163993/Ludogorets-Razgrad-vs-Septemvri-Sofia",
+                "cols": [
+                  "Ludogorets-Razgrad-vs-Septemvr",
+                  "2026-07-10 16:55:01",
+                  "Ludogorets Razgrad (射正1 射偏1) | 0-0 | Septemvri Sofia (射正3 射偏7) | 偵測時間59",
+                  "押策略五(B) Septemvri Sofia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "New-England-FC-vs-Albany-Rush",
                 "team_url": "https://betsapi.com/r/12047215/New-England-FC-vs-Albany-Rush",
@@ -948,27 +1112,6 @@
                 "highlight": ""
               },
               {
-                "team": "CSKA-Sofia-vs-Derry-City",
-                "team_url": "https://betsapi.com/r/12051620/CSKA-Sofia-vs-Derry-City",
-                "cols": [
-                  "CSKA-Sofia-vs-Derry-City",
-                  "2026-07-10 03:15:01",
-                  "CSKA Sofia (射正4 射偏5) | 3-1 | Derry City (射正1 射偏1) | 偵測時間56",
-                  "押策略五(A) CSKA Sofia"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "CSKA Sofia (射正3 射偏3) | 2-1 | Derry City (射正1 射偏1) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Hajduk-Split-vs-MSK-Zilina",
                 "team_url": "https://betsapi.com/r/12052186/Hajduk-Split-vs-MSK-Zilina",
                 "cols": [
@@ -985,6 +1128,27 @@
                 "cols": [
                   "",
                   "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CSKA-Sofia-vs-Derry-City",
+                "team_url": "https://betsapi.com/r/12051620/CSKA-Sofia-vs-Derry-City",
+                "cols": [
+                  "CSKA-Sofia-vs-Derry-City",
+                  "2026-07-10 03:15:01",
+                  "CSKA Sofia (射正4 射偏5) | 3-1 | Derry City (射正1 射偏1) | 偵測時間56",
+                  "押策略五(A) CSKA Sofia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CSKA Sofia (射正3 射偏3) | 2-1 | Derry City (射正1 射偏1) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1011,27 +1175,6 @@
                 "highlight": ""
               },
               {
-                "team": "Marsaxlokk-FC-vs-Pyunik-Yereva",
-                "team_url": "https://betsapi.com/r/12052380/Marsaxlokk-FC-vs-Pyunik-Yerevan",
-                "cols": [
-                  "Marsaxlokk-FC-vs-Pyunik-Yereva",
-                  "2026-07-10 02:15:02",
-                  "Marsaxlokk FC (射正0 射偏0) | 0-2 | Pyunik Yerevan (射正4 射偏2) | 偵測時間56",
-                  "押策略五(B) Pyunik Yerevan"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Marsaxlokk FC (射正0 射偏0) | 0-1 | Pyunik Yerevan (射正3 射偏1) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Sheriff-Tiraspol-vs-NK-Alumini",
                 "team_url": "https://betsapi.com/r/12069605/Sheriff-Tiraspol-vs-NK-Aluminij",
                 "cols": [
@@ -1048,6 +1191,27 @@
                 "cols": [
                   "",
                   "Sheriff Tiraspol (射正2 射偏6) | 0-0 | NK Aluminij (射正0 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Marsaxlokk-FC-vs-Pyunik-Yereva",
+                "team_url": "https://betsapi.com/r/12052380/Marsaxlokk-FC-vs-Pyunik-Yerevan",
+                "cols": [
+                  "Marsaxlokk-FC-vs-Pyunik-Yereva",
+                  "2026-07-10 02:15:02",
+                  "Marsaxlokk FC (射正0 射偏0) | 0-2 | Pyunik Yerevan (射正4 射偏2) | 偵測時間56",
+                  "押策略五(B) Pyunik Yerevan"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Marsaxlokk FC (射正0 射偏0) | 0-1 | Pyunik Yerevan (射正3 射偏1) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1137,7 +1301,7 @@
                 "highlight": ""
               }
             ],
-            "total": 16
+            "total": 18
           },
           {
             "title": "參考",
@@ -1148,6 +1312,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Rodez-Aveyron-vs-SC-Bastia",
+                "team_url": "https://betsapi.com/r/12190337/Rodez-Aveyron-vs-SC-Bastia",
+                "cols": [
+                  "Rodez-Aveyron-vs-SC-Bastia",
+                  "2026-07-10 18:05:01",
+                  "Rodez Aveyron (射正4 射偏2) | 3-1 | SC Bastia (射正2 射偏1) | 偵測時間45",
+                  "押策略五(A) Rodez Aveyron"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Trinity-Zlin-vs-Dukla-Bansk",
+                "team_url": "https://betsapi.com/r/12166967/FC-Trinity-Zlin-vs-Dukla-Banska-Bystrica",
+                "cols": [
+                  "FC-Trinity-Zlin-vs-Dukla-Bansk",
+                  "2026-07-10 18:00:02",
+                  "FC Trinity Zlin (射正3 射偏5) | 1-1 | Dukla Banska Bystrica (射正2 射偏1) | 偵測時間45",
+                  "押策略五(A) FC Trinity Zlin"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Sagicor-South-East-FC-vs-We-Un",
                 "team_url": "https://betsapi.com/r/12191116/Sagicor-South-East-FC-vs-We-United-FC",
@@ -1259,17 +1445,6 @@
                 "highlight": ""
               },
               {
-                "team": "Sheriff-Tiraspol-vs-NK-Alumini",
-                "team_url": "https://betsapi.com/r/12069605/Sheriff-Tiraspol-vs-NK-Aluminij",
-                "cols": [
-                  "Sheriff-Tiraspol-vs-NK-Alumini",
-                  "2026-07-10 02:00:02",
-                  "Sheriff Tiraspol (射正2 射偏6) | 0-0 | NK Aluminij (射正0 射偏3) | 偵測時間45",
-                  "押策略五(A) Sheriff Tiraspol"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Marsaxlokk-FC-vs-Pyunik-Yereva",
                 "team_url": "https://betsapi.com/r/12052380/Marsaxlokk-FC-vs-Pyunik-Yerevan",
                 "cols": [
@@ -1277,6 +1452,17 @@
                   "2026-07-10 02:00:02",
                   "Marsaxlokk FC (射正0 射偏0) | 0-1 | Pyunik Yerevan (射正3 射偏1) | 偵測時間45",
                   "押策略五(B) Pyunik Yerevan"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sheriff-Tiraspol-vs-NK-Alumini",
+                "team_url": "https://betsapi.com/r/12069605/Sheriff-Tiraspol-vs-NK-Aluminij",
+                "cols": [
+                  "Sheriff-Tiraspol-vs-NK-Alumini",
+                  "2026-07-10 02:00:02",
+                  "Sheriff Tiraspol (射正2 射偏6) | 0-0 | NK Aluminij (射正0 射偏3) | 偵測時間45",
+                  "押策略五(A) Sheriff Tiraspol"
                 ],
                 "highlight": ""
               },
@@ -1325,10 +1511,10 @@
                 "highlight": ""
               }
             ],
-            "total": 16
+            "total": 18
           }
         ],
-        "scraped_at": "06:27:06"
+        "scraped_at": "10:08:23"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -1412,7 +1598,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "06:27:08"
+        "scraped_at": "10:08:24"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -1427,6 +1613,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Bnei-Yehuda-Tel-Aviv-vs-Hapoel",
+                "team_url": "https://betsapi.com/r/12197873/Bnei-Yehuda-Tel-Aviv-vs-Hapoel-Jerusalem",
+                "cols": [
+                  "Bnei-Yehuda-Tel-Aviv-vs-Hapoel",
+                  "2026-07-10 15:50:01",
+                  "Bnei Yehuda Tel Aviv (射正3 射偏1) | 1-1 | Hapoel Jerusalem (射正4 射偏1) | 偵測時間56",
+                  "押數據一(B) Hapoel Jerusalem"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Bnei Yehuda Tel Aviv (射正3 射偏1) | 1-1 | Hapoel Jerusalem (射正4 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Marsaxlokk-FC-vs-Pyunik-Yereva",
                 "team_url": "https://betsapi.com/r/12052380/Marsaxlokk-FC-vs-Pyunik-Yerevan",
@@ -1491,7 +1698,7 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 4
           },
           {
             "title": "參考",
@@ -1502,6 +1709,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Rodez-Aveyron-vs-SC-Bastia",
+                "team_url": "https://betsapi.com/r/12190337/Rodez-Aveyron-vs-SC-Bastia",
+                "cols": [
+                  "Rodez-Aveyron-vs-SC-Bastia",
+                  "2026-07-10 18:05:01",
+                  "Rodez Aveyron (射正4 射偏2) | 3-1 | SC Bastia (射正2 射偏1) | 偵測時間45",
+                  "押數據一(A) Rodez Aveyron"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bnei-Yehuda-Tel-Aviv-vs-Hapoel",
+                "team_url": "https://betsapi.com/r/12197873/Bnei-Yehuda-Tel-Aviv-vs-Hapoel-Jerusalem",
+                "cols": [
+                  "Bnei-Yehuda-Tel-Aviv-vs-Hapoel",
+                  "2026-07-10 15:35:02",
+                  "Bnei Yehuda Tel Aviv (射正3 射偏1) | 1-1 | Hapoel Jerusalem (射正4 射偏1) | 偵測時間45",
+                  "押數據一(B) Hapoel Jerusalem"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Flamengo-(W)-vs-Club-Atletico-",
                 "team_url": "https://betsapi.com/r/12183399/Flamengo-(W)-vs-Club-Atletico-Penarol-(W)",
@@ -1547,10 +1776,10 @@
                 "highlight": ""
               }
             ],
-            "total": 4
+            "total": 6
           }
         ],
-        "scraped_at": "06:27:10"
+        "scraped_at": "10:08:26"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -1565,6 +1794,69 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Wolfsberger-AC-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12165941/Wolfsberger-AC-vs-FC-Kharkiv",
+                "cols": [
+                  "Wolfsberger-AC-vs-FC-Kharkiv",
+                  "2026-07-10 17:45:01",
+                  "Wolfsberger AC (射正6 射偏7) | 2-2 | FC Kharkiv (射正4 射偏2) | 偵測時間58",
+                  "押數據二(A) Wolfsberger AC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Wolfsberger AC (射正5 射偏5) | 2-2 | FC Kharkiv (射正4 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ludogorets-Razgrad-vs-Septemvr",
+                "team_url": "https://betsapi.com/r/12163993/Ludogorets-Razgrad-vs-Septemvri-Sofia",
+                "cols": [
+                  "Ludogorets-Razgrad-vs-Septemvr",
+                  "2026-07-10 16:55:01",
+                  "Ludogorets Razgrad (射正1 射偏1) | 0-0 | Septemvri Sofia (射正3 射偏7) | 偵測時間59",
+                  "押數據二(B) Septemvri Sofia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "MS-Ashdod-vs-Ironi-Modiin",
+                "team_url": "https://betsapi.com/r/12197875/MS-Ashdod-vs-Ironi-Modiin",
+                "cols": [
+                  "MS-Ashdod-vs-Ironi-Modiin",
+                  "2026-07-10 16:15:01",
+                  "MS Ashdod (射正4 射偏7) | 0-2 | Ironi Modiin (射正3 射偏7) | 偵測時間57",
+                  "押數據二(A) MS Ashdod"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "New-England-FC-vs-Albany-Rush",
                 "team_url": "https://betsapi.com/r/12047215/New-England-FC-vs-Albany-Rush",
@@ -1734,27 +2026,6 @@
                 "highlight": ""
               },
               {
-                "team": "Vllaznia-Shkoder-vs-Malisheva",
-                "team_url": "https://betsapi.com/r/12053275/Vllaznia-Shkoder-vs-Malisheva",
-                "cols": [
-                  "Vllaznia-Shkoder-vs-Malisheva",
-                  "2026-07-10 03:15:01",
-                  "Vllaznia Shkoder (射正4 射偏6) | 2-1 | Malisheva (射正2 射偏3) | 偵測時間57",
-                  "押數據二(A) Vllaznia Shkoder"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Vllaznia Shkoder (射正3 射偏5) | 1-1 | Malisheva (射正2 射偏3) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Hajduk-Split-vs-MSK-Zilina",
                 "team_url": "https://betsapi.com/r/12052186/Hajduk-Split-vs-MSK-Zilina",
                 "cols": [
@@ -1771,6 +2042,27 @@
                 "cols": [
                   "",
                   "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Vllaznia-Shkoder-vs-Malisheva",
+                "team_url": "https://betsapi.com/r/12053275/Vllaznia-Shkoder-vs-Malisheva",
+                "cols": [
+                  "Vllaznia-Shkoder-vs-Malisheva",
+                  "2026-07-10 03:15:01",
+                  "Vllaznia Shkoder (射正4 射偏6) | 2-1 | Malisheva (射正2 射偏3) | 偵測時間57",
+                  "押數據二(A) Vllaznia Shkoder"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Vllaznia Shkoder (射正3 射偏5) | 1-1 | Malisheva (射正2 射偏3) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -2049,7 +2341,7 @@
                 "highlight": ""
               }
             ],
-            "total": 23
+            "total": 26
           },
           {
             "title": "參考",
@@ -2060,6 +2352,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "FC-Trinity-Zlin-vs-Dukla-Bansk",
+                "team_url": "https://betsapi.com/r/12166967/FC-Trinity-Zlin-vs-Dukla-Banska-Bystrica",
+                "cols": [
+                  "FC-Trinity-Zlin-vs-Dukla-Bansk",
+                  "2026-07-10 18:00:02",
+                  "FC Trinity Zlin (射正3 射偏5) | 1-1 | Dukla Banska Bystrica (射正2 射偏1) | 偵測時間45",
+                  "押數據二(A) FC Trinity Zlin"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Wolfsberger-AC-vs-FC-Kharkiv",
+                "team_url": "https://betsapi.com/r/12165941/Wolfsberger-AC-vs-FC-Kharkiv",
+                "cols": [
+                  "Wolfsberger-AC-vs-FC-Kharkiv",
+                  "2026-07-10 17:30:01",
+                  "Wolfsberger AC (射正5 射偏5) | 2-2 | FC Kharkiv (射正4 射偏1) | 偵測時間45",
+                  "押數據二(A) Wolfsberger AC"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "New-England-FC-vs-Albany-Rush",
                 "team_url": "https://betsapi.com/r/12047215/New-England-FC-vs-Albany-Rush",
@@ -2182,16 +2496,16 @@
                 "highlight": ""
               }
             ],
-            "total": 11
+            "total": 13
           }
         ],
-        "scraped_at": "06:27:11"
+        "scraped_at": "10:08:28"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "06:27:13"
+        "scraped_at": "10:08:29"
       }
     }
   }
