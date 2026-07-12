@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-12 16:53:51",
+  "updated_at": "2026-07-12 17:56:18",
   "data": {
-    "timestamp": "2026-07-12 16:53:51",
+    "timestamp": "2026-07-12 17:56:18",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:53:53"
+        "scraped_at": "17:56:20"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -24,6 +24,69 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "CD-Antofagasta-vs-Cobresal",
+                "team_url": "https://betsapi.com/r/12129567/CD-Antofagasta-vs-Cobresal",
+                "cols": [
+                  "CD-Antofagasta-vs-Cobresal",
+                  "2026-07-13 01:45:01",
+                  "CD Antofagasta (射正4 射偏3) | 1-0 | Cobresal (射正0 射偏2) | 偵測時間56",
+                  "押獨贏二(A) CD Antofagasta"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "RFS-vs-FK-Jelgava",
+                "team_url": "https://betsapi.com/r/12107379/RFS-vs-FK-Jelgava",
+                "cols": [
+                  "RFS-vs-FK-Jelgava",
+                  "2026-07-13 01:20:02",
+                  "RFS (射正11 射偏10) | 2-0 | FK Jelgava (射正0 射偏2) | 偵測時間60",
+                  "押獨贏二(A) RFS"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "RFS (射正10 射偏8) | 1-0 | FK Jelgava (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "JK-Nomme-United-II-vs-FC-Flora",
+                "team_url": "https://betsapi.com/r/11411459/JK-Nomme-United-II-vs-FC-Flora-Tallinn-II",
+                "cols": [
+                  "JK-Nomme-United-II-vs-FC-Flora",
+                  "2026-07-13 01:15:01",
+                  "JK Nomme United II (射正2 射偏4) | 0-1 | FC Flora Tallinn II (射正4 射偏6) | 偵測時間56",
+                  "押獨贏二(B) FC Flora Tallinn II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "JK Nomme United II (射正1 射偏3) | 0-1 | FC Flora Tallinn II (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Narpes-Kraft-vs-VPS-J",
                 "team_url": "https://betsapi.com/r/11484905/Narpes-Kraft-vs-VPS-J",
@@ -46,7 +109,7 @@
                 "highlight": ""
               }
             ],
-            "total": 1
+            "total": 4
           },
           {
             "title": "參考",
@@ -62,7 +125,7 @@
                 "team_url": "https://betsapi.com/r/12107379/RFS-vs-FK-Jelgava",
                 "cols": [
                   "RFS-vs-FK-Jelgava",
-                  "2026-07-13 00:50:01",
+                  "2026-07-13 01:05:01",
                   "RFS (射正10 射偏8) | 1-0 | FK Jelgava (射正0 射偏2) | 偵測時間45",
                   "押獨贏二(A) RFS"
                 ],
@@ -73,7 +136,7 @@
                 "team_url": "https://betsapi.com/r/11411459/JK-Nomme-United-II-vs-FC-Flora-Tallinn-II",
                 "cols": [
                   "JK-Nomme-United-II-vs-FC-Flora",
-                  "2026-07-13 00:50:01",
+                  "2026-07-13 01:00:02",
                   "JK Nomme United II (射正1 射偏3) | 0-1 | FC Flora Tallinn II (射正3 射偏4) | 偵測時間45",
                   "押獨贏二(B) FC Flora Tallinn II"
                 ],
@@ -116,7 +179,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "16:53:54"
+        "scraped_at": "17:56:21"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -154,9 +217,32 @@
               }
             ],
             "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "CFD-La-Nororiental-vs-Molino-V",
+                "team_url": "https://betsapi.com/r/12209211/CFD-La-Nororiental-vs-Molino-Viejo",
+                "cols": [
+                  "CFD-La-Nororiental-vs-Molino-V",
+                  "2026-07-13 01:55:02",
+                  "CFD La Nororiental (射正0 射偏0) | 0-3 | Molino Viejo (射正6 射偏4) | 偵測時間43",
+                  "押大分二"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
           }
         ],
-        "scraped_at": "16:53:56"
+        "scraped_at": "17:56:23"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -230,7 +316,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "16:53:57"
+        "scraped_at": "17:56:25"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -245,6 +331,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "CD-Antofagasta-vs-Cobresal",
+                "team_url": "https://betsapi.com/r/12129567/CD-Antofagasta-vs-Cobresal",
+                "cols": [
+                  "CD-Antofagasta-vs-Cobresal",
+                  "2026-07-13 01:45:01",
+                  "CD Antofagasta (射正4 射偏3) | 1-0 | Cobresal (射正0 射偏2) | 偵測時間56",
+                  "押策略一2(A) CD Antofagasta"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CD Antofagasta (射正4 射偏1) | 1-0 | Cobresal (射正0 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Liverpool-Montevideo-vs-Cerro",
                 "team_url": "https://betsapi.com/r/12135960/Liverpool-Montevideo-vs-Cerro",
@@ -288,7 +395,7 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 3
           },
           {
             "title": "參考",
@@ -299,6 +406,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "CFD-La-Nororiental-vs-Molino-V",
+                "team_url": "https://betsapi.com/r/12209211/CFD-La-Nororiental-vs-Molino-Viejo",
+                "cols": [
+                  "CFD-La-Nororiental-vs-Molino-V",
+                  "2026-07-13 01:55:02",
+                  "CFD La Nororiental (射正0 射偏0) | 0-3 | Molino Viejo (射正6 射偏4) | 偵測時間43",
+                  "押策略一2(B) Molino Viejo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CD-Antofagasta-vs-Cobresal",
+                "team_url": "https://betsapi.com/r/12129567/CD-Antofagasta-vs-Cobresal",
+                "cols": [
+                  "CD-Antofagasta-vs-Cobresal",
+                  "2026-07-13 01:30:02",
+                  "CD Antofagasta (射正4 射偏1) | 1-0 | Cobresal (射正0 射偏0) | 偵測時間45",
+                  "押策略一2(A) CD Antofagasta"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Rosenborg-vs-Kristiansund-BK",
                 "team_url": "https://betsapi.com/r/11162988/Rosenborg-vs-Kristiansund-BK",
@@ -322,10 +451,10 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 4
           }
         ],
-        "scraped_at": "16:53:59"
+        "scraped_at": "17:56:26"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -388,13 +517,13 @@
             "total": 1
           }
         ],
-        "scraped_at": "16:54:01"
+        "scraped_at": "17:56:28"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:54:02"
+        "scraped_at": "17:56:29"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -409,6 +538,69 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "CD-Antofagasta-vs-Cobresal",
+                "team_url": "https://betsapi.com/r/12129567/CD-Antofagasta-vs-Cobresal",
+                "cols": [
+                  "CD-Antofagasta-vs-Cobresal",
+                  "2026-07-13 01:45:01",
+                  "CD Antofagasta (射正4 射偏3) | 1-0 | Cobresal (射正0 射偏2) | 偵測時間56",
+                  "押策略五(A) CD Antofagasta"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "RFS-vs-FK-Jelgava",
+                "team_url": "https://betsapi.com/r/12107379/RFS-vs-FK-Jelgava",
+                "cols": [
+                  "RFS-vs-FK-Jelgava",
+                  "2026-07-13 01:20:02",
+                  "RFS (射正11 射偏10) | 2-0 | FK Jelgava (射正0 射偏2) | 偵測時間60",
+                  "押策略五(A) RFS"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "RFS (射正10 射偏8) | 1-0 | FK Jelgava (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "JK-Nomme-United-II-vs-FC-Flora",
+                "team_url": "https://betsapi.com/r/11411459/JK-Nomme-United-II-vs-FC-Flora-Tallinn-II",
+                "cols": [
+                  "JK-Nomme-United-II-vs-FC-Flora",
+                  "2026-07-13 01:15:01",
+                  "JK Nomme United II (射正2 射偏4) | 0-1 | FC Flora Tallinn II (射正4 射偏6) | 偵測時間56",
+                  "押策略五(B) FC Flora Tallinn II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Liverpool-Montevideo-vs-Cerro",
                 "team_url": "https://betsapi.com/r/12135960/Liverpool-Montevideo-vs-Cerro",
@@ -494,7 +686,7 @@
                 "highlight": ""
               }
             ],
-            "total": 4
+            "total": 7
           },
           {
             "title": "參考",
@@ -510,7 +702,7 @@
                 "team_url": "https://betsapi.com/r/12107379/RFS-vs-FK-Jelgava",
                 "cols": [
                   "RFS-vs-FK-Jelgava",
-                  "2026-07-13 00:50:01",
+                  "2026-07-13 01:05:01",
                   "RFS (射正10 射偏8) | 1-0 | FK Jelgava (射正0 射偏2) | 偵測時間45",
                   "押策略五(A) RFS"
                 ],
@@ -564,13 +756,13 @@
             "total": 5
           }
         ],
-        "scraped_at": "16:54:04"
+        "scraped_at": "17:56:31"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:54:06"
+        "scraped_at": "17:56:32"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -644,7 +836,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "16:54:08"
+        "scraped_at": "17:56:34"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -659,6 +851,69 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "CD-Antofagasta-vs-Cobresal",
+                "team_url": "https://betsapi.com/r/12129567/CD-Antofagasta-vs-Cobresal",
+                "cols": [
+                  "CD-Antofagasta-vs-Cobresal",
+                  "2026-07-13 01:45:01",
+                  "CD Antofagasta (射正4 射偏3) | 1-0 | Cobresal (射正0 射偏2) | 偵測時間56",
+                  "押數據二(A) CD Antofagasta"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CD Antofagasta (射正4 射偏1) | 1-0 | Cobresal (射正0 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "RFS-vs-FK-Jelgava",
+                "team_url": "https://betsapi.com/r/12107379/RFS-vs-FK-Jelgava",
+                "cols": [
+                  "RFS-vs-FK-Jelgava",
+                  "2026-07-13 01:20:02",
+                  "RFS (射正11 射偏10) | 2-0 | FK Jelgava (射正0 射偏2) | 偵測時間60",
+                  "押數據二(A) RFS"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "RFS (射正10 射偏8) | 1-0 | FK Jelgava (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "JK-Nomme-United-II-vs-FC-Flora",
+                "team_url": "https://betsapi.com/r/11411459/JK-Nomme-United-II-vs-FC-Flora-Tallinn-II",
+                "cols": [
+                  "JK-Nomme-United-II-vs-FC-Flora",
+                  "2026-07-13 01:15:01",
+                  "JK Nomme United II (射正2 射偏4) | 0-1 | FC Flora Tallinn II (射正4 射偏6) | 偵測時間56",
+                  "押數據二(B) FC Flora Tallinn II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "JK Nomme United II (射正1 射偏3) | 0-1 | FC Flora Tallinn II (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Hercules-II-vs-HauPa",
                 "team_url": "https://betsapi.com/r/12214274/Hercules-II-vs-HauPa",
@@ -786,7 +1041,7 @@
                 "highlight": ""
               }
             ],
-            "total": 6
+            "total": 9
           },
           {
             "title": "參考",
@@ -798,11 +1053,66 @@
             ],
             "matches": [
               {
+                "team": "FC-Milsami-vs-Dacia-Buiucani",
+                "team_url": "https://betsapi.com/r/12124959/FC-Milsami-vs-Dacia-Buiucani",
+                "cols": [
+                  "FC-Milsami-vs-Dacia-Buiucani",
+                  "2026-07-13 01:55:02",
+                  "FC Milsami (射正3 射偏3) | 0-0 | Dacia Buiucani (射正0 射偏3) | 偵測時間45",
+                  "押數據二(A) FC Milsami"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Juventud-Unida-San-Miguel-vs-C",
+                "team_url": "https://betsapi.com/r/11181024/Juventud-Unida-San-Miguel-vs-CA-Lugano",
+                "cols": [
+                  "Juventud-Unida-San-Miguel-vs-C",
+                  "2026-07-13 01:55:02",
+                  "Juventud Unida San Miguel (射正0 射偏2) | 0-0 | CA Lugano (射正3 射偏3) | 偵測時間45",
+                  "押數據二(B) CA Lugano"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CFD-La-Nororiental-vs-Molino-V",
+                "team_url": "https://betsapi.com/r/12209211/CFD-La-Nororiental-vs-Molino-Viejo",
+                "cols": [
+                  "CFD-La-Nororiental-vs-Molino-V",
+                  "2026-07-13 01:55:02",
+                  "CFD La Nororiental (射正0 射偏0) | 0-3 | Molino Viejo (射正6 射偏4) | 偵測時間43",
+                  "押數據二(B) Molino Viejo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CD-Antofagasta-vs-Cobresal",
+                "team_url": "https://betsapi.com/r/12129567/CD-Antofagasta-vs-Cobresal",
+                "cols": [
+                  "CD-Antofagasta-vs-Cobresal",
+                  "2026-07-13 01:30:02",
+                  "CD Antofagasta (射正4 射偏1) | 1-0 | Cobresal (射正0 射偏0) | 偵測時間45",
+                  "押數據二(A) CD Antofagasta"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sporting-Cristal-Reserves-vs-S",
+                "team_url": "https://betsapi.com/r/12214144/Sporting-Cristal-Reserves-vs-Sport-Boys-Reserves",
+                "cols": [
+                  "Sporting-Cristal-Reserves-vs-S",
+                  "2026-07-13 01:10:02",
+                  "Sporting Cristal Reserves (射正2 射偏5) | 1-1 | Sport Boys Reserves (射正3 射偏7) | 偵測時間45",
+                  "押數據二(B) Sport Boys Reserves"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "RFS-vs-FK-Jelgava",
                 "team_url": "https://betsapi.com/r/12107379/RFS-vs-FK-Jelgava",
                 "cols": [
                   "RFS-vs-FK-Jelgava",
-                  "2026-07-13 00:50:01",
+                  "2026-07-13 01:05:01",
                   "RFS (射正10 射偏8) | 1-0 | FK Jelgava (射正0 射偏2) | 偵測時間45",
                   "押數據二(A) RFS"
                 ],
@@ -813,7 +1123,7 @@
                 "team_url": "https://betsapi.com/r/11411459/JK-Nomme-United-II-vs-FC-Flora-Tallinn-II",
                 "cols": [
                   "JK-Nomme-United-II-vs-FC-Flora",
-                  "2026-07-13 00:50:01",
+                  "2026-07-13 01:00:02",
                   "JK Nomme United II (射正1 射偏3) | 0-1 | FC Flora Tallinn II (射正3 射偏4) | 偵測時間45",
                   "押數據二(B) FC Flora Tallinn II"
                 ],
@@ -864,16 +1174,16 @@
                 "highlight": ""
               }
             ],
-            "total": 6
+            "total": 11
           }
         ],
-        "scraped_at": "16:54:09"
+        "scraped_at": "17:56:36"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:54:11"
+        "scraped_at": "17:56:37"
       }
     }
   }
