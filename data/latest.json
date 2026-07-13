@@ -1,21 +1,78 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-13 16:55:41",
+  "updated_at": "2026-07-13 18:29:41",
   "data": {
-    "timestamp": "2026-07-13 16:55:41",
+    "timestamp": "2026-07-13 18:29:41",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:55:43"
+        "scraped_at": "18:29:43"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:45"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時隊伍 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Maardu-Linnameeskond-vs-Tartu-",
+                "team_url": "https://betsapi.com/r/11411458/Maardu-Linnameeskond-vs-Tartu-JK-Welco",
+                "cols": [
+                  "Maardu-Linnameeskond-vs-Tartu-",
+                  "2026-07-14 01:15:01",
+                  "Maardu Linnameeskond (射正3 射偏4) | 1-4 | Tartu JK Welco (射正6 射偏8) | 偵測時間57",
+                  "押獨贏二(B) Tartu JK Welco"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時隊伍 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Djurgarden-vs-Halmstad",
+                "team_url": "https://betsapi.com/r/11176369/Djurgarden-vs-Halmstad",
+                "cols": [
+                  "Djurgarden-vs-Halmstad",
+                  "2026-07-14 02:05:01",
+                  "Djurgarden (射正3 射偏5) | 2-0 | Halmstad (射正1 射偏4) | 偵測時間45",
+                  "押獨贏二(A) Djurgarden"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:29:45"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -35,7 +92,7 @@
                 "team_url": "https://betsapi.com/r/11411458/Maardu-Linnameeskond-vs-Tartu-JK-Welco",
                 "cols": [
                   "Maardu-Linnameeskond-vs-Tartu-",
-                  "2026-07-14 00:55:02",
+                  "2026-07-14 01:00:02",
                   "Maardu Linnameeskond (射正3 射偏2) | 1-4 | Tartu JK Welco (射正5 射偏5) | 偵測時間45",
                   "押大分二"
                 ],
@@ -45,13 +102,47 @@
             "total": 1
           }
         ],
-        "scraped_at": "16:55:46"
+        "scraped_at": "18:29:46"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:48"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時大小 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "NK-Lokomotiva-Zagreb-vs-Epitse",
+                "team_url": "https://betsapi.com/r/12218075/NK-Lokomotiva-Zagreb-vs-Epitsentr-Kamianets-Podilskyi",
+                "cols": [
+                  "NK-Lokomotiva-Zagreb-vs-Epitse",
+                  "2026-07-14 01:20:01",
+                  "NK Lokomotiva Zagreb (射正6 射偏1) | 2-0 | Epitsentr Kamianets-Podilskyi (射正1 射偏4) | 偵測時間59",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:29:48"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -66,6 +157,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Bienne",
+                "team_url": "https://betsapi.com/r/12215014/Breitenrain-vs-FC-Besa-Biel/Bienne",
+                "cols": [
+                  "Bienne",
+                  "2026-07-14 01:45:01",
+                  "Breitenrain (射正3 射偏4) | 3-0 | FC Besa Biel/Bienne (射正1 射偏1) | 偵測時間58",
+                  "押策略一2(A) Breitenrain"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "HNK-Gorica-vs-Goztepe",
                 "team_url": "https://betsapi.com/r/12212169/HNK-Gorica-vs-Goztepe",
@@ -88,7 +200,7 @@
                 "highlight": ""
               }
             ],
-            "total": 1
+            "total": 2
           },
           {
             "title": "參考",
@@ -104,7 +216,7 @@
                 "team_url": "https://betsapi.com/r/12218519/Widzew-Lodz-vs-FC-Marchfeld-Donauauen",
                 "cols": [
                   "Widzew-Lodz-vs-FC-Marchfeld-Do",
-                  "2026-07-14 00:55:02",
+                  "2026-07-14 01:05:01",
                   "Widzew Lodz (射正3 射偏4) | 2-1 | FC Marchfeld Donauauen (射正1 射偏1) | 偵測時間45",
                   "押策略一2(A) Widzew Lodz"
                 ],
@@ -114,19 +226,19 @@
             "total": 1
           }
         ],
-        "scraped_at": "16:55:49"
+        "scraped_at": "18:29:49"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:55:51"
+        "scraped_at": "18:29:51"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:55:52"
+        "scraped_at": "18:29:52"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -141,6 +253,69 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Bienne",
+                "team_url": "https://betsapi.com/r/12215014/Breitenrain-vs-FC-Besa-Biel/Bienne",
+                "cols": [
+                  "Bienne",
+                  "2026-07-14 01:45:01",
+                  "Breitenrain (射正3 射偏4) | 3-0 | FC Besa Biel/Bienne (射正1 射偏1) | 偵測時間58",
+                  "押策略五(A) Breitenrain"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Breitenrain (射正2 射偏2) | 2-0 | FC Besa Biel/Bienne (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Widzew-Lodz-vs-FC-Marchfeld-Do",
+                "team_url": "https://betsapi.com/r/12218519/Widzew-Lodz-vs-FC-Marchfeld-Donauauen",
+                "cols": [
+                  "Widzew-Lodz-vs-FC-Marchfeld-Do",
+                  "2026-07-14 01:20:01",
+                  "Widzew Lodz (射正4 射偏6) | 3-2 | FC Marchfeld Donauauen (射正2 射偏2) | 偵測時間60",
+                  "押策略五(A) Widzew Lodz"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Widzew Lodz (射正3 射偏4) | 2-1 | FC Marchfeld Donauauen (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Maardu-Linnameeskond-vs-Tartu-",
+                "team_url": "https://betsapi.com/r/11411458/Maardu-Linnameeskond-vs-Tartu-JK-Welco",
+                "cols": [
+                  "Maardu-Linnameeskond-vs-Tartu-",
+                  "2026-07-14 01:15:01",
+                  "Maardu Linnameeskond (射正3 射偏4) | 1-4 | Tartu JK Welco (射正6 射偏8) | 偵測時間57",
+                  "押策略五(B) Tartu JK Welco"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Maardu Linnameeskond (射正3 射偏2) | 1-4 | Tartu JK Welco (射正5 射偏5) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "HNK-Gorica-vs-Goztepe",
                 "team_url": "https://betsapi.com/r/12212169/HNK-Gorica-vs-Goztepe",
@@ -163,7 +338,7 @@
                 "highlight": ""
               }
             ],
-            "total": 1
+            "total": 4
           },
           {
             "title": "參考",
@@ -175,13 +350,13 @@
             ],
             "matches": [
               {
-                "team": "Maardu-Linnameeskond-vs-Tartu-",
-                "team_url": "https://betsapi.com/r/11411458/Maardu-Linnameeskond-vs-Tartu-JK-Welco",
+                "team": "Bienne",
+                "team_url": "https://betsapi.com/r/12215014/Breitenrain-vs-FC-Besa-Biel/Bienne",
                 "cols": [
-                  "Maardu-Linnameeskond-vs-Tartu-",
-                  "2026-07-14 00:55:02",
-                  "Maardu Linnameeskond (射正3 射偏2) | 1-4 | Tartu JK Welco (射正5 射偏5) | 偵測時間45",
-                  "押策略五(B) Tartu JK Welco"
+                  "Bienne",
+                  "2026-07-14 01:30:01",
+                  "Breitenrain (射正2 射偏2) | 2-0 | FC Besa Biel/Bienne (射正1 射偏1) | 偵測時間45",
+                  "押策略五(A) Breitenrain"
                 ],
                 "highlight": ""
               },
@@ -190,9 +365,20 @@
                 "team_url": "https://betsapi.com/r/12218519/Widzew-Lodz-vs-FC-Marchfeld-Donauauen",
                 "cols": [
                   "Widzew-Lodz-vs-FC-Marchfeld-Do",
-                  "2026-07-14 00:55:02",
+                  "2026-07-14 01:05:01",
                   "Widzew Lodz (射正3 射偏4) | 2-1 | FC Marchfeld Donauauen (射正1 射偏1) | 偵測時間45",
                   "押策略五(A) Widzew Lodz"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Maardu-Linnameeskond-vs-Tartu-",
+                "team_url": "https://betsapi.com/r/11411458/Maardu-Linnameeskond-vs-Tartu-JK-Welco",
+                "cols": [
+                  "Maardu-Linnameeskond-vs-Tartu-",
+                  "2026-07-14 01:00:02",
+                  "Maardu Linnameeskond (射正3 射偏2) | 1-4 | Tartu JK Welco (射正5 射偏5) | 偵測時間45",
+                  "押策略五(B) Tartu JK Welco"
                 ],
                 "highlight": ""
               },
@@ -208,22 +394,22 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 4
           }
         ],
-        "scraped_at": "16:55:54"
+        "scraped_at": "18:29:54"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:55:56"
+        "scraped_at": "18:29:56"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:55:57"
+        "scraped_at": "18:29:57"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -238,6 +424,90 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Bienne",
+                "team_url": "https://betsapi.com/r/12215014/Breitenrain-vs-FC-Besa-Biel/Bienne",
+                "cols": [
+                  "Bienne",
+                  "2026-07-14 01:45:01",
+                  "Breitenrain (射正3 射偏4) | 3-0 | FC Besa Biel/Bienne (射正1 射偏1) | 偵測時間58",
+                  "押數據二(A) Breitenrain"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "NK-Lokomotiva-Zagreb-vs-Epitse",
+                "team_url": "https://betsapi.com/r/12218075/NK-Lokomotiva-Zagreb-vs-Epitsentr-Kamianets-Podilskyi",
+                "cols": [
+                  "NK-Lokomotiva-Zagreb-vs-Epitse",
+                  "2026-07-14 01:20:01",
+                  "NK Lokomotiva Zagreb (射正6 射偏1) | 2-0 | Epitsentr Kamianets-Podilskyi (射正1 射偏4) | 偵測時間59",
+                  "押數據二(A) NK Lokomotiva Zagreb"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Widzew-Lodz-vs-FC-Marchfeld-Do",
+                "team_url": "https://betsapi.com/r/12218519/Widzew-Lodz-vs-FC-Marchfeld-Donauauen",
+                "cols": [
+                  "Widzew-Lodz-vs-FC-Marchfeld-Do",
+                  "2026-07-14 01:20:01",
+                  "Widzew Lodz (射正4 射偏6) | 3-2 | FC Marchfeld Donauauen (射正2 射偏2) | 偵測時間60",
+                  "押數據二(A) Widzew Lodz"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Widzew Lodz (射正3 射偏4) | 2-1 | FC Marchfeld Donauauen (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Maardu-Linnameeskond-vs-Tartu-",
+                "team_url": "https://betsapi.com/r/11411458/Maardu-Linnameeskond-vs-Tartu-JK-Welco",
+                "cols": [
+                  "Maardu-Linnameeskond-vs-Tartu-",
+                  "2026-07-14 01:15:01",
+                  "Maardu Linnameeskond (射正3 射偏4) | 1-4 | Tartu JK Welco (射正6 射偏8) | 偵測時間57",
+                  "押數據二(B) Tartu JK Welco"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Maardu Linnameeskond (射正3 射偏2) | 1-4 | Tartu JK Welco (射正5 射偏5) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "HNK-Gorica-vs-Goztepe",
                 "team_url": "https://betsapi.com/r/12212169/HNK-Gorica-vs-Goztepe",
@@ -281,7 +551,7 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 6
           },
           {
             "title": "參考",
@@ -293,13 +563,13 @@
             ],
             "matches": [
               {
-                "team": "Maardu-Linnameeskond-vs-Tartu-",
-                "team_url": "https://betsapi.com/r/11411458/Maardu-Linnameeskond-vs-Tartu-JK-Welco",
+                "team": "Djurgarden-vs-Halmstad",
+                "team_url": "https://betsapi.com/r/11176369/Djurgarden-vs-Halmstad",
                 "cols": [
-                  "Maardu-Linnameeskond-vs-Tartu-",
-                  "2026-07-14 00:55:02",
-                  "Maardu Linnameeskond (射正3 射偏2) | 1-4 | Tartu JK Welco (射正5 射偏5) | 偵測時間45",
-                  "押數據二(B) Tartu JK Welco"
+                  "Djurgarden-vs-Halmstad",
+                  "2026-07-14 02:05:01",
+                  "Djurgarden (射正3 射偏5) | 2-0 | Halmstad (射正1 射偏4) | 偵測時間45",
+                  "押數據二(A) Djurgarden"
                 ],
                 "highlight": ""
               },
@@ -308,23 +578,34 @@
                 "team_url": "https://betsapi.com/r/12218519/Widzew-Lodz-vs-FC-Marchfeld-Donauauen",
                 "cols": [
                   "Widzew-Lodz-vs-FC-Marchfeld-Do",
-                  "2026-07-14 00:55:02",
+                  "2026-07-14 01:05:01",
                   "Widzew Lodz (射正3 射偏4) | 2-1 | FC Marchfeld Donauauen (射正1 射偏1) | 偵測時間45",
                   "押數據二(A) Widzew Lodz"
                 ],
                 "highlight": ""
+              },
+              {
+                "team": "Maardu-Linnameeskond-vs-Tartu-",
+                "team_url": "https://betsapi.com/r/11411458/Maardu-Linnameeskond-vs-Tartu-JK-Welco",
+                "cols": [
+                  "Maardu-Linnameeskond-vs-Tartu-",
+                  "2026-07-14 01:00:02",
+                  "Maardu Linnameeskond (射正3 射偏2) | 1-4 | Tartu JK Welco (射正5 射偏5) | 偵測時間45",
+                  "押數據二(B) Tartu JK Welco"
+                ],
+                "highlight": ""
               }
             ],
-            "total": 2
+            "total": 3
           }
         ],
-        "scraped_at": "16:55:59"
+        "scraped_at": "18:29:59"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:56:00"
+        "scraped_at": "18:30:00"
       }
     }
   }
