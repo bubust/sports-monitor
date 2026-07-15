@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-14 23:47:45",
+  "updated_at": "2026-07-15 01:54:22",
   "data": {
-    "timestamp": "2026-07-14 23:47:45",
+    "timestamp": "2026-07-15 01:54:22",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "23:47:47"
+        "scraped_at": "01:54:24"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -24,6 +24,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "New-England-FC-vs-Ironbound",
+                "team_url": "https://betsapi.com/r/12218045/New-England-FC-vs-Ironbound",
+                "cols": [
+                  "New-England-FC-vs-Ironbound",
+                  "2026-07-15 09:50:02",
+                  "New England FC (射正3 射偏4) | 0-2 | Ironbound (射正6 射偏7) | 偵測時間57",
+                  "押獨贏二(B) Ironbound"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "La-Fiorita-vs-UNA-Strassen",
                 "team_url": "https://betsapi.com/r/12060654/La-Fiorita-vs-UNA-Strassen",
@@ -445,7 +466,7 @@
                 "highlight": ""
               }
             ],
-            "total": 20
+            "total": 21
           },
           {
             "title": "參考",
@@ -592,7 +613,7 @@
             "total": 12
           }
         ],
-        "scraped_at": "23:47:49"
+        "scraped_at": "01:54:26"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -930,7 +951,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "23:47:50"
+        "scraped_at": "01:54:27"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -1259,7 +1280,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "23:47:52"
+        "scraped_at": "01:54:29"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -1579,7 +1600,7 @@
             "total": 11
           }
         ],
-        "scraped_at": "23:47:54"
+        "scraped_at": "01:54:31"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -1661,7 +1682,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "23:47:55"
+        "scraped_at": "01:54:33"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -1691,7 +1712,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "23:47:57"
+        "scraped_at": "01:54:34"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -2454,17 +2475,6 @@
             ],
             "matches": [
               {
-                "team": "LVU-Rush-vs-Appalachian-FC",
-                "team_url": "https://betsapi.com/r/12218034/LVU-Rush-vs-Appalachian-FC",
-                "cols": [
-                  "LVU-Rush-vs-Appalachian-FC",
-                  "2026-07-15 07:45:02",
-                  "LVU Rush (射正1 射偏4) | 0-0 | Appalachian FC (射正0 射偏3) | 偵測時間42",
-                  "押策略五(A) LVU Rush"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Shamrock-Rovers-vs-Floriana",
                 "team_url": "https://betsapi.com/r/12051621/Shamrock-Rovers-vs-Floriana",
                 "cols": [
@@ -2729,10 +2739,10 @@
                 "highlight": ""
               }
             ],
-            "total": 25
+            "total": 24
           }
         ],
-        "scraped_at": "23:47:59"
+        "scraped_at": "01:54:36"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -2795,7 +2805,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "23:48:01"
+        "scraped_at": "01:54:38"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -2977,7 +2987,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "23:48:02"
+        "scraped_at": "01:54:39"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -4255,13 +4265,13 @@
             "total": 37
           }
         ],
-        "scraped_at": "23:48:04"
+        "scraped_at": "01:54:41"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "23:48:06"
+        "scraped_at": "01:54:43"
       }
     }
   }
