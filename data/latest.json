@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-16 02:04:42",
+  "updated_at": "2026-07-16 05:24:26",
   "data": {
-    "timestamp": "2026-07-16 02:04:42",
+    "timestamp": "2026-07-16 05:24:26",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "02:04:44"
+        "scraped_at": "05:24:28"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -284,7 +284,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "02:04:46"
+        "scraped_at": "05:24:30"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -516,7 +516,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "02:04:47"
+        "scraped_at": "05:24:32"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -729,7 +729,7 @@
             "total": 7
           }
         ],
-        "scraped_at": "02:04:49"
+        "scraped_at": "05:24:34"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -921,7 +921,7 @@
             "total": 7
           }
         ],
-        "scraped_at": "02:04:50"
+        "scraped_at": "05:24:35"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -1368,7 +1368,7 @@
             "total": 13
           }
         ],
-        "scraped_at": "02:04:52"
+        "scraped_at": "05:24:37"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -1408,7 +1408,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "02:04:54"
+        "scraped_at": "05:24:39"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -1423,6 +1423,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Real-Salt-Lake-vs-Burnley",
+                "team_url": "https://betsapi.com/r/12003994/Real-Salt-Lake-vs-Burnley",
+                "cols": [
+                  "Real-Salt-Lake-vs-Burnley",
+                  "2026-07-16 11:00:02",
+                  "Real Salt Lake (射正2 射偏8) | 1-1 | Burnley (射正1 射偏2) | 偵測時間59",
+                  "押策略五(A) Real Salt Lake"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Real Salt Lake (射正2 射偏6) | 1-0 | Burnley (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Forward-Madison-FC-vs-Richmond",
                 "team_url": "https://betsapi.com/r/11188716/Forward-Madison-FC-vs-Richmond-Kickers",
@@ -1529,27 +1550,6 @@
                 "highlight": ""
               },
               {
-                "team": "FK-Decic-Tuzi-vs-FK-Liepaja",
-                "team_url": "https://betsapi.com/r/12053303/FK-Decic-Tuzi-vs-FK-Liepaja",
-                "cols": [
-                  "FK-Decic-Tuzi-vs-FK-Liepaja",
-                  "2026-07-16 03:45:02",
-                  "FK Decic Tuzi (射正6 射偏8) | 1-1 | FK Liepaja (射正3 射偏3) | 偵測時間57",
-                  "押策略五(A) FK Decic Tuzi"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "FK Decic Tuzi (射正5 射偏6) | 1-1 | FK Liepaja (射正2 射偏2) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Atletico-Colegiales-vs-Fernand",
                 "team_url": "https://betsapi.com/r/12197285/Atletico-Colegiales-vs-Fernando-de-la-Mora",
                 "cols": [
@@ -1566,6 +1566,27 @@
                 "cols": [
                   "",
                   "Atletico Colegiales (射正0 射偏0) | 0-5 | Fernando de la Mora (射正5 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Decic-Tuzi-vs-FK-Liepaja",
+                "team_url": "https://betsapi.com/r/12053303/FK-Decic-Tuzi-vs-FK-Liepaja",
+                "cols": [
+                  "FK-Decic-Tuzi-vs-FK-Liepaja",
+                  "2026-07-16 03:45:02",
+                  "FK Decic Tuzi (射正6 射偏8) | 1-1 | FK Liepaja (射正3 射偏3) | 偵測時間57",
+                  "押策略五(A) FK Decic Tuzi"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Decic Tuzi (射正5 射偏6) | 1-1 | FK Liepaja (射正2 射偏2) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1760,7 +1781,7 @@
                 "highlight": ""
               }
             ],
-            "total": 16
+            "total": 17
           },
           {
             "title": "參考",
@@ -1771,6 +1792,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Real-Salt-Lake-vs-Burnley",
+                "team_url": "https://betsapi.com/r/12003994/Real-Salt-Lake-vs-Burnley",
+                "cols": [
+                  "Real-Salt-Lake-vs-Burnley",
+                  "2026-07-16 10:45:01",
+                  "Real Salt Lake (射正2 射偏6) | 1-0 | Burnley (射正0 射偏2) | 偵測時間45",
+                  "押策略五(A) Real Salt Lake"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Forward-Madison-FC-vs-Richmond",
                 "team_url": "https://betsapi.com/r/11188716/Forward-Madison-FC-vs-Richmond-Kickers",
@@ -1816,17 +1848,6 @@
                 "highlight": ""
               },
               {
-                "team": "Atletico-Colegiales-vs-Fernand",
-                "team_url": "https://betsapi.com/r/12197285/Atletico-Colegiales-vs-Fernando-de-la-Mora",
-                "cols": [
-                  "Atletico-Colegiales-vs-Fernand",
-                  "2026-07-16 03:30:01",
-                  "Atletico Colegiales (射正0 射偏0) | 0-5 | Fernando de la Mora (射正5 射偏1) | 偵測時間45",
-                  "押策略五(B) Fernando de la Mora"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "FK-Decic-Tuzi-vs-FK-Liepaja",
                 "team_url": "https://betsapi.com/r/12053303/FK-Decic-Tuzi-vs-FK-Liepaja",
                 "cols": [
@@ -1834,6 +1855,17 @@
                   "2026-07-16 03:30:01",
                   "FK Decic Tuzi (射正5 射偏6) | 1-1 | FK Liepaja (射正2 射偏2) | 偵測時間45",
                   "押策略五(A) FK Decic Tuzi"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Colegiales-vs-Fernand",
+                "team_url": "https://betsapi.com/r/12197285/Atletico-Colegiales-vs-Fernando-de-la-Mora",
+                "cols": [
+                  "Atletico-Colegiales-vs-Fernand",
+                  "2026-07-16 03:30:01",
+                  "Atletico Colegiales (射正0 射偏0) | 0-5 | Fernando de la Mora (射正5 射偏1) | 偵測時間45",
+                  "押策略五(B) Fernando de la Mora"
                 ],
                 "highlight": ""
               },
@@ -1860,17 +1892,6 @@
                 "highlight": ""
               },
               {
-                "team": "CS-U-Craiova-vs-FC-ML-Vitebsk",
-                "team_url": "https://betsapi.com/r/12054099/CS-U-Craiova-vs-FC-ML-Vitebsk",
-                "cols": [
-                  "CS-U-Craiova-vs-FC-ML-Vitebsk",
-                  "2026-07-16 02:30:01",
-                  "CS U Craiova (射正4 射偏5) | 0-0 | FC ML Vitebsk (射正3 射偏4) | 偵測時間45",
-                  "押策略五(A) CS U Craiova"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "19-EV",
                 "team_url": "https://betsapi.com/r/12225015/TSG-Sprockhovel-vs-Ratingen-SV-Germania-04/19-EV",
                 "cols": [
@@ -1878,6 +1899,17 @@
                   "2026-07-16 02:30:01",
                   "TSG Sprockhovel (射正1 射偏4) | 0-0 | Ratingen SV Germania 04/19 EV (射正2 射偏6) | 偵測時間45",
                   "押策略五(B) Ratingen SV Germania 04/19 EV"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-U-Craiova-vs-FC-ML-Vitebsk",
+                "team_url": "https://betsapi.com/r/12054099/CS-U-Craiova-vs-FC-ML-Vitebsk",
+                "cols": [
+                  "CS-U-Craiova-vs-FC-ML-Vitebsk",
+                  "2026-07-16 02:30:01",
+                  "CS U Craiova (射正4 射偏5) | 0-0 | FC ML Vitebsk (射正3 射偏4) | 偵測時間45",
+                  "押策略五(A) CS U Craiova"
                 ],
                 "highlight": ""
               },
@@ -1948,10 +1980,10 @@
                 "highlight": ""
               }
             ],
-            "total": 16
+            "total": 17
           }
         ],
-        "scraped_at": "02:04:55"
+        "scraped_at": "05:24:40"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -2025,7 +2057,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "02:04:57"
+        "scraped_at": "05:24:42"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -2291,7 +2323,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "02:04:58"
+        "scraped_at": "05:24:44"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -3470,13 +3502,13 @@
             "total": 28
           }
         ],
-        "scraped_at": "02:05:00"
+        "scraped_at": "05:24:46"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "02:05:02"
+        "scraped_at": "05:24:47"
       }
     }
   }
