@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-16 10:03:40",
+  "updated_at": "2026-07-16 11:58:57",
   "data": {
-    "timestamp": "2026-07-16 10:03:40",
+    "timestamp": "2026-07-16 11:58:57",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "10:03:41"
+        "scraped_at": "11:58:58"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -226,6 +226,28 @@
             ],
             "matches": [
               {
+                "team": "Fulham-United-FC-vs-Cumberland",
+                "team_url": "https://betsapi.com/r/11309214/Fulham-United-FC-vs-Cumberland-United",
+                "cols": [
+                  "Fulham-United-FC-vs-Cumberland",
+                  "2026-07-16 18:55:01",
+                  "Fulham United FC (射正1 射偏2) | 1-2 | Cumberland United (射正3 射偏3) | 偵測時間45",
+                  "押獨贏二(B) Cumberland United"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Patha-Chakra-vs-United-Kolkata",
+                "team_url": "https://betsapi.com/r/12216103/Patha-Chakra-vs-United-Kolkata-SC",
+                "cols": [
+                  "Patha-Chakra-vs-United-Kolkata",
+                  "2026-07-16 18:35:02",
+                  "Patha Chakra (射正0 射偏1) | 0-3 | United Kolkata SC (射正5 射偏3) | 偵測時間45",
+                  "押獨贏二(B) United Kolkata SC"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Miami-FC-vs-Indy-Eleven",
                 "team_url": "https://betsapi.com/r/11187500/Miami-FC-vs-Indy-Eleven",
                 "cols": [
@@ -281,10 +303,10 @@
                 "highlight": ""
               }
             ],
-            "total": 5
+            "total": 7
           }
         ],
-        "scraped_at": "10:03:43"
+        "scraped_at": "11:59:00"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -516,7 +538,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "10:03:45"
+        "scraped_at": "11:59:01"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -531,6 +553,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Railways-FC-vs-Kalighat-MS",
+                "team_url": "https://betsapi.com/r/12216108/Railways-FC-vs-Kalighat-MS",
+                "cols": [
+                  "Railways-FC-vs-Kalighat-MS",
+                  "2026-07-16 18:55:01",
+                  "Railways FC (射正6 射偏1) | 2-0 | Kalighat MS (射正0 射偏2) | 偵測時間57",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Belen-Arco-Zaragoza-vs-E.D.P-I",
                 "team_url": "https://betsapi.com/r/12226315/Belen-Arco-Zaragoza-vs-E.D.P-IND.-Medellin",
@@ -637,7 +680,7 @@
                 "highlight": ""
               }
             ],
-            "total": 5
+            "total": 6
           },
           {
             "title": "參考",
@@ -740,7 +783,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "10:03:47"
+        "scraped_at": "11:59:03"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -852,6 +895,17 @@
             ],
             "matches": [
               {
+                "team": "Patha-Chakra-vs-United-Kolkata",
+                "team_url": "https://betsapi.com/r/12216103/Patha-Chakra-vs-United-Kolkata-SC",
+                "cols": [
+                  "Patha-Chakra-vs-United-Kolkata",
+                  "2026-07-16 18:35:02",
+                  "Patha Chakra (射正0 射偏1) | 0-3 | United Kolkata SC (射正5 射偏3) | 偵測時間45",
+                  "押策略一2(B) United Kolkata SC"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Forward-Madison-FC-vs-Richmond",
                 "team_url": "https://betsapi.com/r/11188716/Forward-Madison-FC-vs-Richmond-Kickers",
                 "cols": [
@@ -929,10 +983,10 @@
                 "highlight": ""
               }
             ],
-            "total": 7
+            "total": 8
           }
         ],
-        "scraped_at": "10:03:48"
+        "scraped_at": "11:59:05"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -1379,7 +1433,7 @@
             "total": 13
           }
         ],
-        "scraped_at": "10:03:50"
+        "scraped_at": "11:59:06"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -1419,7 +1473,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "10:03:52"
+        "scraped_at": "11:59:08"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -1825,6 +1879,28 @@
             ],
             "matches": [
               {
+                "team": "Fulham-United-FC-vs-Cumberland",
+                "team_url": "https://betsapi.com/r/11309214/Fulham-United-FC-vs-Cumberland-United",
+                "cols": [
+                  "Fulham-United-FC-vs-Cumberland",
+                  "2026-07-16 18:55:01",
+                  "Fulham United FC (射正1 射偏2) | 1-2 | Cumberland United (射正3 射偏3) | 偵測時間45",
+                  "押策略五(B) Cumberland United"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Patha-Chakra-vs-United-Kolkata",
+                "team_url": "https://betsapi.com/r/12216103/Patha-Chakra-vs-United-Kolkata-SC",
+                "cols": [
+                  "Patha-Chakra-vs-United-Kolkata",
+                  "2026-07-16 18:35:02",
+                  "Patha Chakra (射正0 射偏1) | 0-3 | United Kolkata SC (射正5 射偏3) | 偵測時間45",
+                  "押策略五(B) United Kolkata SC"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "NK-Varazdin-vs-NK-Kustosija",
                 "team_url": "https://betsapi.com/r/12225014/NK-Varazdin-vs-NK-Kustosija",
                 "cols": [
@@ -1891,17 +1967,6 @@
                 "highlight": ""
               },
               {
-                "team": "FK-Decic-Tuzi-vs-FK-Liepaja",
-                "team_url": "https://betsapi.com/r/12053303/FK-Decic-Tuzi-vs-FK-Liepaja",
-                "cols": [
-                  "FK-Decic-Tuzi-vs-FK-Liepaja",
-                  "2026-07-16 03:30:01",
-                  "FK Decic Tuzi (射正5 射偏6) | 1-1 | FK Liepaja (射正2 射偏2) | 偵測時間45",
-                  "押策略五(A) FK Decic Tuzi"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Atletico-Colegiales-vs-Fernand",
                 "team_url": "https://betsapi.com/r/12197285/Atletico-Colegiales-vs-Fernando-de-la-Mora",
                 "cols": [
@@ -1909,6 +1974,17 @@
                   "2026-07-16 03:30:01",
                   "Atletico Colegiales (射正0 射偏0) | 0-5 | Fernando de la Mora (射正5 射偏1) | 偵測時間45",
                   "押策略五(B) Fernando de la Mora"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Decic-Tuzi-vs-FK-Liepaja",
+                "team_url": "https://betsapi.com/r/12053303/FK-Decic-Tuzi-vs-FK-Liepaja",
+                "cols": [
+                  "FK-Decic-Tuzi-vs-FK-Liepaja",
+                  "2026-07-16 03:30:01",
+                  "FK Decic Tuzi (射正5 射偏6) | 1-1 | FK Liepaja (射正2 射偏2) | 偵測時間45",
+                  "押策略五(A) FK Decic Tuzi"
                 ],
                 "highlight": ""
               },
@@ -2023,10 +2099,10 @@
                 "highlight": ""
               }
             ],
-            "total": 18
+            "total": 20
           }
         ],
-        "scraped_at": "10:03:53"
+        "scraped_at": "11:59:09"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -2041,6 +2117,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Railways-FC-vs-Kalighat-MS",
+                "team_url": "https://betsapi.com/r/12216108/Railways-FC-vs-Kalighat-MS",
+                "cols": [
+                  "Railways-FC-vs-Kalighat-MS",
+                  "2026-07-16 18:55:01",
+                  "Railways FC (射正6 射偏1) | 2-0 | Kalighat MS (射正0 射偏2) | 偵測時間57",
+                  "押隊伍三(A) Railways FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Railways FC (射正5 射偏1) | 1-0 | Kalighat MS (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "KSK-Heist-vs-KV-Mechelen",
                 "team_url": "https://betsapi.com/r/12127507/KSK-Heist-vs-KV-Mechelen",
@@ -2063,7 +2160,7 @@
                 "highlight": ""
               }
             ],
-            "total": 1
+            "total": 2
           },
           {
             "title": "參考",
@@ -2074,6 +2171,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Railways-FC-vs-Kalighat-MS",
+                "team_url": "https://betsapi.com/r/12216108/Railways-FC-vs-Kalighat-MS",
+                "cols": [
+                  "Railways-FC-vs-Kalighat-MS",
+                  "2026-07-16 18:40:02",
+                  "Railways FC (射正5 射偏1) | 1-0 | Kalighat MS (射正0 射偏2) | 偵測時間45",
+                  "押隊伍三(A) Railways FC"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "KSK-Heist-vs-KV-Mechelen",
                 "team_url": "https://betsapi.com/r/12127507/KSK-Heist-vs-KV-Mechelen",
@@ -2097,10 +2205,10 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 3
           }
         ],
-        "scraped_at": "10:03:55"
+        "scraped_at": "11:59:11"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -2366,7 +2474,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "10:03:57"
+        "scraped_at": "11:59:13"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -2381,6 +2489,111 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Fulham-United-FC-vs-Cumberland",
+                "team_url": "https://betsapi.com/r/11309214/Fulham-United-FC-vs-Cumberland-United",
+                "cols": [
+                  "Fulham-United-FC-vs-Cumberland",
+                  "2026-07-16 19:10:01",
+                  "Fulham United FC (射正1 射偏3) | 1-3 | Cumberland United (射正4 射偏3) | 偵測時間58",
+                  "押數據二(B) Cumberland United"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Fulham United FC (射正1 射偏2) | 1-2 | Cumberland United (射正3 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Railways-FC-vs-Kalighat-MS",
+                "team_url": "https://betsapi.com/r/12216108/Railways-FC-vs-Kalighat-MS",
+                "cols": [
+                  "Railways-FC-vs-Kalighat-MS",
+                  "2026-07-16 18:55:01",
+                  "Railways FC (射正6 射偏1) | 2-0 | Kalighat MS (射正0 射偏2) | 偵測時間57",
+                  "押數據二(A) Railways FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Railways FC (射正5 射偏1) | 1-0 | Kalighat MS (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "BSS-Sporting-Club-vs-George-Te",
+                "team_url": "https://betsapi.com/r/12215748/BSS-Sporting-Club-vs-George-Telegraph-FC",
+                "cols": [
+                  "BSS-Sporting-Club-vs-George-Te",
+                  "2026-07-16 18:50:01",
+                  "BSS Sporting Club (射正3 射偏2) | 1-1 | George Telegraph FC (射正1 射偏4) | 偵測時間56",
+                  "押數據二(A) BSS Sporting Club"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Kidderpore-SC-vs-Mohun-Bagan-S",
+                "team_url": "https://betsapi.com/r/12216107/Kidderpore-SC-vs-Mohun-Bagan-SG-II",
+                "cols": [
+                  "Kidderpore-SC-vs-Mohun-Bagan-S",
+                  "2026-07-16 18:50:01",
+                  "Kidderpore SC (射正2 射偏2) | 1-1 | Mohun Bagan SG II (射正3 射偏5) | 偵測時間58",
+                  "押數據二(B) Mohun Bagan SG II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Kidderpore SC (射正0 射偏2) | 0-1 | Mohun Bagan SG II (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Patha-Chakra-vs-United-Kolkata",
+                "team_url": "https://betsapi.com/r/12216103/Patha-Chakra-vs-United-Kolkata-SC",
+                "cols": [
+                  "Patha-Chakra-vs-United-Kolkata",
+                  "2026-07-16 18:50:01",
+                  "Patha Chakra (射正0 射偏4) | 0-3 | United Kolkata SC (射正6 射偏3) | 偵測時間57",
+                  "押數據二(B) United Kolkata SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Patha Chakra (射正0 射偏1) | 0-3 | United Kolkata SC (射正5 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Forward-Madison-FC-vs-Richmond",
                 "team_url": "https://betsapi.com/r/11188716/Forward-Madison-FC-vs-Richmond-Kickers",
@@ -2676,27 +2889,6 @@
                 "highlight": ""
               },
               {
-                "team": "Araruama-FC-vs-Boavista-RJ",
-                "team_url": "https://betsapi.com/r/12189715/Araruama-FC-vs-Boavista-RJ",
-                "cols": [
-                  "Araruama-FC-vs-Boavista-RJ",
-                  "2026-07-16 04:15:02",
-                  "Araruama FC (射正0 射偏6) | 0-1 | Boavista RJ (射正3 射偏4) | 偵測時間58",
-                  "押數據二(B) Boavista RJ"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "FK-Egnatia-vs-CS-Petrocub",
                 "team_url": "https://betsapi.com/r/12069742/FK-Egnatia-vs-CS-Petrocub",
                 "cols": [
@@ -2713,6 +2905,27 @@
                 "cols": [
                   "",
                   "FK Egnatia (射正5 射偏5) | 3-0 | CS Petrocub (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Araruama-FC-vs-Boavista-RJ",
+                "team_url": "https://betsapi.com/r/12189715/Araruama-FC-vs-Boavista-RJ",
+                "cols": [
+                  "Araruama-FC-vs-Boavista-RJ",
+                  "2026-07-16 04:15:02",
+                  "Araruama FC (射正0 射偏6) | 0-1 | Boavista RJ (射正3 射偏4) | 偵測時間58",
+                  "押數據二(B) Boavista RJ"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
                   ""
                 ],
                 "highlight": ""
@@ -2886,27 +3099,6 @@
                 "highlight": ""
               },
               {
-                "team": "HSV-Hoek-vs-NAC",
-                "team_url": "https://betsapi.com/r/12224501/HSV-Hoek-vs-NAC",
-                "cols": [
-                  "HSV-Hoek-vs-NAC",
-                  "2026-07-16 02:15:02",
-                  "HSV Hoek (射正2 射偏4) | 0-2 | NAC (射正3 射偏3) | 偵測時間56",
-                  "押數據二(B) NAC"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "HSV Hoek (射正1 射偏4) | 0-2 | NAC (射正3 射偏3) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Eupen-vs-La-Calamine",
                 "team_url": "https://betsapi.com/r/12224654/Eupen-vs-La-Calamine",
                 "cols": [
@@ -2923,6 +3115,27 @@
                 "cols": [
                   "",
                   "Eupen (射正6 射偏6) | 2-1 | La Calamine (射正1 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "HSV-Hoek-vs-NAC",
+                "team_url": "https://betsapi.com/r/12224501/HSV-Hoek-vs-NAC",
+                "cols": [
+                  "HSV-Hoek-vs-NAC",
+                  "2026-07-16 02:15:02",
+                  "HSV Hoek (射正2 射偏4) | 0-2 | NAC (射正3 射偏3) | 偵測時間56",
+                  "押數據二(B) NAC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "HSV Hoek (射正1 射偏4) | 0-2 | NAC (射正3 射偏3) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -3115,111 +3328,6 @@
                   ""
                 ],
                 "highlight": ""
-              },
-              {
-                "team": "Ajax-vs-Bochum",
-                "team_url": "https://betsapi.com/r/12122023/Ajax-vs-Bochum",
-                "cols": [
-                  "Ajax-vs-Bochum",
-                  "2026-07-16 00:25:01",
-                  "Ajax (射正5 射偏4) | 1-0 | Bochum (射正4 射偏8) | 偵測時間58",
-                  "押數據二(A) Ajax"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Holstein-Kiel-vs-Al-Ahli-Jedda",
-                "team_url": "https://betsapi.com/r/12230104/Holstein-Kiel-vs-Al-Ahli-Jeddah",
-                "cols": [
-                  "Holstein-Kiel-vs-Al-Ahli-Jedda",
-                  "2026-07-16 00:20:01",
-                  "Holstein Kiel (射正6 射偏5) | 3-1 | Al Ahli Jeddah (射正2 射偏2) | 偵測時間59",
-                  "押數據二(A) Holstein Kiel"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Holstein Kiel (射正5 射偏3) | 2-1 | Al Ahli Jeddah (射正1 射偏2) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Ordabasy-vs-FC-Altai-Semey",
-                "team_url": "https://betsapi.com/r/11893499/Ordabasy-vs-FC-Altai-Semey",
-                "cols": [
-                  "Ordabasy-vs-FC-Altai-Semey",
-                  "2026-07-16 00:20:01",
-                  "Ordabasy (射正5 射偏3) | 3-0 | FC Altai Semey (射正0 射偏0) | 偵測時間59",
-                  "押數據二(A) Ordabasy"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Polonia-Warsaw-vs-FC-Trinity-Z",
-                "team_url": "https://betsapi.com/r/12217948/Polonia-Warsaw-vs-FC-Trinity-Zlin",
-                "cols": [
-                  "Polonia-Warsaw-vs-FC-Trinity-Z",
-                  "2026-07-16 00:15:02",
-                  "Polonia Warsaw (射正4 射偏7) | 0-1 | FC Trinity Zlin (射正3 射偏9) | 偵測時間56",
-                  "押數據二(A) Polonia Warsaw"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "FK-Jablonec-vs-FC-Kharkiv",
-                "team_url": "https://betsapi.com/r/12220078/FK-Jablonec-vs-FC-Kharkiv",
-                "cols": [
-                  "FK-Jablonec-vs-FC-Kharkiv",
-                  "2026-07-16 00:15:02",
-                  "FK Jablonec (射正3 射偏3) | 1-0 | FC Kharkiv (射正2 射偏3) | 偵測時間57",
-                  "押數據二(A) FK Jablonec"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
               }
             ],
             "total": 40
@@ -3233,6 +3341,50 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Fulham-United-FC-vs-Cumberland",
+                "team_url": "https://betsapi.com/r/11309214/Fulham-United-FC-vs-Cumberland-United",
+                "cols": [
+                  "Fulham-United-FC-vs-Cumberland",
+                  "2026-07-16 18:55:01",
+                  "Fulham United FC (射正1 射偏2) | 1-2 | Cumberland United (射正3 射偏3) | 偵測時間45",
+                  "押數據二(B) Cumberland United"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Railways-FC-vs-Kalighat-MS",
+                "team_url": "https://betsapi.com/r/12216108/Railways-FC-vs-Kalighat-MS",
+                "cols": [
+                  "Railways-FC-vs-Kalighat-MS",
+                  "2026-07-16 18:40:02",
+                  "Railways FC (射正5 射偏1) | 1-0 | Kalighat MS (射正0 射偏2) | 偵測時間45",
+                  "押數據二(A) Railways FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Kidderpore-SC-vs-Mohun-Bagan-S",
+                "team_url": "https://betsapi.com/r/12216107/Kidderpore-SC-vs-Mohun-Bagan-SG-II",
+                "cols": [
+                  "Kidderpore-SC-vs-Mohun-Bagan-S",
+                  "2026-07-16 18:35:02",
+                  "Kidderpore SC (射正0 射偏2) | 0-1 | Mohun Bagan SG II (射正3 射偏2) | 偵測時間45",
+                  "押數據二(B) Mohun Bagan SG II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Patha-Chakra-vs-United-Kolkata",
+                "team_url": "https://betsapi.com/r/12216103/Patha-Chakra-vs-United-Kolkata-SC",
+                "cols": [
+                  "Patha-Chakra-vs-United-Kolkata",
+                  "2026-07-16 18:35:02",
+                  "Patha Chakra (射正0 射偏1) | 0-3 | United Kolkata SC (射正5 射偏3) | 偵測時間45",
+                  "押數據二(B) United Kolkata SC"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Forward-Madison-FC-vs-Richmond",
                 "team_url": "https://betsapi.com/r/11188716/Forward-Madison-FC-vs-Richmond-Kickers",
@@ -3542,16 +3694,16 @@
                 "highlight": ""
               }
             ],
-            "total": 28
+            "total": 32
           }
         ],
-        "scraped_at": "10:03:59"
+        "scraped_at": "11:59:14"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "10:04:00"
+        "scraped_at": "11:59:16"
       }
     }
   }
