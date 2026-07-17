@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-16 23:25:44",
+  "updated_at": "2026-07-17 00:58:39",
   "data": {
-    "timestamp": "2026-07-16 23:25:44",
+    "timestamp": "2026-07-17 00:58:39",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "23:25:45"
+        "scraped_at": "00:58:41"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -24,6 +24,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "CRB-vs-Nautico",
+                "team_url": "https://betsapi.com/r/11417825/CRB-vs-Nautico",
+                "cols": [
+                  "CRB-vs-Nautico",
+                  "2026-07-17 08:20:01",
+                  "CRB (射正4 射偏8) | 1-0 | Nautico (射正0 射偏4) | 偵測時間56",
+                  "押獨贏二(A) CRB"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CRB (射正3 射偏7) | 1-0 | Nautico (射正0 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Ferencvarosi-TC-vs-Vojvodina",
                 "team_url": "https://betsapi.com/r/12051487/Ferencvarosi-TC-vs-Vojvodina",
@@ -214,7 +235,7 @@
                 "highlight": ""
               }
             ],
-            "total": 9
+            "total": 10
           },
           {
             "title": "參考",
@@ -225,6 +246,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Orense-vs-Emelec",
+                "team_url": "https://betsapi.com/r/12216805/Orense-vs-Emelec",
+                "cols": [
+                  "Orense-vs-Emelec",
+                  "2026-07-17 08:55:01",
+                  "Orense (射正1 射偏3) | 0-1 | Emelec (射正3 射偏4) | 偵測時間45",
+                  "押獨贏二(B) Emelec"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CRB-vs-Nautico",
+                "team_url": "https://betsapi.com/r/11417825/CRB-vs-Nautico",
+                "cols": [
+                  "CRB-vs-Nautico",
+                  "2026-07-17 08:05:01",
+                  "CRB (射正3 射偏7) | 1-0 | Nautico (射正0 射偏3) | 偵測時間45",
+                  "押獨贏二(A) CRB"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Minneapolis-City-SC-Futures-vs",
                 "team_url": "https://betsapi.com/r/12235571/Minneapolis-City-SC-Futures-vs-West-Virginia-United",
@@ -292,10 +335,10 @@
                 "highlight": ""
               }
             ],
-            "total": 6
+            "total": 8
           }
         ],
-        "scraped_at": "23:25:47"
+        "scraped_at": "00:58:42"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -612,7 +655,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "23:25:49"
+        "scraped_at": "00:58:44"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -973,7 +1016,7 @@
             "total": 9
           }
         ],
-        "scraped_at": "23:25:50"
+        "scraped_at": "00:58:46"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -1345,7 +1388,7 @@
             "total": 10
           }
         ],
-        "scraped_at": "23:25:52"
+        "scraped_at": "00:58:47"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -1526,13 +1569,13 @@
             "total": 6
           }
         ],
-        "scraped_at": "23:25:54"
+        "scraped_at": "00:58:49"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "23:25:55"
+        "scraped_at": "00:58:50"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -2001,6 +2044,17 @@
             ],
             "matches": [
               {
+                "team": "CF-Montreal-vs-Toronto-FC",
+                "team_url": "https://betsapi.com/r/11068793/CF-Montreal-vs-Toronto-FC",
+                "cols": [
+                  "CF-Montreal-vs-Toronto-FC",
+                  "2026-07-17 08:45:02",
+                  "CF Montreal (射正1 射偏8) | 0-0 | Toronto FC (射正0 射偏4) | 偵測時間45",
+                  "押策略五(A) CF Montreal"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "IF-Vestri-vs-FK-Qarabag",
                 "team_url": "https://betsapi.com/r/12054097/IF-Vestri-vs-FK-Qarabag",
                 "cols": [
@@ -2078,17 +2132,6 @@
                 "highlight": ""
               },
               {
-                "team": "CA-San-Miguel-Reserves-vs-Tris",
-                "team_url": "https://betsapi.com/r/12233756/CA-San-Miguel-Reserves-vs-Tristan-Suarez-Reserves",
-                "cols": [
-                  "CA-San-Miguel-Reserves-vs-Tris",
-                  "2026-07-17 02:10:01",
-                  "CA San Miguel Reserves (射正1 射偏3) | 0-0 | Tristan Suarez Reserves (射正0 射偏1) | 偵測時間45",
-                  "押策略五(A) CA San Miguel Reserves"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Argentino-de-Rosario-Reserves-",
                 "team_url": "https://betsapi.com/r/12233739/Argentino-de-Rosario-Reserves-vs-Fenix-Reserves",
                 "cols": [
@@ -2096,6 +2139,17 @@
                   "2026-07-17 02:10:01",
                   "Argentino de Rosario Reserves (射正5 射偏6) | 0-1 | Fenix Reserves (射正2 射偏3) | 偵測時間45",
                   "押策略五(A) Argentino de Rosario Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CA-San-Miguel-Reserves-vs-Tris",
+                "team_url": "https://betsapi.com/r/12233756/CA-San-Miguel-Reserves-vs-Tristan-Suarez-Reserves",
+                "cols": [
+                  "CA-San-Miguel-Reserves-vs-Tris",
+                  "2026-07-17 02:10:01",
+                  "CA San Miguel Reserves (射正1 射偏3) | 0-0 | Tristan Suarez Reserves (射正0 射偏1) | 偵測時間45",
+                  "押策略五(A) CA San Miguel Reserves"
                 ],
                 "highlight": ""
               },
@@ -2188,10 +2242,10 @@
                 "highlight": ""
               }
             ],
-            "total": 17
+            "total": 18
           }
         ],
-        "scraped_at": "23:25:57"
+        "scraped_at": "00:58:52"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -2254,7 +2308,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "23:25:58"
+        "scraped_at": "00:58:54"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -2529,7 +2583,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "23:26:00"
+        "scraped_at": "00:58:56"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -2544,6 +2598,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "CRB-vs-Nautico",
+                "team_url": "https://betsapi.com/r/11417825/CRB-vs-Nautico",
+                "cols": [
+                  "CRB-vs-Nautico",
+                  "2026-07-17 08:20:01",
+                  "CRB (射正4 射偏8) | 1-0 | Nautico (射正0 射偏4) | 偵測時間56",
+                  "押數據二(A) CRB"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Vitoria-vs-Vasco-da-Gama",
+                "team_url": "https://betsapi.com/r/11955622/Vitoria-vs-Vasco-da-Gama",
+                "cols": [
+                  "Vitoria-vs-Vasco-da-Gama",
+                  "2026-07-17 07:50:01",
+                  "Vitoria (射正4 射偏6) | 0-0 | Vasco da Gama (射正1 射偏6) | 偵測時間59",
+                  "押數據二(A) Vitoria"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Vitoria (射正3 射偏5) | 0-0 | Vasco da Gama (射正1 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Minneapolis-City-SC-Futures-vs",
                 "team_url": "https://betsapi.com/r/12235571/Minneapolis-City-SC-Futures-vs-West-Virginia-United",
@@ -2965,27 +3061,6 @@
                 "highlight": ""
               },
               {
-                "team": "Lech-Poznan-vs-Gornik-Zabrze",
-                "team_url": "https://betsapi.com/r/12091106/Lech-Poznan-vs-Gornik-Zabrze",
-                "cols": [
-                  "Lech-Poznan-vs-Gornik-Zabrze",
-                  "2026-07-17 02:20:01",
-                  "Lech Poznan (射正5 射偏4) | 2-1 | Gornik Zabrze (射正4 射偏2) | 偵測時間58",
-                  "押數據二(A) Lech Poznan"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Lech Poznan (射正4 射偏4) | 1-1 | Gornik Zabrze (射正3 射偏1) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Valerenga-vs-Aalesund",
                 "team_url": "https://betsapi.com/r/11162982/Valerenga-vs-Aalesund",
                 "cols": [
@@ -3002,6 +3077,27 @@
                 "cols": [
                   "",
                   "Valerenga (射正4 射偏6) | 3-0 | Aalesund (射正2 射偏8) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Lech-Poznan-vs-Gornik-Zabrze",
+                "team_url": "https://betsapi.com/r/12091106/Lech-Poznan-vs-Gornik-Zabrze",
+                "cols": [
+                  "Lech-Poznan-vs-Gornik-Zabrze",
+                  "2026-07-17 02:20:01",
+                  "Lech Poznan (射正5 射偏4) | 2-1 | Gornik Zabrze (射正4 射偏2) | 偵測時間58",
+                  "押數據二(A) Lech Poznan"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Lech Poznan (射正4 射偏4) | 1-1 | Gornik Zabrze (射正3 射偏1) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -3341,48 +3437,6 @@
                   ""
                 ],
                 "highlight": ""
-              },
-              {
-                "team": "HNK-Gorica-vs-Epitsentr-Kamian",
-                "team_url": "https://betsapi.com/r/12234354/HNK-Gorica-vs-Epitsentr-Kamianets-Podilskyi",
-                "cols": [
-                  "HNK-Gorica-vs-Epitsentr-Kamian",
-                  "2026-07-17 00:15:02",
-                  "HNK Gorica (射正1 射偏8) | 0-0 | Epitsentr Kamianets-Podilskyi (射正3 射偏6) | 偵測時間60",
-                  "押數據二(B) Epitsentr Kamianets-Podilskyi"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "FC-Elimai-Semey-vs-Alashkert-F",
-                "team_url": "https://betsapi.com/r/12054092/FC-Elimai-Semey-vs-Alashkert-FC",
-                "cols": [
-                  "FC-Elimai-Semey-vs-Alashkert-F",
-                  "2026-07-17 00:10:02",
-                  "FC Elimai Semey (射正3 射偏1) | 1-1 | Alashkert FC (射正1 射偏6) | 偵測時間57",
-                  "押數據二(A) FC Elimai Semey"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "FC Elimai Semey (射正3 射偏1) | 1-1 | Alashkert FC (射正1 射偏6) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
               }
             ],
             "total": 40
@@ -3401,7 +3455,7 @@
                 "team_url": "https://betsapi.com/r/11955622/Vitoria-vs-Vasco-da-Gama",
                 "cols": [
                   "Vitoria-vs-Vasco-da-Gama",
-                  "2026-07-17 07:25:01",
+                  "2026-07-17 07:35:01",
                   "Vitoria (射正3 射偏5) | 0-0 | Vasco da Gama (射正1 射偏4) | 偵測時間45",
                   "押數據二(A) Vitoria"
                 ],
@@ -3774,13 +3828,13 @@
             "total": 34
           }
         ],
-        "scraped_at": "23:26:02"
+        "scraped_at": "00:58:57"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "23:26:03"
+        "scraped_at": "00:58:59"
       }
     }
   }
