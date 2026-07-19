@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-19 17:54:28",
+  "updated_at": "2026-07-19 18:58:18",
   "data": {
-    "timestamp": "2026-07-19 17:54:28",
+    "timestamp": "2026-07-19 18:58:18",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "17:54:29"
+        "scraped_at": "18:58:20"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -24,6 +24,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Vojvodina-vs-OFK-Beograd",
+                "team_url": "https://betsapi.com/r/12037670/Vojvodina-vs-OFK-Beograd",
+                "cols": [
+                  "Vojvodina-vs-OFK-Beograd",
+                  "2026-07-20 02:20:02",
+                  "Vojvodina (射正4 射偏7) | 1-0 | OFK Beograd (射正1 射偏4) | 偵測時間57",
+                  "押獨贏二(A) Vojvodina"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-Petrocub-vs-Sheriff-Tiraspo",
+                "team_url": "https://betsapi.com/r/12200758/CS-Petrocub-vs-Sheriff-Tiraspol",
+                "cols": [
+                  "CS-Petrocub-vs-Sheriff-Tiraspo",
+                  "2026-07-20 02:15:02",
+                  "CS Petrocub (射正0 射偏2) | 0-2 | Sheriff Tiraspol (射正4 射偏5) | 偵測時間58",
+                  "押獨贏二(B) Sheriff Tiraspol"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CS Petrocub (射正0 射偏2) | 0-1 | Sheriff Tiraspol (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "KR-Reykjavik-vs-Stjarnan",
                 "team_url": "https://betsapi.com/r/11322487/KR-Reykjavik-vs-Stjarnan",
@@ -88,7 +130,7 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 5
           },
           {
             "title": "參考",
@@ -104,7 +146,7 @@
                 "team_url": "https://betsapi.com/r/12200758/CS-Petrocub-vs-Sheriff-Tiraspol",
                 "cols": [
                   "CS-Petrocub-vs-Sheriff-Tiraspo",
-                  "2026-07-20 01:50:01",
+                  "2026-07-20 02:00:02",
                   "CS Petrocub (射正0 射偏2) | 0-1 | Sheriff Tiraspol (射正3 射偏4) | 偵測時間45",
                   "押獨贏二(B) Sheriff Tiraspol"
                 ],
@@ -147,7 +189,7 @@
             "total": 4
           }
         ],
-        "scraped_at": "17:54:31"
+        "scraped_at": "18:58:21"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -274,7 +316,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "17:54:33"
+        "scraped_at": "18:58:23"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -314,7 +356,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "17:54:34"
+        "scraped_at": "18:58:25"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -431,12 +473,45 @@
             "total": 4
           }
         ],
-        "scraped_at": "17:54:36"
+        "scraped_at": "18:58:26"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
         "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FK-Cukaricki-vs-IMT-Novi-Belgr",
+                "team_url": "https://betsapi.com/r/12037667/FK-Cukaricki-vs-IMT-Novi-Belgrade",
+                "cols": [
+                  "FK-Cukaricki-vs-IMT-Novi-Belgr",
+                  "2026-07-20 02:25:01",
+                  "FK Cukaricki (射正2 射偏6) | 0-1 | IMT Novi Belgrade (射正6 射偏3) | 偵測時間60",
+                  "押策略二(B) IMT Novi Belgrade"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
           {
             "title": "參考",
             "headers": [
@@ -447,24 +522,24 @@
             ],
             "matches": [
               {
-                "team": "Cardoso-Moreira-vs-Campos-RJ",
-                "team_url": "https://betsapi.com/r/12260620/Cardoso-Moreira-vs-Campos-RJ",
+                "team": "Juventus-Jaragua-Do-Sul-vs-Flu",
+                "team_url": "https://betsapi.com/r/11574767/Juventus-Jaragua-Do-Sul-vs-Fluminense-SC",
                 "cols": [
-                  "Cardoso-Moreira-vs-Campos-RJ",
-                  "2026-07-20 01:50:01",
-                  "Cardoso Moreira (射正2 射偏1) | 2-0 | Campos RJ (射正0 射偏5) | 偵測時間42",
-                  "押策略二(A) Cardoso Moreira"
+                  "Juventus-Jaragua-Do-Sul-vs-Flu",
+                  "2026-07-20 02:55:01",
+                  "Juventus Jaragua Do Sul (射正3 射偏1) | 3-0 | Fluminense SC (射正1 射偏2) | 偵測時間45",
+                  "押策略二(A) Juventus Jaragua Do Sul"
                 ],
                 "highlight": ""
               },
               {
-                "team": "FK-Cukaricki-vs-IMT-Novi-Belgr",
-                "team_url": "https://betsapi.com/r/12037667/FK-Cukaricki-vs-IMT-Novi-Belgrade",
+                "team": "Cardoso-Moreira-vs-Campos-RJ",
+                "team_url": "https://betsapi.com/r/12260620/Cardoso-Moreira-vs-Campos-RJ",
                 "cols": [
-                  "FK-Cukaricki-vs-IMT-Novi-Belgr",
-                  "2026-07-20 01:45:02",
-                  "FK Cukaricki (射正2 射偏4) | 0-1 | IMT Novi Belgrade (射正4 射偏3) | 偵測時間41",
-                  "押策略二(B) IMT Novi Belgrade"
+                  "Cardoso-Moreira-vs-Campos-RJ",
+                  "2026-07-20 02:15:02",
+                  "Cardoso Moreira (射正3 射偏1) | 2-0 | Campos RJ (射正1 射偏6) | 偵測時間45",
+                  "押策略二(A) Cardoso Moreira"
                 ],
                 "highlight": ""
               }
@@ -472,7 +547,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "17:54:38"
+        "scraped_at": "18:58:28"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -502,7 +577,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "17:54:39"
+        "scraped_at": "18:58:29"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -517,6 +592,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "FK-Radnik-Surdulica-vs-Mladost",
+                "team_url": "https://betsapi.com/r/12034821/FK-Radnik-Surdulica-vs-Mladost-Lucani",
+                "cols": [
+                  "FK-Radnik-Surdulica-vs-Mladost",
+                  "2026-07-20 02:20:02",
+                  "FK Radnik Surdulica (射正5 射偏6) | 1-1 | Mladost Lucani (射正3 射偏2) | 偵測時間60",
+                  "押策略五(A) FK Radnik Surdulica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-Petrocub-vs-Sheriff-Tiraspo",
+                "team_url": "https://betsapi.com/r/12200758/CS-Petrocub-vs-Sheriff-Tiraspol",
+                "cols": [
+                  "CS-Petrocub-vs-Sheriff-Tiraspo",
+                  "2026-07-20 02:15:02",
+                  "CS Petrocub (射正0 射偏2) | 0-2 | Sheriff Tiraspol (射正4 射偏5) | 偵測時間58",
+                  "押策略五(B) Sheriff Tiraspol"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CS Petrocub (射正0 射偏2) | 0-1 | Sheriff Tiraspol (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "KR-Reykjavik-vs-Stjarnan",
                 "team_url": "https://betsapi.com/r/11322487/KR-Reykjavik-vs-Stjarnan",
@@ -686,7 +803,7 @@
                 "highlight": ""
               }
             ],
-            "total": 8
+            "total": 10
           },
           {
             "title": "參考",
@@ -702,7 +819,7 @@
                 "team_url": "https://betsapi.com/r/12200758/CS-Petrocub-vs-Sheriff-Tiraspol",
                 "cols": [
                   "CS-Petrocub-vs-Sheriff-Tiraspo",
-                  "2026-07-20 01:50:01",
+                  "2026-07-20 02:00:02",
                   "CS Petrocub (射正0 射偏2) | 0-1 | Sheriff Tiraspol (射正3 射偏4) | 偵測時間45",
                   "押策略五(B) Sheriff Tiraspol"
                 ],
@@ -789,7 +906,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "17:54:41"
+        "scraped_at": "18:58:31"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -829,7 +946,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "17:54:42"
+        "scraped_at": "18:58:33"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -869,7 +986,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "17:54:44"
+        "scraped_at": "18:58:34"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -885,13 +1002,139 @@
             ],
             "matches": [
               {
-                "team": "Al-Ittifaq-Dammam-vs-Johor-Dar",
-                "team_url": "https://betsapi.com/r/12259262/Al-Ittifaq-Dammam-vs-Johor-Darul-Takzim",
+                "team": "Cardoso-Moreira-vs-Campos-RJ",
+                "team_url": "https://betsapi.com/r/12260620/Cardoso-Moreira-vs-Campos-RJ",
                 "cols": [
-                  "Al-Ittifaq-Dammam-vs-Johor-Dar",
+                  "Cardoso-Moreira-vs-Campos-RJ",
+                  "2026-07-20 02:30:01",
+                  "Cardoso Moreira (射正3 射偏2) | 2-0 | Campos RJ (射正1 射偏9) | 偵測時間59",
+                  "押數據二(A) Cardoso Moreira"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Cardoso Moreira (射正3 射偏1) | 2-0 | Campos RJ (射正1 射偏6) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Cukaricki-vs-IMT-Novi-Belgr",
+                "team_url": "https://betsapi.com/r/12037667/FK-Cukaricki-vs-IMT-Novi-Belgrade",
+                "cols": [
+                  "FK-Cukaricki-vs-IMT-Novi-Belgr",
+                  "2026-07-20 02:25:01",
+                  "FK Cukaricki (射正2 射偏6) | 0-1 | IMT Novi Belgrade (射正6 射偏3) | 偵測時間60",
+                  "押數據二(B) IMT Novi Belgrade"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Cukaricki (射正2 射偏5) | 0-1 | IMT Novi Belgrade (射正5 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Radnik-Surdulica-vs-Mladost",
+                "team_url": "https://betsapi.com/r/12034821/FK-Radnik-Surdulica-vs-Mladost-Lucani",
+                "cols": [
+                  "FK-Radnik-Surdulica-vs-Mladost",
+                  "2026-07-20 02:20:02",
+                  "FK Radnik Surdulica (射正5 射偏6) | 1-1 | Mladost Lucani (射正3 射偏2) | 偵測時間60",
+                  "押數據二(A) FK Radnik Surdulica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Vojvodina-vs-OFK-Beograd",
+                "team_url": "https://betsapi.com/r/12037670/Vojvodina-vs-OFK-Beograd",
+                "cols": [
+                  "Vojvodina-vs-OFK-Beograd",
+                  "2026-07-20 02:20:02",
+                  "Vojvodina (射正4 射偏7) | 1-0 | OFK Beograd (射正1 射偏4) | 偵測時間57",
+                  "押數據二(A) Vojvodina"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Vojvodina (射正3 射偏7) | 0-0 | OFK Beograd (射正0 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Buzios-vs-Barra-Mansa",
+                "team_url": "https://betsapi.com/r/12260619/Buzios-vs-Barra-Mansa",
+                "cols": [
+                  "Buzios-vs-Barra-Mansa",
+                  "2026-07-20 02:20:02",
+                  "Buzios (射正2 射偏4) | 1-0 | Barra Mansa (射正3 射偏5) | 偵測時間59",
+                  "押數據二(B) Barra Mansa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Buzios (射正1 射偏2) | 1-0 | Barra Mansa (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-Petrocub-vs-Sheriff-Tiraspo",
+                "team_url": "https://betsapi.com/r/12200758/CS-Petrocub-vs-Sheriff-Tiraspol",
+                "cols": [
+                  "CS-Petrocub-vs-Sheriff-Tiraspo",
+                  "2026-07-20 02:15:02",
+                  "CS Petrocub (射正0 射偏2) | 0-2 | Sheriff Tiraspol (射正4 射偏5) | 偵測時間58",
+                  "押數據二(B) Sheriff Tiraspol"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CS Petrocub (射正0 射偏2) | 0-1 | Sheriff Tiraspol (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "NK-Aluminij-vs-NK-Maribor",
+                "team_url": "https://betsapi.com/r/12087482/NK-Aluminij-vs-NK-Maribor",
+                "cols": [
+                  "NK-Aluminij-vs-NK-Maribor",
                   "2026-07-20 01:20:01",
-                  "Al Ittifaq Dammam (射正3 射偏4) | 1-0 | Johor Darul Takzim (射正4 射偏3) | 偵測時間59",
-                  "押數據二(B) Johor Darul Takzim"
+                  "NK Aluminij (射正1 射偏3) | 0-0 | NK Maribor (射正3 射偏5) | 偵測時間60",
+                  "押數據二(B) NK Maribor"
                 ],
                 "highlight": ""
               },
@@ -927,13 +1170,13 @@
                 "highlight": ""
               },
               {
-                "team": "NK-Aluminij-vs-NK-Maribor",
-                "team_url": "https://betsapi.com/r/12087482/NK-Aluminij-vs-NK-Maribor",
+                "team": "Al-Ittifaq-Dammam-vs-Johor-Dar",
+                "team_url": "https://betsapi.com/r/12259262/Al-Ittifaq-Dammam-vs-Johor-Darul-Takzim",
                 "cols": [
-                  "NK-Aluminij-vs-NK-Maribor",
+                  "Al-Ittifaq-Dammam-vs-Johor-Dar",
                   "2026-07-20 01:20:01",
-                  "NK Aluminij (射正1 射偏3) | 0-0 | NK Maribor (射正3 射偏5) | 偵測時間60",
-                  "押數據二(B) NK Maribor"
+                  "Al Ittifaq Dammam (射正3 射偏4) | 1-0 | Johor Darul Takzim (射正4 射偏3) | 偵測時間59",
+                  "押數據二(B) Johor Darul Takzim"
                 ],
                 "highlight": ""
               },
@@ -943,27 +1186,6 @@
                 "cols": [
                   "",
                   "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "FK-Zalgiris-Vilnius-vs-FK-Tran",
-                "team_url": "https://betsapi.com/r/11982921/FK-Zalgiris-Vilnius-vs-FK-Transinvest",
-                "cols": [
-                  "FK-Zalgiris-Vilnius-vs-FK-Tran",
-                  "2026-07-20 01:15:02",
-                  "FK Zalgiris Vilnius (射正5 射偏2) | 3-0 | FK Transinvest (射正1 射偏7) | 偵測時間58",
-                  "押數據二(A) FK Zalgiris Vilnius"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "FK Zalgiris Vilnius (射正4 射偏1) | 2-0 | FK Transinvest (射正1 射偏5) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -985,6 +1207,27 @@
                 "cols": [
                   "",
                   "Harju JK Laagri (射正6 射偏2) | 5-1 | Paide Linnameeskond (射正2 射偏6) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Zalgiris-Vilnius-vs-FK-Tran",
+                "team_url": "https://betsapi.com/r/11982921/FK-Zalgiris-Vilnius-vs-FK-Transinvest",
+                "cols": [
+                  "FK-Zalgiris-Vilnius-vs-FK-Tran",
+                  "2026-07-20 01:15:02",
+                  "FK Zalgiris Vilnius (射正5 射偏2) | 3-0 | FK Transinvest (射正1 射偏7) | 偵測時間58",
+                  "押數據二(A) FK Zalgiris Vilnius"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Zalgiris Vilnius (射正4 射偏1) | 2-0 | FK Transinvest (射正1 射偏5) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1095,27 +1338,6 @@
                 "highlight": ""
               },
               {
-                "team": "FK-Kauno-Zalgiris-II-vs-FK-Bab",
-                "team_url": "https://betsapi.com/r/12069543/FK-Kauno-Zalgiris-II-vs-FK-Babrungas",
-                "cols": [
-                  "FK-Kauno-Zalgiris-II-vs-FK-Bab",
-                  "2026-07-20 00:15:01",
-                  "FK Kauno Zalgiris II (射正1 射偏2) | 0-2 | FK Babrungas (射正5 射偏6) | 偵測時間58",
-                  "押數據二(B) FK Babrungas"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "FK Kauno Zalgiris II (射正1 射偏2) | 0-1 | FK Babrungas (射正4 射偏6) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Derry-City-vs-Tolka-Rovers",
                 "team_url": "https://betsapi.com/r/11989004/Derry-City-vs-Tolka-Rovers",
                 "cols": [
@@ -1132,6 +1354,27 @@
                 "cols": [
                   "",
                   "Derry City (射正8 射偏8) | 1-0 | Tolka Rovers (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Kauno-Zalgiris-II-vs-FK-Bab",
+                "team_url": "https://betsapi.com/r/12069543/FK-Kauno-Zalgiris-II-vs-FK-Babrungas",
+                "cols": [
+                  "FK-Kauno-Zalgiris-II-vs-FK-Bab",
+                  "2026-07-20 00:15:01",
+                  "FK Kauno Zalgiris II (射正1 射偏2) | 0-2 | FK Babrungas (射正5 射偏6) | 偵測時間58",
+                  "押數據二(B) FK Babrungas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Kauno Zalgiris II (射正1 射偏2) | 0-1 | FK Babrungas (射正4 射偏6) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1179,7 +1422,7 @@
                 "highlight": ""
               }
             ],
-            "total": 14
+            "total": 20
           },
           {
             "title": "參考",
@@ -1191,13 +1434,35 @@
             ],
             "matches": [
               {
-                "team": "CS-Petrocub-vs-Sheriff-Tiraspo",
-                "team_url": "https://betsapi.com/r/12200758/CS-Petrocub-vs-Sheriff-Tiraspol",
+                "team": "Juventus-Jaragua-Do-Sul-vs-Flu",
+                "team_url": "https://betsapi.com/r/11574767/Juventus-Jaragua-Do-Sul-vs-Fluminense-SC",
                 "cols": [
-                  "CS-Petrocub-vs-Sheriff-Tiraspo",
-                  "2026-07-20 01:50:01",
-                  "CS Petrocub (射正0 射偏2) | 0-1 | Sheriff Tiraspol (射正3 射偏4) | 偵測時間45",
-                  "押數據二(B) Sheriff Tiraspol"
+                  "Juventus-Jaragua-Do-Sul-vs-Flu",
+                  "2026-07-20 02:55:01",
+                  "Juventus Jaragua Do Sul (射正3 射偏1) | 3-0 | Fluminense SC (射正1 射偏2) | 偵測時間45",
+                  "押數據二(A) Juventus Jaragua Do Sul"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bentin-Tacna-Heroica-vs-Union-",
+                "team_url": "https://betsapi.com/r/12068375/Bentin-Tacna-Heroica-vs-Union-Minas",
+                "cols": [
+                  "Bentin-Tacna-Heroica-vs-Union-",
+                  "2026-07-20 02:55:01",
+                  "Bentin Tacna Heroica (射正4 射偏5) | 1-1 | Union Minas (射正3 射偏2) | 偵測時間45",
+                  "押數據二(A) Bentin Tacna Heroica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Cardoso-Moreira-vs-Campos-RJ",
+                "team_url": "https://betsapi.com/r/12260620/Cardoso-Moreira-vs-Campos-RJ",
+                "cols": [
+                  "Cardoso-Moreira-vs-Campos-RJ",
+                  "2026-07-20 02:15:02",
+                  "Cardoso Moreira (射正3 射偏1) | 2-0 | Campos RJ (射正1 射偏6) | 偵測時間45",
+                  "押數據二(A) Cardoso Moreira"
                 ],
                 "highlight": ""
               },
@@ -1206,9 +1471,20 @@
                 "team_url": "https://betsapi.com/r/12037667/FK-Cukaricki-vs-IMT-Novi-Belgrade",
                 "cols": [
                   "FK-Cukaricki-vs-IMT-Novi-Belgr",
-                  "2026-07-20 01:45:02",
-                  "FK Cukaricki (射正2 射偏4) | 0-1 | IMT Novi Belgrade (射正4 射偏3) | 偵測時間41",
+                  "2026-07-20 02:10:02",
+                  "FK Cukaricki (射正2 射偏5) | 0-1 | IMT Novi Belgrade (射正5 射偏3) | 偵測時間45",
                   "押數據二(B) IMT Novi Belgrade"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Vojvodina-vs-OFK-Beograd",
+                "team_url": "https://betsapi.com/r/12037670/Vojvodina-vs-OFK-Beograd",
+                "cols": [
+                  "Vojvodina-vs-OFK-Beograd",
+                  "2026-07-20 02:05:01",
+                  "Vojvodina (射正3 射偏7) | 0-0 | OFK Beograd (射正0 射偏1) | 偵測時間45",
+                  "押數據二(A) Vojvodina"
                 ],
                 "highlight": ""
               },
@@ -1217,9 +1493,20 @@
                 "team_url": "https://betsapi.com/r/12260619/Buzios-vs-Barra-Mansa",
                 "cols": [
                   "Buzios-vs-Barra-Mansa",
-                  "2026-07-20 01:45:02",
-                  "Buzios (射正1 射偏1) | 1-0 | Barra Mansa (射正3 射偏4) | 偵測時間44",
+                  "2026-07-20 02:05:01",
+                  "Buzios (射正1 射偏2) | 1-0 | Barra Mansa (射正3 射偏4) | 偵測時間45",
                   "押數據二(B) Barra Mansa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-Petrocub-vs-Sheriff-Tiraspo",
+                "team_url": "https://betsapi.com/r/12200758/CS-Petrocub-vs-Sheriff-Tiraspol",
+                "cols": [
+                  "CS-Petrocub-vs-Sheriff-Tiraspo",
+                  "2026-07-20 02:00:02",
+                  "CS Petrocub (射正0 射偏2) | 0-1 | Sheriff Tiraspol (射正3 射偏4) | 偵測時間45",
+                  "押數據二(B) Sheriff Tiraspol"
                 ],
                 "highlight": ""
               },
@@ -1246,17 +1533,6 @@
                 "highlight": ""
               },
               {
-                "team": "Harju-JK-Laagri-vs-Paide-Linna",
-                "team_url": "https://betsapi.com/r/11328210/Harju-JK-Laagri-vs-Paide-Linnameeskond",
-                "cols": [
-                  "Harju-JK-Laagri-vs-Paide-Linna",
-                  "2026-07-20 01:00:02",
-                  "Harju JK Laagri (射正6 射偏2) | 5-1 | Paide Linnameeskond (射正2 射偏6) | 偵測時間45",
-                  "押數據二(A) Harju JK Laagri"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "FK-Zalgiris-Vilnius-vs-FK-Tran",
                 "team_url": "https://betsapi.com/r/11982921/FK-Zalgiris-Vilnius-vs-FK-Transinvest",
                 "cols": [
@@ -1264,6 +1540,17 @@
                   "2026-07-20 01:00:02",
                   "FK Zalgiris Vilnius (射正4 射偏1) | 2-0 | FK Transinvest (射正1 射偏5) | 偵測時間45",
                   "押數據二(A) FK Zalgiris Vilnius"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Harju-JK-Laagri-vs-Paide-Linna",
+                "team_url": "https://betsapi.com/r/11328210/Harju-JK-Laagri-vs-Paide-Linnameeskond",
+                "cols": [
+                  "Harju-JK-Laagri-vs-Paide-Linna",
+                  "2026-07-20 01:00:02",
+                  "Harju JK Laagri (射正6 射偏2) | 5-1 | Paide Linnameeskond (射正2 射偏6) | 偵測時間45",
+                  "押數據二(A) Harju JK Laagri"
                 ],
                 "highlight": ""
               },
@@ -1312,17 +1599,6 @@
                 "highlight": ""
               },
               {
-                "team": "Derry-City-vs-Tolka-Rovers",
-                "team_url": "https://betsapi.com/r/11989004/Derry-City-vs-Tolka-Rovers",
-                "cols": [
-                  "Derry-City-vs-Tolka-Rovers",
-                  "2026-07-20 00:00:02",
-                  "Derry City (射正8 射偏8) | 1-0 | Tolka Rovers (射正1 射偏3) | 偵測時間45",
-                  "押數據二(A) Derry City"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "FK-Kauno-Zalgiris-II-vs-FK-Bab",
                 "team_url": "https://betsapi.com/r/12069543/FK-Kauno-Zalgiris-II-vs-FK-Babrungas",
                 "cols": [
@@ -1332,12 +1608,23 @@
                   "押數據二(B) FK Babrungas"
                 ],
                 "highlight": ""
+              },
+              {
+                "team": "Derry-City-vs-Tolka-Rovers",
+                "team_url": "https://betsapi.com/r/11989004/Derry-City-vs-Tolka-Rovers",
+                "cols": [
+                  "Derry-City-vs-Tolka-Rovers",
+                  "2026-07-20 00:00:02",
+                  "Derry City (射正8 射偏8) | 1-0 | Tolka Rovers (射正1 射偏3) | 偵測時間45",
+                  "押數據二(A) Derry City"
+                ],
+                "highlight": ""
               }
             ],
-            "total": 13
+            "total": 17
           }
         ],
-        "scraped_at": "17:54:46"
+        "scraped_at": "18:58:36"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
@@ -1377,7 +1664,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "17:54:47"
+        "scraped_at": "18:58:38"
       }
     }
   }
