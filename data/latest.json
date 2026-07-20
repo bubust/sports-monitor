@@ -1,81 +1,980 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-20 16:55:16",
+  "updated_at": "2026-07-20 18:50:59",
   "data": {
-    "timestamp": "2026-07-20 16:55:16",
+    "timestamp": "2026-07-20 18:50:59",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:55:18"
+        "scraped_at": "18:51:01"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:19"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時隊伍 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Norrby-IF-vs-GIF-Sundsvall",
+                "team_url": "https://betsapi.com/r/11175558/Norrby-IF-vs-GIF-Sundsvall",
+                "cols": [
+                  "Norrby-IF-vs-GIF-Sundsvall",
+                  "2026-07-21 02:15:01",
+                  "Norrby IF (射正4 射偏8) | 1-0 | GIF Sundsvall (射正0 射偏4) | 偵測時間56",
+                  "押獨贏二(A) Norrby IF"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Pirata-FC-vs-CD-Universidad-Sa",
+                "team_url": "https://betsapi.com/r/12068381/Pirata-FC-vs-CD-Universidad-San-Martin",
+                "cols": [
+                  "Pirata-FC-vs-CD-Universidad-Sa",
+                  "2026-07-21 01:20:02",
+                  "Pirata FC (射正1 射偏2) | 1-2 | CD Universidad San Martin (射正3 射偏10) | 偵測時間56",
+                  "押獨贏二(B) CD Universidad San Martin"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atus-Velden-vs-Wolfsberger-AC",
+                "team_url": "https://betsapi.com/r/12265593/Atus-Velden-vs-Wolfsberger-AC",
+                "cols": [
+                  "Atus-Velden-vs-Wolfsberger-AC",
+                  "2026-07-21 01:15:02",
+                  "Atus Velden (射正1 射偏2) | 0-4 | Wolfsberger AC (射正9 射偏7) | 偵測時間60",
+                  "押獨贏二(B) Wolfsberger AC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 3
+          }
+        ],
+        "scraped_at": "18:51:02"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:21"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時大小 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Atus-Velden-vs-Wolfsberger-AC",
+                "team_url": "https://betsapi.com/r/12265593/Atus-Velden-vs-Wolfsberger-AC",
+                "cols": [
+                  "Atus-Velden-vs-Wolfsberger-AC",
+                  "2026-07-21 01:15:02",
+                  "Atus Velden (射正1 射偏2) | 0-4 | Wolfsberger AC (射正9 射偏7) | 偵測時間60",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Suduva-Marijampole-vs-Hegelman",
+                "team_url": "https://betsapi.com/r/11982920/Suduva-Marijampole-vs-Hegelmann-Litauen",
+                "cols": [
+                  "Suduva-Marijampole-vs-Hegelman",
+                  "2026-07-21 01:00:03",
+                  "Suduva Marijampole (射正5 射偏0) | 4-1 | Hegelmann Litauen (射正1 射偏0) | 偵測時間57",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "18:51:04"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:22"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時大小 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FK-Jelgava-vs-RFS",
+                "team_url": "https://betsapi.com/r/11366641/FK-Jelgava-vs-RFS",
+                "cols": [
+                  "FK-Jelgava-vs-RFS",
+                  "2026-07-21 00:15:01",
+                  "FK Jelgava (射正5 射偏5) | 0-1 | RFS (射正4 射偏3) | 偵測時間57",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Jelgava (射正4 射偏3) | 0-1 | RFS (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Deportivo-Pinoza-vs-Club-Capit",
+                "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
+                "cols": [
+                  "Deportivo-Pinoza-vs-Club-Capit",
+                  "2026-07-21 02:50:02",
+                  "Deportivo Pinoza (射正1 射偏2) | 0-0 | Club Capitan Figari (射正6 射偏4) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Jelgava-vs-RFS",
+                "team_url": "https://betsapi.com/r/11366641/FK-Jelgava-vs-RFS",
+                "cols": [
+                  "FK-Jelgava-vs-RFS",
+                  "2026-07-21 00:00:03",
+                  "FK Jelgava (射正4 射偏3) | 0-1 | RFS (射正3 射偏2) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "18:51:06"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:24"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "TSS-II-vs-RFS-II",
+                "team_url": "https://betsapi.com/r/11536663/FK-Tukums-2000/TSS-II-vs-RFS-II",
+                "cols": [
+                  "TSS-II-vs-RFS-II",
+                  "2026-07-21 00:55:02",
+                  "FK Tukums 2000/TSS II (射正3 射偏4) | 0-0 | RFS II (射正1 射偏1) | 偵測時間45",
+                  "押策略一2(A) FK Tukums 2000/TSS II"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:51:07"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:26"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FK-Transinvest-II-vs-FK-Neptun",
+                "team_url": "https://betsapi.com/r/12069541/FK-Transinvest-II-vs-FK-Neptunas-Klaipeda",
+                "cols": [
+                  "FK-Transinvest-II-vs-FK-Neptun",
+                  "2026-07-21 00:15:01",
+                  "FK Transinvest II (射正2 射偏4) | 2-1 | FK Neptunas Klaipeda (射正3 射偏3) | 偵測時間56",
+                  "押策略二(B) FK Neptunas Klaipeda"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Transinvest II (射正1 射偏3) | 1-1 | FK Neptunas Klaipeda (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Club-Atletico-Progreso-Reserve",
+                "team_url": "https://betsapi.com/r/12266671/Club-Atletico-Progreso-Reserves-vs-Atletico-River-Plate-Reserves",
+                "cols": [
+                  "Club-Atletico-Progreso-Reserve",
+                  "2026-07-21 02:50:02",
+                  "Club Atletico Progreso Reserves (射正1 射偏0) | 1-0 | Atletico River Plate Reserves (射正0 射偏1) | 偵測時間41",
+                  "押策略二(A) Club Atletico Progreso Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Transinvest-II-vs-FK-Neptun",
+                "team_url": "https://betsapi.com/r/12069541/FK-Transinvest-II-vs-FK-Neptunas-Klaipeda",
+                "cols": [
+                  "FK-Transinvest-II-vs-FK-Neptun",
+                  "2026-07-21 00:00:03",
+                  "FK Transinvest II (射正1 射偏3) | 1-1 | FK Neptunas Klaipeda (射正3 射偏2) | 偵測時間45",
+                  "押策略二(B) FK Neptunas Klaipeda"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "18:51:09"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:55:27"
+        "scraped_at": "18:51:11"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:29"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時假賽 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Norrby-IF-vs-GIF-Sundsvall",
+                "team_url": "https://betsapi.com/r/11175558/Norrby-IF-vs-GIF-Sundsvall",
+                "cols": [
+                  "Norrby-IF-vs-GIF-Sundsvall",
+                  "2026-07-21 02:15:01",
+                  "Norrby IF (射正4 射偏8) | 1-0 | GIF Sundsvall (射正0 射偏4) | 偵測時間56",
+                  "押策略五(A) Norrby IF"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Norrby IF (射正3 射偏6) | 0-0 | GIF Sundsvall (射正0 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Slavia-Sofia-vs-CSKA-Sofia",
+                "team_url": "https://betsapi.com/r/12011658/Slavia-Sofia-vs-CSKA-Sofia",
+                "cols": [
+                  "Slavia-Sofia-vs-CSKA-Sofia",
+                  "2026-07-21 01:35:01",
+                  "Slavia Sofia (射正1 射偏1) | 0-0 | CSKA Sofia (射正2 射偏4) | 偵測時間59",
+                  "押策略五(B) CSKA Sofia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Slavia Sofia (射正1 射偏1) | 0-0 | CSKA Sofia (射正2 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "IFK-Mariehamn-vs-FC-Lahti",
+                "team_url": "https://betsapi.com/r/11172048/IFK-Mariehamn-vs-FC-Lahti",
+                "cols": [
+                  "IFK-Mariehamn-vs-FC-Lahti",
+                  "2026-07-21 01:20:02",
+                  "IFK Mariehamn (射正1 射偏1) | 0-2 | FC Lahti (射正7 射偏7) | 偵測時間58",
+                  "押策略五(B) FC Lahti"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atus-Velden-vs-Wolfsberger-AC",
+                "team_url": "https://betsapi.com/r/12265593/Atus-Velden-vs-Wolfsberger-AC",
+                "cols": [
+                  "Atus-Velden-vs-Wolfsberger-AC",
+                  "2026-07-21 01:15:02",
+                  "Atus Velden (射正1 射偏2) | 0-4 | Wolfsberger AC (射正9 射偏7) | 偵測時間60",
+                  "押策略五(B) Wolfsberger AC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Atus Velden (射正1 射偏1) | 0-2 | Wolfsberger AC (射正5 射偏7) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "TSS-II-vs-RFS-II",
+                "team_url": "https://betsapi.com/r/11536663/FK-Tukums-2000/TSS-II-vs-RFS-II",
+                "cols": [
+                  "TSS-II-vs-RFS-II",
+                  "2026-07-21 01:10:01",
+                  "FK Tukums 2000/TSS II (射正3 射偏7) | 0-0 | RFS II (射正2 射偏1) | 偵測時間56",
+                  "押策略五(A) FK Tukums 2000/TSS II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Tukums 2000/TSS II (射正3 射偏4) | 0-0 | RFS II (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KPV-vs-RoPS",
+                "team_url": "https://betsapi.com/r/11369396/KPV-vs-RoPS",
+                "cols": [
+                  "KPV-vs-RoPS",
+                  "2026-07-21 00:50:02",
+                  "KPV (射正3 射偏6) | 1-1 | RoPS (射正4 射偏8) | 偵測時間60",
+                  "押策略五(B) RoPS"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 6
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時假賽 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Penarol-Reserves-vs-Racing-Clu",
+                "team_url": "https://betsapi.com/r/12266672/Penarol-Reserves-vs-Racing-Club-de-Montevideo-Reserves",
+                "cols": [
+                  "Penarol-Reserves-vs-Racing-Clu",
+                  "2026-07-21 02:50:02",
+                  "Penarol Reserves (射正0 射偏2) | 0-0 | Racing Club de Montevideo Reserves (射正3 射偏4) | 偵測時間45",
+                  "押策略五(B) Racing Club de Montevideo Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Deportivo-Pinoza-vs-Club-Capit",
+                "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
+                "cols": [
+                  "Deportivo-Pinoza-vs-Club-Capit",
+                  "2026-07-21 02:50:02",
+                  "Deportivo Pinoza (射正1 射偏2) | 0-0 | Club Capitan Figari (射正6 射偏4) | 偵測時間45",
+                  "押策略五(B) Club Capitan Figari"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sao-Caetano-vs-Sao-Jose-SP",
+                "team_url": "https://betsapi.com/r/12266281/Sao-Caetano-vs-Sao-Jose-SP",
+                "cols": [
+                  "Sao-Caetano-vs-Sao-Jose-SP",
+                  "2026-07-21 02:45:02",
+                  "Sao Caetano (射正1 射偏1) | 1-1 | Sao Jose SP (射正4 射偏6) | 偵測時間43",
+                  "押策略五(B) Sao Jose SP"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Norrby-IF-vs-GIF-Sundsvall",
+                "team_url": "https://betsapi.com/r/11175558/Norrby-IF-vs-GIF-Sundsvall",
+                "cols": [
+                  "Norrby-IF-vs-GIF-Sundsvall",
+                  "2026-07-21 02:00:02",
+                  "Norrby IF (射正3 射偏6) | 0-0 | GIF Sundsvall (射正0 射偏4) | 偵測時間45",
+                  "押策略五(A) Norrby IF"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Slavia-Sofia-vs-CSKA-Sofia",
+                "team_url": "https://betsapi.com/r/12011658/Slavia-Sofia-vs-CSKA-Sofia",
+                "cols": [
+                  "Slavia-Sofia-vs-CSKA-Sofia",
+                  "2026-07-21 01:20:02",
+                  "Slavia Sofia (射正1 射偏1) | 0-0 | CSKA Sofia (射正2 射偏4) | 偵測時間45",
+                  "押策略五(B) CSKA Sofia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atus-Velden-vs-Wolfsberger-AC",
+                "team_url": "https://betsapi.com/r/12265593/Atus-Velden-vs-Wolfsberger-AC",
+                "cols": [
+                  "Atus-Velden-vs-Wolfsberger-AC",
+                  "2026-07-21 01:00:03",
+                  "Atus Velden (射正1 射偏1) | 0-2 | Wolfsberger AC (射正5 射偏7) | 偵測時間45",
+                  "押策略五(B) Wolfsberger AC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "TSS-II-vs-RFS-II",
+                "team_url": "https://betsapi.com/r/11536663/FK-Tukums-2000/TSS-II-vs-RFS-II",
+                "cols": [
+                  "TSS-II-vs-RFS-II",
+                  "2026-07-21 00:55:02",
+                  "FK Tukums 2000/TSS II (射正3 射偏4) | 0-0 | RFS II (射正1 射偏1) | 偵測時間45",
+                  "押策略五(A) FK Tukums 2000/TSS II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-Corvinul-Hunedoara-vs-FK-Cs",
+                "team_url": "https://betsapi.com/r/12111966/CS-Corvinul-Hunedoara-vs-FK-Csikszereda-Miercurea-Ciuc",
+                "cols": [
+                  "CS-Corvinul-Hunedoara-vs-FK-Cs",
+                  "2026-07-21 00:30:01",
+                  "CS Corvinul Hunedoara (射正2 射偏6) | 0-0 | FK Csikszereda Miercurea Ciuc (射正1 射偏0) | 偵測時間45",
+                  "押策略五(A) CS Corvinul Hunedoara"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 8
+          }
+        ],
+        "scraped_at": "18:51:13"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:55:30"
+        "scraped_at": "18:51:14"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:32"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FK-Transinvest-II-vs-FK-Neptun",
+                "team_url": "https://betsapi.com/r/12069541/FK-Transinvest-II-vs-FK-Neptunas-Klaipeda",
+                "cols": [
+                  "FK-Transinvest-II-vs-FK-Neptun",
+                  "2026-07-21 00:00:03",
+                  "FK Transinvest II (射正1 射偏3) | 1-1 | FK Neptunas Klaipeda (射正3 射偏2) | 偵測時間45",
+                  "押數據一(B) FK Neptunas Klaipeda"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "18:51:16"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:55:33"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Norrby-IF-vs-GIF-Sundsvall",
+                "team_url": "https://betsapi.com/r/11175558/Norrby-IF-vs-GIF-Sundsvall",
+                "cols": [
+                  "Norrby-IF-vs-GIF-Sundsvall",
+                  "2026-07-21 02:15:01",
+                  "Norrby IF (射正4 射偏8) | 1-0 | GIF Sundsvall (射正0 射偏4) | 偵測時間56",
+                  "押數據二(A) Norrby IF"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Norrby IF (射正3 射偏6) | 0-0 | GIF Sundsvall (射正0 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "IFK-Mariehamn-vs-FC-Lahti",
+                "team_url": "https://betsapi.com/r/11172048/IFK-Mariehamn-vs-FC-Lahti",
+                "cols": [
+                  "IFK-Mariehamn-vs-FC-Lahti",
+                  "2026-07-21 01:20:02",
+                  "IFK Mariehamn (射正1 射偏1) | 0-2 | FC Lahti (射正7 射偏7) | 偵測時間58",
+                  "押數據二(B) FC Lahti"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "IFK Mariehamn (射正1 射偏1) | 0-1 | FC Lahti (射正4 射偏6) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Pirata-FC-vs-CD-Universidad-Sa",
+                "team_url": "https://betsapi.com/r/12068381/Pirata-FC-vs-CD-Universidad-San-Martin",
+                "cols": [
+                  "Pirata-FC-vs-CD-Universidad-Sa",
+                  "2026-07-21 01:20:02",
+                  "Pirata FC (射正1 射偏2) | 1-2 | CD Universidad San Martin (射正3 射偏10) | 偵測時間56",
+                  "押數據二(B) CD Universidad San Martin"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Pirata FC (射正1 射偏1) | 1-2 | CD Universidad San Martin (射正3 射偏9) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atus-Velden-vs-Wolfsberger-AC",
+                "team_url": "https://betsapi.com/r/12265593/Atus-Velden-vs-Wolfsberger-AC",
+                "cols": [
+                  "Atus-Velden-vs-Wolfsberger-AC",
+                  "2026-07-21 01:15:02",
+                  "Atus Velden (射正1 射偏2) | 0-4 | Wolfsberger AC (射正9 射偏7) | 偵測時間60",
+                  "押數據二(B) Wolfsberger AC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Atus Velden (射正1 射偏1) | 0-2 | Wolfsberger AC (射正5 射偏7) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "TSS-II-vs-RFS-II",
+                "team_url": "https://betsapi.com/r/11536663/FK-Tukums-2000/TSS-II-vs-RFS-II",
+                "cols": [
+                  "TSS-II-vs-RFS-II",
+                  "2026-07-21 01:10:01",
+                  "FK Tukums 2000/TSS II (射正3 射偏7) | 0-0 | RFS II (射正2 射偏1) | 偵測時間56",
+                  "押數據二(A) FK Tukums 2000/TSS II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Tukums 2000/TSS II (射正3 射偏4) | 0-0 | RFS II (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Suduva-Marijampole-vs-Hegelman",
+                "team_url": "https://betsapi.com/r/11982920/Suduva-Marijampole-vs-Hegelmann-Litauen",
+                "cols": [
+                  "Suduva-Marijampole-vs-Hegelman",
+                  "2026-07-21 01:00:03",
+                  "Suduva Marijampole (射正5 射偏0) | 4-1 | Hegelmann Litauen (射正1 射偏0) | 偵測時間57",
+                  "押數據二(A) Suduva Marijampole"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KPV-vs-RoPS",
+                "team_url": "https://betsapi.com/r/11369396/KPV-vs-RoPS",
+                "cols": [
+                  "KPV-vs-RoPS",
+                  "2026-07-21 00:50:02",
+                  "KPV (射正3 射偏6) | 1-1 | RoPS (射正4 射偏8) | 偵測時間60",
+                  "押數據二(B) RoPS"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "TPS-vs-FC-Ilves",
+                "team_url": "https://betsapi.com/r/11172049/TPS-vs-FC-Ilves",
+                "cols": [
+                  "TPS-vs-FC-Ilves",
+                  "2026-07-21 00:20:01",
+                  "TPS (射正1 射偏6) | 1-2 | FC Ilves (射正3 射偏6) | 偵測時間60",
+                  "押數據二(B) FC Ilves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "TPS (射正1 射偏5) | 1-2 | FC Ilves (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Transinvest-II-vs-FK-Neptun",
+                "team_url": "https://betsapi.com/r/12069541/FK-Transinvest-II-vs-FK-Neptunas-Klaipeda",
+                "cols": [
+                  "FK-Transinvest-II-vs-FK-Neptun",
+                  "2026-07-21 00:15:01",
+                  "FK Transinvest II (射正2 射偏4) | 2-1 | FK Neptunas Klaipeda (射正3 射偏3) | 偵測時間56",
+                  "押數據二(B) FK Neptunas Klaipeda"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Jelgava-vs-RFS",
+                "team_url": "https://betsapi.com/r/11366641/FK-Jelgava-vs-RFS",
+                "cols": [
+                  "FK-Jelgava-vs-RFS",
+                  "2026-07-21 00:15:01",
+                  "FK Jelgava (射正5 射偏5) | 0-1 | RFS (射正4 射偏3) | 偵測時間57",
+                  "押數據二(A) FK Jelgava"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Jelgava (射正4 射偏3) | 0-1 | RFS (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 10
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Penarol-Reserves-vs-Racing-Clu",
+                "team_url": "https://betsapi.com/r/12266672/Penarol-Reserves-vs-Racing-Club-de-Montevideo-Reserves",
+                "cols": [
+                  "Penarol-Reserves-vs-Racing-Clu",
+                  "2026-07-21 02:50:02",
+                  "Penarol Reserves (射正0 射偏2) | 0-0 | Racing Club de Montevideo Reserves (射正3 射偏4) | 偵測時間45",
+                  "押數據二(B) Racing Club de Montevideo Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Deportivo-Pinoza-vs-Club-Capit",
+                "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
+                "cols": [
+                  "Deportivo-Pinoza-vs-Club-Capit",
+                  "2026-07-21 02:50:02",
+                  "Deportivo Pinoza (射正1 射偏2) | 0-0 | Club Capitan Figari (射正6 射偏4) | 偵測時間45",
+                  "押數據二(B) Club Capitan Figari"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sao-Caetano-vs-Sao-Jose-SP",
+                "team_url": "https://betsapi.com/r/12266281/Sao-Caetano-vs-Sao-Jose-SP",
+                "cols": [
+                  "Sao-Caetano-vs-Sao-Jose-SP",
+                  "2026-07-21 02:45:02",
+                  "Sao Caetano (射正1 射偏1) | 1-1 | Sao Jose SP (射正4 射偏6) | 偵測時間43",
+                  "押數據二(B) Sao Jose SP"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Norrby-IF-vs-GIF-Sundsvall",
+                "team_url": "https://betsapi.com/r/11175558/Norrby-IF-vs-GIF-Sundsvall",
+                "cols": [
+                  "Norrby-IF-vs-GIF-Sundsvall",
+                  "2026-07-21 02:00:02",
+                  "Norrby IF (射正3 射偏6) | 0-0 | GIF Sundsvall (射正0 射偏4) | 偵測時間45",
+                  "押數據二(A) Norrby IF"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "IFK-Mariehamn-vs-FC-Lahti",
+                "team_url": "https://betsapi.com/r/11172048/IFK-Mariehamn-vs-FC-Lahti",
+                "cols": [
+                  "IFK-Mariehamn-vs-FC-Lahti",
+                  "2026-07-21 01:05:01",
+                  "IFK Mariehamn (射正1 射偏1) | 0-1 | FC Lahti (射正4 射偏6) | 偵測時間45",
+                  "押數據二(B) FC Lahti"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Pirata-FC-vs-CD-Universidad-Sa",
+                "team_url": "https://betsapi.com/r/12068381/Pirata-FC-vs-CD-Universidad-San-Martin",
+                "cols": [
+                  "Pirata-FC-vs-CD-Universidad-Sa",
+                  "2026-07-21 01:05:01",
+                  "Pirata FC (射正1 射偏1) | 1-2 | CD Universidad San Martin (射正3 射偏9) | 偵測時間45",
+                  "押數據二(B) CD Universidad San Martin"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atus-Velden-vs-Wolfsberger-AC",
+                "team_url": "https://betsapi.com/r/12265593/Atus-Velden-vs-Wolfsberger-AC",
+                "cols": [
+                  "Atus-Velden-vs-Wolfsberger-AC",
+                  "2026-07-21 01:00:03",
+                  "Atus Velden (射正1 射偏1) | 0-2 | Wolfsberger AC (射正5 射偏7) | 偵測時間45",
+                  "押數據二(B) Wolfsberger AC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "TSS-II-vs-RFS-II",
+                "team_url": "https://betsapi.com/r/11536663/FK-Tukums-2000/TSS-II-vs-RFS-II",
+                "cols": [
+                  "TSS-II-vs-RFS-II",
+                  "2026-07-21 00:55:02",
+                  "FK Tukums 2000/TSS II (射正3 射偏4) | 0-0 | RFS II (射正1 射偏1) | 偵測時間45",
+                  "押數據二(A) FK Tukums 2000/TSS II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "TPS-vs-FC-Ilves",
+                "team_url": "https://betsapi.com/r/11172049/TPS-vs-FC-Ilves",
+                "cols": [
+                  "TPS-vs-FC-Ilves",
+                  "2026-07-21 00:05:02",
+                  "TPS (射正1 射偏5) | 1-2 | FC Ilves (射正3 射偏4) | 偵測時間45",
+                  "押數據二(B) FC Ilves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Jelgava-vs-RFS",
+                "team_url": "https://betsapi.com/r/11366641/FK-Jelgava-vs-RFS",
+                "cols": [
+                  "FK-Jelgava-vs-RFS",
+                  "2026-07-21 00:00:03",
+                  "FK Jelgava (射正4 射偏3) | 0-1 | RFS (射正3 射偏2) | 偵測時間45",
+                  "押數據二(A) FK Jelgava"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 10
+          }
+        ],
+        "scraped_at": "18:51:18"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:55:35"
+        "scraped_at": "18:51:19"
       }
     }
   }
