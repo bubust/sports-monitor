@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-20 18:50:59",
+  "updated_at": "2026-07-20 20:18:09",
   "data": {
-    "timestamp": "2026-07-20 18:50:59",
+    "timestamp": "2026-07-20 20:18:09",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "18:51:01"
+        "scraped_at": "20:18:11"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -24,6 +24,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Penarol-Reserves-vs-Racing-Clu",
+                "team_url": "https://betsapi.com/r/12266672/Penarol-Reserves-vs-Racing-Club-de-Montevideo-Reserves",
+                "cols": [
+                  "Penarol-Reserves-vs-Racing-Clu",
+                  "2026-07-21 03:15:01",
+                  "Penarol Reserves (射正1 射偏2) | 0-2 | Racing Club de Montevideo Reserves (射正5 射偏4) | 偵測時間56",
+                  "押獨贏二(B) Racing Club de Montevideo Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Deportivo-Pinoza-vs-Club-Capit",
+                "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
+                "cols": [
+                  "Deportivo-Pinoza-vs-Club-Capit",
+                  "2026-07-21 03:15:01",
+                  "Deportivo Pinoza (射正2 射偏3) | 0-1 | Club Capitan Figari (射正9 射偏4) | 偵測時間57",
+                  "押獨贏二(B) Club Capitan Figari"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Norrby-IF-vs-GIF-Sundsvall",
                 "team_url": "https://betsapi.com/r/11175558/Norrby-IF-vs-GIF-Sundsvall",
@@ -88,10 +130,44 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 5
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時隊伍 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Keflavik-vs-IA-Akranes",
+                "team_url": "https://betsapi.com/r/11322551/Keflavik-vs-IA-Akranes",
+                "cols": [
+                  "Keflavik-vs-IA-Akranes",
+                  "2026-07-21 04:15:01",
+                  "Keflavik (射正6 射偏6) | 2-0 | IA Akranes (射正0 射偏1) | 偵測時間45",
+                  "押獨贏二(A) Keflavik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "HK-Kopavogur-vs-IF-Vestri",
+                "team_url": "https://betsapi.com/r/11338269/HK-Kopavogur-vs-IF-Vestri",
+                "cols": [
+                  "HK-Kopavogur-vs-IF-Vestri",
+                  "2026-07-21 04:15:01",
+                  "HK Kopavogur (射正6 射偏2) | 4-0 | IF Vestri (射正0 射偏1) | 偵測時間45",
+                  "押獨贏二(A) HK Kopavogur"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
           }
         ],
-        "scraped_at": "18:51:02"
+        "scraped_at": "20:18:12"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -150,9 +226,32 @@
               }
             ],
             "total": 2
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "HK-Kopavogur-vs-IF-Vestri",
+                "team_url": "https://betsapi.com/r/11338269/HK-Kopavogur-vs-IF-Vestri",
+                "cols": [
+                  "HK-Kopavogur-vs-IF-Vestri",
+                  "2026-07-21 04:15:01",
+                  "HK Kopavogur (射正6 射偏2) | 4-0 | IF Vestri (射正0 射偏1) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
           }
         ],
-        "scraped_at": "18:51:04"
+        "scraped_at": "20:18:14"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -167,6 +266,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Deportivo-Pinoza-vs-Club-Capit",
+                "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
+                "cols": [
+                  "Deportivo-Pinoza-vs-Club-Capit",
+                  "2026-07-21 03:15:01",
+                  "Deportivo Pinoza (射正2 射偏3) | 0-1 | Club Capitan Figari (射正9 射偏4) | 偵測時間57",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Deportivo Pinoza (射正1 射偏2) | 0-0 | Club Capitan Figari (射正6 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "FK-Jelgava-vs-RFS",
                 "team_url": "https://betsapi.com/r/11366641/FK-Jelgava-vs-RFS",
@@ -189,7 +309,7 @@
                 "highlight": ""
               }
             ],
-            "total": 1
+            "total": 2
           },
           {
             "title": "參考",
@@ -205,7 +325,7 @@
                 "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
                 "cols": [
                   "Deportivo-Pinoza-vs-Club-Capit",
-                  "2026-07-21 02:50:02",
+                  "2026-07-21 03:00:01",
                   "Deportivo Pinoza (射正1 射偏2) | 0-0 | Club Capitan Figari (射正6 射偏4) | 偵測時間45",
                   "押大分三"
                 ],
@@ -226,12 +346,45 @@
             "total": 2
           }
         ],
-        "scraped_at": "18:51:06"
+        "scraped_at": "20:18:16"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
         "update_info": "更新59",
         "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Deportivo-Pinoza-vs-Club-Capit",
+                "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
+                "cols": [
+                  "Deportivo-Pinoza-vs-Club-Capit",
+                  "2026-07-21 03:15:01",
+                  "Deportivo Pinoza (射正2 射偏3) | 0-1 | Club Capitan Figari (射正9 射偏4) | 偵測時間57",
+                  "押策略一2(B) Club Capitan Figari"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          },
           {
             "title": "參考",
             "headers": [
@@ -241,6 +394,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "HK-Kopavogur-vs-IF-Vestri",
+                "team_url": "https://betsapi.com/r/11338269/HK-Kopavogur-vs-IF-Vestri",
+                "cols": [
+                  "HK-Kopavogur-vs-IF-Vestri",
+                  "2026-07-21 04:15:01",
+                  "HK Kopavogur (射正6 射偏2) | 4-0 | IF Vestri (射正0 射偏1) | 偵測時間45",
+                  "押策略一2(A) HK Kopavogur"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "TSS-II-vs-RFS-II",
                 "team_url": "https://betsapi.com/r/11536663/FK-Tukums-2000/TSS-II-vs-RFS-II",
@@ -253,10 +417,10 @@
                 "highlight": ""
               }
             ],
-            "total": 1
+            "total": 2
           }
         ],
-        "scraped_at": "18:51:07"
+        "scraped_at": "20:18:17"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -305,12 +469,34 @@
             ],
             "matches": [
               {
+                "team": "Sporting-vs-Strasbourg",
+                "team_url": "https://betsapi.com/r/12201240/Sporting-vs-Strasbourg",
+                "cols": [
+                  "Sporting-vs-Strasbourg",
+                  "2026-07-21 04:15:01",
+                  "Sporting (射正2 射偏2) | 2-0 | Strasbourg (射正1 射偏3) | 偵測時間45",
+                  "押策略二(A) Sporting"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Sucre-vs-Atletico-Jun",
+                "team_url": "https://betsapi.com/r/12263200/Atletico-Sucre-vs-Atletico-Juniors-de-Yotala",
+                "cols": [
+                  "Atletico-Sucre-vs-Atletico-Jun",
+                  "2026-07-21 04:05:01",
+                  "Atletico Sucre (射正0 射偏3) | 0-1 | Atletico Juniors de Yotala (射正3 射偏2) | 偵測時間45",
+                  "押策略二(B) Atletico Juniors de Yotala"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Club-Atletico-Progreso-Reserve",
                 "team_url": "https://betsapi.com/r/12266671/Club-Atletico-Progreso-Reserves-vs-Atletico-River-Plate-Reserves",
                 "cols": [
                   "Club-Atletico-Progreso-Reserve",
-                  "2026-07-21 02:50:02",
-                  "Club Atletico Progreso Reserves (射正1 射偏0) | 1-0 | Atletico River Plate Reserves (射正0 射偏1) | 偵測時間41",
+                  "2026-07-21 03:10:01",
+                  "Club Atletico Progreso Reserves (射正1 射偏0) | 1-0 | Atletico River Plate Reserves (射正0 射偏1) | 偵測時間45",
                   "押策略二(A) Club Atletico Progreso Reserves"
                 ],
                 "highlight": ""
@@ -327,16 +513,16 @@
                 "highlight": ""
               }
             ],
-            "total": 2
+            "total": 4
           }
         ],
-        "scraped_at": "18:51:09"
+        "scraped_at": "20:18:19"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "18:51:11"
+        "scraped_at": "20:18:21"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -351,6 +537,111 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Rapid-Bucuresti-vs-ACS-Sepsi",
+                "team_url": "https://betsapi.com/r/12122320/Rapid-Bucuresti-vs-ACS-Sepsi",
+                "cols": [
+                  "Rapid-Bucuresti-vs-ACS-Sepsi",
+                  "2026-07-21 03:55:01",
+                  "Rapid Bucuresti (射正2 射偏12) | 0-0 | ACS Sepsi (射正0 射偏3) | 偵測時間59",
+                  "押策略五(A) Rapid Bucuresti"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Ansar-Beirut-vs-Al-Nejmeh",
+                "team_url": "https://betsapi.com/r/12239559/Al-Ansar-Beirut-vs-Al-Nejmeh",
+                "cols": [
+                  "Al-Ansar-Beirut-vs-Al-Nejmeh",
+                  "2026-07-21 03:55:01",
+                  "Al Ansar Beirut (射正2 射偏8) | 0-0 | Al Nejmeh (射正1 射偏4) | 偵測時間57",
+                  "押策略五(A) Al Ansar Beirut"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Al Ansar Beirut (射正2 射偏5) | 0-0 | Al Nejmeh (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Young-Boys-II-vs-FC-Solothurn",
+                "team_url": "https://betsapi.com/r/12269568/Young-Boys-II-vs-FC-Solothurn",
+                "cols": [
+                  "Young-Boys-II-vs-FC-Solothurn",
+                  "2026-07-21 03:45:01",
+                  "Young Boys II (射正5 射偏10) | 1-2 | FC Solothurn (射正3 射偏5) | 偵測時間57",
+                  "押策略五(A) Young Boys II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Young Boys II (射正4 射偏7) | 0-1 | FC Solothurn (射正1 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sao-Caetano-vs-Sao-Jose-SP",
+                "team_url": "https://betsapi.com/r/12266281/Sao-Caetano-vs-Sao-Jose-SP",
+                "cols": [
+                  "Sao-Caetano-vs-Sao-Jose-SP",
+                  "2026-07-21 03:20:02",
+                  "Sao Caetano (射正1 射偏1) | 1-2 | Sao Jose SP (射正5 射偏7) | 偵測時間56",
+                  "押策略五(B) Sao Jose SP"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Sao Caetano (射正1 射偏1) | 1-2 | Sao Jose SP (射正5 射偏6) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Deportivo-Pinoza-vs-Club-Capit",
+                "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
+                "cols": [
+                  "Deportivo-Pinoza-vs-Club-Capit",
+                  "2026-07-21 03:15:01",
+                  "Deportivo Pinoza (射正2 射偏3) | 0-1 | Club Capitan Figari (射正9 射偏4) | 偵測時間57",
+                  "押策略五(B) Club Capitan Figari"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Deportivo Pinoza (射正1 射偏2) | 0-0 | Club Capitan Figari (射正6 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Norrby-IF-vs-GIF-Sundsvall",
                 "team_url": "https://betsapi.com/r/11175558/Norrby-IF-vs-GIF-Sundsvall",
@@ -478,7 +769,7 @@
                 "highlight": ""
               }
             ],
-            "total": 6
+            "total": 11
           },
           {
             "title": "參考",
@@ -490,11 +781,55 @@
             ],
             "matches": [
               {
+                "team": "Keflavik-vs-IA-Akranes",
+                "team_url": "https://betsapi.com/r/11322551/Keflavik-vs-IA-Akranes",
+                "cols": [
+                  "Keflavik-vs-IA-Akranes",
+                  "2026-07-21 04:15:01",
+                  "Keflavik (射正6 射偏6) | 2-0 | IA Akranes (射正0 射偏1) | 偵測時間45",
+                  "押策略五(A) Keflavik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Ansar-Beirut-vs-Al-Nejmeh",
+                "team_url": "https://betsapi.com/r/12239559/Al-Ansar-Beirut-vs-Al-Nejmeh",
+                "cols": [
+                  "Al-Ansar-Beirut-vs-Al-Nejmeh",
+                  "2026-07-21 03:40:01",
+                  "Al Ansar Beirut (射正2 射偏5) | 0-0 | Al Nejmeh (射正1 射偏3) | 偵測時間45",
+                  "押策略五(A) Al Ansar Beirut"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Young-Boys-II-vs-FC-Solothurn",
+                "team_url": "https://betsapi.com/r/12269568/Young-Boys-II-vs-FC-Solothurn",
+                "cols": [
+                  "Young-Boys-II-vs-FC-Solothurn",
+                  "2026-07-21 03:30:02",
+                  "Young Boys II (射正4 射偏7) | 0-1 | FC Solothurn (射正1 射偏4) | 偵測時間45",
+                  "押策略五(A) Young Boys II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sao-Caetano-vs-Sao-Jose-SP",
+                "team_url": "https://betsapi.com/r/12266281/Sao-Caetano-vs-Sao-Jose-SP",
+                "cols": [
+                  "Sao-Caetano-vs-Sao-Jose-SP",
+                  "2026-07-21 03:05:01",
+                  "Sao Caetano (射正1 射偏1) | 1-2 | Sao Jose SP (射正5 射偏6) | 偵測時間45",
+                  "押策略五(B) Sao Jose SP"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Penarol-Reserves-vs-Racing-Clu",
                 "team_url": "https://betsapi.com/r/12266672/Penarol-Reserves-vs-Racing-Club-de-Montevideo-Reserves",
                 "cols": [
                   "Penarol-Reserves-vs-Racing-Clu",
-                  "2026-07-21 02:50:02",
+                  "2026-07-21 03:00:01",
                   "Penarol Reserves (射正0 射偏2) | 0-0 | Racing Club de Montevideo Reserves (射正3 射偏4) | 偵測時間45",
                   "押策略五(B) Racing Club de Montevideo Reserves"
                 ],
@@ -505,20 +840,9 @@
                 "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
                 "cols": [
                   "Deportivo-Pinoza-vs-Club-Capit",
-                  "2026-07-21 02:50:02",
+                  "2026-07-21 03:00:01",
                   "Deportivo Pinoza (射正1 射偏2) | 0-0 | Club Capitan Figari (射正6 射偏4) | 偵測時間45",
                   "押策略五(B) Club Capitan Figari"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Sao-Caetano-vs-Sao-Jose-SP",
-                "team_url": "https://betsapi.com/r/12266281/Sao-Caetano-vs-Sao-Jose-SP",
-                "cols": [
-                  "Sao-Caetano-vs-Sao-Jose-SP",
-                  "2026-07-21 02:45:02",
-                  "Sao Caetano (射正1 射偏1) | 1-1 | Sao Jose SP (射正4 射偏6) | 偵測時間43",
-                  "押策略五(B) Sao Jose SP"
                 ],
                 "highlight": ""
               },
@@ -578,16 +902,16 @@
                 "highlight": ""
               }
             ],
-            "total": 8
+            "total": 11
           }
         ],
-        "scraped_at": "18:51:13"
+        "scraped_at": "20:18:23"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "18:51:14"
+        "scraped_at": "20:18:24"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -603,6 +927,17 @@
             ],
             "matches": [
               {
+                "team": "Atletico-Sucre-vs-Atletico-Jun",
+                "team_url": "https://betsapi.com/r/12263200/Atletico-Sucre-vs-Atletico-Juniors-de-Yotala",
+                "cols": [
+                  "Atletico-Sucre-vs-Atletico-Jun",
+                  "2026-07-21 04:05:01",
+                  "Atletico Sucre (射正0 射偏3) | 0-1 | Atletico Juniors de Yotala (射正3 射偏2) | 偵測時間45",
+                  "押數據一(B) Atletico Juniors de Yotala"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "FK-Transinvest-II-vs-FK-Neptun",
                 "team_url": "https://betsapi.com/r/12069541/FK-Transinvest-II-vs-FK-Neptunas-Klaipeda",
                 "cols": [
@@ -614,10 +949,10 @@
                 "highlight": ""
               }
             ],
-            "total": 1
+            "total": 2
           }
         ],
-        "scraped_at": "18:51:16"
+        "scraped_at": "20:18:26"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -632,6 +967,90 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Young-Boys-II-vs-FC-Solothurn",
+                "team_url": "https://betsapi.com/r/12269568/Young-Boys-II-vs-FC-Solothurn",
+                "cols": [
+                  "Young-Boys-II-vs-FC-Solothurn",
+                  "2026-07-21 03:45:01",
+                  "Young Boys II (射正5 射偏10) | 1-2 | FC Solothurn (射正3 射偏5) | 偵測時間57",
+                  "押數據二(A) Young Boys II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Young Boys II (射正4 射偏7) | 0-1 | FC Solothurn (射正1 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sao-Caetano-vs-Sao-Jose-SP",
+                "team_url": "https://betsapi.com/r/12266281/Sao-Caetano-vs-Sao-Jose-SP",
+                "cols": [
+                  "Sao-Caetano-vs-Sao-Jose-SP",
+                  "2026-07-21 03:20:02",
+                  "Sao Caetano (射正1 射偏1) | 1-2 | Sao Jose SP (射正5 射偏7) | 偵測時間56",
+                  "押數據二(B) Sao Jose SP"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Sao Caetano (射正1 射偏1) | 1-2 | Sao Jose SP (射正5 射偏6) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Penarol-Reserves-vs-Racing-Clu",
+                "team_url": "https://betsapi.com/r/12266672/Penarol-Reserves-vs-Racing-Club-de-Montevideo-Reserves",
+                "cols": [
+                  "Penarol-Reserves-vs-Racing-Clu",
+                  "2026-07-21 03:15:01",
+                  "Penarol Reserves (射正1 射偏2) | 0-2 | Racing Club de Montevideo Reserves (射正5 射偏4) | 偵測時間56",
+                  "押數據二(B) Racing Club de Montevideo Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Penarol Reserves (射正0 射偏2) | 0-0 | Racing Club de Montevideo Reserves (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Deportivo-Pinoza-vs-Club-Capit",
+                "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
+                "cols": [
+                  "Deportivo-Pinoza-vs-Club-Capit",
+                  "2026-07-21 03:15:01",
+                  "Deportivo Pinoza (射正2 射偏3) | 0-1 | Club Capitan Figari (射正9 射偏4) | 偵測時間57",
+                  "押數據二(B) Club Capitan Figari"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Deportivo Pinoza (射正1 射偏2) | 0-0 | Club Capitan Figari (射正6 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Norrby-IF-vs-GIF-Sundsvall",
                 "team_url": "https://betsapi.com/r/11175558/Norrby-IF-vs-GIF-Sundsvall",
@@ -843,7 +1262,7 @@
                 "highlight": ""
               }
             ],
-            "total": 10
+            "total": 14
           },
           {
             "title": "參考",
@@ -855,11 +1274,55 @@
             ],
             "matches": [
               {
+                "team": "Keflavik-vs-IA-Akranes",
+                "team_url": "https://betsapi.com/r/11322551/Keflavik-vs-IA-Akranes",
+                "cols": [
+                  "Keflavik-vs-IA-Akranes",
+                  "2026-07-21 04:15:01",
+                  "Keflavik (射正6 射偏6) | 2-0 | IA Akranes (射正0 射偏1) | 偵測時間45",
+                  "押數據二(A) Keflavik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Mushuc-Runa-vs-Orense",
+                "team_url": "https://betsapi.com/r/12099935/Mushuc-Runa-vs-Orense",
+                "cols": [
+                  "Mushuc-Runa-vs-Orense",
+                  "2026-07-21 04:05:01",
+                  "Mushuc Runa (射正6 射偏5) | 1-1 | Orense (射正2 射偏3) | 偵測時間45",
+                  "押數據二(A) Mushuc Runa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Young-Boys-II-vs-FC-Solothurn",
+                "team_url": "https://betsapi.com/r/12269568/Young-Boys-II-vs-FC-Solothurn",
+                "cols": [
+                  "Young-Boys-II-vs-FC-Solothurn",
+                  "2026-07-21 03:30:02",
+                  "Young Boys II (射正4 射偏7) | 0-1 | FC Solothurn (射正1 射偏4) | 偵測時間45",
+                  "押數據二(A) Young Boys II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sao-Caetano-vs-Sao-Jose-SP",
+                "team_url": "https://betsapi.com/r/12266281/Sao-Caetano-vs-Sao-Jose-SP",
+                "cols": [
+                  "Sao-Caetano-vs-Sao-Jose-SP",
+                  "2026-07-21 03:05:01",
+                  "Sao Caetano (射正1 射偏1) | 1-2 | Sao Jose SP (射正5 射偏6) | 偵測時間45",
+                  "押數據二(B) Sao Jose SP"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Penarol-Reserves-vs-Racing-Clu",
                 "team_url": "https://betsapi.com/r/12266672/Penarol-Reserves-vs-Racing-Club-de-Montevideo-Reserves",
                 "cols": [
                   "Penarol-Reserves-vs-Racing-Clu",
-                  "2026-07-21 02:50:02",
+                  "2026-07-21 03:00:01",
                   "Penarol Reserves (射正0 射偏2) | 0-0 | Racing Club de Montevideo Reserves (射正3 射偏4) | 偵測時間45",
                   "押數據二(B) Racing Club de Montevideo Reserves"
                 ],
@@ -870,20 +1333,9 @@
                 "team_url": "https://betsapi.com/r/12265805/Deportivo-Pinoza-vs-Club-Capitan-Figari",
                 "cols": [
                   "Deportivo-Pinoza-vs-Club-Capit",
-                  "2026-07-21 02:50:02",
+                  "2026-07-21 03:00:01",
                   "Deportivo Pinoza (射正1 射偏2) | 0-0 | Club Capitan Figari (射正6 射偏4) | 偵測時間45",
                   "押數據二(B) Club Capitan Figari"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Sao-Caetano-vs-Sao-Jose-SP",
-                "team_url": "https://betsapi.com/r/12266281/Sao-Caetano-vs-Sao-Jose-SP",
-                "cols": [
-                  "Sao-Caetano-vs-Sao-Jose-SP",
-                  "2026-07-21 02:45:02",
-                  "Sao Caetano (射正1 射偏1) | 1-1 | Sao Jose SP (射正4 射偏6) | 偵測時間43",
-                  "押數據二(B) Sao Jose SP"
                 ],
                 "highlight": ""
               },
@@ -965,16 +1417,16 @@
                 "highlight": ""
               }
             ],
-            "total": 10
+            "total": 13
           }
         ],
-        "scraped_at": "18:51:18"
+        "scraped_at": "20:18:28"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "18:51:19"
+        "scraped_at": "20:18:29"
       }
     }
   }
