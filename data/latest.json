@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-07-23 21:34:41",
+  "updated_at": "2026-07-23 22:51:50",
   "data": {
-    "timestamp": "2026-07-23 21:34:41",
+    "timestamp": "2026-07-23 22:51:50",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "21:34:43"
+        "scraped_at": "22:51:52"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -497,7 +497,7 @@
             "total": 11
           }
         ],
-        "scraped_at": "21:34:45"
+        "scraped_at": "22:51:54"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -782,7 +782,7 @@
             "total": 4
           }
         ],
-        "scraped_at": "21:34:47"
+        "scraped_at": "22:51:55"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -1020,6 +1020,17 @@
             ],
             "matches": [
               {
+                "team": "Orense-vs-SD-Aucas",
+                "team_url": "https://betsapi.com/r/12266661/Orense-vs-SD-Aucas",
+                "cols": [
+                  "Orense-vs-SD-Aucas",
+                  "2026-07-24 06:40:01",
+                  "Orense (射正5 射偏0) | 1-1 | SD Aucas (射正2 射偏4) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Deportivo-Capiata-vs-Sportivo-",
                 "team_url": "https://betsapi.com/r/12197281/Deportivo-Capiata-vs-Sportivo-Iteno",
                 "cols": [
@@ -1097,10 +1108,10 @@
                 "highlight": ""
               }
             ],
-            "total": 7
+            "total": 8
           }
         ],
-        "scraped_at": "21:34:48"
+        "scraped_at": "22:51:57"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -1301,7 +1312,7 @@
             "total": 4
           }
         ],
-        "scraped_at": "21:34:50"
+        "scraped_at": "22:51:59"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -1513,13 +1524,13 @@
             "total": 5
           }
         ],
-        "scraped_at": "21:34:52"
+        "scraped_at": "22:52:00"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "21:34:54"
+        "scraped_at": "22:52:02"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -1534,6 +1545,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Independiente-Juniors-vs-Vinot",
+                "team_url": "https://betsapi.com/r/11588222/Independiente-Juniors-vs-Vinotinto-Ecuador",
+                "cols": [
+                  "Independiente-Juniors-vs-Vinot",
+                  "2026-07-24 05:45:01",
+                  "Independiente Juniors (射正2 射偏6) | 0-0 | Vinotinto Ecuador (射正1 射偏1) | 偵測時間56",
+                  "押策略五(A) Independiente Juniors"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Independiente Juniors (射正2 射偏4) | 0-0 | Vinotinto Ecuador (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Valur-Reykjavik-vs-Zrinjski-Mo",
                 "team_url": "https://betsapi.com/r/12057786/Valur-Reykjavik-vs-Zrinjski-Mostar",
@@ -1661,13 +1693,13 @@
                 "highlight": ""
               },
               {
-                "team": "Lugano-vs-KF-Dukagjini",
-                "team_url": "https://betsapi.com/r/12057872/Lugano-vs-KF-Dukagjini",
+                "team": "Borac-Banja-Luka-vs-CS-Petrocu",
+                "team_url": "https://betsapi.com/r/12241994/Borac-Banja-Luka-vs-CS-Petrocub",
                 "cols": [
-                  "Lugano-vs-KF-Dukagjini",
+                  "Borac-Banja-Luka-vs-CS-Petrocu",
                   "2026-07-24 03:45:02",
-                  "Lugano (射正3 射偏7) | 1-0 | KF Dukagjini (射正2 射偏3) | 偵測時間59",
-                  "押策略五(A) Lugano"
+                  "Borac Banja Luka (射正4 射偏6) | 1-0 | CS Petrocub (射正2 射偏0) | 偵測時間56",
+                  "押策略五(A) Borac Banja Luka"
                 ],
                 "highlight": ""
               },
@@ -1676,7 +1708,7 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "",
+                  "Borac Banja Luka (射正3 射偏4) | 1-0 | CS Petrocub (射正1 射偏0) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1703,13 +1735,13 @@
                 "highlight": ""
               },
               {
-                "team": "Borac-Banja-Luka-vs-CS-Petrocu",
-                "team_url": "https://betsapi.com/r/12241994/Borac-Banja-Luka-vs-CS-Petrocub",
+                "team": "Lugano-vs-KF-Dukagjini",
+                "team_url": "https://betsapi.com/r/12057872/Lugano-vs-KF-Dukagjini",
                 "cols": [
-                  "Borac-Banja-Luka-vs-CS-Petrocu",
+                  "Lugano-vs-KF-Dukagjini",
                   "2026-07-24 03:45:02",
-                  "Borac Banja Luka (射正4 射偏6) | 1-0 | CS Petrocub (射正2 射偏0) | 偵測時間56",
-                  "押策略五(A) Borac Banja Luka"
+                  "Lugano (射正3 射偏7) | 1-0 | KF Dukagjini (射正2 射偏3) | 偵測時間59",
+                  "押策略五(A) Lugano"
                 ],
                 "highlight": ""
               },
@@ -1718,7 +1750,7 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "Borac Banja Luka (射正3 射偏4) | 1-0 | CS Petrocub (射正1 射偏0) | 偵測時間45",
+                  "",
                   ""
                 ],
                 "highlight": ""
@@ -2354,7 +2386,7 @@
                 "highlight": ""
               }
             ],
-            "total": 39
+            "total": 40
           },
           {
             "title": "參考",
@@ -2365,6 +2397,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Bolivar-vs-Gremio",
+                "team_url": "https://betsapi.com/r/11962757/Bolivar-vs-Gremio",
+                "cols": [
+                  "Bolivar-vs-Gremio",
+                  "2026-07-24 06:45:01",
+                  "Bolivar (射正5 射偏6) | 2-2 | Gremio (射正4 射偏4) | 偵測時間41",
+                  "押策略五(A) Bolivar"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Independiente-Juniors-vs-Vinot",
                 "team_url": "https://betsapi.com/r/11588222/Independiente-Juniors-vs-Vinotinto-Ecuador",
@@ -2465,6 +2508,17 @@
                 "highlight": ""
               },
               {
+                "team": "Estudiantes-LP-Reserves-vs-Qui",
+                "team_url": "https://betsapi.com/r/12209216/Estudiantes-LP-Reserves-vs-Quilmes-Reserves",
+                "cols": [
+                  "Estudiantes-LP-Reserves-vs-Qui",
+                  "2026-07-24 03:05:01",
+                  "Estudiantes LP Reserves (射正4 射偏5) | 0-0 | Quilmes Reserves (射正1 射偏1) | 偵測時間45",
+                  "押策略五(A) Estudiantes LP Reserves"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Berazategui-Reserves-vs-CA-Lug",
                 "team_url": "https://betsapi.com/r/12282884/Berazategui-Reserves-vs-CA-Lugano-Reserves",
                 "cols": [
@@ -2494,17 +2548,6 @@
                   "2026-07-24 03:05:01",
                   "Polissya Zhytomyr (射正5 射偏7) | 2-1 | FC Copenhagen (射正2 射偏1) | 偵測時間45",
                   "押策略五(A) Polissya Zhytomyr"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Estudiantes-LP-Reserves-vs-Qui",
-                "team_url": "https://betsapi.com/r/12209216/Estudiantes-LP-Reserves-vs-Quilmes-Reserves",
-                "cols": [
-                  "Estudiantes-LP-Reserves-vs-Qui",
-                  "2026-07-24 03:05:01",
-                  "Estudiantes LP Reserves (射正4 射偏5) | 0-0 | Quilmes Reserves (射正1 射偏1) | 偵測時間45",
-                  "押策略五(A) Estudiantes LP Reserves"
                 ],
                 "highlight": ""
               },
@@ -2663,10 +2706,10 @@
                 "highlight": ""
               }
             ],
-            "total": 27
+            "total": 28
           }
         ],
-        "scraped_at": "21:34:55"
+        "scraped_at": "22:52:04"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -2750,7 +2793,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "21:34:57"
+        "scraped_at": "22:52:05"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -2904,6 +2947,17 @@
             ],
             "matches": [
               {
+                "team": "Orense-vs-SD-Aucas",
+                "team_url": "https://betsapi.com/r/12266661/Orense-vs-SD-Aucas",
+                "cols": [
+                  "Orense-vs-SD-Aucas",
+                  "2026-07-24 06:40:01",
+                  "Orense (射正5 射偏0) | 1-1 | SD Aucas (射正2 射偏4) | 偵測時間45",
+                  "押數據一(A) Orense"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Partizan-Belgrade-vs-UNA-Stras",
                 "team_url": "https://betsapi.com/r/12231429/Partizan-Belgrade-vs-UNA-Strassen",
                 "cols": [
@@ -2948,10 +3002,10 @@
                 "highlight": ""
               }
             ],
-            "total": 4
+            "total": 5
           }
         ],
-        "scraped_at": "21:34:59"
+        "scraped_at": "22:52:07"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -3819,6 +3873,28 @@
             ],
             "matches": [
               {
+                "team": "Bolivar-vs-Gremio",
+                "team_url": "https://betsapi.com/r/11962757/Bolivar-vs-Gremio",
+                "cols": [
+                  "Bolivar-vs-Gremio",
+                  "2026-07-24 06:45:01",
+                  "Bolivar (射正5 射偏6) | 2-2 | Gremio (射正4 射偏4) | 偵測時間41",
+                  "押數據二(A) Bolivar"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Leones-FC-vs-Guayaquil-City",
+                "team_url": "https://betsapi.com/r/12267936/Leones-FC-vs-Guayaquil-City",
+                "cols": [
+                  "Leones-FC-vs-Guayaquil-City",
+                  "2026-07-24 06:40:01",
+                  "Leones FC (射正5 射偏11) | 0-1 | Guayaquil City (射正1 射偏0) | 偵測時間45",
+                  "押數據二(A) Leones FC"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Valur-Reykjavik-vs-Zrinjski-Mo",
                 "team_url": "https://betsapi.com/r/12057786/Valur-Reykjavik-vs-Zrinjski-Mostar",
                 "cols": [
@@ -3896,17 +3972,6 @@
                 "highlight": ""
               },
               {
-                "team": "Borac-Banja-Luka-vs-CS-Petrocu",
-                "team_url": "https://betsapi.com/r/12241994/Borac-Banja-Luka-vs-CS-Petrocub",
-                "cols": [
-                  "Borac-Banja-Luka-vs-CS-Petrocu",
-                  "2026-07-24 03:30:01",
-                  "Borac Banja Luka (射正3 射偏4) | 1-0 | CS Petrocub (射正1 射偏0) | 偵測時間45",
-                  "押數據二(A) Borac Banja Luka"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Biel-Bienne-vs-FC-Prishtina-Be",
                 "team_url": "https://betsapi.com/r/12286869/Biel-Bienne-vs-FC-Prishtina-Bern",
                 "cols": [
@@ -3914,6 +3979,17 @@
                   "2026-07-24 03:30:01",
                   "Biel Bienne (射正5 射偏3) | 2-0 | FC Prishtina Bern (射正3 射偏7) | 偵測時間45",
                   "押數據二(A) Biel Bienne"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Borac-Banja-Luka-vs-CS-Petrocu",
+                "team_url": "https://betsapi.com/r/12241994/Borac-Banja-Luka-vs-CS-Petrocub",
+                "cols": [
+                  "Borac-Banja-Luka-vs-CS-Petrocu",
+                  "2026-07-24 03:30:01",
+                  "Borac Banja Luka (射正3 射偏4) | 1-0 | CS Petrocub (射正1 射偏0) | 偵測時間45",
+                  "押數據二(A) Borac Banja Luka"
                 ],
                 "highlight": ""
               },
@@ -3995,17 +4071,6 @@
                 "highlight": ""
               },
               {
-                "team": "Barra-Mansa-vs-Buzios",
-                "team_url": "https://betsapi.com/r/12282104/Barra-Mansa-vs-Buzios",
-                "cols": [
-                  "Barra-Mansa-vs-Buzios",
-                  "2026-07-24 02:50:01",
-                  "Barra Mansa (射正2 射偏3) | 0-0 | Buzios (射正3 射偏3) | 偵測時間45",
-                  "押數據二(B) Buzios"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "FCSB-vs-FK-Auda",
                 "team_url": "https://betsapi.com/r/12057329/FCSB-vs-FK-Auda",
                 "cols": [
@@ -4013,6 +4078,17 @@
                   "2026-07-24 02:50:01",
                   "FCSB (射正2 射偏1) | 1-2 | FK Auda (射正3 射偏4) | 偵測時間45",
                   "押數據二(B) FK Auda"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Barra-Mansa-vs-Buzios",
+                "team_url": "https://betsapi.com/r/12282104/Barra-Mansa-vs-Buzios",
+                "cols": [
+                  "Barra-Mansa-vs-Buzios",
+                  "2026-07-24 02:50:01",
+                  "Barra Mansa (射正2 射偏3) | 0-0 | Buzios (射正3 射偏3) | 偵測時間45",
+                  "押數據二(B) Buzios"
                 ],
                 "highlight": ""
               },
@@ -4204,16 +4280,16 @@
                 "highlight": ""
               }
             ],
-            "total": 35
+            "total": 37
           }
         ],
-        "scraped_at": "21:35:01"
+        "scraped_at": "22:52:09"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "21:35:02"
+        "scraped_at": "22:52:10"
       }
     }
   }
