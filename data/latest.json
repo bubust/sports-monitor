@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-08-05 01:59:09",
+  "updated_at": "2026-08-05 05:18:14",
   "data": {
-    "timestamp": "2026-08-05 01:59:09",
+    "timestamp": "2026-08-05 05:18:14",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "01:59:11"
+        "scraped_at": "05:18:16"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -289,6 +289,17 @@
             ],
             "matches": [
               {
+                "team": "Millonarios-vs-Deportivo-Pasto",
+                "team_url": "https://betsapi.com/r/12100042/Millonarios-vs-Deportivo-Pasto",
+                "cols": [
+                  "Millonarios-vs-Deportivo-Pasto",
+                  "2026-08-05 10:25:01",
+                  "Millonarios (射正7 射偏4) | 1-0 | Deportivo Pasto (射正1 射偏3) | 偵測時間45",
+                  "押獨贏二(A) Millonarios"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "CA-Terremoto-vs-Artigas",
                 "team_url": "https://betsapi.com/r/12356138/CA-Terremoto-vs-Artigas",
                 "cols": [
@@ -344,10 +355,10 @@
                 "highlight": ""
               }
             ],
-            "total": 5
+            "total": 6
           }
         ],
-        "scraped_at": "01:59:13"
+        "scraped_at": "05:18:17"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -362,6 +373,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Diriangen-vs-Alajuelense",
+                "team_url": "https://betsapi.com/r/11985993/Diriangen-vs-Alajuelense",
+                "cols": [
+                  "Diriangen-vs-Alajuelense",
+                  "2026-08-05 11:20:01",
+                  "Diriangen (射正3 射偏3) | 1-2 | Alajuelense (射正8 射偏4) | 偵測時間57",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Columbus-Crew-vs-Atlas",
                 "team_url": "https://betsapi.com/r/11550658/Columbus-Crew-vs-Atlas",
@@ -468,7 +500,7 @@
                 "highlight": ""
               }
             ],
-            "total": 5
+            "total": 6
           },
           {
             "title": "參考",
@@ -538,7 +570,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "01:59:15"
+        "scraped_at": "05:18:19"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -553,6 +585,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Vancouver-Whitecaps-vs-Atlante",
+                "team_url": "https://betsapi.com/r/11922039/Vancouver-Whitecaps-vs-Atlante",
+                "cols": [
+                  "Vancouver-Whitecaps-vs-Atlante",
+                  "2026-08-05 12:00:02",
+                  "Vancouver Whitecaps (射正4 射偏1) | 0-1 | Atlante (射正3 射偏1) | 偵測時間58",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Plaza-Amador-vs-CD-Luis-Angel-",
                 "team_url": "https://betsapi.com/r/11985976/Plaza-Amador-vs-CD-Luis-Angel-Firpo",
@@ -659,7 +712,7 @@
                 "highlight": ""
               }
             ],
-            "total": 5
+            "total": 6
           },
           {
             "title": "參考",
@@ -670,6 +723,28 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Diriangen-vs-Alajuelense",
+                "team_url": "https://betsapi.com/r/11985993/Diriangen-vs-Alajuelense",
+                "cols": [
+                  "Diriangen-vs-Alajuelense",
+                  "2026-08-05 11:05:01",
+                  "Diriangen (射正2 射偏3) | 1-1 | Alajuelense (射正5 射偏3) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Millonarios-vs-Deportivo-Pasto",
+                "team_url": "https://betsapi.com/r/12100042/Millonarios-vs-Deportivo-Pasto",
+                "cols": [
+                  "Millonarios-vs-Deportivo-Pasto",
+                  "2026-08-05 10:25:01",
+                  "Millonarios (射正7 射偏4) | 1-0 | Deportivo Pasto (射正1 射偏3) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Plaza-Amador-vs-CD-Luis-Angel-",
                 "team_url": "https://betsapi.com/r/11985976/Plaza-Amador-vs-CD-Luis-Angel-Firpo",
@@ -748,10 +823,10 @@
                 "highlight": ""
               }
             ],
-            "total": 7
+            "total": 9
           }
         ],
-        "scraped_at": "01:59:16"
+        "scraped_at": "05:18:21"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -1017,7 +1092,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "01:59:18"
+        "scraped_at": "05:18:22"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -1032,6 +1107,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Charlotte-FC-vs-Unam-Pumas",
+                "team_url": "https://betsapi.com/r/11550532/Charlotte-FC-vs-Unam-Pumas",
+                "cols": [
+                  "Charlotte-FC-vs-Unam-Pumas",
+                  "2026-08-05 10:40:02",
+                  "Charlotte FC (射正4 射偏4) | 2-0 | Unam Pumas (射正3 射偏5) | 偵測時間60",
+                  "押策略二(A) Charlotte FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "CD-Constitucion-Unido-vs-Naval",
                 "team_url": "https://betsapi.com/r/12361077/CD-Constitucion-Unido-vs-Naval",
@@ -1138,7 +1234,7 @@
                 "highlight": ""
               }
             ],
-            "total": 5
+            "total": 6
           },
           {
             "title": "參考",
@@ -1241,7 +1337,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "01:59:21"
+        "scraped_at": "05:18:24"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -1304,7 +1400,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "01:59:23"
+        "scraped_at": "05:18:26"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -1319,6 +1415,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Antigua-GFC-vs-Real-Esteli",
+                "team_url": "https://betsapi.com/r/11984433/Antigua-GFC-vs-Real-Esteli",
+                "cols": [
+                  "Antigua-GFC-vs-Real-Esteli",
+                  "2026-08-05 11:25:02",
+                  "Antigua GFC (射正4 射偏8) | 0-1 | Real Esteli (射正2 射偏1) | 偵測時間60",
+                  "押策略五(A) Antigua GFC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Antigua GFC (射正2 射偏7) | 0-1 | Real Esteli (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Remo-vs-Santos",
                 "team_url": "https://betsapi.com/r/11950291/Remo-vs-Santos",
@@ -1950,7 +2067,7 @@
                 "highlight": ""
               }
             ],
-            "total": 30
+            "total": 31
           },
           {
             "title": "參考",
@@ -1961,6 +2078,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Antigua-GFC-vs-Real-Esteli",
+                "team_url": "https://betsapi.com/r/11984433/Antigua-GFC-vs-Real-Esteli",
+                "cols": [
+                  "Antigua-GFC-vs-Real-Esteli",
+                  "2026-08-05 11:10:02",
+                  "Antigua GFC (射正2 射偏7) | 0-1 | Real Esteli (射正1 射偏1) | 偵測時間45",
+                  "押策略五(A) Antigua GFC"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Remo-vs-Santos",
                 "team_url": "https://betsapi.com/r/11950291/Remo-vs-Santos",
@@ -2270,10 +2398,10 @@
                 "highlight": ""
               }
             ],
-            "total": 28
+            "total": 29
           }
         ],
-        "scraped_at": "01:59:25"
+        "scraped_at": "05:18:27"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
@@ -2378,7 +2506,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "01:59:27"
+        "scraped_at": "05:18:29"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -2393,6 +2521,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Vancouver-Whitecaps-vs-Atlante",
+                "team_url": "https://betsapi.com/r/11922039/Vancouver-Whitecaps-vs-Atlante",
+                "cols": [
+                  "Vancouver-Whitecaps-vs-Atlante",
+                  "2026-08-05 12:00:02",
+                  "Vancouver Whitecaps (射正4 射偏1) | 0-1 | Atlante (射正3 射偏1) | 偵測時間58",
+                  "押數據一(A) Vancouver Whitecaps"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Columbus-Crew-vs-Atlas",
                 "team_url": "https://betsapi.com/r/11550658/Columbus-Crew-vs-Atlas",
@@ -2478,7 +2627,7 @@
                 "highlight": ""
               }
             ],
-            "total": 4
+            "total": 5
           },
           {
             "title": "參考",
@@ -2570,7 +2719,7 @@
             "total": 7
           }
         ],
-        "scraped_at": "01:59:28"
+        "scraped_at": "05:18:31"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -2585,6 +2734,69 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Antigua-GFC-vs-Real-Esteli",
+                "team_url": "https://betsapi.com/r/11984433/Antigua-GFC-vs-Real-Esteli",
+                "cols": [
+                  "Antigua-GFC-vs-Real-Esteli",
+                  "2026-08-05 11:25:02",
+                  "Antigua GFC (射正4 射偏8) | 0-1 | Real Esteli (射正2 射偏1) | 偵測時間60",
+                  "押數據二(A) Antigua GFC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Diriangen-vs-Alajuelense",
+                "team_url": "https://betsapi.com/r/11985993/Diriangen-vs-Alajuelense",
+                "cols": [
+                  "Diriangen-vs-Alajuelense",
+                  "2026-08-05 11:20:01",
+                  "Diriangen (射正3 射偏3) | 1-2 | Alajuelense (射正8 射偏4) | 偵測時間57",
+                  "押數據二(B) Alajuelense"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Diriangen (射正2 射偏3) | 1-1 | Alajuelense (射正5 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Charlotte-FC-vs-Unam-Pumas",
+                "team_url": "https://betsapi.com/r/11550532/Charlotte-FC-vs-Unam-Pumas",
+                "cols": [
+                  "Charlotte-FC-vs-Unam-Pumas",
+                  "2026-08-05 10:40:02",
+                  "Charlotte FC (射正4 射偏4) | 2-0 | Unam Pumas (射正3 射偏5) | 偵測時間60",
+                  "押數據二(A) Charlotte FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Remo-vs-Santos",
                 "team_url": "https://betsapi.com/r/11950291/Remo-vs-Santos",
@@ -3361,69 +3573,6 @@
                   ""
                 ],
                 "highlight": ""
-              },
-              {
-                "team": "Villa-Dalmine-Reserves-vs-Excu",
-                "team_url": "https://betsapi.com/r/12356875/Villa-Dalmine-Reserves-vs-Excursionistas-Reserves",
-                "cols": [
-                  "Villa-Dalmine-Reserves-vs-Excu",
-                  "2026-08-05 02:25:01",
-                  "Villa Dalmine Reserves (射正6 射偏4) | 1-1 | Excursionistas Reserves (射正1 射偏1) | 偵測時間58",
-                  "押數據二(A) Villa Dalmine Reserves"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Universidad-de-Antioquia-vs-Be",
-                "team_url": "https://betsapi.com/r/12356401/Universidad-de-Antioquia-vs-Belen-Arco-Zaragoza",
-                "cols": [
-                  "Universidad-de-Antioquia-vs-Be",
-                  "2026-08-05 02:25:01",
-                  "Universidad de Antioquia (射正4 射偏9) | 0-2 | Belen Arco Zaragoza (射正6 射偏4) | 偵測時間58",
-                  "押數據二(B) Belen Arco Zaragoza"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Central-Espanol-Reserves-vs-Ra",
-                "team_url": "https://betsapi.com/r/12329306/Central-Espanol-Reserves-vs-Racing-Club-de-Montevideo-Reserves",
-                "cols": [
-                  "Central-Espanol-Reserves-vs-Ra",
-                  "2026-08-05 02:25:01",
-                  "Central Espanol Reserves (射正6 射偏2) | 3-0 | Racing Club de Montevideo Reserves (射正0 射偏3) | 偵測時間59",
-                  "押數據二(A) Central Espanol Reserves"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
               }
             ],
             "total": 40
@@ -3437,6 +3586,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Diriangen-vs-Alajuelense",
+                "team_url": "https://betsapi.com/r/11985993/Diriangen-vs-Alajuelense",
+                "cols": [
+                  "Diriangen-vs-Alajuelense",
+                  "2026-08-05 11:05:01",
+                  "Diriangen (射正2 射偏3) | 1-1 | Alajuelense (射正5 射偏3) | 偵測時間45",
+                  "押數據二(B) Alajuelense"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Plaza-Amador-vs-CD-Luis-Angel-",
                 "team_url": "https://betsapi.com/r/11985976/Plaza-Amador-vs-CD-Luis-Angel-Firpo",
@@ -3603,6 +3763,17 @@
                 "highlight": ""
               },
               {
+                "team": "Godoy-Cruz-Reserves-vs-Racing-",
+                "team_url": "https://betsapi.com/r/12185243/Godoy-Cruz-Reserves-vs-Racing-Club-Reserves",
+                "cols": [
+                  "Godoy-Cruz-Reserves-vs-Racing-",
+                  "2026-08-05 03:05:01",
+                  "Godoy Cruz Reserves (射正3 射偏1) | 1-1 | Racing Club Reserves (射正6 射偏2) | 偵測時間45",
+                  "押數據二(B) Racing Club Reserves"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Dinamo-Zagreb-vs-FK-Kauno-Zalg",
                 "team_url": "https://betsapi.com/r/12326366/Dinamo-Zagreb-vs-FK-Kauno-Zalgiris",
                 "cols": [
@@ -3632,17 +3803,6 @@
                   "2026-08-05 03:05:01",
                   "Haukar (射正5 射偏6) | 1-1 | Reynir Sandgerdi (射正1 射偏0) | 偵測時間45",
                   "押數據二(A) Haukar"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Godoy-Cruz-Reserves-vs-Racing-",
-                "team_url": "https://betsapi.com/r/12185243/Godoy-Cruz-Reserves-vs-Racing-Club-Reserves",
-                "cols": [
-                  "Godoy-Cruz-Reserves-vs-Racing-",
-                  "2026-08-05 03:05:01",
-                  "Godoy Cruz Reserves (射正3 射偏1) | 1-1 | Racing Club Reserves (射正6 射偏2) | 偵測時間45",
-                  "押數據二(B) Racing Club Reserves"
                 ],
                 "highlight": ""
               },
@@ -3812,16 +3972,16 @@
                 "highlight": ""
               }
             ],
-            "total": 34
+            "total": 35
           }
         ],
-        "scraped_at": "01:59:30"
+        "scraped_at": "05:18:33"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "01:59:32"
+        "scraped_at": "05:18:34"
       }
     }
   }
