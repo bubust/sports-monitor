@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-08-17 17:22:09",
+  "updated_at": "2026-08-17 17:54:40",
   "data": {
-    "timestamp": "2026-08-17 17:22:09",
+    "timestamp": "2026-08-17 17:54:40",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "17:22:11"
+        "scraped_at": "17:54:41"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -142,6 +142,28 @@
             ],
             "matches": [
               {
+                "team": "BK-Hacken-vs-Halmstad",
+                "team_url": "https://betsapi.com/r/11176000/BK-Hacken-vs-Halmstad",
+                "cols": [
+                  "BK-Hacken-vs-Halmstad",
+                  "2026-08-18 01:50:01",
+                  "BK Hacken (射正3 射偏5) | 1-0 | Halmstad (射正2 射偏3) | 偵測時間45",
+                  "押獨贏二(A) BK Hacken"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Brondby-vs-Sonderjyske",
+                "team_url": "https://betsapi.com/r/11991430/Brondby-vs-Sonderjyske",
+                "cols": [
+                  "Brondby-vs-Sonderjyske",
+                  "2026-08-18 01:50:01",
+                  "Brondby (射正3 射偏6) | 3-0 | Sonderjyske (射正2 射偏3) | 偵測時間45",
+                  "押獨贏二(A) Brondby"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Pirata-FC-vs-Union-Comercio",
                 "team_url": "https://betsapi.com/r/12338322/Pirata-FC-vs-Union-Comercio",
                 "cols": [
@@ -186,10 +208,10 @@
                 "highlight": ""
               }
             ],
-            "total": 4
+            "total": 6
           }
         ],
-        "scraped_at": "17:22:12"
+        "scraped_at": "17:54:43"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -284,7 +306,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "17:22:14"
+        "scraped_at": "17:54:45"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -389,7 +411,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "17:22:16"
+        "scraped_at": "17:54:47"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -485,7 +507,7 @@
             "total": 4
           }
         ],
-        "scraped_at": "17:22:17"
+        "scraped_at": "17:54:48"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -618,12 +640,23 @@
             ],
             "matches": [
               {
+                "team": "Felgueiras-1932-vs-AVS",
+                "team_url": "https://betsapi.com/r/12154408/Felgueiras-1932-vs-AVS",
+                "cols": [
+                  "Felgueiras-1932-vs-AVS",
+                  "2026-08-18 01:50:01",
+                  "Felgueiras 1932 (射正3 射偏2) | 0-0 | AVS (射正0 射偏6) | 偵測時間44",
+                  "押策略二(A) Felgueiras 1932"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Maccabi-Tel-Aviv-U19-vs-Hapoel",
                 "team_url": "https://betsapi.com/r/12442088/Maccabi-Tel-Aviv-U19-vs-Hapoel-Jerusalem-U19",
                 "cols": [
                   "Maccabi-Tel-Aviv-U19-vs-Hapoel",
-                  "2026-08-18 01:20:01",
-                  "Maccabi Tel Aviv U19 (射正2 射偏3) | 0-0 | Hapoel Jerusalem U19 (射正1 射偏4) | 偵測時間44",
+                  "2026-08-18 01:40:02",
+                  "Maccabi Tel Aviv U19 (射正2 射偏3) | 0-0 | Hapoel Jerusalem U19 (射正1 射偏4) | 偵測時間45",
                   "押策略二(A) Maccabi Tel Aviv U19"
                 ],
                 "highlight": ""
@@ -695,16 +728,16 @@
                 "highlight": ""
               }
             ],
-            "total": 7
+            "total": 8
           }
         ],
-        "scraped_at": "17:22:19"
+        "scraped_at": "17:54:50"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "17:22:21"
+        "scraped_at": "17:54:52"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -719,6 +752,48 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Sassuolo-vs-Cesena",
+                "team_url": "https://betsapi.com/r/12099522/Sassuolo-vs-Cesena",
+                "cols": [
+                  "Sassuolo-vs-Cesena",
+                  "2026-08-18 01:50:01",
+                  "Sassuolo (射正5 射偏7) | 2-0 | Cesena (射正3 射偏2) | 偵測時間57",
+                  "押策略五(A) Sassuolo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Sassuolo (射正5 射偏5) | 2-0 | Cesena (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Taee-vs-Al-Qadisiya-Al-Khub",
+                "team_url": "https://betsapi.com/r/11962121/Al-Taee-vs-Al-Qadisiya-Al-Khubar",
+                "cols": [
+                  "Al-Taee-vs-Al-Qadisiya-Al-Khub",
+                  "2026-08-18 01:35:02",
+                  "Al Taee (射正1 射偏1) | 0-4 | Al Qadisiya Al Khubar (射正7 射偏11) | 偵測時間60",
+                  "押策略五(B) Al Qadisiya Al Khubar"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "JK-Nomme-United-II-vs-JK-Nomme",
                 "team_url": "https://betsapi.com/r/11411480/JK-Nomme-United-II-vs-JK-Nomme-Kalju-II",
@@ -909,7 +984,7 @@
                 "highlight": ""
               }
             ],
-            "total": 9
+            "total": 11
           },
           {
             "title": "參考",
@@ -921,12 +996,45 @@
             ],
             "matches": [
               {
+                "team": "Maccabi-Haifa-vs-Hapoel-Jerusa",
+                "team_url": "https://betsapi.com/r/12441942/Maccabi-Haifa-vs-Hapoel-Jerusalem",
+                "cols": [
+                  "Maccabi-Haifa-vs-Hapoel-Jerusa",
+                  "2026-08-18 01:50:01",
+                  "Maccabi Haifa (射正2 射偏6) | 0-0 | Hapoel Jerusalem (射正0 射偏3) | 偵測時間45",
+                  "押策略五(A) Maccabi Haifa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "BK-Hacken-vs-Halmstad",
+                "team_url": "https://betsapi.com/r/11176000/BK-Hacken-vs-Halmstad",
+                "cols": [
+                  "BK-Hacken-vs-Halmstad",
+                  "2026-08-18 01:50:01",
+                  "BK Hacken (射正3 射偏5) | 1-0 | Halmstad (射正2 射偏3) | 偵測時間45",
+                  "押策略五(A) BK Hacken"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KFUM-2-vs-Nordstrand",
+                "team_url": "https://betsapi.com/r/11306978/KFUM-2-vs-Nordstrand",
+                "cols": [
+                  "KFUM-2-vs-Nordstrand",
+                  "2026-08-18 01:50:01",
+                  "KFUM 2 (射正4 射偏1) | 3-2 | Nordstrand (射正3 射偏0) | 偵測時間45",
+                  "押策略五(A) KFUM 2"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Sassuolo-vs-Cesena",
                 "team_url": "https://betsapi.com/r/12099522/Sassuolo-vs-Cesena",
                 "cols": [
                   "Sassuolo-vs-Cesena",
-                  "2026-08-18 01:15:01",
-                  "Sassuolo (射正4 射偏5) | 1-0 | Cesena (射正1 射偏1) | 偵測時間42",
+                  "2026-08-18 01:35:02",
+                  "Sassuolo (射正5 射偏5) | 2-0 | Cesena (射正1 射偏1) | 偵測時間45",
                   "押策略五(A) Sassuolo"
                 ],
                 "highlight": ""
@@ -1020,16 +1128,16 @@
                 "highlight": ""
               }
             ],
-            "total": 9
+            "total": 12
           }
         ],
-        "scraped_at": "17:22:23"
+        "scraped_at": "17:54:53"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "17:22:24"
+        "scraped_at": "17:54:55"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -1120,6 +1228,17 @@
             ],
             "matches": [
               {
+                "team": "Felgueiras-1932-vs-AVS",
+                "team_url": "https://betsapi.com/r/12154408/Felgueiras-1932-vs-AVS",
+                "cols": [
+                  "Felgueiras-1932-vs-AVS",
+                  "2026-08-18 01:50:01",
+                  "Felgueiras 1932 (射正3 射偏2) | 0-0 | AVS (射正0 射偏6) | 偵測時間44",
+                  "押數據一(A) Felgueiras 1932"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "FC-Gagra-vs-FC-Spaeri",
                 "team_url": "https://betsapi.com/r/12390287/FC-Gagra-vs-FC-Spaeri",
                 "cols": [
@@ -1153,10 +1272,10 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 4
           }
         ],
-        "scraped_at": "17:22:26"
+        "scraped_at": "17:54:57"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -1172,13 +1291,13 @@
             ],
             "matches": [
               {
-                "team": "Birkirkara-vs-Gzira-United",
-                "team_url": "https://betsapi.com/r/12381507/Birkirkara-vs-Gzira-United",
+                "team": "Sassuolo-vs-Cesena",
+                "team_url": "https://betsapi.com/r/12099522/Sassuolo-vs-Cesena",
                 "cols": [
-                  "Birkirkara-vs-Gzira-United",
-                  "2026-08-18 01:20:01",
-                  "Birkirkara (射正4 射偏3) | 3-0 | Gzira United (射正0 射偏4) | 偵測時間56",
-                  "押數據二(A) Birkirkara"
+                  "Sassuolo-vs-Cesena",
+                  "2026-08-18 01:50:01",
+                  "Sassuolo (射正5 射偏7) | 2-0 | Cesena (射正3 射偏2) | 偵測時間57",
+                  "押數據二(A) Sassuolo"
                 ],
                 "highlight": ""
               },
@@ -1187,7 +1306,91 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "Birkirkara (射正3 射偏3) | 2-0 | Gzira United (射正0 射偏3) | 偵測時間45",
+                  "Sassuolo (射正5 射偏5) | 2-0 | Cesena (射正1 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Kvik-Trondheim-vs-Aalesunds-FK",
+                "team_url": "https://betsapi.com/r/11287189/Kvik-Trondheim-vs-Aalesunds-FK-2",
+                "cols": [
+                  "Kvik-Trondheim-vs-Aalesunds-FK",
+                  "2026-08-18 01:45:01",
+                  "Kvik Trondheim (射正2 射偏4) | 1-1 | Aalesunds FK 2 (射正4 射偏2) | 偵測時間58",
+                  "押數據二(B) Aalesunds FK 2"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Taee-vs-Al-Qadisiya-Al-Khub",
+                "team_url": "https://betsapi.com/r/11962121/Al-Taee-vs-Al-Qadisiya-Al-Khubar",
+                "cols": [
+                  "Al-Taee-vs-Al-Qadisiya-Al-Khub",
+                  "2026-08-18 01:35:02",
+                  "Al Taee (射正1 射偏1) | 0-4 | Al Qadisiya Al Khubar (射正7 射偏11) | 偵測時間60",
+                  "押數據二(B) Al Qadisiya Al Khubar"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Al Taee (射正1 射偏1) | 0-3 | Al Qadisiya Al Khubar (射正5 射偏8) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Kiisto-vs-KPV-Akatemia",
+                "team_url": "https://betsapi.com/r/11612250/FC-Kiisto-vs-KPV-Akatemia",
+                "cols": [
+                  "FC-Kiisto-vs-KPV-Akatemia",
+                  "2026-08-18 01:25:01",
+                  "FC Kiisto (射正1 射偏4) | 0-2 | KPV Akatemia (射正5 射偏4) | 偵測時間57",
+                  "押數據二(B) KPV Akatemia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FC Kiisto (射正0 射偏4) | 0-2 | KPV Akatemia (射正5 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Santiago-Morning-vs-AC-Colina",
+                "team_url": "https://betsapi.com/r/12309588/Santiago-Morning-vs-AC-Colina",
+                "cols": [
+                  "Santiago-Morning-vs-AC-Colina",
+                  "2026-08-18 01:25:01",
+                  "Santiago Morning (射正3 射偏2) | 1-1 | AC Colina (射正1 射偏5) | 偵測時間59",
+                  "押數據二(A) Santiago Morning"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Santiago Morning (射正3 射偏0) | 1-1 | AC Colina (射正1 射偏4) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1214,13 +1417,13 @@
                 "highlight": ""
               },
               {
-                "team": "Fram-vs-Sarpsborg-2",
-                "team_url": "https://betsapi.com/r/11287008/Fram-vs-Sarpsborg-2",
+                "team": "Birkirkara-vs-Gzira-United",
+                "team_url": "https://betsapi.com/r/12381507/Birkirkara-vs-Gzira-United",
                 "cols": [
-                  "Fram-vs-Sarpsborg-2",
-                  "2026-08-18 01:15:01",
-                  "Fram (射正6 射偏11) | 3-0 | Sarpsborg 2 (射正2 射偏13) | 偵測時間58",
-                  "押數據二(A) Fram"
+                  "Birkirkara-vs-Gzira-United",
+                  "2026-08-18 01:20:01",
+                  "Birkirkara (射正4 射偏3) | 3-0 | Gzira United (射正0 射偏4) | 偵測時間56",
+                  "押數據二(A) Birkirkara"
                 ],
                 "highlight": ""
               },
@@ -1229,28 +1432,7 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "Fram (射正5 射偏9) | 2-0 | Sarpsborg 2 (射正1 射偏8) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "JK-Nomme-United-II-vs-JK-Nomme",
-                "team_url": "https://betsapi.com/r/11411480/JK-Nomme-United-II-vs-JK-Nomme-Kalju-II",
-                "cols": [
-                  "JK-Nomme-United-II-vs-JK-Nomme",
-                  "2026-08-18 01:15:01",
-                  "JK Nomme United II (射正9 射偏8) | 1-0 | JK Nomme Kalju II (射正5 射偏5) | 偵測時間58",
-                  "押數據二(A) JK Nomme United II"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "JK Nomme United II (射正6 射偏7) | 0-0 | JK Nomme Kalju II (射正4 射偏2) | 偵測時間45",
+                  "Birkirkara (射正3 射偏3) | 2-0 | Gzira United (射正0 射偏3) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1277,6 +1459,27 @@
                 "highlight": ""
               },
               {
+                "team": "Brann-2-vs-Os",
+                "team_url": "https://betsapi.com/r/11295852/Brann-2-vs-Os",
+                "cols": [
+                  "Brann-2-vs-Os",
+                  "2026-08-18 01:15:01",
+                  "Brann 2 (射正1 射偏2) | 0-2 | Os (射正5 射偏9) | 偵測時間57",
+                  "押數據二(B) Os"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Brann 2 (射正1 射偏0) | 0-1 | Os (射正4 射偏8) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Viking-2-vs-Madla",
                 "team_url": "https://betsapi.com/r/11287140/Viking-2-vs-Madla",
                 "cols": [
@@ -1298,13 +1501,13 @@
                 "highlight": ""
               },
               {
-                "team": "Brann-2-vs-Os",
-                "team_url": "https://betsapi.com/r/11295852/Brann-2-vs-Os",
+                "team": "JK-Nomme-United-II-vs-JK-Nomme",
+                "team_url": "https://betsapi.com/r/11411480/JK-Nomme-United-II-vs-JK-Nomme-Kalju-II",
                 "cols": [
-                  "Brann-2-vs-Os",
+                  "JK-Nomme-United-II-vs-JK-Nomme",
                   "2026-08-18 01:15:01",
-                  "Brann 2 (射正1 射偏2) | 0-2 | Os (射正5 射偏9) | 偵測時間57",
-                  "押數據二(B) Os"
+                  "JK Nomme United II (射正9 射偏8) | 1-0 | JK Nomme Kalju II (射正5 射偏5) | 偵測時間58",
+                  "押數據二(A) JK Nomme United II"
                 ],
                 "highlight": ""
               },
@@ -1313,7 +1516,28 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "Brann 2 (射正1 射偏0) | 0-1 | Os (射正4 射偏8) | 偵測時間45",
+                  "JK Nomme United II (射正6 射偏7) | 0-0 | JK Nomme Kalju II (射正4 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Fram-vs-Sarpsborg-2",
+                "team_url": "https://betsapi.com/r/11287008/Fram-vs-Sarpsborg-2",
+                "cols": [
+                  "Fram-vs-Sarpsborg-2",
+                  "2026-08-18 01:15:01",
+                  "Fram (射正6 射偏11) | 3-0 | Sarpsborg 2 (射正2 射偏13) | 偵測時間58",
+                  "押數據二(A) Fram"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Fram (射正5 射偏9) | 2-0 | Sarpsborg 2 (射正1 射偏8) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1424,13 +1648,13 @@
                 "highlight": ""
               },
               {
-                "team": "FK-Auda-vs-SC-Grobinas",
-                "team_url": "https://betsapi.com/r/12398266/FK-Auda-vs-SC-Grobinas",
+                "team": "Anagennisi-Karditsas-vs-Aris-S",
+                "team_url": "https://betsapi.com/r/12347623/Anagennisi-Karditsas-vs-Aris-Salonika",
                 "cols": [
-                  "FK-Auda-vs-SC-Grobinas",
+                  "Anagennisi-Karditsas-vs-Aris-S",
                   "2026-08-18 00:15:01",
-                  "FK Auda (射正3 射偏4) | 2-0 | SC Grobinas (射正1 射偏5) | 偵測時間56",
-                  "押數據二(A) FK Auda"
+                  "Anagennisi Karditsas (射正0 射偏1) | 0-1 | Aris Salonika (射正6 射偏3) | 偵測時間58",
+                  "押數據二(B) Aris Salonika"
                 ],
                 "highlight": ""
               },
@@ -1439,7 +1663,7 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "",
+                  "Anagennisi Karditsas (射正0 射偏1) | 0-0 | Aris Salonika (射正5 射偏1) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -1466,13 +1690,13 @@
                 "highlight": ""
               },
               {
-                "team": "Anagennisi-Karditsas-vs-Aris-S",
-                "team_url": "https://betsapi.com/r/12347623/Anagennisi-Karditsas-vs-Aris-Salonika",
+                "team": "FK-Auda-vs-SC-Grobinas",
+                "team_url": "https://betsapi.com/r/12398266/FK-Auda-vs-SC-Grobinas",
                 "cols": [
-                  "Anagennisi-Karditsas-vs-Aris-S",
+                  "FK-Auda-vs-SC-Grobinas",
                   "2026-08-18 00:15:01",
-                  "Anagennisi Karditsas (射正0 射偏1) | 0-1 | Aris Salonika (射正6 射偏3) | 偵測時間58",
-                  "押數據二(B) Aris Salonika"
+                  "FK Auda (射正3 射偏4) | 2-0 | SC Grobinas (射正1 射偏5) | 偵測時間56",
+                  "押數據二(A) FK Auda"
                 ],
                 "highlight": ""
               },
@@ -1481,13 +1705,13 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "Anagennisi Karditsas (射正0 射偏1) | 0-0 | Aris Salonika (射正5 射偏1) | 偵測時間45",
+                  "",
                   ""
                 ],
                 "highlight": ""
               }
             ],
-            "total": 15
+            "total": 20
           },
           {
             "title": "參考",
@@ -1499,13 +1723,46 @@
             ],
             "matches": [
               {
-                "team": "Al-Taee-vs-Al-Qadisiya-Al-Khub",
-                "team_url": "https://betsapi.com/r/11962121/Al-Taee-vs-Al-Qadisiya-Al-Khubar",
+                "team": "Brondby-vs-Sonderjyske",
+                "team_url": "https://betsapi.com/r/11991430/Brondby-vs-Sonderjyske",
                 "cols": [
-                  "Al-Taee-vs-Al-Qadisiya-Al-Khub",
-                  "2026-08-18 01:20:01",
-                  "Al Taee (射正1 射偏1) | 0-3 | Al Qadisiya Al Khubar (射正5 射偏8) | 偵測時間45",
-                  "押數據二(B) Al Qadisiya Al Khubar"
+                  "Brondby-vs-Sonderjyske",
+                  "2026-08-18 01:50:01",
+                  "Brondby (射正3 射偏6) | 3-0 | Sonderjyske (射正2 射偏3) | 偵測時間45",
+                  "押數據二(A) Brondby"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Arka-Gdynia-vs-Puszcza-Niepolo",
+                "team_url": "https://betsapi.com/r/12074580/Arka-Gdynia-vs-Puszcza-Niepolomice",
+                "cols": [
+                  "Arka-Gdynia-vs-Puszcza-Niepolo",
+                  "2026-08-18 01:50:01",
+                  "Arka Gdynia (射正4 射偏2) | 3-0 | Puszcza Niepolomice (射正1 射偏4) | 偵測時間45",
+                  "押數據二(A) Arka Gdynia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "BK-Hacken-vs-Halmstad",
+                "team_url": "https://betsapi.com/r/11176000/BK-Hacken-vs-Halmstad",
+                "cols": [
+                  "BK-Hacken-vs-Halmstad",
+                  "2026-08-18 01:50:01",
+                  "BK Hacken (射正3 射偏5) | 1-0 | Halmstad (射正2 射偏3) | 偵測時間45",
+                  "押數據二(A) BK Hacken"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hapoel-Ramat-Gan-vs-Beitar-Jer",
+                "team_url": "https://betsapi.com/r/12393380/Hapoel-Ramat-Gan-vs-Beitar-Jerusalem",
+                "cols": [
+                  "Hapoel-Ramat-Gan-vs-Beitar-Jer",
+                  "2026-08-18 01:50:01",
+                  "Hapoel Ramat Gan (射正1 射偏5) | 1-2 | Beitar Jerusalem (射正4 射偏5) | 偵測時間45",
+                  "押數據二(B) Beitar Jerusalem"
                 ],
                 "highlight": ""
               },
@@ -1514,9 +1771,20 @@
                 "team_url": "https://betsapi.com/r/12099522/Sassuolo-vs-Cesena",
                 "cols": [
                   "Sassuolo-vs-Cesena",
-                  "2026-08-18 01:15:01",
-                  "Sassuolo (射正4 射偏5) | 1-0 | Cesena (射正1 射偏1) | 偵測時間42",
+                  "2026-08-18 01:35:02",
+                  "Sassuolo (射正5 射偏5) | 2-0 | Cesena (射正1 射偏1) | 偵測時間45",
                   "押數據二(A) Sassuolo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Taee-vs-Al-Qadisiya-Al-Khub",
+                "team_url": "https://betsapi.com/r/11962121/Al-Taee-vs-Al-Qadisiya-Al-Khubar",
+                "cols": [
+                  "Al-Taee-vs-Al-Qadisiya-Al-Khub",
+                  "2026-08-18 01:20:01",
+                  "Al Taee (射正1 射偏1) | 0-3 | Al Qadisiya Al Khubar (射正5 射偏8) | 偵測時間45",
+                  "押數據二(B) Al Qadisiya Al Khubar"
                 ],
                 "highlight": ""
               },
@@ -1543,17 +1811,6 @@
                 "highlight": ""
               },
               {
-                "team": "Pirata-FC-vs-Union-Comercio",
-                "team_url": "https://betsapi.com/r/12338322/Pirata-FC-vs-Union-Comercio",
-                "cols": [
-                  "Pirata-FC-vs-Union-Comercio",
-                  "2026-08-18 01:05:02",
-                  "Pirata FC (射正0 射偏2) | 0-1 | Union Comercio (射正3 射偏6) | 偵測時間45",
-                  "押數據二(B) Union Comercio"
-                ],
-                "highlight": ""
-              },
-              {
                 "team": "Birkirkara-vs-Gzira-United",
                 "team_url": "https://betsapi.com/r/12381507/Birkirkara-vs-Gzira-United",
                 "cols": [
@@ -1565,13 +1822,13 @@
                 "highlight": ""
               },
               {
-                "team": "Fram-vs-Sarpsborg-2",
-                "team_url": "https://betsapi.com/r/11287008/Fram-vs-Sarpsborg-2",
+                "team": "Pirata-FC-vs-Union-Comercio",
+                "team_url": "https://betsapi.com/r/12338322/Pirata-FC-vs-Union-Comercio",
                 "cols": [
-                  "Fram-vs-Sarpsborg-2",
-                  "2026-08-18 01:00:01",
-                  "Fram (射正5 射偏9) | 2-0 | Sarpsborg 2 (射正1 射偏8) | 偵測時間45",
-                  "押數據二(A) Fram"
+                  "Pirata-FC-vs-Union-Comercio",
+                  "2026-08-18 01:05:02",
+                  "Pirata FC (射正0 射偏2) | 0-1 | Union Comercio (射正3 射偏6) | 偵測時間45",
+                  "押數據二(B) Union Comercio"
                 ],
                 "highlight": ""
               },
@@ -1587,13 +1844,13 @@
                 "highlight": ""
               },
               {
-                "team": "JK-Nomme-United-II-vs-JK-Nomme",
-                "team_url": "https://betsapi.com/r/11411480/JK-Nomme-United-II-vs-JK-Nomme-Kalju-II",
+                "team": "Viking-2-vs-Madla",
+                "team_url": "https://betsapi.com/r/11287140/Viking-2-vs-Madla",
                 "cols": [
-                  "JK-Nomme-United-II-vs-JK-Nomme",
+                  "Viking-2-vs-Madla",
                   "2026-08-18 01:00:01",
-                  "JK Nomme United II (射正6 射偏7) | 0-0 | JK Nomme Kalju II (射正4 射偏2) | 偵測時間45",
-                  "押數據二(A) JK Nomme United II"
+                  "Viking 2 (射正0 射偏1) | 0-0 | Madla (射正3 射偏3) | 偵測時間45",
+                  "押數據二(B) Madla"
                 ],
                 "highlight": ""
               },
@@ -1609,13 +1866,24 @@
                 "highlight": ""
               },
               {
-                "team": "Viking-2-vs-Madla",
-                "team_url": "https://betsapi.com/r/11287140/Viking-2-vs-Madla",
+                "team": "JK-Nomme-United-II-vs-JK-Nomme",
+                "team_url": "https://betsapi.com/r/11411480/JK-Nomme-United-II-vs-JK-Nomme-Kalju-II",
                 "cols": [
-                  "Viking-2-vs-Madla",
+                  "JK-Nomme-United-II-vs-JK-Nomme",
                   "2026-08-18 01:00:01",
-                  "Viking 2 (射正0 射偏1) | 0-0 | Madla (射正3 射偏3) | 偵測時間45",
-                  "押數據二(B) Madla"
+                  "JK Nomme United II (射正6 射偏7) | 0-0 | JK Nomme Kalju II (射正4 射偏2) | 偵測時間45",
+                  "押數據二(A) JK Nomme United II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Fram-vs-Sarpsborg-2",
+                "team_url": "https://betsapi.com/r/11287008/Fram-vs-Sarpsborg-2",
+                "cols": [
+                  "Fram-vs-Sarpsborg-2",
+                  "2026-08-18 01:00:01",
+                  "Fram (射正5 射偏9) | 2-0 | Sarpsborg 2 (射正1 射偏8) | 偵測時間45",
+                  "押數據二(A) Fram"
                 ],
                 "highlight": ""
               },
@@ -1697,16 +1965,16 @@
                 "highlight": ""
               }
             ],
-            "total": 18
+            "total": 22
           }
         ],
-        "scraped_at": "17:22:28"
+        "scraped_at": "17:54:59"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "17:22:30"
+        "scraped_at": "17:55:00"
       }
     }
   }
