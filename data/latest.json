@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-08-18 16:29:29",
+  "updated_at": "2026-08-18 17:01:21",
   "data": {
-    "timestamp": "2026-08-18 16:29:29",
+    "timestamp": "2026-08-18 17:01:21",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:29:31"
+        "scraped_at": "17:01:23"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -89,9 +89,43 @@
               }
             ],
             "total": 3
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時隊伍 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FC-Haka-Juniors-vs-TP-T",
+                "team_url": "https://betsapi.com/r/11613619/FC-Haka-Juniors-vs-TP-T",
+                "cols": [
+                  "FC-Haka-Juniors-vs-TP-T",
+                  "2026-08-19 01:00:02",
+                  "FC Haka Juniors (射正0 射偏2) | 0-3 | TP-T (射正4 射偏5) | 偵測時間45",
+                  "押獨贏二(B) TP-T"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Gotzis-vs-SCR-Altach-II",
+                "team_url": "https://betsapi.com/r/12454263/FC-Gotzis-vs-SCR-Altach-II",
+                "cols": [
+                  "FC-Gotzis-vs-SCR-Altach-II",
+                  "2026-08-19 01:00:02",
+                  "FC Gotzis (射正1 射偏2) | 0-2 | SCR Altach II (射正4 射偏6) | 偵測時間45",
+                  "押獨贏二(B) SCR Altach II"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
           }
         ],
-        "scraped_at": "16:29:33"
+        "scraped_at": "17:01:24"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -129,15 +163,62 @@
               }
             ],
             "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Nykarleby-IK-vs-SIF",
+                "team_url": "https://betsapi.com/r/11612681/Nykarleby-IK-vs-SIF",
+                "cols": [
+                  "Nykarleby-IK-vs-SIF",
+                  "2026-08-19 01:00:02",
+                  "Nykarleby IK (射正4 射偏3) | 1-2 | SIF (射正7 射偏2) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
           }
         ],
-        "scraped_at": "16:29:34"
+        "scraped_at": "17:01:26"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:29:36"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Al-Najma-vs-Al-Ittihad-Jeddah",
+                "team_url": "https://betsapi.com/r/11961170/Al-Najma-vs-Al-Ittihad-Jeddah",
+                "cols": [
+                  "Al-Najma-vs-Al-Ittihad-Jeddah",
+                  "2026-08-19 01:00:02",
+                  "Al Najma (射正2 射偏2) | 0-2 | Al Ittihad Jeddah (射正5 射偏4) | 偵測時間43",
+                  "押大分三"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "17:01:28"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -175,21 +256,79 @@
               }
             ],
             "total": 1
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Al-Najma-vs-Al-Ittihad-Jeddah",
+                "team_url": "https://betsapi.com/r/11961170/Al-Najma-vs-Al-Ittihad-Jeddah",
+                "cols": [
+                  "Al-Najma-vs-Al-Ittihad-Jeddah",
+                  "2026-08-19 01:00:02",
+                  "Al Najma (射正2 射偏2) | 0-2 | Al Ittihad Jeddah (射正5 射偏4) | 偵測時間43",
+                  "押策略一2(B) Al Ittihad Jeddah"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
           }
         ],
-        "scraped_at": "16:29:38"
+        "scraped_at": "17:01:30"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:29:40"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Heidenheim-vs-Bayern-Munich",
+                "team_url": "https://betsapi.com/r/12445454/Heidenheim-vs-Bayern-Munich",
+                "cols": [
+                  "Heidenheim-vs-Bayern-Munich",
+                  "2026-08-19 01:00:02",
+                  "Heidenheim (射正4 射偏2) | 2-1 | Bayern Munich (射正1 射偏4) | 偵測時間45",
+                  "押策略二(A) Heidenheim"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Nykarleby-IK-vs-SIF",
+                "team_url": "https://betsapi.com/r/11612681/Nykarleby-IK-vs-SIF",
+                "cols": [
+                  "Nykarleby-IK-vs-SIF",
+                  "2026-08-19 01:00:02",
+                  "Nykarleby IK (射正4 射偏3) | 1-2 | SIF (射正7 射偏2) | 偵測時間45",
+                  "押策略二(B) SIF"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "17:01:31"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:29:41"
+        "scraped_at": "17:01:33"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -322,6 +461,39 @@
             ],
             "matches": [
               {
+                "team": "Atromitos-Athinon-vs-Pyrgos-AF",
+                "team_url": "https://betsapi.com/r/12349057/Atromitos-Athinon-vs-Pyrgos-AFC",
+                "cols": [
+                  "Atromitos-Athinon-vs-Pyrgos-AF",
+                  "2026-08-19 01:00:02",
+                  "Atromitos Athinon (射正2 射偏3) | 2-0 | Pyrgos AFC (射正1 射偏2) | 偵測時間45",
+                  "押策略五(A) Atromitos Athinon"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Gotzis-vs-SCR-Altach-II",
+                "team_url": "https://betsapi.com/r/12454263/FC-Gotzis-vs-SCR-Altach-II",
+                "cols": [
+                  "FC-Gotzis-vs-SCR-Altach-II",
+                  "2026-08-19 01:00:02",
+                  "FC Gotzis (射正1 射偏2) | 0-2 | SCR Altach II (射正4 射偏6) | 偵測時間45",
+                  "押策略五(B) SCR Altach II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Najma-vs-Al-Ittihad-Jeddah",
+                "team_url": "https://betsapi.com/r/11961170/Al-Najma-vs-Al-Ittihad-Jeddah",
+                "cols": [
+                  "Al-Najma-vs-Al-Ittihad-Jeddah",
+                  "2026-08-19 01:00:02",
+                  "Al Najma (射正2 射偏2) | 0-2 | Al Ittihad Jeddah (射正5 射偏4) | 偵測時間43",
+                  "押策略五(B) Al Ittihad Jeddah"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Atlanta-United-II-vs-Chicago-F",
                 "team_url": "https://betsapi.com/r/11320350/Atlanta-United-II-vs-Chicago-Fire-II",
                 "cols": [
@@ -355,22 +527,46 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 6
           }
         ],
-        "scraped_at": "16:29:43"
+        "scraped_at": "17:01:35"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "16:29:45"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時假賽 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Nykarleby-IK-vs-SIF",
+                "team_url": "https://betsapi.com/r/11612681/Nykarleby-IK-vs-SIF",
+                "cols": [
+                  "Nykarleby-IK-vs-SIF",
+                  "2026-08-19 01:00:02",
+                  "Nykarleby IK (射正4 射偏3) | 1-2 | SIF (射正7 射偏2) | 偵測時間45",
+                  "押隊伍三(B) SIF"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "17:01:36"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:29:47"
+        "scraped_at": "17:01:38"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -385,6 +581,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Pirin-Blagoevgrad-vs-FC-Hebar-",
+                "team_url": "https://betsapi.com/r/12126185/Pirin-Blagoevgrad-vs-FC-Hebar-Pazardzhik",
+                "cols": [
+                  "Pirin-Blagoevgrad-vs-FC-Hebar-",
+                  "2026-08-19 00:45:01",
+                  "Pirin Blagoevgrad (射正1 射偏1) | 1-2 | FC Hebar Pazardzhik (射正3 射偏3) | 偵測時間58",
+                  "押數據二(B) FC Hebar Pazardzhik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Atlanta-United-II-vs-Chicago-F",
                 "team_url": "https://betsapi.com/r/11320350/Atlanta-United-II-vs-Chicago-Fire-II",
@@ -491,7 +708,7 @@
                 "highlight": ""
               }
             ],
-            "total": 5
+            "total": 6
           },
           {
             "title": "參考",
@@ -502,6 +719,50 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "FC-Haka-Juniors-vs-TP-T",
+                "team_url": "https://betsapi.com/r/11613619/FC-Haka-Juniors-vs-TP-T",
+                "cols": [
+                  "FC-Haka-Juniors-vs-TP-T",
+                  "2026-08-19 01:00:02",
+                  "FC Haka Juniors (射正0 射偏2) | 0-3 | TP-T (射正4 射偏5) | 偵測時間45",
+                  "押數據二(B) TP-T"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Gotzis-vs-SCR-Altach-II",
+                "team_url": "https://betsapi.com/r/12454263/FC-Gotzis-vs-SCR-Altach-II",
+                "cols": [
+                  "FC-Gotzis-vs-SCR-Altach-II",
+                  "2026-08-19 01:00:02",
+                  "FC Gotzis (射正1 射偏2) | 0-2 | SCR Altach II (射正4 射偏6) | 偵測時間45",
+                  "押數據二(B) SCR Altach II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Nykarleby-IK-vs-SIF",
+                "team_url": "https://betsapi.com/r/11612681/Nykarleby-IK-vs-SIF",
+                "cols": [
+                  "Nykarleby-IK-vs-SIF",
+                  "2026-08-19 01:00:02",
+                  "Nykarleby IK (射正4 射偏3) | 1-2 | SIF (射正7 射偏2) | 偵測時間45",
+                  "押數據二(B) SIF"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Najma-vs-Al-Ittihad-Jeddah",
+                "team_url": "https://betsapi.com/r/11961170/Al-Najma-vs-Al-Ittihad-Jeddah",
+                "cols": [
+                  "Al-Najma-vs-Al-Ittihad-Jeddah",
+                  "2026-08-19 01:00:02",
+                  "Al Najma (射正2 射偏2) | 0-2 | Al Ittihad Jeddah (射正5 射偏4) | 偵測時間43",
+                  "押數據二(B) Al Ittihad Jeddah"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Atlanta-United-II-vs-Chicago-F",
                 "team_url": "https://betsapi.com/r/11320350/Atlanta-United-II-vs-Chicago-Fire-II",
@@ -536,16 +797,16 @@
                 "highlight": ""
               }
             ],
-            "total": 3
+            "total": 7
           }
         ],
-        "scraped_at": "16:29:48"
+        "scraped_at": "17:01:40"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:29:50"
+        "scraped_at": "17:01:41"
       }
     }
   }
