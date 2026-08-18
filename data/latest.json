@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-08-18 11:20:14",
+  "updated_at": "2026-08-18 11:49:57",
   "data": {
-    "timestamp": "2026-08-18 11:20:14",
+    "timestamp": "2026-08-18 11:49:57",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:16"
+        "scraped_at": "11:49:59"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -762,67 +762,336 @@
             "total": 16
           }
         ],
-        "scraped_at": "11:20:17"
+        "scraped_at": "11:50:01"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "11:20:19"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時大小 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Slovan-Bratislava-U19-vs-FC-Ko",
+                "team_url": "https://betsapi.com/r/12390595/Slovan-Bratislava-U19-vs-FC-Kosice-U19",
+                "cols": [
+                  "Slovan-Bratislava-U19-vs-FC-Ko",
+                  "2026-08-18 18:15:01",
+                  "Slovan Bratislava U19 (射正5 射偏3) | 2-1 | FC Kosice U19 (射正5 射偏1) | 偵測時間56",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Santos-Laguna-(W)-vs-Monterrey",
+                "team_url": "https://betsapi.com/r/12321916/Santos-Laguna-(W)-vs-Monterrey-(W)",
+                "cols": [
+                  "Santos-Laguna-(W)-vs-Monterrey",
+                  "2026-08-18 10:25:01",
+                  "Santos Laguna (W) (射正2 射偏4) | 0-3 | Monterrey (W) (射正5 射偏2) | 偵測時間56",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Santos Laguna (W) (射正2 射偏3) | 0-3 | Monterrey (W) (射正5 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Santos-FC-vs-Alianza-Universid",
+                "team_url": "https://betsapi.com/r/12338319/Santos-FC-vs-Alianza-Universidad",
+                "cols": [
+                  "Santos-FC-vs-Alianza-Universid",
+                  "2026-08-18 05:20:02",
+                  "Santos FC (射正7 射偏3) | 2-1 | Alianza Universidad (射正3 射偏5) | 偵測時間58",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Thorlakur-FC-vs-SR-Reykjavik",
+                "team_url": "https://betsapi.com/r/12441839/Thorlakur-FC-vs-SR-Reykjavik",
+                "cols": [
+                  "Thorlakur-FC-vs-SR-Reykjavik",
+                  "2026-08-18 05:15:01",
+                  "Thorlakur FC (射正13 射偏4) | 3-2 | SR Reykjavik (射正3 射偏1) | 偵測時間57",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Thorlakur FC (射正10 射偏2) | 2-2 | SR Reykjavik (射正3 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Throttur-Reykjavik-vs-Fylkir-R",
+                "team_url": "https://betsapi.com/r/11338241/Throttur-Reykjavik-vs-Fylkir-Reykjavik",
+                "cols": [
+                  "Throttur-Reykjavik-vs-Fylkir-R",
+                  "2026-08-18 04:30:01",
+                  "Throttur Reykjavik (射正7 射偏3) | 2-1 | Fylkir Reykjavik (射正2 射偏5) | 偵測時間57",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Larne-Reserves-vs-Crusaders-Re",
+                "team_url": "https://betsapi.com/r/12443264/Larne-Reserves-vs-Crusaders-Reserves",
+                "cols": [
+                  "Larne-Reserves-vs-Crusaders-Re",
+                  "2026-08-18 04:15:01",
+                  "Larne Reserves (射正7 射偏2) | 3-1 | Crusaders Reserves (射正2 射偏0) | 偵測時間60",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Larne Reserves (射正5 射偏2) | 2-1 | Crusaders Reserves (射正2 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Redbridge-vs-Bowers-Pitsea",
+                "team_url": "https://betsapi.com/r/12443428/Redbridge-vs-Bowers-Pitsea",
+                "cols": [
+                  "Redbridge-vs-Bowers-Pitsea",
+                  "2026-08-18 04:05:02",
+                  "Redbridge (射正8 射偏5) | 3-1 | Bowers Pitsea (射正3 射偏1) | 偵測時間59",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Staal-Jørpeland-vs-Haugesund-",
+                "team_url": "https://betsapi.com/r/11287139/Staal-Jørpeland-vs-Haugesund-2",
+                "cols": [
+                  "Staal-Jørpeland-vs-Haugesund-",
+                  "2026-08-18 01:20:01",
+                  "Staal Jørpeland (射正2 射偏3) | 1-2 | Haugesund 2 (射正5 射偏2) | 偵測時間60",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "IF-Gnistan-vs-FC-Ilves",
+                "team_url": "https://betsapi.com/r/11172028/IF-Gnistan-vs-FC-Ilves",
+                "cols": [
+                  "IF-Gnistan-vs-FC-Ilves",
+                  "2026-08-18 00:15:01",
+                  "IF Gnistan (射正4 射偏2) | 2-2 | FC Ilves (射正2 射偏2) | 偵測時間56",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "IF Gnistan (射正4 射偏1) | 2-2 | FC Ilves (射正2 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 9
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Santos-Laguna-(W)-vs-Monterrey",
+                "team_url": "https://betsapi.com/r/12321916/Santos-Laguna-(W)-vs-Monterrey-(W)",
+                "cols": [
+                  "Santos-Laguna-(W)-vs-Monterrey",
+                  "2026-08-18 10:10:02",
+                  "Santos Laguna (W) (射正2 射偏3) | 0-3 | Monterrey (W) (射正5 射偏1) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Thorlakur-FC-vs-SR-Reykjavik",
+                "team_url": "https://betsapi.com/r/12441839/Thorlakur-FC-vs-SR-Reykjavik",
+                "cols": [
+                  "Thorlakur-FC-vs-SR-Reykjavik",
+                  "2026-08-18 05:00:02",
+                  "Thorlakur FC (射正10 射偏2) | 2-2 | SR Reykjavik (射正3 射偏1) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Larne-Reserves-vs-Crusaders-Re",
+                "team_url": "https://betsapi.com/r/12443264/Larne-Reserves-vs-Crusaders-Reserves",
+                "cols": [
+                  "Larne-Reserves-vs-Crusaders-Re",
+                  "2026-08-18 04:00:01",
+                  "Larne Reserves (射正5 射偏2) | 2-1 | Crusaders Reserves (射正2 射偏0) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Lillehammer-vs-Lyn-1896-II",
+                "team_url": "https://betsapi.com/r/11287093/Lillehammer-vs-Lyn-1896-II",
+                "cols": [
+                  "Lillehammer-vs-Lyn-1896-II",
+                  "2026-08-18 01:00:01",
+                  "Lillehammer (射正10 射偏7) | 3-0 | Lyn 1896 II (射正3 射偏2) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "IF-Gnistan-vs-FC-Ilves",
+                "team_url": "https://betsapi.com/r/11172028/IF-Gnistan-vs-FC-Ilves",
+                "cols": [
+                  "IF-Gnistan-vs-FC-Ilves",
+                  "2026-08-18 00:00:03",
+                  "IF Gnistan (射正4 射偏1) | 2-2 | FC Ilves (射正2 射偏2) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 5
+          }
+        ],
+        "scraped_at": "11:50:03"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:21"
+        "scraped_at": "11:50:05"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:22"
+        "scraped_at": "11:50:06"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:24"
+        "scraped_at": "11:50:08"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:25"
+        "scraped_at": "11:50:10"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:27"
+        "scraped_at": "11:50:11"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:28"
+        "scraped_at": "11:50:13"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:30"
+        "scraped_at": "11:50:15"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:32"
+        "scraped_at": "11:50:16"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "11:20:33"
+        "scraped_at": "11:50:18"
       }
     }
   }
