@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-08-19 22:49:53",
+  "updated_at": "2026-08-19 23:18:09",
   "data": {
-    "timestamp": "2026-08-19 22:49:53",
+    "timestamp": "2026-08-19 23:18:09",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "22:49:55"
+        "scraped_at": "23:18:11"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -457,6 +457,17 @@
             ],
             "matches": [
               {
+                "team": "Atletico-Mineiro-vs-Bragantino",
+                "team_url": "https://betsapi.com/r/12330470/Atletico-Mineiro-vs-Bragantino",
+                "cols": [
+                  "Atletico-Mineiro-vs-Bragantino",
+                  "2026-08-20 07:10:02",
+                  "Atletico Mineiro (射正1 射偏4) | 0-1 | Bragantino (射正6 射偏5) | 偵測時間45",
+                  "押獨贏二(B) Bragantino"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Atletico-Barinas-vs-Zamora",
                 "team_url": "https://betsapi.com/r/12398294/Atletico-Barinas-vs-Zamora",
                 "cols": [
@@ -567,10 +578,10 @@
                 "highlight": ""
               }
             ],
-            "total": 10
+            "total": 11
           }
         ],
-        "scraped_at": "22:49:57"
+        "scraped_at": "23:18:13"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -585,6 +596,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "CA-Talleres-de-Córdoba-Reserv",
+                "team_url": "https://betsapi.com/r/12364533/CA-Talleres-de-Córdoba-Reserves-vs-Rosario-Central-Reserves",
+                "cols": [
+                  "CA-Talleres-de-Córdoba-Reserv",
+                  "2026-08-20 07:15:01",
+                  "CA Talleres de Córdoba Reserves (射正6 射偏3) | 2-1 | Rosario Central Reserves (射正4 射偏4) | 偵測時間57",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CA Talleres de Córdoba Reserves (射正5 射偏2) | 2-1 | Rosario Central Reserves (射正4 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Deportivo-Fraijanes-vs-CS-Depo",
                 "team_url": "https://betsapi.com/r/12292208/Deportivo-Fraijanes-vs-CS-Deportivo-Sacachispas",
@@ -1006,7 +1038,7 @@
                 "highlight": ""
               }
             ],
-            "total": 20
+            "total": 21
           },
           {
             "title": "參考",
@@ -1018,11 +1050,22 @@
             ],
             "matches": [
               {
+                "team": "Independiente-Petrolero-vs-Blo",
+                "team_url": "https://betsapi.com/r/12385205/Independiente-Petrolero-vs-Blooming",
+                "cols": [
+                  "Independiente-Petrolero-vs-Blo",
+                  "2026-08-20 07:05:02",
+                  "Independiente Petrolero (射正4 射偏2) | 1-2 | Blooming (射正2 射偏2) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "CA-Talleres-de-Córdoba-Reserv",
                 "team_url": "https://betsapi.com/r/12364533/CA-Talleres-de-Córdoba-Reserves-vs-Rosario-Central-Reserves",
                 "cols": [
                   "CA-Talleres-de-Córdoba-Reserv",
-                  "2026-08-20 06:45:01",
+                  "2026-08-20 07:00:02",
                   "CA Talleres de Córdoba Reserves (射正5 射偏2) | 2-1 | Rosario Central Reserves (射正4 射偏2) | 偵測時間45",
                   "押大分二"
                 ],
@@ -1216,10 +1259,10 @@
                 "highlight": ""
               }
             ],
-            "total": 18
+            "total": 19
           }
         ],
-        "scraped_at": "22:49:59"
+        "scraped_at": "23:18:14"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -1650,8 +1693,8 @@
                 "team_url": "https://betsapi.com/r/12221674/CE-Bento-Goncalves-vs-Brasil-de-Pelotas",
                 "cols": [
                   "CE-Bento-Goncalves-vs-Brasil-d",
-                  "2026-08-20 06:45:01",
-                  "CE Bento Goncalves (射正2 射偏3) | 1-1 | Brasil de Pelotas (射正4 射偏1) | 偵測時間44",
+                  "2026-08-20 07:10:02",
+                  "CE Bento Goncalves (射正3 射偏3) | 1-1 | Brasil de Pelotas (射正4 射偏2) | 偵測時間45",
                   "押大分三"
                 ],
                 "highlight": ""
@@ -1770,7 +1813,7 @@
             "total": 11
           }
         ],
-        "scraped_at": "22:50:00"
+        "scraped_at": "23:18:16"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -2113,13 +2156,24 @@
             ],
             "matches": [
               {
-                "team": "Atletico-Mineiro-vs-Bragantino",
-                "team_url": "https://betsapi.com/r/12330470/Atletico-Mineiro-vs-Bragantino",
+                "team": "Independiente-Petrolero-vs-Blo",
+                "team_url": "https://betsapi.com/r/12385205/Independiente-Petrolero-vs-Blooming",
                 "cols": [
-                  "Atletico-Mineiro-vs-Bragantino",
-                  "2026-08-20 06:45:01",
-                  "Atletico Mineiro (射正1 射偏3) | 0-0 | Bragantino (射正3 射偏4) | 偵測時間44",
-                  "押策略一2(B) Bragantino"
+                  "Independiente-Petrolero-vs-Blo",
+                  "2026-08-20 07:05:02",
+                  "Independiente Petrolero (射正4 射偏2) | 1-2 | Blooming (射正2 射偏2) | 偵測時間45",
+                  "押策略一2(A) Independiente Petrolero"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Delfines-Del-Este-vs-Violette-",
+                "team_url": "https://betsapi.com/r/12377682/Delfines-Del-Este-vs-Violette-AC",
+                "cols": [
+                  "Delfines-Del-Este-vs-Violette-",
+                  "2026-08-20 07:05:02",
+                  "Delfines Del Este (射正0 射偏2) | 0-0 | Violette AC (射正2 射偏4) | 偵測時間45",
+                  "押策略一2(B) Violette AC"
                 ],
                 "highlight": ""
               },
@@ -2234,52 +2288,3887 @@
                 "highlight": ""
               }
             ],
-            "total": 11
+            "total": 12
           }
         ],
-        "scraped_at": "22:50:02"
+        "scraped_at": "23:18:17"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "22:50:04"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Monagas-vs-Mineros",
+                "team_url": "https://betsapi.com/r/12398290/Monagas-vs-Mineros",
+                "cols": [
+                  "Monagas-vs-Mineros",
+                  "2026-08-20 05:20:02",
+                  "Monagas (射正2 射偏5) | 0-0 | Mineros (射正3 射偏3) | 偵測時間59",
+                  "押策略二(B) Mineros"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Academia-de-Balompie-Boliviano",
+                "team_url": "https://betsapi.com/r/12385265/Academia-de-Balompie-Boliviano-vs-Real-Potosi",
+                "cols": [
+                  "Academia-de-Balompie-Boliviano",
+                  "2026-08-20 04:15:01",
+                  "Academia de Balompie Boliviano (射正3 射偏8) | 0-2 | Real Potosi (射正5 射偏4) | 偵測時間56",
+                  "押策略二(B) Real Potosi"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Siello-FC-vs-Union-Adarve",
+                "team_url": "https://betsapi.com/r/12455843/Siello-FC-vs-Union-Adarve",
+                "cols": [
+                  "Siello-FC-vs-Union-Adarve",
+                  "2026-08-20 03:40:02",
+                  "Siello FC (射正0 射偏4) | 0-0 | Union Adarve (射正2 射偏3) | 偵測時間60",
+                  "押策略二(B) Union Adarve"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Siello FC (射正0 射偏4) | 0-0 | Union Adarve (射正2 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "SC-Buochs-vs-FC-Bassecourt",
+                "team_url": "https://betsapi.com/r/12276536/SC-Buochs-vs-FC-Bassecourt",
+                "cols": [
+                  "SC-Buochs-vs-FC-Bassecourt",
+                  "2026-08-20 03:30:01",
+                  "SC Buochs (射正5 射偏4) | 2-1 | FC Bassecourt (射正2 射偏5) | 偵測時間58",
+                  "押策略二(A) SC Buochs"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "SC Buochs (射正5 射偏1) | 2-1 | FC Bassecourt (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Salamanca-CF-UDS-vs-UD-Santa-M",
+                "team_url": "https://betsapi.com/r/12460345/Salamanca-CF-UDS-vs-UD-Santa-Marta",
+                "cols": [
+                  "Salamanca-CF-UDS-vs-UD-Santa-M",
+                  "2026-08-20 03:25:01",
+                  "Salamanca CF UDS (射正5 射偏3) | 1-1 | UD Santa Marta (射正3 射偏4) | 偵測時間58",
+                  "押策略二(A) Salamanca CF UDS"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Salamanca CF UDS (射正5 射偏3) | 1-0 | UD Santa Marta (射正2 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hviti-Riddarinn-vs-KFG-Gardaba",
+                "team_url": "https://betsapi.com/r/11721048/Hviti-Riddarinn-vs-KFG-Gardabaer",
+                "cols": [
+                  "Hviti-Riddarinn-vs-KFG-Gardaba",
+                  "2026-08-20 03:20:01",
+                  "Hviti Riddarinn (射正2 射偏3) | 0-3 | KFG Gardabaer (射正8 射偏2) | 偵測時間58",
+                  "押策略二(B) KFG Gardabaer"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Hviti Riddarinn (射正2 射偏3) | 0-3 | KFG Gardabaer (射正7 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Deportivo-Merlo-Reserves-vs-De",
+                "team_url": "https://betsapi.com/r/12457669/Deportivo-Merlo-Reserves-vs-Deportivo-Armenio-Reserves",
+                "cols": [
+                  "Deportivo-Merlo-Reserves-vs-De",
+                  "2026-08-20 03:20:01",
+                  "Deportivo Merlo Reserves (射正1 射偏5) | 1-0 | Deportivo Armenio Reserves (射正2 射偏3) | 偵測時間56",
+                  "押策略二(B) Deportivo Armenio Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Deportivo Merlo Reserves (射正1 射偏4) | 1-0 | Deportivo Armenio Reserves (射正2 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KSV-Oudenaarde-vs-Cercle-Brugg",
+                "team_url": "https://betsapi.com/r/12459927/KSV-Oudenaarde-vs-Cercle-Brugge-Reserves",
+                "cols": [
+                  "KSV-Oudenaarde-vs-Cercle-Brugg",
+                  "2026-08-20 03:20:01",
+                  "KSV Oudenaarde (射正3 射偏6) | 2-0 | Cercle Brugge Reserves (射正4 射偏2) | 偵測時間58",
+                  "押策略二(B) Cercle Brugge Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "KSV Oudenaarde (射正0 射偏4) | 0-0 | Cercle Brugge Reserves (射正3 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Huracan-Reserves-vs-Independie",
+                "team_url": "https://betsapi.com/r/12364508/Huracan-Reserves-vs-Independiente-Rivadavia-Reserves",
+                "cols": [
+                  "Huracan-Reserves-vs-Independie",
+                  "2026-08-20 03:15:01",
+                  "Huracan Reserves (射正2 射偏2) | 2-0 | Independiente Rivadavia Reserves (射正0 射偏3) | 偵測時間57",
+                  "押策略二(A) Huracan Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Huracan Reserves (射正1 射偏1) | 1-0 | Independiente Rivadavia Reserves (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Reynir-vs-Magni-Grenivik",
+                "team_url": "https://betsapi.com/r/11721155/Dalvik/Reynir-vs-Magni-Grenivik",
+                "cols": [
+                  "Reynir-vs-Magni-Grenivik",
+                  "2026-08-20 03:15:01",
+                  "Dalvik/Reynir (射正2 射偏4) | 0-0 | Magni Grenivik (射正3 射偏3) | 偵測時間57",
+                  "押策略二(B) Magni Grenivik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atlantida-SC-vs-CS-Limpeno",
+                "team_url": "https://betsapi.com/r/12456467/Atlantida-SC-vs-CS-Limpeno",
+                "cols": [
+                  "Atlantida-SC-vs-CS-Limpeno",
+                  "2026-08-20 03:15:01",
+                  "Atlantida SC (射正4 射偏2) | 0-0 | CS Limpeno (射正1 射偏3) | 偵測時間58",
+                  "押策略二(A) Atlantida SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Atlantida SC (射正2 射偏2) | 0-0 | CS Limpeno (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "UD-San-Sebastian-Reyes-vs-Rayo",
+                "team_url": "https://betsapi.com/r/12450056/UD-San-Sebastian-Reyes-vs-Rayo-Majadahonda",
+                "cols": [
+                  "UD-San-Sebastian-Reyes-vs-Rayo",
+                  "2026-08-20 03:15:01",
+                  "UD San Sebastian Reyes (射正0 射偏3) | 0-1 | Rayo Majadahonda (射正3 射偏1) | 偵測時間58",
+                  "押策略二(B) Rayo Majadahonda"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Killester-Donnycarney-FC-vs-Lu",
+                "team_url": "https://betsapi.com/r/12454457/Killester-Donnycarney-FC-vs-Lucan-United",
+                "cols": [
+                  "Killester-Donnycarney-FC-vs-Lu",
+                  "2026-08-20 03:10:02",
+                  "Killester Donnycarney FC (射正3 射偏4) | 1-0 | Lucan United (射正2 射偏5) | 偵測時間58",
+                  "押策略二(A) Killester Donnycarney FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Leioa-vs-Portugalete",
+                "team_url": "https://betsapi.com/r/12444310/Leioa-vs-Portugalete",
+                "cols": [
+                  "Leioa-vs-Portugalete",
+                  "2026-08-20 02:45:01",
+                  "Leioa (射正0 射偏2) | 0-0 | Portugalete (射正2 射偏1) | 偵測時間57",
+                  "押策略二(B) Portugalete"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Gimnastica-de-Torrelavega-vs-R",
+                "team_url": "https://betsapi.com/r/12456197/Gimnastica-de-Torrelavega-vs-Rayo-Cantabria",
+                "cols": [
+                  "Gimnastica-de-Torrelavega-vs-R",
+                  "2026-08-20 02:25:02",
+                  "Gimnastica de Torrelavega (射正1 射偏5) | 0-1 | Rayo Cantabria (射正3 射偏4) | 偵測時間58",
+                  "押策略二(B) Rayo Cantabria"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Teleoptik-vs-FK-Napredak",
+                "team_url": "https://betsapi.com/r/12043482/Teleoptik-vs-FK-Napredak",
+                "cols": [
+                  "Teleoptik-vs-FK-Napredak",
+                  "2026-08-20 02:15:01",
+                  "Teleoptik (射正1 射偏5) | 0-1 | FK Napredak (射正4 射偏4) | 偵測時間56",
+                  "押策略二(B) FK Napredak"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Real-Oviedo-B-vs-Caudal",
+                "team_url": "https://betsapi.com/r/12459658/Real-Oviedo-B-vs-Caudal",
+                "cols": [
+                  "Real-Oviedo-B-vs-Caudal",
+                  "2026-08-20 02:15:01",
+                  "Real Oviedo B (射正3 射偏3) | 1-0 | Caudal (射正1 射偏5) | 偵測時間57",
+                  "押策略二(A) Real Oviedo B"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Seeb-vs-Al-Shabab-Seeb",
+                "team_url": "https://betsapi.com/r/12458781/Al-Seeb-vs-Al-Shabab-Seeb",
+                "cols": [
+                  "Al-Seeb-vs-Al-Shabab-Seeb",
+                  "2026-08-20 00:35:01",
+                  "Al Seeb (射正4 射偏4) | 0-0 | Al Shabab Seeb (射正2 射偏6) | 偵測時間60",
+                  "押策略二(A) Al Seeb"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Al Seeb (射正4 射偏2) | 0-0 | Al Shabab Seeb (射正2 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CF-USAC-vs-Deportivo-Patutul",
+                "team_url": "https://betsapi.com/r/12458418/CF-USAC-vs-Deportivo-Patutul",
+                "cols": [
+                  "CF-USAC-vs-Deportivo-Patutul",
+                  "2026-08-20 00:25:01",
+                  "CF USAC (射正1 射偏7) | 1-0 | Deportivo Patutul (射正3 射偏6) | 偵測時間57",
+                  "押策略二(B) Deportivo Patutul"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Wisla-Plock-II-vs-LKS-Lomza",
+                "team_url": "https://betsapi.com/r/12148268/Wisla-Plock-II-vs-LKS-Lomza",
+                "cols": [
+                  "Wisla-Plock-II-vs-LKS-Lomza",
+                  "2026-08-20 00:20:01",
+                  "Wisla Plock II (射正0 射偏3) | 0-1 | LKS Lomza (射正2 射偏2) | 偵測時間58",
+                  "押策略二(B) LKS Lomza"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Warta-Gorzow-vs-Gornik-Polkowi",
+                "team_url": "https://betsapi.com/r/12147846/Warta-Gorzow-vs-Gornik-Polkowice",
+                "cols": [
+                  "Warta-Gorzow-vs-Gornik-Polkowi",
+                  "2026-08-20 00:20:01",
+                  "Warta Gorzow (射正3 射偏6) | 0-0 | Gornik Polkowice (射正4 射偏3) | 偵測時間59",
+                  "押策略二(B) Gornik Polkowice"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "OSK-Rosina-vs-MFK-Bytca",
+                "team_url": "https://betsapi.com/r/12351354/OSK-Rosina-vs-MFK-Bytca",
+                "cols": [
+                  "OSK-Rosina-vs-MFK-Bytca",
+                  "2026-08-20 00:20:01",
+                  "OSK Rosina (射正0 射偏2) | 0-1 | MFK Bytca (射正2 射偏1) | 偵測時間59",
+                  "押策略二(B) MFK Bytca"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Citta-di-Varese-vs-AC-Palazzol",
+                "team_url": "https://betsapi.com/r/12459492/Citta-di-Varese-vs-AC-Palazzolo",
+                "cols": [
+                  "Citta-di-Varese-vs-AC-Palazzol",
+                  "2026-08-20 00:15:02",
+                  "Citta di Varese (射正2 射偏5) | 0-2 | AC Palazzolo (射正3 射偏2) | 偵測時間57",
+                  "押策略二(B) AC Palazzolo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Tatran-Krasno-vs-FK-Podkonice",
+                "team_url": "https://betsapi.com/r/12350053/Tatran-Krasno-vs-FK-Podkonice",
+                "cols": [
+                  "Tatran-Krasno-vs-FK-Podkonice",
+                  "2026-08-20 00:15:02",
+                  "Tatran Krasno (射正1 射偏9) | 1-1 | FK Podkonice (射正3 射偏6) | 偵測時間58",
+                  "押策略二(B) FK Podkonice"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ofk-Sim-Raslavice-vs-FC-Kosice",
+                "team_url": "https://betsapi.com/r/12350039/Ofk-Sim-Raslavice-vs-FC-Kosice",
+                "cols": [
+                  "Ofk-Sim-Raslavice-vs-FC-Kosice",
+                  "2026-08-20 00:10:01",
+                  "Ofk-Sim Raslavice (射正3 射偏7) | 0-3 | FC Kosice (射正6 射偏2) | 偵測時間57",
+                  "押策略二(B) FC Kosice"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 25
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "CE-Bento-Goncalves-vs-Brasil-d",
+                "team_url": "https://betsapi.com/r/12221674/CE-Bento-Goncalves-vs-Brasil-de-Pelotas",
+                "cols": [
+                  "CE-Bento-Goncalves-vs-Brasil-d",
+                  "2026-08-20 07:10:02",
+                  "CE Bento Goncalves (射正3 射偏3) | 1-1 | Brasil de Pelotas (射正4 射偏2) | 偵測時間45",
+                  "押策略二(B) Brasil de Pelotas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Cerro-Porteno-vs-Palmeiras",
+                "team_url": "https://betsapi.com/r/12418091/Cerro-Porteno-vs-Palmeiras",
+                "cols": [
+                  "Cerro-Porteno-vs-Palmeiras",
+                  "2026-08-20 07:05:02",
+                  "Cerro Porteno (射正1 射偏5) | 0-1 | Palmeiras (射正2 射偏3) | 偵測時間45",
+                  "押策略二(B) Palmeiras"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Coban-Imperial-vs-Antigua-GFC",
+                "team_url": "https://betsapi.com/r/12131899/Coban-Imperial-vs-Antigua-GFC",
+                "cols": [
+                  "Coban-Imperial-vs-Antigua-GFC",
+                  "2026-08-20 06:10:01",
+                  "Coban Imperial (射正3 射偏1) | 0-0 | Antigua GFC (射正1 射偏2) | 偵測時間45",
+                  "押策略二(A) Coban Imperial"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Celtic-vs-LASK-Linz",
+                "team_url": "https://betsapi.com/r/12355262/Celtic-vs-LASK-Linz",
+                "cols": [
+                  "Celtic-vs-LASK-Linz",
+                  "2026-08-20 04:00:01",
+                  "Celtic (射正2 射偏4) | 2-0 | LASK Linz (射正6 射偏1) | 偵測時間45",
+                  "押策略二(B) LASK Linz"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "AFC-Portchester-vs-Bognor-Regi",
+                "team_url": "https://betsapi.com/r/12460132/AFC-Portchester-vs-Bognor-Regis-Town",
+                "cols": [
+                  "AFC-Portchester-vs-Bognor-Regi",
+                  "2026-08-20 03:45:01",
+                  "AFC Portchester (射正3 射偏3) | 0-0 | Bognor Regis Town (射正0 射偏4) | 偵測時間45",
+                  "押策略二(A) AFC Portchester"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Siello-FC-vs-Union-Adarve",
+                "team_url": "https://betsapi.com/r/12455843/Siello-FC-vs-Union-Adarve",
+                "cols": [
+                  "Siello-FC-vs-Union-Adarve",
+                  "2026-08-20 03:25:01",
+                  "Siello FC (射正0 射偏4) | 0-0 | Union Adarve (射正2 射偏3) | 偵測時間45",
+                  "押策略二(B) Union Adarve"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "SC-Buochs-vs-FC-Bassecourt",
+                "team_url": "https://betsapi.com/r/12276536/SC-Buochs-vs-FC-Bassecourt",
+                "cols": [
+                  "SC-Buochs-vs-FC-Bassecourt",
+                  "2026-08-20 03:15:01",
+                  "SC Buochs (射正5 射偏1) | 2-1 | FC Bassecourt (射正1 射偏3) | 偵測時間45",
+                  "押策略二(A) SC Buochs"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Salamanca-CF-UDS-vs-UD-Santa-M",
+                "team_url": "https://betsapi.com/r/12460345/Salamanca-CF-UDS-vs-UD-Santa-Marta",
+                "cols": [
+                  "Salamanca-CF-UDS-vs-UD-Santa-M",
+                  "2026-08-20 03:10:02",
+                  "Salamanca CF UDS (射正5 射偏3) | 1-0 | UD Santa Marta (射正2 射偏4) | 偵測時間45",
+                  "押策略二(A) Salamanca CF UDS"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Deportivo-Merlo-Reserves-vs-De",
+                "team_url": "https://betsapi.com/r/12457669/Deportivo-Merlo-Reserves-vs-Deportivo-Armenio-Reserves",
+                "cols": [
+                  "Deportivo-Merlo-Reserves-vs-De",
+                  "2026-08-20 03:05:01",
+                  "Deportivo Merlo Reserves (射正1 射偏4) | 1-0 | Deportivo Armenio Reserves (射正2 射偏2) | 偵測時間45",
+                  "押策略二(B) Deportivo Armenio Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KSV-Oudenaarde-vs-Cercle-Brugg",
+                "team_url": "https://betsapi.com/r/12459927/KSV-Oudenaarde-vs-Cercle-Brugge-Reserves",
+                "cols": [
+                  "KSV-Oudenaarde-vs-Cercle-Brugg",
+                  "2026-08-20 03:05:01",
+                  "KSV Oudenaarde (射正0 射偏4) | 0-0 | Cercle Brugge Reserves (射正3 射偏1) | 偵測時間45",
+                  "押策略二(B) Cercle Brugge Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hviti-Riddarinn-vs-KFG-Gardaba",
+                "team_url": "https://betsapi.com/r/11721048/Hviti-Riddarinn-vs-KFG-Gardabaer",
+                "cols": [
+                  "Hviti-Riddarinn-vs-KFG-Gardaba",
+                  "2026-08-20 03:05:01",
+                  "Hviti Riddarinn (射正2 射偏3) | 0-3 | KFG Gardabaer (射正7 射偏2) | 偵測時間45",
+                  "押策略二(B) KFG Gardabaer"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Reynir-Sandgerdi-vs-KH-Hlidare",
+                "team_url": "https://betsapi.com/r/11724000/Reynir-Sandgerdi-vs-KH-Hlidarendi",
+                "cols": [
+                  "Reynir-Sandgerdi-vs-KH-Hlidare",
+                  "2026-08-20 03:05:01",
+                  "Reynir Sandgerdi (射正2 射偏4) | 1-2 | KH Hlidarendi (射正3 射偏2) | 偵測時間45",
+                  "押策略二(B) KH Hlidarendi"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Huracan-Reserves-vs-Independie",
+                "team_url": "https://betsapi.com/r/12364508/Huracan-Reserves-vs-Independiente-Rivadavia-Reserves",
+                "cols": [
+                  "Huracan-Reserves-vs-Independie",
+                  "2026-08-20 03:00:02",
+                  "Huracan Reserves (射正1 射偏1) | 1-0 | Independiente Rivadavia Reserves (射正0 射偏2) | 偵測時間45",
+                  "押策略二(A) Huracan Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atlantida-SC-vs-CS-Limpeno",
+                "team_url": "https://betsapi.com/r/12456467/Atlantida-SC-vs-CS-Limpeno",
+                "cols": [
+                  "Atlantida-SC-vs-CS-Limpeno",
+                  "2026-08-20 03:00:02",
+                  "Atlantida SC (射正2 射偏2) | 0-0 | CS Limpeno (射正1 射偏3) | 偵測時間45",
+                  "押策略二(A) Atlantida SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Grand-Saconnex-vs-FC-Schaff",
+                "team_url": "https://betsapi.com/r/12141873/FC-Grand-Saconnex-vs-FC-Schaffhausen",
+                "cols": [
+                  "FC-Grand-Saconnex-vs-FC-Schaff",
+                  "2026-08-20 02:30:01",
+                  "FC Grand-Saconnex (射正1 射偏5) | 0-2 | FC Schaffhausen (射正3 射偏4) | 偵測時間45",
+                  "押策略二(B) FC Schaffhausen"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-Concordia-Chiajna-vs-Otelul",
+                "team_url": "https://betsapi.com/r/12424655/CS-Concordia-Chiajna-vs-Otelul-Galati",
+                "cols": [
+                  "CS-Concordia-Chiajna-vs-Otelul",
+                  "2026-08-20 02:30:01",
+                  "CS Concordia Chiajna (射正3 射偏1) | 2-0 | Otelul Galati (射正0 射偏3) | 偵測時間45",
+                  "押策略二(A) CS Concordia Chiajna"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Virkia-vs-FC-Ylivieska",
+                "team_url": "https://betsapi.com/r/11612680/Virkia-vs-FC-Ylivieska",
+                "cols": [
+                  "Virkia-vs-FC-Ylivieska",
+                  "2026-08-20 01:05:02",
+                  "Virkia (射正2 射偏5) | 0-1 | FC Ylivieska (射正1 射偏7) | 偵測時間45",
+                  "押策略二(A) Virkia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Seeb-vs-Al-Shabab-Seeb",
+                "team_url": "https://betsapi.com/r/12458781/Al-Seeb-vs-Al-Shabab-Seeb",
+                "cols": [
+                  "Al-Seeb-vs-Al-Shabab-Seeb",
+                  "2026-08-20 00:20:01",
+                  "Al Seeb (射正4 射偏2) | 0-0 | Al Shabab Seeb (射正2 射偏3) | 偵測時間45",
+                  "押策略二(A) Al Seeb"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 18
+          }
+        ],
+        "scraped_at": "23:18:19"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "22:50:05"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時假賽 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Krasava-ENY-Ypsonas-vs-AEL-Lim",
+                "team_url": "https://betsapi.com/r/12456196/Krasava-ENY-Ypsonas-vs-AEL-Limassol",
+                "cols": [
+                  "Krasava-ENY-Ypsonas-vs-AEL-Lim",
+                  "2026-08-20 01:05:02",
+                  "Krasava ENY Ypsonas (射正2 射偏3) | 0-1 | AEL Limassol (射正5 射偏2) | 偵測時間45",
+                  "押策略四(B) AEL Limassol"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "23:18:21"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "22:50:07"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時假賽 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Deportivo-Fraijanes-vs-CS-Depo",
+                "team_url": "https://betsapi.com/r/12292208/Deportivo-Fraijanes-vs-CS-Deportivo-Sacachispas",
+                "cols": [
+                  "Deportivo-Fraijanes-vs-CS-Depo",
+                  "2026-08-20 06:25:01",
+                  "Deportivo Fraijanes (射正4 射偏3) | 2-2 | CS Deportivo Sacachispas (射正2 射偏2) | 偵測時間59",
+                  "押策略五(A) Deportivo Fraijanes"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "UDA-Huancavelica-vs-Ucayali-FC",
+                "team_url": "https://betsapi.com/r/12460337/UDA-Huancavelica-vs-Ucayali-FC",
+                "cols": [
+                  "UDA-Huancavelica-vs-Ucayali-FC",
+                  "2026-08-20 05:55:02",
+                  "UDA Huancavelica (射正9 射偏12) | 2-1 | Ucayali FC (射正7 射偏2) | 偵測時間59",
+                  "押策略五(A) UDA Huancavelica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "UDA Huancavelica (射正8 射偏8) | 2-1 | Ucayali FC (射正6 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-El-Vigia-vs-Real-Fron",
+                "team_url": "https://betsapi.com/r/12398293/Atletico-El-Vigia-vs-Real-Frontera",
+                "cols": [
+                  "Atletico-El-Vigia-vs-Real-Fron",
+                  "2026-08-20 04:45:01",
+                  "Atletico El Vigia (射正7 射偏14) | 3-1 | Real Frontera (射正2 射偏5) | 偵測時間56",
+                  "押策略五(A) Atletico El Vigia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KV-Vesturbaer-vs-Augnablik-Kop",
+                "team_url": "https://betsapi.com/r/11723996/KV-Vesturbaer-vs-Augnablik-Kopavogur",
+                "cols": [
+                  "KV-Vesturbaer-vs-Augnablik-Kop",
+                  "2026-08-20 04:35:01",
+                  "KV Vesturbaer (射正5 射偏8) | 0-1 | Augnablik Kopavogur (射正4 射偏3) | 偵測時間59",
+                  "押策略五(A) KV Vesturbaer"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Madrid-vs-Malaga",
+                "team_url": "https://betsapi.com/r/12141372/Atletico-Madrid-vs-Malaga",
+                "cols": [
+                  "Atletico-Madrid-vs-Malaga",
+                  "2026-08-20 04:30:01",
+                  "Atletico Madrid (射正3 射偏6) | 0-0 | Malaga (射正0 射偏3) | 偵測時間60",
+                  "押策略五(A) Atletico Madrid"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Atletico Madrid (射正1 射偏3) | 0-0 | Malaga (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Inchicore-Athletic-FC-vs-Waysi",
+                "team_url": "https://betsapi.com/r/12455699/Inchicore-Athletic-FC-vs-Wayside-Celtic",
+                "cols": [
+                  "Inchicore-Athletic-FC-vs-Waysi",
+                  "2026-08-20 04:20:01",
+                  "Inchicore Athletic FC (射正9 射偏4) | 2-3 | Wayside Celtic (射正5 射偏1) | 偵測時間60",
+                  "押策略五(A) Inchicore Athletic FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bolivar-SC-vs-Dynamo-Puerto-FC",
+                "team_url": "https://betsapi.com/r/12398289/Bolivar-SC-vs-Dynamo-Puerto-FC",
+                "cols": [
+                  "Bolivar-SC-vs-Dynamo-Puerto-FC",
+                  "2026-08-20 04:15:01",
+                  "Bolivar SC (射正8 射偏6) | 1-1 | Dynamo Puerto FC (射正2 射偏5) | 偵測時間56",
+                  "押策略五(A) Bolivar SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Bolivar SC (射正8 射偏5) | 1-1 | Dynamo Puerto FC (射正2 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Slimbridge-vs-Swindon-Supermar",
+                "team_url": "https://betsapi.com/r/12455026/Slimbridge-vs-Swindon-Supermarine",
+                "cols": [
+                  "Slimbridge-vs-Swindon-Supermar",
+                  "2026-08-20 04:05:01",
+                  "Slimbridge (射正2 射偏1) | 0-6 | Swindon Supermarine (射正6 射偏5) | 偵測時間57",
+                  "押策略五(B) Swindon Supermarine"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Lichfield-City-vs-Stafford-Ran",
+                "team_url": "https://betsapi.com/r/12455021/Lichfield-City-vs-Stafford-Rangers",
+                "cols": [
+                  "Lichfield-City-vs-Stafford-Ran",
+                  "2026-08-20 04:05:01",
+                  "Lichfield City (射正0 射偏4) | 0-2 | Stafford Rangers (射正7 射偏16) | 偵測時間60",
+                  "押策略五(B) Stafford Rangers"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Lichfield City (射正0 射偏3) | 0-1 | Stafford Rangers (射正4 射偏13) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Xerez-CD-vs-Real-Jaen",
+                "team_url": "https://betsapi.com/r/12444312/Xerez-CD-vs-Real-Jaen",
+                "cols": [
+                  "Xerez-CD-vs-Real-Jaen",
+                  "2026-08-20 04:00:01",
+                  "Xerez CD (射正1 射偏1) | 0-2 | Real Jaen (射正5 射偏4) | 偵測時間58",
+                  "押策略五(B) Real Jaen"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Xerez CD (射正0 射偏1) | 0-2 | Real Jaen (射正5 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "AFC-Portchester-vs-Bognor-Regi",
+                "team_url": "https://betsapi.com/r/12460132/AFC-Portchester-vs-Bognor-Regis-Town",
+                "cols": [
+                  "AFC-Portchester-vs-Bognor-Regi",
+                  "2026-08-20 04:00:01",
+                  "AFC Portchester (射正3 射偏5) | 0-0 | Bognor Regis Town (射正0 射偏4) | 偵測時間57",
+                  "押策略五(A) AFC Portchester"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "UD-Ourense-vs-CD-Barco",
+                "team_url": "https://betsapi.com/r/12444566/UD-Ourense-vs-CD-Barco",
+                "cols": [
+                  "UD-Ourense-vs-CD-Barco",
+                  "2026-08-20 03:50:01",
+                  "UD Ourense (射正1 射偏3) | 1-0 | CD Barco (射正0 射偏1) | 偵測時間60",
+                  "押策略五(A) UD Ourense"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Merstham-vs-Peacehaven-&-Telsc",
+                "team_url": "https://betsapi.com/r/12455020/Merstham-vs-Peacehaven-&-Telscombe",
+                "cols": [
+                  "Merstham-vs-Peacehaven-&-Telsc",
+                  "2026-08-20 03:45:01",
+                  "Merstham (射正5 射偏6) | 0-3 | Peacehaven & Telscombe (射正4 射偏2) | 偵測時間57",
+                  "押策略五(A) Merstham"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "E.F.-Puebla-de-la-Calzada-vs-C",
+                "team_url": "https://betsapi.com/r/12444474/E.F.-Puebla-de-la-Calzada-vs-CD-Badajoz",
+                "cols": [
+                  "E.F.-Puebla-de-la-Calzada-vs-C",
+                  "2026-08-20 03:45:01",
+                  "E.F. Puebla de la Calzada (射正1 射偏3) | 0-1 | CD Badajoz (射正3 射偏6) | 偵測時間56",
+                  "押策略五(B) CD Badajoz"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ponferradina-vs-Real-Madrid-B",
+                "team_url": "https://betsapi.com/r/12444541/Ponferradina-vs-Real-Madrid-B",
+                "cols": [
+                  "Ponferradina-vs-Real-Madrid-B",
+                  "2026-08-20 03:25:01",
+                  "Ponferradina (射正1 射偏0) | 1-2 | Real Madrid B (射正3 射偏1) | 偵測時間58",
+                  "押策略五(B) Real Madrid B"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Reynir-Sandgerdi-vs-KH-Hlidare",
+                "team_url": "https://betsapi.com/r/11724000/Reynir-Sandgerdi-vs-KH-Hlidarendi",
+                "cols": [
+                  "Reynir-Sandgerdi-vs-KH-Hlidare",
+                  "2026-08-20 03:20:01",
+                  "Reynir Sandgerdi (射正6 射偏6) | 1-2 | KH Hlidarendi (射正3 射偏4) | 偵測時間58",
+                  "押策略五(A) Reynir Sandgerdi"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Metalac-Gornji-vs-Smederevo",
+                "team_url": "https://betsapi.com/r/12043483/Metalac-Gornji-vs-Smederevo",
+                "cols": [
+                  "Metalac-Gornji-vs-Smederevo",
+                  "2026-08-20 03:20:01",
+                  "Metalac Gornji (射正7 射偏7) | 0-0 | Smederevo (射正0 射偏3) | 偵測時間60",
+                  "押策略五(A) Metalac Gornji"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-Dock-Sud-Reserves-vs-CSD-Fl",
+                "team_url": "https://betsapi.com/r/12457668/CS-Dock-Sud-Reserves-vs-CSD-Flandria-Reserves",
+                "cols": [
+                  "CS-Dock-Sud-Reserves-vs-CSD-Fl",
+                  "2026-08-20 03:20:01",
+                  "CS Dock Sud Reserves (射正2 射偏6) | 0-0 | CSD Flandria Reserves (射正0 射偏3) | 偵測時間56",
+                  "押策略五(A) CS Dock Sud Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CS Dock Sud Reserves (射正1 射偏5) | 0-0 | CSD Flandria Reserves (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Cieza-vs-Athletic-Torrellano",
+                "team_url": "https://betsapi.com/r/12444105/Cieza-vs-Athletic-Torrellano",
+                "cols": [
+                  "Cieza-vs-Athletic-Torrellano",
+                  "2026-08-20 03:20:01",
+                  "Cieza (射正7 射偏5) | 1-0 | Athletic Torrellano (射正2 射偏3) | 偵測時間60",
+                  "押策略五(A) Cieza"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "APAFUT-vs-Veranopolis",
+                "team_url": "https://betsapi.com/r/12228619/APAFUT-vs-Veranopolis",
+                "cols": [
+                  "APAFUT-vs-Veranopolis",
+                  "2026-08-20 03:20:01",
+                  "APAFUT (射正3 射偏6) | 1-1 | Veranopolis (射正2 射偏1) | 偵測時間57",
+                  "押策略五(A) APAFUT"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "APAFUT (射正3 射偏3) | 1-1 | Veranopolis (射正2 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Rafaela-Reserves-vs-Q",
+                "team_url": "https://betsapi.com/r/12364509/Atletico-Rafaela-Reserves-vs-Quilmes-Reserves",
+                "cols": [
+                  "Atletico-Rafaela-Reserves-vs-Q",
+                  "2026-08-20 03:15:01",
+                  "Atletico Rafaela Reserves (射正1 射偏2) | 1-0 | Quilmes Reserves (射正2 射偏4) | 偵測時間59",
+                  "押策略五(B) Quilmes Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Arbaer-vs-Vidir-Gardur",
+                "team_url": "https://betsapi.com/r/11723998/FC-Arbaer-vs-Vidir-Gardur",
+                "cols": [
+                  "FC-Arbaer-vs-Vidir-Gardur",
+                  "2026-08-20 03:15:01",
+                  "FC Arbaer (射正1 射偏1) | 1-4 | Vidir Gardur (射正10 射偏11) | 偵測時間57",
+                  "押策略五(B) Vidir Gardur"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FC Arbaer (射正0 射偏1) | 0-3 | Vidir Gardur (射正6 射偏10) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Vikingur-Olafsvik-vs-Throttur-",
+                "team_url": "https://betsapi.com/r/11721085/Vikingur-Olafsvik-vs-Throttur-Vogar",
+                "cols": [
+                  "Vikingur-Olafsvik-vs-Throttur-",
+                  "2026-08-20 03:15:01",
+                  "Vikingur Olafsvik (射正4 射偏8) | 2-0 | Throttur Vogar (射正0 射偏2) | 偵測時間58",
+                  "押策略五(A) Vikingur Olafsvik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Coruxo-vs-Pontevedra",
+                "team_url": "https://betsapi.com/r/12441320/Coruxo-vs-Pontevedra",
+                "cols": [
+                  "Coruxo-vs-Pontevedra",
+                  "2026-08-20 03:15:01",
+                  "Coruxo (射正4 射偏5) | 2-0 | Pontevedra (射正2 射偏4) | 偵測時間60",
+                  "押策略五(A) Coruxo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Villarreal-B-vs-Gimnastic-Tarr",
+                "team_url": "https://betsapi.com/r/12455756/Villarreal-B-vs-Gimnastic-Tarragona",
+                "cols": [
+                  "Villarreal-B-vs-Gimnastic-Tarr",
+                  "2026-08-20 03:15:01",
+                  "Villarreal B (射正3 射偏5) | 1-0 | Gimnastic Tarragona (射正0 射偏3) | 偵測時間58",
+                  "押策略五(A) Villarreal B"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Villarreal B (射正2 射偏5) | 1-0 | Gimnastic Tarragona (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Breitenrain-vs-Young-Boys-II",
+                "team_url": "https://betsapi.com/r/12455996/Breitenrain-vs-Young-Boys-II",
+                "cols": [
+                  "Breitenrain-vs-Young-Boys-II",
+                  "2026-08-20 02:50:01",
+                  "Breitenrain (射正5 射偏6) | 4-1 | Young Boys II (射正2 射偏4) | 偵測時間60",
+                  "押策略五(A) Breitenrain"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Breitenrain (射正4 射偏4) | 3-1 | Young Boys II (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Aguilas-vs-Alcoyano",
+                "team_url": "https://betsapi.com/r/12441005/Aguilas-vs-Alcoyano",
+                "cols": [
+                  "Aguilas-vs-Alcoyano",
+                  "2026-08-20 02:45:01",
+                  "Aguilas (射正4 射偏8) | 1-0 | Alcoyano (射正1 射偏0) | 偵測時間58",
+                  "押策略五(A) Aguilas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Aguilas (射正3 射偏5) | 1-0 | Alcoyano (射正1 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Mamelodi-Sundowns-vs-Marumo-Ga",
+                "team_url": "https://betsapi.com/r/12319717/Mamelodi-Sundowns-vs-Marumo-Gallants",
+                "cols": [
+                  "Mamelodi-Sundowns-vs-Marumo-Ga",
+                  "2026-08-20 02:45:01",
+                  "Mamelodi Sundowns (射正5 射偏7) | 1-0 | Marumo Gallants (射正2 射偏3) | 偵測時間56",
+                  "押策略五(A) Mamelodi Sundowns"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Mamelodi Sundowns (射正5 射偏6) | 1-0 | Marumo Gallants (射正2 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Cultural-de-Durango-vs-Pasaia-",
+                "team_url": "https://betsapi.com/r/12451784/Cultural-de-Durango-vs-Pasaia-KE",
+                "cols": [
+                  "Cultural-de-Durango-vs-Pasaia-",
+                  "2026-08-20 02:30:01",
+                  "Cultural de Durango (射正6 射偏2) | 3-1 | Pasaia KE (射正2 射偏0) | 偵測時間58",
+                  "押策略五(A) Cultural de Durango"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bur-vs-Parndorf",
+                "team_url": "https://betsapi.com/r/12459662/St-Margarethen/Bur-vs-Parndorf",
+                "cols": [
+                  "Bur-vs-Parndorf",
+                  "2026-08-20 02:20:01",
+                  "St Margarethen/Bur (射正6 射偏1) | 2-3 | Parndorf (射正7 射偏3) | 偵測時間57",
+                  "押策略五(B) Parndorf"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "St Margarethen/Bur (射正2 射偏1) | 0-3 | Parndorf (射正7 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "La-Cisterniga-CF-vs-Valladolid",
+                "team_url": "https://betsapi.com/r/12454441/La-Cisterniga-CF-vs-Valladolid-Promesas",
+                "cols": [
+                  "La-Cisterniga-CF-vs-Valladolid",
+                  "2026-08-20 02:20:01",
+                  "La Cisterniga CF (射正3 射偏2) | 0-0 | Valladolid Promesas (射正5 射偏4) | 偵測時間60",
+                  "押策略五(B) Valladolid Promesas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "La Cisterniga CF (射正2 射偏1) | 0-0 | Valladolid Promesas (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-La-Calzada-vs-Mirandes",
+                "team_url": "https://betsapi.com/r/12454440/FC-La-Calzada-vs-Mirandes",
+                "cols": [
+                  "FC-La-Calzada-vs-Mirandes",
+                  "2026-08-20 02:15:01",
+                  "FC La Calzada (射正0 射偏1) | 0-0 | Mirandes (射正3 射偏7) | 偵測時間60",
+                  "押策略五(B) Mirandes"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FC La Calzada (射正0 射偏1) | 0-0 | Mirandes (射正1 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Javor-Ivanjica-vs-Jedinstvo-UB",
+                "team_url": "https://betsapi.com/r/12043502/Javor-Ivanjica-vs-Jedinstvo-UB",
+                "cols": [
+                  "Javor-Ivanjica-vs-Jedinstvo-UB",
+                  "2026-08-20 02:15:01",
+                  "Javor Ivanjica (射正6 射偏4) | 3-0 | Jedinstvo UB (射正0 射偏3) | 偵測時間57",
+                  "押策略五(A) Javor Ivanjica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Club-Deportivo-Obrero-vs-Ferna",
+                "team_url": "https://betsapi.com/r/12456885/Club-Deportivo-Obrero-vs-Fernando-de-la-Mora",
+                "cols": [
+                  "Club-Deportivo-Obrero-vs-Ferna",
+                  "2026-08-20 02:15:01",
+                  "Club Deportivo Obrero (射正1 射偏2) | 0-1 | Fernando de la Mora (射正3 射偏10) | 偵測時間57",
+                  "押策略五(B) Fernando de la Mora"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Zjednoczeni-Strykow-vs-Zryw-Wy",
+                "team_url": "https://betsapi.com/r/12455220/Zjednoczeni-Strykow-vs-Zryw-Wygoda",
+                "cols": [
+                  "Zjednoczeni-Strykow-vs-Zryw-Wy",
+                  "2026-08-20 01:45:01",
+                  "Zjednoczeni Strykow (射正5 射偏8) | 0-0 | Zryw Wygoda (射正1 射偏6) | 偵測時間56",
+                  "押策略五(A) Zjednoczeni Strykow"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Zjednoczeni Strykow (射正4 射偏7) | 0-0 | Zryw Wygoda (射正1 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "IFK-Östersund-vs-Degerfors",
+                "team_url": "https://betsapi.com/r/12042707/IFK-Östersund-vs-Degerfors",
+                "cols": [
+                  "IFK-Östersund-vs-Degerfors",
+                  "2026-08-20 01:45:01",
+                  "IFK Östersund (射正3 射偏2) | 0-4 | Degerfors (射正8 射偏3) | 偵測時間59",
+                  "押策略五(B) Degerfors"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "IK-Franke-vs-Ljungskile",
+                "team_url": "https://betsapi.com/r/12043941/IK-Franke-vs-Ljungskile",
+                "cols": [
+                  "IK-Franke-vs-Ljungskile",
+                  "2026-08-20 01:45:01",
+                  "IK Franke (射正1 射偏2) | 0-0 | Ljungskile (射正6 射偏3) | 偵測時間58",
+                  "押策略五(B) Ljungskile"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Angelholm-vs-Kalmar-FF",
+                "team_url": "https://betsapi.com/r/12456195/Angelholm-vs-Kalmar-FF",
+                "cols": [
+                  "Angelholm-vs-Kalmar-FF",
+                  "2026-08-20 01:45:01",
+                  "Angelholm (射正0 射偏1) | 0-3 | Kalmar FF (射正7 射偏10) | 偵測時間59",
+                  "押策略五(B) Kalmar FF"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Angelholm (射正0 射偏0) | 0-2 | Kalmar FF (射正4 射偏9) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Enkopings-SK-vs-Vasteras-SK",
+                "team_url": "https://betsapi.com/r/12062595/Enkopings-SK-vs-Vasteras-SK",
+                "cols": [
+                  "Enkopings-SK-vs-Vasteras-SK",
+                  "2026-08-20 01:45:01",
+                  "Enkopings SK (射正2 射偏3) | 1-1 | Vasteras SK (射正5 射偏4) | 偵測時間58",
+                  "押策略五(B) Vasteras SK"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Enkopings SK (射正1 射偏2) | 1-1 | Vasteras SK (射正4 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Llanes-vs-UC-Ceares",
+                "team_url": "https://betsapi.com/r/12455836/Llanes-vs-UC-Ceares",
+                "cols": [
+                  "Llanes-vs-UC-Ceares",
+                  "2026-08-20 01:35:01",
+                  "Llanes (射正3 射偏5) | 0-0 | UC Ceares (射正2 射偏2) | 偵測時間58",
+                  "押策略五(A) Llanes"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Llanes (射正3 射偏4) | 0-0 | UC Ceares (射正1 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 40
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時假賽 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Atletico-Mineiro-vs-Bragantino",
+                "team_url": "https://betsapi.com/r/12330470/Atletico-Mineiro-vs-Bragantino",
+                "cols": [
+                  "Atletico-Mineiro-vs-Bragantino",
+                  "2026-08-20 07:10:02",
+                  "Atletico Mineiro (射正1 射偏4) | 0-1 | Bragantino (射正6 射偏5) | 偵測時間45",
+                  "押策略五(B) Bragantino"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Delfines-Del-Este-vs-Violette-",
+                "team_url": "https://betsapi.com/r/12377682/Delfines-Del-Este-vs-Violette-AC",
+                "cols": [
+                  "Delfines-Del-Este-vs-Violette-",
+                  "2026-08-20 07:05:02",
+                  "Delfines Del Este (射正0 射偏2) | 0-0 | Violette AC (射正2 射偏4) | 偵測時間45",
+                  "押策略五(B) Violette AC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "UDA-Huancavelica-vs-Ucayali-FC",
+                "team_url": "https://betsapi.com/r/12460337/UDA-Huancavelica-vs-Ucayali-FC",
+                "cols": [
+                  "UDA-Huancavelica-vs-Ucayali-FC",
+                  "2026-08-20 05:40:01",
+                  "UDA Huancavelica (射正8 射偏8) | 2-1 | Ucayali FC (射正6 射偏2) | 偵測時間45",
+                  "押策略五(A) UDA Huancavelica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Guisborough-Town-vs-Ashington",
+                "team_url": "https://betsapi.com/r/12455106/Guisborough-Town-vs-Ashington",
+                "cols": [
+                  "Guisborough-Town-vs-Ashington",
+                  "2026-08-20 04:25:01",
+                  "Guisborough Town (射正6 射偏5) | 2-0 | Ashington (射正3 射偏1) | 偵測時間45",
+                  "押策略五(A) Guisborough Town"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Madrid-vs-Malaga",
+                "team_url": "https://betsapi.com/r/12141372/Atletico-Madrid-vs-Malaga",
+                "cols": [
+                  "Atletico-Madrid-vs-Malaga",
+                  "2026-08-20 04:15:01",
+                  "Atletico Madrid (射正1 射偏3) | 0-0 | Malaga (射正0 射偏2) | 偵測時間45",
+                  "押策略五(A) Atletico Madrid"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Tigres-FC-vs-Envigado-FC",
+                "team_url": "https://betsapi.com/r/12439085/Tigres-FC-vs-Envigado-FC",
+                "cols": [
+                  "Tigres-FC-vs-Envigado-FC",
+                  "2026-08-20 04:05:01",
+                  "Tigres FC (射正5 射偏6) | 1-1 | Envigado FC (射正1 射偏3) | 偵測時間45",
+                  "押策略五(A) Tigres FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Backa-Topola-vs-Spartak-Sub",
+                "team_url": "https://betsapi.com/r/12043481/FK-Backa-Topola-vs-Spartak-Subotica",
+                "cols": [
+                  "FK-Backa-Topola-vs-Spartak-Sub",
+                  "2026-08-20 04:05:01",
+                  "FK Backa Topola (射正2 射偏2) | 1-1 | Spartak Subotica (射正3 射偏3) | 偵測時間45",
+                  "押策略五(B) Spartak Subotica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bolivar-SC-vs-Dynamo-Puerto-FC",
+                "team_url": "https://betsapi.com/r/12398289/Bolivar-SC-vs-Dynamo-Puerto-FC",
+                "cols": [
+                  "Bolivar-SC-vs-Dynamo-Puerto-FC",
+                  "2026-08-20 04:00:01",
+                  "Bolivar SC (射正8 射偏5) | 1-1 | Dynamo Puerto FC (射正2 射偏1) | 偵測時間45",
+                  "押策略五(A) Bolivar SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Nairn-County-vs-Lossiemouth",
+                "team_url": "https://betsapi.com/r/12454705/Nairn-County-vs-Lossiemouth",
+                "cols": [
+                  "Nairn-County-vs-Lossiemouth",
+                  "2026-08-20 03:55:02",
+                  "Nairn County (射正3 射偏5) | 0-0 | Lossiemouth (射正2 射偏2) | 偵測時間45",
+                  "押策略五(A) Nairn County"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Lichfield-City-vs-Stafford-Ran",
+                "team_url": "https://betsapi.com/r/12455021/Lichfield-City-vs-Stafford-Rangers",
+                "cols": [
+                  "Lichfield-City-vs-Stafford-Ran",
+                  "2026-08-20 03:50:01",
+                  "Lichfield City (射正0 射偏3) | 0-1 | Stafford Rangers (射正4 射偏13) | 偵測時間45",
+                  "押策略五(B) Stafford Rangers"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Xerez-CD-vs-Real-Jaen",
+                "team_url": "https://betsapi.com/r/12444312/Xerez-CD-vs-Real-Jaen",
+                "cols": [
+                  "Xerez-CD-vs-Real-Jaen",
+                  "2026-08-20 03:45:01",
+                  "Xerez CD (射正0 射偏1) | 0-2 | Real Jaen (射正5 射偏3) | 偵測時間45",
+                  "押策略五(B) Real Jaen"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Tienen-vs-Racing-Mechelen",
+                "team_url": "https://betsapi.com/r/12459928/Tienen-vs-Racing-Mechelen",
+                "cols": [
+                  "Tienen-vs-Racing-Mechelen",
+                  "2026-08-20 03:05:01",
+                  "Tienen (射正5 射偏2) | 4-0 | Racing Mechelen (射正0 射偏1) | 偵測時間45",
+                  "押策略五(A) Tienen"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "APAFUT-vs-Veranopolis",
+                "team_url": "https://betsapi.com/r/12228619/APAFUT-vs-Veranopolis",
+                "cols": [
+                  "APAFUT-vs-Veranopolis",
+                  "2026-08-20 03:05:01",
+                  "APAFUT (射正3 射偏3) | 1-1 | Veranopolis (射正2 射偏0) | 偵測時間45",
+                  "押策略五(A) APAFUT"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-Dock-Sud-Reserves-vs-CSD-Fl",
+                "team_url": "https://betsapi.com/r/12457668/CS-Dock-Sud-Reserves-vs-CSD-Flandria-Reserves",
+                "cols": [
+                  "CS-Dock-Sud-Reserves-vs-CSD-Fl",
+                  "2026-08-20 03:05:01",
+                  "CS Dock Sud Reserves (射正1 射偏5) | 0-0 | CSD Flandria Reserves (射正0 射偏2) | 偵測時間45",
+                  "押策略五(A) CS Dock Sud Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Villarreal-B-vs-Gimnastic-Tarr",
+                "team_url": "https://betsapi.com/r/12455756/Villarreal-B-vs-Gimnastic-Tarragona",
+                "cols": [
+                  "Villarreal-B-vs-Gimnastic-Tarr",
+                  "2026-08-20 03:00:02",
+                  "Villarreal B (射正2 射偏5) | 1-0 | Gimnastic Tarragona (射正0 射偏2) | 偵測時間45",
+                  "押策略五(A) Villarreal B"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Arbaer-vs-Vidir-Gardur",
+                "team_url": "https://betsapi.com/r/11723998/FC-Arbaer-vs-Vidir-Gardur",
+                "cols": [
+                  "FC-Arbaer-vs-Vidir-Gardur",
+                  "2026-08-20 03:00:02",
+                  "FC Arbaer (射正0 射偏1) | 0-3 | Vidir Gardur (射正6 射偏10) | 偵測時間45",
+                  "押策略五(B) Vidir Gardur"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Polonia-Nysa-vs-Stal-Brzeg",
+                "team_url": "https://betsapi.com/r/12282010/Polonia-Nysa-vs-Stal-Brzeg",
+                "cols": [
+                  "Polonia-Nysa-vs-Stal-Brzeg",
+                  "2026-08-20 03:00:02",
+                  "Polonia Nysa (射正4 射偏0) | 2-1 | Stal Brzeg (射正5 射偏9) | 偵測時間45",
+                  "押策略五(B) Stal Brzeg"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Borac-Cacak-vs-FK-Proleter-023",
+                "team_url": "https://betsapi.com/r/12043544/Borac-Cacak-vs-FK-Proleter-023",
+                "cols": [
+                  "Borac-Cacak-vs-FK-Proleter-023",
+                  "2026-08-20 03:00:02",
+                  "Borac Cacak (射正2 射偏9) | 0-0 | FK Proleter 023 (射正0 射偏4) | 偵測時間45",
+                  "押策略五(A) Borac Cacak"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Wislanie-Jaskowice-vs-KSZO-Ost",
+                "team_url": "https://betsapi.com/r/12141421/Wislanie-Jaskowice-vs-KSZO-Ostrowiec",
+                "cols": [
+                  "Wislanie-Jaskowice-vs-KSZO-Ost",
+                  "2026-08-20 02:45:01",
+                  "Wislanie Jaskowice (射正0 射偏4) | 0-1 | KSZO Ostrowiec (射正1 射偏6) | 偵測時間45",
+                  "押策略五(B) KSZO Ostrowiec"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Breitenrain-vs-Young-Boys-II",
+                "team_url": "https://betsapi.com/r/12455996/Breitenrain-vs-Young-Boys-II",
+                "cols": [
+                  "Breitenrain-vs-Young-Boys-II",
+                  "2026-08-20 02:35:01",
+                  "Breitenrain (射正4 射偏4) | 3-1 | Young Boys II (射正1 射偏3) | 偵測時間45",
+                  "押策略五(A) Breitenrain"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Mamelodi-Sundowns-vs-Marumo-Ga",
+                "team_url": "https://betsapi.com/r/12319717/Mamelodi-Sundowns-vs-Marumo-Gallants",
+                "cols": [
+                  "Mamelodi-Sundowns-vs-Marumo-Ga",
+                  "2026-08-20 02:30:01",
+                  "Mamelodi Sundowns (射正5 射偏6) | 1-0 | Marumo Gallants (射正2 射偏2) | 偵測時間45",
+                  "押策略五(A) Mamelodi Sundowns"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Aguilas-vs-Alcoyano",
+                "team_url": "https://betsapi.com/r/12441005/Aguilas-vs-Alcoyano",
+                "cols": [
+                  "Aguilas-vs-Alcoyano",
+                  "2026-08-20 02:30:01",
+                  "Aguilas (射正3 射偏5) | 1-0 | Alcoyano (射正1 射偏0) | 偵測時間45",
+                  "押策略五(A) Aguilas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "La-Cisterniga-CF-vs-Valladolid",
+                "team_url": "https://betsapi.com/r/12454441/La-Cisterniga-CF-vs-Valladolid-Promesas",
+                "cols": [
+                  "La-Cisterniga-CF-vs-Valladolid",
+                  "2026-08-20 02:05:01",
+                  "La Cisterniga CF (射正2 射偏1) | 0-0 | Valladolid Promesas (射正3 射偏4) | 偵測時間45",
+                  "押策略五(B) Valladolid Promesas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bur-vs-Parndorf",
+                "team_url": "https://betsapi.com/r/12459662/St-Margarethen/Bur-vs-Parndorf",
+                "cols": [
+                  "Bur-vs-Parndorf",
+                  "2026-08-20 02:05:01",
+                  "St Margarethen/Bur (射正2 射偏1) | 0-3 | Parndorf (射正7 射偏3) | 偵測時間45",
+                  "押策略五(B) Parndorf"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-La-Calzada-vs-Mirandes",
+                "team_url": "https://betsapi.com/r/12454440/FC-La-Calzada-vs-Mirandes",
+                "cols": [
+                  "FC-La-Calzada-vs-Mirandes",
+                  "2026-08-20 01:55:02",
+                  "FC La Calzada (射正0 射偏1) | 0-0 | Mirandes (射正1 射偏4) | 偵測時間45",
+                  "押策略五(B) Mirandes"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Enkopings-SK-vs-Vasteras-SK",
+                "team_url": "https://betsapi.com/r/12062595/Enkopings-SK-vs-Vasteras-SK",
+                "cols": [
+                  "Enkopings-SK-vs-Vasteras-SK",
+                  "2026-08-20 01:30:01",
+                  "Enkopings SK (射正1 射偏2) | 1-1 | Vasteras SK (射正4 射偏4) | 偵測時間45",
+                  "押策略五(B) Vasteras SK"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Angelholm-vs-Kalmar-FF",
+                "team_url": "https://betsapi.com/r/12456195/Angelholm-vs-Kalmar-FF",
+                "cols": [
+                  "Angelholm-vs-Kalmar-FF",
+                  "2026-08-20 01:30:01",
+                  "Angelholm (射正0 射偏0) | 0-2 | Kalmar FF (射正4 射偏9) | 偵測時間45",
+                  "押策略五(B) Kalmar FF"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Zjednoczeni-Strykow-vs-Zryw-Wy",
+                "team_url": "https://betsapi.com/r/12455220/Zjednoczeni-Strykow-vs-Zryw-Wygoda",
+                "cols": [
+                  "Zjednoczeni-Strykow-vs-Zryw-Wy",
+                  "2026-08-20 01:30:01",
+                  "Zjednoczeni Strykow (射正4 射偏7) | 0-0 | Zryw Wygoda (射正1 射偏4) | 偵測時間45",
+                  "押策略五(A) Zjednoczeni Strykow"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Llanes-vs-UC-Ceares",
+                "team_url": "https://betsapi.com/r/12455836/Llanes-vs-UC-Ceares",
+                "cols": [
+                  "Llanes-vs-UC-Ceares",
+                  "2026-08-20 01:20:02",
+                  "Llanes (射正3 射偏4) | 0-0 | UC Ceares (射正1 射偏2) | 偵測時間45",
+                  "押策略五(A) Llanes"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "ASA-Aarhus-vs-Randers-FC",
+                "team_url": "https://betsapi.com/r/12425133/ASA-Aarhus-vs-Randers-FC",
+                "cols": [
+                  "ASA-Aarhus-vs-Randers-FC",
+                  "2026-08-20 01:10:02",
+                  "ASA Aarhus (射正0 射偏1) | 0-0 | Randers FC (射正7 射偏7) | 偵測時間45",
+                  "押策略五(B) Randers FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Elana-Torun-vs-Unia-Swarzedz",
+                "team_url": "https://betsapi.com/r/12142371/Elana-Torun-vs-Unia-Swarzedz",
+                "cols": [
+                  "Elana-Torun-vs-Unia-Swarzedz",
+                  "2026-08-20 01:00:02",
+                  "Elana Torun (射正5 射偏7) | 2-1 | Unia Swarzedz (射正2 射偏5) | 偵測時間45",
+                  "押策略五(A) Elana Torun"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "ROW-1964-Rybnik-vs-Carina-Gubi",
+                "team_url": "https://betsapi.com/r/12147671/ROW-1964-Rybnik-vs-Carina-Gubin",
+                "cols": [
+                  "ROW-1964-Rybnik-vs-Carina-Gubi",
+                  "2026-08-20 01:00:02",
+                  "ROW 1964 Rybnik (射正4 射偏7) | 0-0 | Carina Gubin (射正0 射偏4) | 偵測時間45",
+                  "押策略五(A) ROW 1964 Rybnik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Zaglebie-Sosnowiec-vs-Sleza-Wr",
+                "team_url": "https://betsapi.com/r/12147769/Zaglebie-Sosnowiec-vs-Sleza-Wroclaw",
+                "cols": [
+                  "Zaglebie-Sosnowiec-vs-Sleza-Wr",
+                  "2026-08-20 01:00:02",
+                  "Zaglebie Sosnowiec (射正4 射偏4) | 1-1 | Sleza Wroclaw (射正1 射偏1) | 偵測時間45",
+                  "押策略五(A) Zaglebie Sosnowiec"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Blau-Weiss-Feldkirch-vs-FC-Alb",
+                "team_url": "https://betsapi.com/r/12459527/Blau-Weiss-Feldkirch-vs-FC-Alberschwende",
+                "cols": [
+                  "Blau-Weiss-Feldkirch-vs-FC-Alb",
+                  "2026-08-20 01:00:02",
+                  "Blau Weiss Feldkirch (射正1 射偏4) | 0-0 | FC Alberschwende (射正0 射偏3) | 偵測時間45",
+                  "押策略五(A) Blau Weiss Feldkirch"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Zabkovia-Zabki-vs-Wigry-Suwalk",
+                "team_url": "https://betsapi.com/r/12148446/Zabkovia-Zabki-vs-Wigry-Suwalki",
+                "cols": [
+                  "Zabkovia-Zabki-vs-Wigry-Suwalk",
+                  "2026-08-20 00:10:01",
+                  "Zabkovia Zabki (射正5 射偏6) | 1-1 | Wigry Suwalki (射正1 射偏2) | 偵測時間45",
+                  "押策略五(A) Zabkovia Zabki"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 35
+          }
+        ],
+        "scraped_at": "23:18:22"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "22:50:09"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時假賽 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "CD-Colonia-Moscardo-vs-Mexico-",
+                "team_url": "https://betsapi.com/r/12455835/CD-Colonia-Moscardo-vs-Mexico-FC",
+                "cols": [
+                  "CD-Colonia-Moscardo-vs-Mexico-",
+                  "2026-08-20 03:25:01",
+                  "CD Colonia Moscardo (射正7 射偏1) | 2-1 | Mexico FC (射正5 射偏3) | 偵測時間60",
+                  "押隊伍三(A) CD Colonia Moscardo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CD Colonia Moscardo (射正6 射偏1) | 2-1 | Mexico FC (射正4 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hviti-Riddarinn-vs-KFG-Gardaba",
+                "team_url": "https://betsapi.com/r/11721048/Hviti-Riddarinn-vs-KFG-Gardabaer",
+                "cols": [
+                  "Hviti-Riddarinn-vs-KFG-Gardaba",
+                  "2026-08-20 03:20:01",
+                  "Hviti Riddarinn (射正2 射偏3) | 0-3 | KFG Gardabaer (射正8 射偏2) | 偵測時間58",
+                  "押隊伍三(B) KFG Gardabaer"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Hviti Riddarinn (射正2 射偏3) | 0-3 | KFG Gardabaer (射正7 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "K-Lyra-Lierse-Berlaar-vs-VK-Li",
+                "team_url": "https://betsapi.com/r/12459929/K-Lyra-Lierse-Berlaar-vs-VK-Linden",
+                "cols": [
+                  "K-Lyra-Lierse-Berlaar-vs-VK-Li",
+                  "2026-08-20 03:15:01",
+                  "K Lyra-Lierse Berlaar (射正8 射偏1) | 4-3 | VK Linden (射正7 射偏3) | 偵測時間56",
+                  "押隊伍三(A) K Lyra-Lierse Berlaar"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "K Lyra-Lierse Berlaar (射正8 射偏0) | 4-2 | VK Linden (射正4 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Jeddah-Club-vs-Al-Kholood",
+                "team_url": "https://betsapi.com/r/11962120/Jeddah-Club-vs-Al-Kholood",
+                "cols": [
+                  "Jeddah-Club-vs-Al-Kholood",
+                  "2026-08-20 01:50:01",
+                  "Jeddah Club (射正2 射偏3) | 0-5 | Al Kholood (射正12 射偏2) | 偵測時間60",
+                  "押隊伍三(B) Al Kholood"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Jeddah Club (射正1 射偏2) | 0-5 | Al Kholood (射正11 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 4
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時假賽 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "CD-Colonia-Moscardo-vs-Mexico-",
+                "team_url": "https://betsapi.com/r/12455835/CD-Colonia-Moscardo-vs-Mexico-FC",
+                "cols": [
+                  "CD-Colonia-Moscardo-vs-Mexico-",
+                  "2026-08-20 03:10:02",
+                  "CD Colonia Moscardo (射正6 射偏1) | 2-1 | Mexico FC (射正4 射偏2) | 偵測時間45",
+                  "押隊伍三(A) CD Colonia Moscardo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hviti-Riddarinn-vs-KFG-Gardaba",
+                "team_url": "https://betsapi.com/r/11721048/Hviti-Riddarinn-vs-KFG-Gardabaer",
+                "cols": [
+                  "Hviti-Riddarinn-vs-KFG-Gardaba",
+                  "2026-08-20 03:05:01",
+                  "Hviti Riddarinn (射正2 射偏3) | 0-3 | KFG Gardabaer (射正7 射偏2) | 偵測時間45",
+                  "押隊伍三(B) KFG Gardabaer"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "K-Lyra-Lierse-Berlaar-vs-VK-Li",
+                "team_url": "https://betsapi.com/r/12459929/K-Lyra-Lierse-Berlaar-vs-VK-Linden",
+                "cols": [
+                  "K-Lyra-Lierse-Berlaar-vs-VK-Li",
+                  "2026-08-20 03:00:02",
+                  "K Lyra-Lierse Berlaar (射正8 射偏0) | 4-2 | VK Linden (射正4 射偏3) | 偵測時間45",
+                  "押隊伍三(A) K Lyra-Lierse Berlaar"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Mansfield-vs-Man-City-U21",
+                "team_url": "https://betsapi.com/r/12407297/Mansfield-vs-Man-City-U21",
+                "cols": [
+                  "Mansfield-vs-Man-City-U21",
+                  "2026-08-20 03:00:02",
+                  "Mansfield (射正5 射偏5) | 0-3 | Man City U21 (射正8 射偏1) | 偵測時間45",
+                  "押隊伍三(B) Man City U21"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Jeddah-Club-vs-Al-Kholood",
+                "team_url": "https://betsapi.com/r/11962120/Jeddah-Club-vs-Al-Kholood",
+                "cols": [
+                  "Jeddah-Club-vs-Al-Kholood",
+                  "2026-08-20 01:35:01",
+                  "Jeddah Club (射正1 射偏2) | 0-5 | Al Kholood (射正11 射偏1) | 偵測時間45",
+                  "押隊伍三(B) Al Kholood"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Wda-Swiecie-vs-Grom-Nowy-Staw",
+                "team_url": "https://betsapi.com/r/12142480/Wda-Swiecie-vs-Grom-Nowy-Staw",
+                "cols": [
+                  "Wda-Swiecie-vs-Grom-Nowy-Staw",
+                  "2026-08-20 00:05:01",
+                  "Wda Swiecie (射正4 射偏0) | 1-2 | Grom Nowy Staw (射正4 射偏1) | 偵測時間45",
+                  "押隊伍三(A) Wda Swiecie"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 6
+          }
+        ],
+        "scraped_at": "23:18:24"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "22:50:11"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Ponferradina-vs-Real-Madrid-B",
+                "team_url": "https://betsapi.com/r/12444541/Ponferradina-vs-Real-Madrid-B",
+                "cols": [
+                  "Ponferradina-vs-Real-Madrid-B",
+                  "2026-08-20 03:25:01",
+                  "Ponferradina (射正1 射偏0) | 1-2 | Real Madrid B (射正3 射偏1) | 偵測時間58",
+                  "押數據一(B) Real Madrid B"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Tienen-vs-Racing-Mechelen",
+                "team_url": "https://betsapi.com/r/12459928/Tienen-vs-Racing-Mechelen",
+                "cols": [
+                  "Tienen-vs-Racing-Mechelen",
+                  "2026-08-20 03:20:01",
+                  "Tienen (射正7 射偏2) | 4-0 | Racing Mechelen (射正0 射偏2) | 偵測時間60",
+                  "押數據一(A) Tienen"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Tienen (射正5 射偏2) | 4-0 | Racing Mechelen (射正0 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "UD-San-Sebastian-Reyes-vs-Rayo",
+                "team_url": "https://betsapi.com/r/12450056/UD-San-Sebastian-Reyes-vs-Rayo-Majadahonda",
+                "cols": [
+                  "UD-San-Sebastian-Reyes-vs-Rayo",
+                  "2026-08-20 03:15:01",
+                  "UD San Sebastian Reyes (射正0 射偏3) | 0-1 | Rayo Majadahonda (射正3 射偏1) | 偵測時間58",
+                  "押數據一(B) Rayo Majadahonda"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atlantida-SC-vs-CS-Limpeno",
+                "team_url": "https://betsapi.com/r/12456467/Atlantida-SC-vs-CS-Limpeno",
+                "cols": [
+                  "Atlantida-SC-vs-CS-Limpeno",
+                  "2026-08-20 03:15:01",
+                  "Atlantida SC (射正4 射偏2) | 0-0 | CS Limpeno (射正1 射偏3) | 偵測時間58",
+                  "押數據一(A) Atlantida SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Cultural-de-Durango-vs-Pasaia-",
+                "team_url": "https://betsapi.com/r/12451784/Cultural-de-Durango-vs-Pasaia-KE",
+                "cols": [
+                  "Cultural-de-Durango-vs-Pasaia-",
+                  "2026-08-20 02:30:01",
+                  "Cultural de Durango (射正6 射偏2) | 3-1 | Pasaia KE (射正2 射偏0) | 偵測時間58",
+                  "押數據一(A) Cultural de Durango"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Jippo-II-vs-ToU",
+                "team_url": "https://betsapi.com/r/11613357/Jippo-II-vs-ToU",
+                "cols": [
+                  "Jippo-II-vs-ToU",
+                  "2026-08-20 01:45:01",
+                  "Jippo II (射正4 射偏0) | 4-2 | ToU (射正2 射偏0) | 偵測時間59",
+                  "押數據一(A) Jippo II"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Damac-FC-vs-Al-Taawon-Buraidah",
+                "team_url": "https://betsapi.com/r/11962398/Damac-FC-vs-Al-Taawon-Buraidah",
+                "cols": [
+                  "Damac-FC-vs-Al-Taawon-Buraidah",
+                  "2026-08-20 01:35:01",
+                  "Damac FC (射正0 射偏0) | 0-2 | Al Taawon Buraidah (射正4 射偏0) | 偵測時間59",
+                  "押數據一(B) Al Taawon Buraidah"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Krasava-ENY-Ypsonas-vs-AEL-Lim",
+                "team_url": "https://betsapi.com/r/12456196/Krasava-ENY-Ypsonas-vs-AEL-Limassol",
+                "cols": [
+                  "Krasava-ENY-Ypsonas-vs-AEL-Lim",
+                  "2026-08-20 01:20:02",
+                  "Krasava ENY Ypsonas (射正3 射偏3) | 0-1 | AEL Limassol (射正5 射偏2) | 偵測時間59",
+                  "押數據一(B) AEL Limassol"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Krasava ENY Ypsonas (射正2 射偏3) | 0-1 | AEL Limassol (射正5 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Wda-Swiecie-vs-Grom-Nowy-Staw",
+                "team_url": "https://betsapi.com/r/12142480/Wda-Swiecie-vs-Grom-Nowy-Staw",
+                "cols": [
+                  "Wda-Swiecie-vs-Grom-Nowy-Staw",
+                  "2026-08-20 00:20:01",
+                  "Wda Swiecie (射正7 射偏2) | 1-2 | Grom Nowy Staw (射正4 射偏1) | 偵測時間59",
+                  "押數據一(A) Wda Swiecie"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Citta-di-Varese-vs-AC-Palazzol",
+                "team_url": "https://betsapi.com/r/12459492/Citta-di-Varese-vs-AC-Palazzolo",
+                "cols": [
+                  "Citta-di-Varese-vs-AC-Palazzol",
+                  "2026-08-20 00:15:02",
+                  "Citta di Varese (射正2 射偏5) | 0-2 | AC Palazzolo (射正3 射偏2) | 偵測時間57",
+                  "押數據一(B) AC Palazzolo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ofk-Sim-Raslavice-vs-FC-Kosice",
+                "team_url": "https://betsapi.com/r/12350039/Ofk-Sim-Raslavice-vs-FC-Kosice",
+                "cols": [
+                  "Ofk-Sim-Raslavice-vs-FC-Kosice",
+                  "2026-08-20 00:10:01",
+                  "Ofk-Sim Raslavice (射正3 射偏7) | 0-3 | FC Kosice (射正6 射偏2) | 偵測時間57",
+                  "押數據一(B) FC Kosice"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 11
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Coban-Imperial-vs-Antigua-GFC",
+                "team_url": "https://betsapi.com/r/12131899/Coban-Imperial-vs-Antigua-GFC",
+                "cols": [
+                  "Coban-Imperial-vs-Antigua-GFC",
+                  "2026-08-20 06:10:01",
+                  "Coban Imperial (射正3 射偏1) | 0-0 | Antigua GFC (射正1 射偏2) | 偵測時間45",
+                  "押數據一(A) Coban Imperial"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "SC-Buochs-vs-FC-Bassecourt",
+                "team_url": "https://betsapi.com/r/12276536/SC-Buochs-vs-FC-Bassecourt",
+                "cols": [
+                  "SC-Buochs-vs-FC-Bassecourt",
+                  "2026-08-20 03:15:01",
+                  "SC Buochs (射正5 射偏1) | 2-1 | FC Bassecourt (射正1 射偏3) | 偵測時間45",
+                  "押數據一(A) SC Buochs"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Tienen-vs-Racing-Mechelen",
+                "team_url": "https://betsapi.com/r/12459928/Tienen-vs-Racing-Mechelen",
+                "cols": [
+                  "Tienen-vs-Racing-Mechelen",
+                  "2026-08-20 03:05:01",
+                  "Tienen (射正5 射偏2) | 4-0 | Racing Mechelen (射正0 射偏1) | 偵測時間45",
+                  "押數據一(A) Tienen"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CS-Concordia-Chiajna-vs-Otelul",
+                "team_url": "https://betsapi.com/r/12424655/CS-Concordia-Chiajna-vs-Otelul-Galati",
+                "cols": [
+                  "CS-Concordia-Chiajna-vs-Otelul",
+                  "2026-08-20 02:30:01",
+                  "CS Concordia Chiajna (射正3 射偏1) | 2-0 | Otelul Galati (射正0 射偏3) | 偵測時間45",
+                  "押數據一(A) CS Concordia Chiajna"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "IFK-Östersund-vs-Degerfors",
+                "team_url": "https://betsapi.com/r/12042707/IFK-Östersund-vs-Degerfors",
+                "cols": [
+                  "IFK-Östersund-vs-Degerfors",
+                  "2026-08-20 01:30:01",
+                  "IFK Östersund (射正2 射偏2) | 0-3 | Degerfors (射正6 射偏2) | 偵測時間45",
+                  "押數據一(B) Degerfors"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Krasava-ENY-Ypsonas-vs-AEL-Lim",
+                "team_url": "https://betsapi.com/r/12456196/Krasava-ENY-Ypsonas-vs-AEL-Limassol",
+                "cols": [
+                  "Krasava-ENY-Ypsonas-vs-AEL-Lim",
+                  "2026-08-20 01:05:02",
+                  "Krasava ENY Ypsonas (射正2 射偏3) | 0-1 | AEL Limassol (射正5 射偏2) | 偵測時間45",
+                  "押數據一(B) AEL Limassol"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Seeb-vs-Al-Shabab-Seeb",
+                "team_url": "https://betsapi.com/r/12458781/Al-Seeb-vs-Al-Shabab-Seeb",
+                "cols": [
+                  "Al-Seeb-vs-Al-Shabab-Seeb",
+                  "2026-08-20 00:20:01",
+                  "Al Seeb (射正4 射偏2) | 0-0 | Al Shabab Seeb (射正2 射偏3) | 偵測時間45",
+                  "押數據一(A) Al Seeb"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 7
+          }
+        ],
+        "scraped_at": "23:18:26"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "22:50:12"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "CA-Talleres-de-Córdoba-Reserv",
+                "team_url": "https://betsapi.com/r/12364533/CA-Talleres-de-Córdoba-Reserves-vs-Rosario-Central-Reserves",
+                "cols": [
+                  "CA-Talleres-de-Córdoba-Reserv",
+                  "2026-08-20 07:15:01",
+                  "CA Talleres de Córdoba Reserves (射正6 射偏3) | 2-1 | Rosario Central Reserves (射正4 射偏4) | 偵測時間57",
+                  "押數據二(A) CA Talleres de Córdoba Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CA Talleres de Córdoba Reserves (射正5 射偏2) | 2-1 | Rosario Central Reserves (射正4 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CSD-Amatitlan-vs-Deportivo-Izt",
+                "team_url": "https://betsapi.com/r/12457282/CSD-Amatitlan-vs-Deportivo-Iztapa",
+                "cols": [
+                  "CSD-Amatitlan-vs-Deportivo-Izt",
+                  "2026-08-20 06:55:01",
+                  "CSD Amatitlan (射正3 射偏7) | 0-2 | Deportivo Iztapa (射正4 射偏2) | 偵測時間59",
+                  "押數據二(B) Deportivo Iztapa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sija-FC-vs-Club-America-Salcaj",
+                "team_url": "https://betsapi.com/r/12460134/Sija-FC-vs-Club-America-Salcaja",
+                "cols": [
+                  "Sija-FC-vs-Club-America-Salcaj",
+                  "2026-08-20 06:30:02",
+                  "Sija FC (射正3 射偏3) | 1-0 | Club America Salcaja (射正0 射偏3) | 偵測時間57",
+                  "押數據二(A) Sija FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Deportivo-Fraijanes-vs-CS-Depo",
+                "team_url": "https://betsapi.com/r/12292208/Deportivo-Fraijanes-vs-CS-Deportivo-Sacachispas",
+                "cols": [
+                  "Deportivo-Fraijanes-vs-CS-Depo",
+                  "2026-08-20 06:25:01",
+                  "Deportivo Fraijanes (射正4 射偏3) | 2-2 | CS Deportivo Sacachispas (射正2 射偏2) | 偵測時間59",
+                  "押數據二(A) Deportivo Fraijanes"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "UDA-Huancavelica-vs-Ucayali-FC",
+                "team_url": "https://betsapi.com/r/12460337/UDA-Huancavelica-vs-Ucayali-FC",
+                "cols": [
+                  "UDA-Huancavelica-vs-Ucayali-FC",
+                  "2026-08-20 05:55:02",
+                  "UDA Huancavelica (射正9 射偏12) | 2-1 | Ucayali FC (射正7 射偏2) | 偵測時間59",
+                  "押數據二(A) UDA Huancavelica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "UDA Huancavelica (射正8 射偏8) | 2-1 | Ucayali FC (射正6 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Aragua-vs-Barquisimeto",
+                "team_url": "https://betsapi.com/r/12398216/Aragua-vs-Barquisimeto",
+                "cols": [
+                  "Aragua-vs-Barquisimeto",
+                  "2026-08-20 05:20:02",
+                  "Aragua (射正2 射偏2) | 0-1 | Barquisimeto (射正3 射偏3) | 偵測時間57",
+                  "押數據二(B) Barquisimeto"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Monagas-vs-Mineros",
+                "team_url": "https://betsapi.com/r/12398290/Monagas-vs-Mineros",
+                "cols": [
+                  "Monagas-vs-Mineros",
+                  "2026-08-20 05:20:02",
+                  "Monagas (射正2 射偏5) | 0-0 | Mineros (射正3 射偏3) | 偵測時間59",
+                  "押數據二(B) Mineros"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Monagas (射正2 射偏5) | 0-0 | Mineros (射正3 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-El-Vigia-vs-Real-Fron",
+                "team_url": "https://betsapi.com/r/12398293/Atletico-El-Vigia-vs-Real-Frontera",
+                "cols": [
+                  "Atletico-El-Vigia-vs-Real-Fron",
+                  "2026-08-20 04:45:01",
+                  "Atletico El Vigia (射正7 射偏14) | 3-1 | Real Frontera (射正2 射偏5) | 偵測時間56",
+                  "押數據二(A) Atletico El Vigia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Atletico El Vigia (射正5 射偏12) | 2-1 | Real Frontera (射正2 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Barinas-vs-Zamora",
+                "team_url": "https://betsapi.com/r/12398294/Atletico-Barinas-vs-Zamora",
+                "cols": [
+                  "Atletico-Barinas-vs-Zamora",
+                  "2026-08-20 04:45:01",
+                  "Atletico Barinas (射正5 射偏8) | 2-1 | Zamora (射正3 射偏3) | 偵測時間57",
+                  "押數據二(A) Atletico Barinas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Atletico Barinas (射正3 射偏5) | 1-0 | Zamora (射正2 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KV-Vesturbaer-vs-Augnablik-Kop",
+                "team_url": "https://betsapi.com/r/11723996/KV-Vesturbaer-vs-Augnablik-Kopavogur",
+                "cols": [
+                  "KV-Vesturbaer-vs-Augnablik-Kop",
+                  "2026-08-20 04:35:01",
+                  "KV Vesturbaer (射正5 射偏8) | 0-1 | Augnablik Kopavogur (射正4 射偏3) | 偵測時間59",
+                  "押數據二(A) KV Vesturbaer"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "KV Vesturbaer (射正5 射偏7) | 0-1 | Augnablik Kopavogur (射正2 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KA-Asvellir-vs-Ymir-Kopavogur",
+                "team_url": "https://betsapi.com/r/12452485/KA-Asvellir-vs-Ymir-Kopavogur",
+                "cols": [
+                  "KA-Asvellir-vs-Ymir-Kopavogur",
+                  "2026-08-20 04:35:01",
+                  "KA Asvellir (射正4 射偏1) | 3-1 | Ymir Kopavogur (射正5 射偏6) | 偵測時間59",
+                  "押數據二(B) Ymir Kopavogur"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Madrid-vs-Malaga",
+                "team_url": "https://betsapi.com/r/12141372/Atletico-Madrid-vs-Malaga",
+                "cols": [
+                  "Atletico-Madrid-vs-Malaga",
+                  "2026-08-20 04:30:01",
+                  "Atletico Madrid (射正3 射偏6) | 0-0 | Malaga (射正0 射偏3) | 偵測時間60",
+                  "押數據二(A) Atletico Madrid"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Inchicore-Athletic-FC-vs-Waysi",
+                "team_url": "https://betsapi.com/r/12455699/Inchicore-Athletic-FC-vs-Wayside-Celtic",
+                "cols": [
+                  "Inchicore-Athletic-FC-vs-Waysi",
+                  "2026-08-20 04:20:01",
+                  "Inchicore Athletic FC (射正9 射偏4) | 2-3 | Wayside Celtic (射正5 射偏1) | 偵測時間60",
+                  "押數據二(A) Inchicore Athletic FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Inchicore Athletic FC (射正4 射偏4) | 1-3 | Wayside Celtic (射正5 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Backa-Topola-vs-Spartak-Sub",
+                "team_url": "https://betsapi.com/r/12043481/FK-Backa-Topola-vs-Spartak-Subotica",
+                "cols": [
+                  "FK-Backa-Topola-vs-Spartak-Sub",
+                  "2026-08-20 04:20:01",
+                  "FK Backa Topola (射正4 射偏2) | 1-2 | Spartak Subotica (射正5 射偏5) | 偵測時間58",
+                  "押數據二(B) Spartak Subotica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Backa Topola (射正2 射偏2) | 1-1 | Spartak Subotica (射正3 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Tigres-FC-vs-Envigado-FC",
+                "team_url": "https://betsapi.com/r/12439085/Tigres-FC-vs-Envigado-FC",
+                "cols": [
+                  "Tigres-FC-vs-Envigado-FC",
+                  "2026-08-20 04:20:01",
+                  "Tigres FC (射正6 射偏6) | 1-1 | Envigado FC (射正1 射偏6) | 偵測時間58",
+                  "押數據二(A) Tigres FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Tigres FC (射正5 射偏6) | 1-1 | Envigado FC (射正1 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Celtic-vs-LASK-Linz",
+                "team_url": "https://betsapi.com/r/12355262/Celtic-vs-LASK-Linz",
+                "cols": [
+                  "Celtic-vs-LASK-Linz",
+                  "2026-08-20 04:15:01",
+                  "Celtic (射正3 射偏7) | 2-0 | LASK Linz (射正6 射偏1) | 偵測時間57",
+                  "押數據二(B) LASK Linz"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Celtic (射正2 射偏4) | 2-0 | LASK Linz (射正6 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bolivar-SC-vs-Dynamo-Puerto-FC",
+                "team_url": "https://betsapi.com/r/12398289/Bolivar-SC-vs-Dynamo-Puerto-FC",
+                "cols": [
+                  "Bolivar-SC-vs-Dynamo-Puerto-FC",
+                  "2026-08-20 04:15:01",
+                  "Bolivar SC (射正8 射偏6) | 1-1 | Dynamo Puerto FC (射正2 射偏5) | 偵測時間56",
+                  "押數據二(A) Bolivar SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Bolivar SC (射正8 射偏5) | 1-1 | Dynamo Puerto FC (射正2 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Forres-Mechanics-vs-Clachnacud",
+                "team_url": "https://betsapi.com/r/12454706/Forres-Mechanics-vs-Clachnacuddin",
+                "cols": [
+                  "Forres-Mechanics-vs-Clachnacud",
+                  "2026-08-20 04:15:01",
+                  "Forres Mechanics (射正3 射偏3) | 2-0 | Clachnacuddin (射正2 射偏6) | 偵測時間59",
+                  "押數據二(A) Forres Mechanics"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Forres Mechanics (射正3 射偏1) | 2-0 | Clachnacuddin (射正2 射偏6) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Academia-de-Balompie-Boliviano",
+                "team_url": "https://betsapi.com/r/12385265/Academia-de-Balompie-Boliviano-vs-Real-Potosi",
+                "cols": [
+                  "Academia-de-Balompie-Boliviano",
+                  "2026-08-20 04:15:01",
+                  "Academia de Balompie Boliviano (射正3 射偏8) | 0-2 | Real Potosi (射正5 射偏4) | 偵測時間56",
+                  "押數據二(B) Real Potosi"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Academia de Balompie Boliviano (射正2 射偏7) | 0-2 | Real Potosi (射正5 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Lichfield-City-vs-Stafford-Ran",
+                "team_url": "https://betsapi.com/r/12455021/Lichfield-City-vs-Stafford-Rangers",
+                "cols": [
+                  "Lichfield-City-vs-Stafford-Ran",
+                  "2026-08-20 04:05:01",
+                  "Lichfield City (射正0 射偏4) | 0-2 | Stafford Rangers (射正7 射偏16) | 偵測時間60",
+                  "押數據二(B) Stafford Rangers"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Lichfield City (射正0 射偏3) | 0-1 | Stafford Rangers (射正4 射偏13) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Avro-FC-vs-Workington",
+                "team_url": "https://betsapi.com/r/12273344/Avro-FC-vs-Workington",
+                "cols": [
+                  "Avro-FC-vs-Workington",
+                  "2026-08-20 04:00:01",
+                  "Avro FC (射正5 射偏7) | 2-1 | Workington (射正6 射偏4) | 偵測時間56",
+                  "押數據二(B) Workington"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Avro FC (射正3 射偏3) | 1-1 | Workington (射正6 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "AFC-Portchester-vs-Bognor-Regi",
+                "team_url": "https://betsapi.com/r/12460132/AFC-Portchester-vs-Bognor-Regis-Town",
+                "cols": [
+                  "AFC-Portchester-vs-Bognor-Regi",
+                  "2026-08-20 04:00:01",
+                  "AFC Portchester (射正3 射偏5) | 0-0 | Bognor Regis Town (射正0 射偏4) | 偵測時間57",
+                  "押數據二(A) AFC Portchester"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "AFC Portchester (射正3 射偏3) | 0-0 | Bognor Regis Town (射正0 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Xerez-CD-vs-Real-Jaen",
+                "team_url": "https://betsapi.com/r/12444312/Xerez-CD-vs-Real-Jaen",
+                "cols": [
+                  "Xerez-CD-vs-Real-Jaen",
+                  "2026-08-20 04:00:01",
+                  "Xerez CD (射正1 射偏1) | 0-2 | Real Jaen (射正5 射偏4) | 偵測時間58",
+                  "押數據二(B) Real Jaen"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Xerez CD (射正0 射偏1) | 0-2 | Real Jaen (射正5 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Merstham-vs-Peacehaven-&-Telsc",
+                "team_url": "https://betsapi.com/r/12455020/Merstham-vs-Peacehaven-&-Telscombe",
+                "cols": [
+                  "Merstham-vs-Peacehaven-&-Telsc",
+                  "2026-08-20 03:45:01",
+                  "Merstham (射正5 射偏6) | 0-3 | Peacehaven & Telscombe (射正4 射偏2) | 偵測時間57",
+                  "押數據二(A) Merstham"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "E.F.-Puebla-de-la-Calzada-vs-C",
+                "team_url": "https://betsapi.com/r/12444474/E.F.-Puebla-de-la-Calzada-vs-CD-Badajoz",
+                "cols": [
+                  "E.F.-Puebla-de-la-Calzada-vs-C",
+                  "2026-08-20 03:45:01",
+                  "E.F. Puebla de la Calzada (射正1 射偏3) | 0-1 | CD Badajoz (射正3 射偏6) | 偵測時間56",
+                  "押數據二(B) CD Badajoz"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "SC-Buochs-vs-FC-Bassecourt",
+                "team_url": "https://betsapi.com/r/12276536/SC-Buochs-vs-FC-Bassecourt",
+                "cols": [
+                  "SC-Buochs-vs-FC-Bassecourt",
+                  "2026-08-20 03:30:01",
+                  "SC Buochs (射正5 射偏4) | 2-1 | FC Bassecourt (射正2 射偏5) | 偵測時間58",
+                  "押數據二(A) SC Buochs"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CD-Colonia-Moscardo-vs-Mexico-",
+                "team_url": "https://betsapi.com/r/12455835/CD-Colonia-Moscardo-vs-Mexico-FC",
+                "cols": [
+                  "CD-Colonia-Moscardo-vs-Mexico-",
+                  "2026-08-20 03:25:01",
+                  "CD Colonia Moscardo (射正7 射偏1) | 2-1 | Mexico FC (射正5 射偏3) | 偵測時間60",
+                  "押數據二(A) CD Colonia Moscardo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CD Colonia Moscardo (射正6 射偏1) | 2-1 | Mexico FC (射正4 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Salamanca-CF-UDS-vs-UD-Santa-M",
+                "team_url": "https://betsapi.com/r/12460345/Salamanca-CF-UDS-vs-UD-Santa-Marta",
+                "cols": [
+                  "Salamanca-CF-UDS-vs-UD-Santa-M",
+                  "2026-08-20 03:25:01",
+                  "Salamanca CF UDS (射正5 射偏3) | 1-1 | UD Santa Marta (射正3 射偏4) | 偵測時間58",
+                  "押數據二(A) Salamanca CF UDS"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Salamanca CF UDS (射正5 射偏3) | 1-0 | UD Santa Marta (射正2 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Santa-Lucia-Cotzumalguapa-vs-C",
+                "team_url": "https://betsapi.com/r/12292251/Santa-Lucia-Cotzumalguapa-vs-Coatepeque-FC",
+                "cols": [
+                  "Santa-Lucia-Cotzumalguapa-vs-C",
+                  "2026-08-20 03:25:01",
+                  "Santa Lucia Cotzumalguapa (射正1 射偏2) | 0-1 | Coatepeque FC (射正4 射偏1) | 偵測時間56",
+                  "押數據二(B) Coatepeque FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Santa Lucia Cotzumalguapa (射正1 射偏1) | 0-1 | Coatepeque FC (射正4 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ferro-Carril-Oeste-Reserves-vs",
+                "team_url": "https://betsapi.com/r/12364559/Ferro-Carril-Oeste-Reserves-vs-San-Martin-de-San-Juan-Reserves",
+                "cols": [
+                  "Ferro-Carril-Oeste-Reserves-vs",
+                  "2026-08-20 03:20:01",
+                  "Ferro Carril Oeste Reserves (射正2 射偏6) | 0-3 | San Martin de San Juan Reserves (射正3 射偏2) | 偵測時間60",
+                  "押數據二(B) San Martin de San Juan Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Cieza-vs-Athletic-Torrellano",
+                "team_url": "https://betsapi.com/r/12444105/Cieza-vs-Athletic-Torrellano",
+                "cols": [
+                  "Cieza-vs-Athletic-Torrellano",
+                  "2026-08-20 03:20:01",
+                  "Cieza (射正7 射偏5) | 1-0 | Athletic Torrellano (射正2 射偏3) | 偵測時間60",
+                  "押數據二(A) Cieza"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Cieza (射正5 射偏3) | 1-0 | Athletic Torrellano (射正2 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KSV-Oudenaarde-vs-Cercle-Brugg",
+                "team_url": "https://betsapi.com/r/12459927/KSV-Oudenaarde-vs-Cercle-Brugge-Reserves",
+                "cols": [
+                  "KSV-Oudenaarde-vs-Cercle-Brugg",
+                  "2026-08-20 03:20:01",
+                  "KSV Oudenaarde (射正3 射偏6) | 2-0 | Cercle Brugge Reserves (射正4 射偏2) | 偵測時間58",
+                  "押數據二(B) Cercle Brugge Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "KSV Oudenaarde (射正0 射偏4) | 0-0 | Cercle Brugge Reserves (射正3 射偏1) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Metalac-Gornji-vs-Smederevo",
+                "team_url": "https://betsapi.com/r/12043483/Metalac-Gornji-vs-Smederevo",
+                "cols": [
+                  "Metalac-Gornji-vs-Smederevo",
+                  "2026-08-20 03:20:01",
+                  "Metalac Gornji (射正7 射偏7) | 0-0 | Smederevo (射正0 射偏3) | 偵測時間60",
+                  "押數據二(A) Metalac Gornji"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Metalac Gornji (射正6 射偏5) | 0-0 | Smederevo (射正0 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Reynir-Sandgerdi-vs-KH-Hlidare",
+                "team_url": "https://betsapi.com/r/11724000/Reynir-Sandgerdi-vs-KH-Hlidarendi",
+                "cols": [
+                  "Reynir-Sandgerdi-vs-KH-Hlidare",
+                  "2026-08-20 03:20:01",
+                  "Reynir Sandgerdi (射正6 射偏6) | 1-2 | KH Hlidarendi (射正3 射偏4) | 偵測時間58",
+                  "押數據二(A) Reynir Sandgerdi"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CA-Aldosivi-Reserves-vs-Argent",
+                "team_url": "https://betsapi.com/r/12364534/CA-Aldosivi-Reserves-vs-Argentinos-Jrs-Reserves",
+                "cols": [
+                  "CA-Aldosivi-Reserves-vs-Argent",
+                  "2026-08-20 03:20:01",
+                  "CA Aldosivi Reserves (射正6 射偏3) | 1-0 | Argentinos Jrs Reserves (射正1 射偏2) | 偵測時間60",
+                  "押數據二(A) CA Aldosivi Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "CA Aldosivi Reserves (射正5 射偏2) | 1-0 | Argentinos Jrs Reserves (射正1 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "APAFUT-vs-Veranopolis",
+                "team_url": "https://betsapi.com/r/12228619/APAFUT-vs-Veranopolis",
+                "cols": [
+                  "APAFUT-vs-Veranopolis",
+                  "2026-08-20 03:20:01",
+                  "APAFUT (射正3 射偏6) | 1-1 | Veranopolis (射正2 射偏1) | 偵測時間57",
+                  "押數據二(A) APAFUT"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "APAFUT (射正3 射偏3) | 1-1 | Veranopolis (射正2 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hviti-Riddarinn-vs-KFG-Gardaba",
+                "team_url": "https://betsapi.com/r/11721048/Hviti-Riddarinn-vs-KFG-Gardabaer",
+                "cols": [
+                  "Hviti-Riddarinn-vs-KFG-Gardaba",
+                  "2026-08-20 03:20:01",
+                  "Hviti Riddarinn (射正2 射偏3) | 0-3 | KFG Gardabaer (射正8 射偏2) | 偵測時間58",
+                  "押數據二(B) KFG Gardabaer"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Hviti Riddarinn (射正2 射偏3) | 0-3 | KFG Gardabaer (射正7 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "EC-Tupy-vs-SC-Brasil-Capixaba",
+                "team_url": "https://betsapi.com/r/12213341/EC-Tupy-vs-SC-Brasil-Capixaba",
+                "cols": [
+                  "EC-Tupy-vs-SC-Brasil-Capixaba",
+                  "2026-08-20 03:20:01",
+                  "EC Tupy (射正2 射偏4) | 0-0 | SC Brasil Capixaba (射正4 射偏6) | 偵測時間58",
+                  "押數據二(B) SC Brasil Capixaba"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "EC Tupy (射正1 射偏1) | 0-0 | SC Brasil Capixaba (射正4 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Borac-Cacak-vs-FK-Proleter-023",
+                "team_url": "https://betsapi.com/r/12043544/Borac-Cacak-vs-FK-Proleter-023",
+                "cols": [
+                  "Borac-Cacak-vs-FK-Proleter-023",
+                  "2026-08-20 03:15:01",
+                  "Borac Cacak (射正2 射偏10) | 0-1 | FK Proleter 023 (射正4 射偏4) | 偵測時間56",
+                  "押數據二(B) FK Proleter 023"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "K-Lyra-Lierse-Berlaar-vs-VK-Li",
+                "team_url": "https://betsapi.com/r/12459929/K-Lyra-Lierse-Berlaar-vs-VK-Linden",
+                "cols": [
+                  "K-Lyra-Lierse-Berlaar-vs-VK-Li",
+                  "2026-08-20 03:15:01",
+                  "K Lyra-Lierse Berlaar (射正8 射偏1) | 4-3 | VK Linden (射正7 射偏3) | 偵測時間56",
+                  "押數據二(A) K Lyra-Lierse Berlaar"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "K Lyra-Lierse Berlaar (射正8 射偏0) | 4-2 | VK Linden (射正4 射偏3) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 40
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Racing-Club-vs-Belgrano",
+                "team_url": "https://betsapi.com/r/12375093/Racing-Club-vs-Belgrano",
+                "cols": [
+                  "Racing-Club-vs-Belgrano",
+                  "2026-08-20 07:15:01",
+                  "Racing Club (射正4 射偏6) | 1-0 | Belgrano (射正5 射偏8) | 偵測時間45",
+                  "押數據二(B) Belgrano"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Mineiro-vs-Bragantino",
+                "team_url": "https://betsapi.com/r/12330470/Atletico-Mineiro-vs-Bragantino",
+                "cols": [
+                  "Atletico-Mineiro-vs-Bragantino",
+                  "2026-08-20 07:10:02",
+                  "Atletico Mineiro (射正1 射偏4) | 0-1 | Bragantino (射正6 射偏5) | 偵測時間45",
+                  "押數據二(B) Bragantino"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CE-Bento-Goncalves-vs-Brasil-d",
+                "team_url": "https://betsapi.com/r/12221674/CE-Bento-Goncalves-vs-Brasil-de-Pelotas",
+                "cols": [
+                  "CE-Bento-Goncalves-vs-Brasil-d",
+                  "2026-08-20 07:10:02",
+                  "CE Bento Goncalves (射正3 射偏3) | 1-1 | Brasil de Pelotas (射正4 射偏2) | 偵測時間45",
+                  "押數據二(B) Brasil de Pelotas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Independiente-Petrolero-vs-Blo",
+                "team_url": "https://betsapi.com/r/12385205/Independiente-Petrolero-vs-Blooming",
+                "cols": [
+                  "Independiente-Petrolero-vs-Blo",
+                  "2026-08-20 07:05:02",
+                  "Independiente Petrolero (射正4 射偏2) | 1-2 | Blooming (射正2 射偏2) | 偵測時間45",
+                  "押數據二(A) Independiente Petrolero"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CA-Talleres-de-Córdoba-Reserv",
+                "team_url": "https://betsapi.com/r/12364533/CA-Talleres-de-Córdoba-Reserves-vs-Rosario-Central-Reserves",
+                "cols": [
+                  "CA-Talleres-de-Córdoba-Reserv",
+                  "2026-08-20 07:00:02",
+                  "CA Talleres de Córdoba Reserves (射正5 射偏2) | 2-1 | Rosario Central Reserves (射正4 射偏2) | 偵測時間45",
+                  "押數據二(A) CA Talleres de Córdoba Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "UDA-Huancavelica-vs-Ucayali-FC",
+                "team_url": "https://betsapi.com/r/12460337/UDA-Huancavelica-vs-Ucayali-FC",
+                "cols": [
+                  "UDA-Huancavelica-vs-Ucayali-FC",
+                  "2026-08-20 05:40:01",
+                  "UDA Huancavelica (射正8 射偏8) | 2-1 | Ucayali FC (射正6 射偏2) | 偵測時間45",
+                  "押數據二(A) UDA Huancavelica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Monagas-vs-Mineros",
+                "team_url": "https://betsapi.com/r/12398290/Monagas-vs-Mineros",
+                "cols": [
+                  "Monagas-vs-Mineros",
+                  "2026-08-20 05:05:01",
+                  "Monagas (射正2 射偏5) | 0-0 | Mineros (射正3 射偏2) | 偵測時間45",
+                  "押數據二(B) Mineros"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-El-Vigia-vs-Real-Fron",
+                "team_url": "https://betsapi.com/r/12398293/Atletico-El-Vigia-vs-Real-Frontera",
+                "cols": [
+                  "Atletico-El-Vigia-vs-Real-Fron",
+                  "2026-08-20 04:30:01",
+                  "Atletico El Vigia (射正5 射偏12) | 2-1 | Real Frontera (射正2 射偏3) | 偵測時間45",
+                  "押數據二(A) Atletico El Vigia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atletico-Barinas-vs-Zamora",
+                "team_url": "https://betsapi.com/r/12398294/Atletico-Barinas-vs-Zamora",
+                "cols": [
+                  "Atletico-Barinas-vs-Zamora",
+                  "2026-08-20 04:30:01",
+                  "Atletico Barinas (射正3 射偏5) | 1-0 | Zamora (射正2 射偏3) | 偵測時間45",
+                  "押數據二(A) Atletico Barinas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Guisborough-Town-vs-Ashington",
+                "team_url": "https://betsapi.com/r/12455106/Guisborough-Town-vs-Ashington",
+                "cols": [
+                  "Guisborough-Town-vs-Ashington",
+                  "2026-08-20 04:25:01",
+                  "Guisborough Town (射正6 射偏5) | 2-0 | Ashington (射正3 射偏1) | 偵測時間45",
+                  "押數據二(A) Guisborough Town"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KV-Vesturbaer-vs-Augnablik-Kop",
+                "team_url": "https://betsapi.com/r/11723996/KV-Vesturbaer-vs-Augnablik-Kopavogur",
+                "cols": [
+                  "KV-Vesturbaer-vs-Augnablik-Kop",
+                  "2026-08-20 04:20:01",
+                  "KV Vesturbaer (射正5 射偏7) | 0-1 | Augnablik Kopavogur (射正2 射偏2) | 偵測時間45",
+                  "押數據二(A) KV Vesturbaer"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Inchicore-Athletic-FC-vs-Waysi",
+                "team_url": "https://betsapi.com/r/12455699/Inchicore-Athletic-FC-vs-Wayside-Celtic",
+                "cols": [
+                  "Inchicore-Athletic-FC-vs-Waysi",
+                  "2026-08-20 04:05:01",
+                  "Inchicore Athletic FC (射正4 射偏4) | 1-3 | Wayside Celtic (射正5 射偏0) | 偵測時間45",
+                  "押數據二(B) Wayside Celtic"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Backa-Topola-vs-Spartak-Sub",
+                "team_url": "https://betsapi.com/r/12043481/FK-Backa-Topola-vs-Spartak-Subotica",
+                "cols": [
+                  "FK-Backa-Topola-vs-Spartak-Sub",
+                  "2026-08-20 04:05:01",
+                  "FK Backa Topola (射正2 射偏2) | 1-1 | Spartak Subotica (射正3 射偏3) | 偵測時間45",
+                  "押數據二(B) Spartak Subotica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Tigres-FC-vs-Envigado-FC",
+                "team_url": "https://betsapi.com/r/12439085/Tigres-FC-vs-Envigado-FC",
+                "cols": [
+                  "Tigres-FC-vs-Envigado-FC",
+                  "2026-08-20 04:05:01",
+                  "Tigres FC (射正5 射偏6) | 1-1 | Envigado FC (射正1 射偏3) | 偵測時間45",
+                  "押數據二(A) Tigres FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Academia-de-Balompie-Boliviano",
+                "team_url": "https://betsapi.com/r/12385265/Academia-de-Balompie-Boliviano-vs-Real-Potosi",
+                "cols": [
+                  "Academia-de-Balompie-Boliviano",
+                  "2026-08-20 04:00:01",
+                  "Academia de Balompie Boliviano (射正2 射偏7) | 0-2 | Real Potosi (射正5 射偏4) | 偵測時間45",
+                  "押數據二(B) Real Potosi"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bolivar-SC-vs-Dynamo-Puerto-FC",
+                "team_url": "https://betsapi.com/r/12398289/Bolivar-SC-vs-Dynamo-Puerto-FC",
+                "cols": [
+                  "Bolivar-SC-vs-Dynamo-Puerto-FC",
+                  "2026-08-20 04:00:01",
+                  "Bolivar SC (射正8 射偏5) | 1-1 | Dynamo Puerto FC (射正2 射偏1) | 偵測時間45",
+                  "押數據二(A) Bolivar SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Forres-Mechanics-vs-Clachnacud",
+                "team_url": "https://betsapi.com/r/12454706/Forres-Mechanics-vs-Clachnacuddin",
+                "cols": [
+                  "Forres-Mechanics-vs-Clachnacud",
+                  "2026-08-20 04:00:01",
+                  "Forres Mechanics (射正3 射偏1) | 2-0 | Clachnacuddin (射正2 射偏6) | 偵測時間45",
+                  "押數據二(A) Forres Mechanics"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Celtic-vs-LASK-Linz",
+                "team_url": "https://betsapi.com/r/12355262/Celtic-vs-LASK-Linz",
+                "cols": [
+                  "Celtic-vs-LASK-Linz",
+                  "2026-08-20 04:00:01",
+                  "Celtic (射正2 射偏4) | 2-0 | LASK Linz (射正6 射偏1) | 偵測時間45",
+                  "押數據二(B) LASK Linz"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Nairn-County-vs-Lossiemouth",
+                "team_url": "https://betsapi.com/r/12454705/Nairn-County-vs-Lossiemouth",
+                "cols": [
+                  "Nairn-County-vs-Lossiemouth",
+                  "2026-08-20 03:55:02",
+                  "Nairn County (射正3 射偏5) | 0-0 | Lossiemouth (射正2 射偏2) | 偵測時間45",
+                  "押數據二(A) Nairn County"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Lichfield-City-vs-Stafford-Ran",
+                "team_url": "https://betsapi.com/r/12455021/Lichfield-City-vs-Stafford-Rangers",
+                "cols": [
+                  "Lichfield-City-vs-Stafford-Ran",
+                  "2026-08-20 03:50:01",
+                  "Lichfield City (射正0 射偏3) | 0-1 | Stafford Rangers (射正4 射偏13) | 偵測時間45",
+                  "押數據二(B) Stafford Rangers"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Avro-FC-vs-Workington",
+                "team_url": "https://betsapi.com/r/12273344/Avro-FC-vs-Workington",
+                "cols": [
+                  "Avro-FC-vs-Workington",
+                  "2026-08-20 03:45:01",
+                  "Avro FC (射正3 射偏3) | 1-1 | Workington (射正6 射偏4) | 偵測時間45",
+                  "押數據二(B) Workington"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "AFC-Portchester-vs-Bognor-Regi",
+                "team_url": "https://betsapi.com/r/12460132/AFC-Portchester-vs-Bognor-Regis-Town",
+                "cols": [
+                  "AFC-Portchester-vs-Bognor-Regi",
+                  "2026-08-20 03:45:01",
+                  "AFC Portchester (射正3 射偏3) | 0-0 | Bognor Regis Town (射正0 射偏4) | 偵測時間45",
+                  "押數據二(A) AFC Portchester"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Xerez-CD-vs-Real-Jaen",
+                "team_url": "https://betsapi.com/r/12444312/Xerez-CD-vs-Real-Jaen",
+                "cols": [
+                  "Xerez-CD-vs-Real-Jaen",
+                  "2026-08-20 03:45:01",
+                  "Xerez CD (射正0 射偏1) | 0-2 | Real Jaen (射正5 射偏3) | 偵測時間45",
+                  "押數據二(B) Real Jaen"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Barcelona-vs-Al-Ahly-Cairo",
+                "team_url": "https://betsapi.com/r/12352025/Barcelona-vs-Al-Ahly-Cairo",
+                "cols": [
+                  "Barcelona-vs-Al-Ahly-Cairo",
+                  "2026-08-20 03:15:01",
+                  "Barcelona (射正5 射偏8) | 2-0 | Al Ahly Cairo (射正1 射偏0) | 偵測時間45",
+                  "押數據二(A) Barcelona"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Santa-Lucia-Cotzumalguapa-vs-C",
+                "team_url": "https://betsapi.com/r/12292251/Santa-Lucia-Cotzumalguapa-vs-Coatepeque-FC",
+                "cols": [
+                  "Santa-Lucia-Cotzumalguapa-vs-C",
+                  "2026-08-20 03:10:02",
+                  "Santa Lucia Cotzumalguapa (射正1 射偏1) | 0-1 | Coatepeque FC (射正4 射偏1) | 偵測時間45",
+                  "押數據二(B) Coatepeque FC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CD-Colonia-Moscardo-vs-Mexico-",
+                "team_url": "https://betsapi.com/r/12455835/CD-Colonia-Moscardo-vs-Mexico-FC",
+                "cols": [
+                  "CD-Colonia-Moscardo-vs-Mexico-",
+                  "2026-08-20 03:10:02",
+                  "CD Colonia Moscardo (射正6 射偏1) | 2-1 | Mexico FC (射正4 射偏2) | 偵測時間45",
+                  "押數據二(A) CD Colonia Moscardo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Salamanca-CF-UDS-vs-UD-Santa-M",
+                "team_url": "https://betsapi.com/r/12460345/Salamanca-CF-UDS-vs-UD-Santa-Marta",
+                "cols": [
+                  "Salamanca-CF-UDS-vs-UD-Santa-M",
+                  "2026-08-20 03:10:02",
+                  "Salamanca CF UDS (射正5 射偏3) | 1-0 | UD Santa Marta (射正2 射偏4) | 偵測時間45",
+                  "押數據二(A) Salamanca CF UDS"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "KSV-Oudenaarde-vs-Cercle-Brugg",
+                "team_url": "https://betsapi.com/r/12459927/KSV-Oudenaarde-vs-Cercle-Brugge-Reserves",
+                "cols": [
+                  "KSV-Oudenaarde-vs-Cercle-Brugg",
+                  "2026-08-20 03:05:01",
+                  "KSV Oudenaarde (射正0 射偏4) | 0-0 | Cercle Brugge Reserves (射正3 射偏1) | 偵測時間45",
+                  "押數據二(B) Cercle Brugge Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Cieza-vs-Athletic-Torrellano",
+                "team_url": "https://betsapi.com/r/12444105/Cieza-vs-Athletic-Torrellano",
+                "cols": [
+                  "Cieza-vs-Athletic-Torrellano",
+                  "2026-08-20 03:05:01",
+                  "Cieza (射正5 射偏3) | 1-0 | Athletic Torrellano (射正2 射偏3) | 偵測時間45",
+                  "押數據二(A) Cieza"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hviti-Riddarinn-vs-KFG-Gardaba",
+                "team_url": "https://betsapi.com/r/11721048/Hviti-Riddarinn-vs-KFG-Gardabaer",
+                "cols": [
+                  "Hviti-Riddarinn-vs-KFG-Gardaba",
+                  "2026-08-20 03:05:01",
+                  "Hviti Riddarinn (射正2 射偏3) | 0-3 | KFG Gardabaer (射正7 射偏2) | 偵測時間45",
+                  "押數據二(B) KFG Gardabaer"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "CA-Aldosivi-Reserves-vs-Argent",
+                "team_url": "https://betsapi.com/r/12364534/CA-Aldosivi-Reserves-vs-Argentinos-Jrs-Reserves",
+                "cols": [
+                  "CA-Aldosivi-Reserves-vs-Argent",
+                  "2026-08-20 03:05:01",
+                  "CA Aldosivi Reserves (射正5 射偏2) | 1-0 | Argentinos Jrs Reserves (射正1 射偏2) | 偵測時間45",
+                  "押數據二(A) CA Aldosivi Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Metalac-Gornji-vs-Smederevo",
+                "team_url": "https://betsapi.com/r/12043483/Metalac-Gornji-vs-Smederevo",
+                "cols": [
+                  "Metalac-Gornji-vs-Smederevo",
+                  "2026-08-20 03:05:01",
+                  "Metalac Gornji (射正6 射偏5) | 0-0 | Smederevo (射正0 射偏2) | 偵測時間45",
+                  "押數據二(A) Metalac Gornji"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "APAFUT-vs-Veranopolis",
+                "team_url": "https://betsapi.com/r/12228619/APAFUT-vs-Veranopolis",
+                "cols": [
+                  "APAFUT-vs-Veranopolis",
+                  "2026-08-20 03:05:01",
+                  "APAFUT (射正3 射偏3) | 1-1 | Veranopolis (射正2 射偏0) | 偵測時間45",
+                  "押數據二(A) APAFUT"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "EC-Tupy-vs-SC-Brasil-Capixaba",
+                "team_url": "https://betsapi.com/r/12213341/EC-Tupy-vs-SC-Brasil-Capixaba",
+                "cols": [
+                  "EC-Tupy-vs-SC-Brasil-Capixaba",
+                  "2026-08-20 03:05:01",
+                  "EC Tupy (射正1 射偏1) | 0-0 | SC Brasil Capixaba (射正4 射偏4) | 偵測時間45",
+                  "押數據二(B) SC Brasil Capixaba"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "UMF-Selfoss-vs-Kari",
+                "team_url": "https://betsapi.com/r/11721003/UMF-Selfoss-vs-Kari",
+                "cols": [
+                  "UMF-Selfoss-vs-Kari",
+                  "2026-08-20 03:00:02",
+                  "UMF Selfoss (射正4 射偏7) | 2-1 | Kari (射正1 射偏7) | 偵測時間45",
+                  "押數據二(A) UMF Selfoss"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Fjolnir-vs-Fjardabyggd",
+                "team_url": "https://betsapi.com/r/11720971/Fjolnir-vs-Fjardabyggd",
+                "cols": [
+                  "Fjolnir-vs-Fjardabyggd",
+                  "2026-08-20 03:00:02",
+                  "Fjolnir (射正2 射偏0) | 1-2 | Fjardabyggd (射正3 射偏1) | 偵測時間45",
+                  "押數據二(B) Fjardabyggd"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "K-Lyra-Lierse-Berlaar-vs-VK-Li",
+                "team_url": "https://betsapi.com/r/12459929/K-Lyra-Lierse-Berlaar-vs-VK-Linden",
+                "cols": [
+                  "K-Lyra-Lierse-Berlaar-vs-VK-Li",
+                  "2026-08-20 03:00:02",
+                  "K Lyra-Lierse Berlaar (射正8 射偏0) | 4-2 | VK Linden (射正4 射偏3) | 偵測時間45",
+                  "押數據二(A) K Lyra-Lierse Berlaar"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Vikingur-Olafsvik-vs-Throttur-",
+                "team_url": "https://betsapi.com/r/11721085/Vikingur-Olafsvik-vs-Throttur-Vogar",
+                "cols": [
+                  "Vikingur-Olafsvik-vs-Throttur-",
+                  "2026-08-20 03:00:02",
+                  "Vikingur Olafsvik (射正3 射偏7) | 1-0 | Throttur Vogar (射正0 射偏1) | 偵測時間45",
+                  "押數據二(A) Vikingur Olafsvik"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Club-24-de-Septiembre-vs-Silvi",
+                "team_url": "https://betsapi.com/r/12456463/Club-24-de-Septiembre-vs-Silvio-Pettirossi",
+                "cols": [
+                  "Club-24-de-Septiembre-vs-Silvi",
+                  "2026-08-20 03:00:02",
+                  "Club 24 de Septiembre (射正4 射偏3) | 2-1 | Silvio Pettirossi (射正3 射偏3) | 偵測時間45",
+                  "押數據二(A) Club 24 de Septiembre"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Arbaer-vs-Vidir-Gardur",
+                "team_url": "https://betsapi.com/r/11723998/FC-Arbaer-vs-Vidir-Gardur",
+                "cols": [
+                  "FC-Arbaer-vs-Vidir-Gardur",
+                  "2026-08-20 03:00:02",
+                  "FC Arbaer (射正0 射偏1) | 0-3 | Vidir Gardur (射正6 射偏10) | 偵測時間45",
+                  "押數據二(B) Vidir Gardur"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 40
+          }
+        ],
+        "scraped_at": "23:18:27"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "22:50:14"
+        "scraped_at": "23:18:29"
       }
     }
   }
