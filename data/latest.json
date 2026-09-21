@@ -1,518 +1,81 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-09-21 16:45:46",
+  "updated_at": "2026-09-21 20:45:09",
   "data": {
-    "timestamp": "2026-09-21 16:45:46",
+    "timestamp": "2026-09-21 20:45:09",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:45:48"
+        "scraped_at": "20:45:11"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "陳庚溥",
-            "headers": [
-              "即時隊伍 60 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "FC-Levadia-Tallinn-U19-vs-JK-T",
-                "team_url": "https://betsapi.com/r/11425291/FC-Levadia-Tallinn-U19-vs-JK-Tammeka-Tartu-II",
-                "cols": [
-                  "FC-Levadia-Tallinn-U19-vs-JK-T",
-                  "2026-09-22 00:15:01",
-                  "FC Levadia Tallinn U19 (射正6 射偏5) | 1-0 | JK Tammeka Tartu II (射正2 射偏3) | 偵測時間60",
-                  "押獨贏二(A) FC Levadia Tallinn U19"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 1
-          }
-        ],
-        "scraped_at": "16:45:49"
+        "sections": [],
+        "scraped_at": "20:45:12"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "陳庚溥",
-            "headers": [
-              "即時大小 60 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Sacachispas-U20-vs-Leandro-N.-",
-                "team_url": "https://betsapi.com/r/13167036/Sacachispas-U20-vs-Leandro-N.-Alem-U20",
-                "cols": [
-                  "Sacachispas-U20-vs-Leandro-N.-",
-                  "2026-09-22 00:00:03",
-                  "Sacachispas U20 (射正8 射偏2) | 2-2 | Leandro N. Alem U20 (射正8 射偏6) | 偵測時間58",
-                  "押大分二"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 1
-          }
-        ],
-        "scraped_at": "16:45:51"
+        "sections": [],
+        "scraped_at": "20:45:14"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "陳庚溥",
-            "headers": [
-              "即時大小 60 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Xorazm-Urganch-vs-Qizilqum-Zar",
-                "team_url": "https://betsapi.com/r/11359971/Xorazm-Urganch-vs-Qizilqum-Zarafshon",
-                "cols": [
-                  "Xorazm-Urganch-vs-Qizilqum-Zar",
-                  "2026-09-22 00:30:01",
-                  "Xorazm Urganch (射正5 射偏4) | 1-1 | Qizilqum Zarafshon (射正2 射偏0) | 偵測時間59",
-                  "押大分三"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Xorazm Urganch (射正5 射偏3) | 1-1 | Qizilqum Zarafshon (射正2 射偏0) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Great-Olympics-vs-Attram-De-Vi",
-                "team_url": "https://betsapi.com/r/13162833/Great-Olympics-vs-Attram-De-Visser",
-                "cols": [
-                  "Great-Olympics-vs-Attram-De-Vi",
-                  "2026-09-22 00:20:02",
-                  "Great Olympics (射正4 射偏3) | 1-1 | Attram De Visser (射正3 射偏3) | 偵測時間60",
-                  "押大分三"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 2
-          },
-          {
-            "title": "參考",
-            "headers": [
-              "即時大小 45 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Xorazm-Urganch-vs-Qizilqum-Zar",
-                "team_url": "https://betsapi.com/r/11359971/Xorazm-Urganch-vs-Qizilqum-Zarafshon",
-                "cols": [
-                  "Xorazm-Urganch-vs-Qizilqum-Zar",
-                  "2026-09-22 00:15:01",
-                  "Xorazm Urganch (射正5 射偏3) | 1-1 | Qizilqum Zarafshon (射正2 射偏0) | 偵測時間45",
-                  "押大分三"
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 1
-          }
-        ],
-        "scraped_at": "16:45:52"
+        "sections": [],
+        "scraped_at": "20:45:16"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "參考",
-            "headers": [
-              "即時賽事 45 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "FC-Levadia-Tallinn-U19-vs-JK-T",
-                "team_url": "https://betsapi.com/r/11425291/FC-Levadia-Tallinn-U19-vs-JK-Tammeka-Tartu-II",
-                "cols": [
-                  "FC-Levadia-Tallinn-U19-vs-JK-T",
-                  "2026-09-22 00:00:03",
-                  "FC Levadia Tallinn U19 (射正5 射偏4) | 0-0 | JK Tammeka Tartu II (射正1 射偏2) | 偵測時間45",
-                  "押策略一2(A) FC Levadia Tallinn U19"
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 1
-          }
-        ],
-        "scraped_at": "16:45:54"
+        "sections": [],
+        "scraped_at": "20:45:18"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "參考",
-            "headers": [
-              "即時賽事 45 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Jedinstvo-UB-vs-Loznica",
-                "team_url": "https://betsapi.com/r/12043572/Jedinstvo-UB-vs-Loznica",
-                "cols": [
-                  "Jedinstvo-UB-vs-Loznica",
-                  "2026-09-22 00:45:01",
-                  "Jedinstvo UB (射正2 射偏3) | 1-1 | Loznica (射正1 射偏4) | 偵測時間45",
-                  "押策略二(A) Jedinstvo UB"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "FC-Rustavi-vs-FC-Iberia-1999",
-                "team_url": "https://betsapi.com/r/11292333/FC-Rustavi-vs-FC-Iberia-1999",
-                "cols": [
-                  "FC-Rustavi-vs-FC-Iberia-1999",
-                  "2026-09-22 00:05:01",
-                  "FC Rustavi (射正0 射偏5) | 0-1 | FC Iberia 1999 (射正2 射偏3) | 偵測時間45",
-                  "押策略二(B) FC Iberia 1999"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Great-Olympics-vs-Attram-De-Vi",
-                "team_url": "https://betsapi.com/r/13162833/Great-Olympics-vs-Attram-De-Visser",
-                "cols": [
-                  "Great-Olympics-vs-Attram-De-Vi",
-                  "2026-09-22 00:05:01",
-                  "Great Olympics (射正3 射偏2) | 1-1 | Attram De Visser (射正1 射偏3) | 偵測時間45",
-                  "押策略二(A) Great Olympics"
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 3
-          }
-        ],
-        "scraped_at": "16:45:56"
+        "sections": [],
+        "scraped_at": "20:45:19"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:45:57"
+        "scraped_at": "20:45:21"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "陳庚溥",
-            "headers": [
-              "即時假賽 60 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "FC-Petrzalka-vs-FK-Pohronie",
-                "team_url": "https://betsapi.com/r/12090183/FC-Petrzalka-vs-FK-Pohronie",
-                "cols": [
-                  "FC-Petrzalka-vs-FK-Pohronie",
-                  "2026-09-22 00:15:01",
-                  "FC Petrzalka (射正1 射偏5) | 0-0 | FK Pohronie (射正0 射偏2) | 偵測時間56",
-                  "押策略五(A) FC Petrzalka"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "FC Petrzalka (射正1 射偏5) | 0-0 | FK Pohronie (射正0 射偏2) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "FC-Levadia-Tallinn-U19-vs-JK-T",
-                "team_url": "https://betsapi.com/r/11425291/FC-Levadia-Tallinn-U19-vs-JK-Tammeka-Tartu-II",
-                "cols": [
-                  "FC-Levadia-Tallinn-U19-vs-JK-T",
-                  "2026-09-22 00:15:01",
-                  "FC Levadia Tallinn U19 (射正6 射偏5) | 1-0 | JK Tammeka Tartu II (射正2 射偏3) | 偵測時間60",
-                  "押策略五(A) FC Levadia Tallinn U19"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "FC Levadia Tallinn U19 (射正5 射偏4) | 0-0 | JK Tammeka Tartu II (射正1 射偏2) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 2
-          },
-          {
-            "title": "參考",
-            "headers": [
-              "即時假賽 45 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Brumunddal-vs-Sandefjord-2",
-                "team_url": "https://betsapi.com/r/11287233/Brumunddal-vs-Sandefjord-2",
-                "cols": [
-                  "Brumunddal-vs-Sandefjord-2",
-                  "2026-09-22 00:45:01",
-                  "Brumunddal (射正1 射偏0) | 0-1 | Sandefjord 2 (射正2 射偏1) | 偵測時間45",
-                  "押策略五(B) Sandefjord 2"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "FC-Petrzalka-vs-FK-Pohronie",
-                "team_url": "https://betsapi.com/r/12090183/FC-Petrzalka-vs-FK-Pohronie",
-                "cols": [
-                  "FC-Petrzalka-vs-FK-Pohronie",
-                  "2026-09-22 00:00:03",
-                  "FC Petrzalka (射正1 射偏5) | 0-0 | FK Pohronie (射正0 射偏2) | 偵測時間45",
-                  "押策略五(A) FC Petrzalka"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "FC-Levadia-Tallinn-U19-vs-JK-T",
-                "team_url": "https://betsapi.com/r/11425291/FC-Levadia-Tallinn-U19-vs-JK-Tammeka-Tartu-II",
-                "cols": [
-                  "FC-Levadia-Tallinn-U19-vs-JK-T",
-                  "2026-09-22 00:00:03",
-                  "FC Levadia Tallinn U19 (射正5 射偏4) | 0-0 | JK Tammeka Tartu II (射正1 射偏2) | 偵測時間45",
-                  "押策略五(A) FC Levadia Tallinn U19"
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 3
-          }
-        ],
-        "scraped_at": "16:45:59"
+        "sections": [],
+        "scraped_at": "20:45:23"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:46:00"
+        "scraped_at": "20:45:24"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "參考",
-            "headers": [
-              "即時賽事 45 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Great-Olympics-vs-Attram-De-Vi",
-                "team_url": "https://betsapi.com/r/13162833/Great-Olympics-vs-Attram-De-Visser",
-                "cols": [
-                  "Great-Olympics-vs-Attram-De-Vi",
-                  "2026-09-22 00:05:01",
-                  "Great Olympics (射正3 射偏2) | 1-1 | Attram De Visser (射正1 射偏3) | 偵測時間45",
-                  "押數據一(A) Great Olympics"
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 1
-          }
-        ],
-        "scraped_at": "16:46:02"
+        "sections": [],
+        "scraped_at": "20:45:26"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
         "update_info": "更新59",
-        "sections": [
-          {
-            "title": "陳庚溥",
-            "headers": [
-              "即時賽事 60 (Min)",
-              "時間",
-              "數據",
-              "參考"
-            ],
-            "matches": [
-              {
-                "team": "Xorazm-Urganch-vs-Qizilqum-Zar",
-                "team_url": "https://betsapi.com/r/11359971/Xorazm-Urganch-vs-Qizilqum-Zarafshon",
-                "cols": [
-                  "Xorazm-Urganch-vs-Qizilqum-Zar",
-                  "2026-09-22 00:30:01",
-                  "Xorazm Urganch (射正5 射偏4) | 1-1 | Qizilqum Zarafshon (射正2 射偏0) | 偵測時間59",
-                  "押數據二(A) Xorazm Urganch"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Dormaa-Unity-SC-vs-Techiman-Li",
-                "team_url": "https://betsapi.com/r/13169127/Dormaa-Unity-SC-vs-Techiman-Liberty-Youth",
-                "cols": [
-                  "Dormaa-Unity-SC-vs-Techiman-Li",
-                  "2026-09-22 00:25:02",
-                  "Dormaa Unity SC (射正4 射偏6) | 1-1 | Techiman Liberty Youth (射正3 射偏4) | 偵測時間56",
-                  "押數據二(A) Dormaa Unity SC"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Great-Olympics-vs-Attram-De-Vi",
-                "team_url": "https://betsapi.com/r/13162833/Great-Olympics-vs-Attram-De-Visser",
-                "cols": [
-                  "Great-Olympics-vs-Attram-De-Vi",
-                  "2026-09-22 00:20:02",
-                  "Great Olympics (射正4 射偏3) | 1-1 | Attram De Visser (射正3 射偏3) | 偵測時間60",
-                  "押數據二(A) Great Olympics"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "FC-Levadia-Tallinn-U19-vs-JK-T",
-                "team_url": "https://betsapi.com/r/11425291/FC-Levadia-Tallinn-U19-vs-JK-Tammeka-Tartu-II",
-                "cols": [
-                  "FC-Levadia-Tallinn-U19-vs-JK-T",
-                  "2026-09-22 00:15:01",
-                  "FC Levadia Tallinn U19 (射正6 射偏5) | 1-0 | JK Tammeka Tartu II (射正2 射偏3) | 偵測時間60",
-                  "押數據二(A) FC Levadia Tallinn U19"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "",
-                  ""
-                ],
-                "highlight": ""
-              }
-            ],
-            "total": 4
-          }
-        ],
-        "scraped_at": "16:46:03"
+        "sections": [],
+        "scraped_at": "20:45:28"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "16:46:05"
+        "scraped_at": "20:45:29"
       }
     }
   }
