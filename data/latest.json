@@ -1,15 +1,15 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-10-22 21:07:09",
+  "updated_at": "2026-10-23 00:12:00",
   "data": {
-    "timestamp": "2026-10-22 21:07:09",
+    "timestamp": "2026-10-23 00:12:00",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "21:07:11"
+        "scraped_at": "00:12:02"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
@@ -247,6 +247,17 @@
             ],
             "matches": [
               {
+                "team": "Porto-PE-vs-Central-SC",
+                "team_url": "https://betsapi.com/r/13334387/Porto-PE-vs-Central-SC",
+                "cols": [
+                  "Porto-PE-vs-Central-SC",
+                  "2026-10-23 08:05:01",
+                  "Porto PE (射正1 射偏3) | 0-1 | Central SC (射正5 射偏6) | 偵測時間45",
+                  "押獨贏二(B) Central SC"
+                ],
+                "highlight": ""
+              },
+              {
                 "team": "Bournemouth-vs-AC-Milan",
                 "team_url": "https://betsapi.com/r/13044756/Bournemouth-vs-AC-Milan",
                 "cols": [
@@ -313,10 +324,10 @@
                 "highlight": ""
               }
             ],
-            "total": 6
+            "total": 7
           }
         ],
-        "scraped_at": "21:07:13"
+        "scraped_at": "00:12:04"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
@@ -421,7 +432,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "21:07:14"
+        "scraped_at": "00:12:06"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
@@ -569,7 +580,7 @@
             "total": 3
           }
         ],
-        "scraped_at": "21:07:16"
+        "scraped_at": "00:12:07"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
@@ -676,7 +687,7 @@
             "total": 5
           }
         ],
-        "scraped_at": "21:07:18"
+        "scraped_at": "00:12:09"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
@@ -984,7 +995,7 @@
             "total": 8
           }
         ],
-        "scraped_at": "21:07:19"
+        "scraped_at": "00:12:11"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
@@ -1024,7 +1035,7 @@
             "total": 1
           }
         ],
-        "scraped_at": "21:07:21"
+        "scraped_at": "00:12:13"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
@@ -1039,6 +1050,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Santa-Fe-FC-U23-vs-Universidad",
+                "team_url": "https://betsapi.com/r/13339066/Santa-Fe-FC-U23-vs-Universidad-O&M-U23",
+                "cols": [
+                  "Santa-Fe-FC-U23-vs-Universidad",
+                  "2026-10-23 08:10:01",
+                  "Santa Fe FC U23 (射正5 射偏9) | 1-1 | Universidad O&M U23 (射正3 射偏4) | 偵測時間60",
+                  "押策略五(A) Santa Fe FC U23"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "Bournemouth-vs-AC-Milan",
                 "team_url": "https://betsapi.com/r/13044756/Bournemouth-vs-AC-Milan",
@@ -1565,7 +1597,7 @@
                 "highlight": ""
               }
             ],
-            "total": 25
+            "total": 26
           },
           {
             "title": "參考",
@@ -1577,24 +1609,13 @@
             ],
             "matches": [
               {
-                "team": "Bournemouth-vs-AC-Milan",
-                "team_url": "https://betsapi.com/r/13044756/Bournemouth-vs-AC-Milan",
+                "team": "Porto-PE-vs-Central-SC",
+                "team_url": "https://betsapi.com/r/13334387/Porto-PE-vs-Central-SC",
                 "cols": [
-                  "Bournemouth-vs-AC-Milan",
-                  "2026-10-23 04:05:01",
-                  "Bournemouth (射正5 射偏5) | 2-0 | AC Milan (射正0 射偏1) | 偵測時間45",
-                  "押策略五(A) Bournemouth"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "AGF-Aarhus-vs-FK-Egnatia",
-                "team_url": "https://betsapi.com/r/13044854/AGF-Aarhus-vs-FK-Egnatia",
-                "cols": [
-                  "AGF-Aarhus-vs-FK-Egnatia",
-                  "2026-10-23 04:05:01",
-                  "AGF Aarhus (射正0 射偏1) | 0-1 | FK Egnatia (射正4 射偏2) | 偵測時間45",
-                  "押策略五(B) FK Egnatia"
+                  "Porto-PE-vs-Central-SC",
+                  "2026-10-23 08:05:01",
+                  "Porto PE (射正1 射偏3) | 0-1 | Central SC (射正5 射偏6) | 偵測時間45",
+                  "押策略五(B) Central SC"
                 ],
                 "highlight": ""
               },
@@ -1610,13 +1631,35 @@
                 "highlight": ""
               },
               {
-                "team": "Lincoln-Red-Imps-FC-vs-FC-Twen",
-                "team_url": "https://betsapi.com/r/13044410/Lincoln-Red-Imps-FC-vs-FC-Twente",
+                "team": "AGF-Aarhus-vs-FK-Egnatia",
+                "team_url": "https://betsapi.com/r/13044854/AGF-Aarhus-vs-FK-Egnatia",
                 "cols": [
-                  "Lincoln-Red-Imps-FC-vs-FC-Twen",
+                  "AGF-Aarhus-vs-FK-Egnatia",
+                  "2026-10-23 04:05:01",
+                  "AGF Aarhus (射正0 射偏1) | 0-1 | FK Egnatia (射正4 射偏2) | 偵測時間45",
+                  "押策略五(B) FK Egnatia"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Bournemouth-vs-AC-Milan",
+                "team_url": "https://betsapi.com/r/13044756/Bournemouth-vs-AC-Milan",
+                "cols": [
+                  "Bournemouth-vs-AC-Milan",
+                  "2026-10-23 04:05:01",
+                  "Bournemouth (射正5 射偏5) | 2-0 | AC Milan (射正0 射偏1) | 偵測時間45",
+                  "押策略五(A) Bournemouth"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Ajax-vs-Atalanta",
+                "team_url": "https://betsapi.com/r/13044412/Ajax-vs-Atalanta",
+                "cols": [
+                  "Ajax-vs-Atalanta",
                   "2026-10-23 04:00:01",
-                  "Lincoln Red Imps FC (射正1 射偏1) | 1-2 | FC Twente (射正6 射偏9) | 偵測時間45",
-                  "押策略五(B) FC Twente"
+                  "Ajax (射正4 射偏10) | 0-0 | Atalanta (射正0 射偏8) | 偵測時間45",
+                  "押策略五(A) Ajax"
                 ],
                 "highlight": ""
               },
@@ -1632,13 +1675,13 @@
                 "highlight": ""
               },
               {
-                "team": "Ajax-vs-Atalanta",
-                "team_url": "https://betsapi.com/r/13044412/Ajax-vs-Atalanta",
+                "team": "Lincoln-Red-Imps-FC-vs-FC-Twen",
+                "team_url": "https://betsapi.com/r/13044410/Lincoln-Red-Imps-FC-vs-FC-Twente",
                 "cols": [
-                  "Ajax-vs-Atalanta",
+                  "Lincoln-Red-Imps-FC-vs-FC-Twen",
                   "2026-10-23 04:00:01",
-                  "Ajax (射正4 射偏10) | 0-0 | Atalanta (射正0 射偏8) | 偵測時間45",
-                  "押策略五(A) Ajax"
+                  "Lincoln Red Imps FC (射正1 射偏1) | 1-2 | FC Twente (射正6 射偏9) | 偵測時間45",
+                  "押策略五(B) FC Twente"
                 ],
                 "highlight": ""
               },
@@ -1698,13 +1741,13 @@
                 "highlight": ""
               },
               {
-                "team": "FK-Jablonec-vs-Brighton",
-                "team_url": "https://betsapi.com/r/13044919/FK-Jablonec-vs-Brighton",
+                "team": "FK-Kauno-Zalgiris-vs-SK-Brann",
+                "team_url": "https://betsapi.com/r/13044439/FK-Kauno-Zalgiris-vs-SK-Brann",
                 "cols": [
-                  "FK-Jablonec-vs-Brighton",
+                  "FK-Kauno-Zalgiris-vs-SK-Brann",
                   "2026-10-23 01:45:02",
-                  "FK Jablonec (射正1 射偏1) | 0-0 | Brighton (射正3 射偏8) | 偵測時間45",
-                  "押策略五(B) Brighton"
+                  "FK Kauno Zalgiris (射正1 射偏1) | 1-3 | SK Brann (射正6 射偏6) | 偵測時間45",
+                  "押策略五(B) SK Brann"
                 ],
                 "highlight": ""
               },
@@ -1720,13 +1763,13 @@
                 "highlight": ""
               },
               {
-                "team": "FK-Kauno-Zalgiris-vs-SK-Brann",
-                "team_url": "https://betsapi.com/r/13044439/FK-Kauno-Zalgiris-vs-SK-Brann",
+                "team": "FK-Jablonec-vs-Brighton",
+                "team_url": "https://betsapi.com/r/13044919/FK-Jablonec-vs-Brighton",
                 "cols": [
-                  "FK-Kauno-Zalgiris-vs-SK-Brann",
+                  "FK-Jablonec-vs-Brighton",
                   "2026-10-23 01:45:02",
-                  "FK Kauno Zalgiris (射正1 射偏1) | 1-3 | SK Brann (射正6 射偏6) | 偵測時間45",
-                  "押策略五(B) SK Brann"
+                  "FK Jablonec (射正1 射偏1) | 0-0 | Brighton (射正3 射偏8) | 偵測時間45",
+                  "押策略五(B) Brighton"
                 ],
                 "highlight": ""
               },
@@ -1753,16 +1796,16 @@
                 "highlight": ""
               }
             ],
-            "total": 16
+            "total": 17
           }
         ],
-        "scraped_at": "21:07:23"
+        "scraped_at": "00:12:14"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "21:07:24"
+        "scraped_at": "00:12:16"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
@@ -1878,7 +1921,7 @@
             "total": 2
           }
         ],
-        "scraped_at": "21:07:26"
+        "scraped_at": "00:12:18"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
@@ -1893,6 +1936,27 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Santa-Fe-FC-U23-vs-Universidad",
+                "team_url": "https://betsapi.com/r/13339066/Santa-Fe-FC-U23-vs-Universidad-O&M-U23",
+                "cols": [
+                  "Santa-Fe-FC-U23-vs-Universidad",
+                  "2026-10-23 08:10:01",
+                  "Santa Fe FC U23 (射正5 射偏9) | 1-1 | Universidad O&M U23 (射正3 射偏4) | 偵測時間60",
+                  "押數據二(A) Santa Fe FC U23"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
               {
                 "team": "TSG-Hoffenheim-vs-Lyon",
                 "team_url": "https://betsapi.com/r/13043456/TSG-Hoffenheim-vs-Lyon",
@@ -2545,13 +2609,13 @@
                 "highlight": ""
               },
               {
-                "team": "OFI-Crete-vs-Bayer-Leverkusen",
-                "team_url": "https://betsapi.com/r/13044235/OFI-Crete-vs-Bayer-Leverkusen",
+                "team": "FK-Kauno-Zalgiris-vs-SK-Brann",
+                "team_url": "https://betsapi.com/r/13044439/FK-Kauno-Zalgiris-vs-SK-Brann",
                 "cols": [
-                  "OFI-Crete-vs-Bayer-Leverkusen",
+                  "FK-Kauno-Zalgiris-vs-SK-Brann",
                   "2026-10-23 02:00:01",
-                  "OFI Crete (射正2 射偏1) | 0-2 | Bayer Leverkusen (射正11 射偏10) | 偵測時間56",
-                  "押數據二(B) Bayer Leverkusen"
+                  "FK Kauno Zalgiris (射正1 射偏5) | 1-3 | SK Brann (射正6 射偏7) | 偵測時間56",
+                  "押數據二(B) SK Brann"
                 ],
                 "highlight": ""
               },
@@ -2560,49 +2624,7 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "OFI Crete (射正1 射偏1) | 0-2 | Bayer Leverkusen (射正8 射偏9) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "FK-Jablonec-vs-Brighton",
-                "team_url": "https://betsapi.com/r/13044919/FK-Jablonec-vs-Brighton",
-                "cols": [
-                  "FK-Jablonec-vs-Brighton",
-                  "2026-10-23 02:00:01",
-                  "FK Jablonec (射正1 射偏1) | 0-0 | Brighton (射正3 射偏11) | 偵測時間59",
-                  "押數據二(B) Brighton"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "FK Jablonec (射正1 射偏1) | 0-0 | Brighton (射正3 射偏8) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "Lech-Poznan-vs-Sunderland",
-                "team_url": "https://betsapi.com/r/13044772/Lech-Poznan-vs-Sunderland",
-                "cols": [
-                  "Lech-Poznan-vs-Sunderland",
-                  "2026-10-23 02:00:01",
-                  "Lech Poznan (射正2 射偏5) | 0-1 | Sunderland (射正9 射偏8) | 偵測時間58",
-                  "押數據二(B) Sunderland"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "Lech Poznan (射正2 射偏4) | 0-1 | Sunderland (射正8 射偏6) | 偵測時間45",
+                  "FK Kauno Zalgiris (射正1 射偏1) | 1-3 | SK Brann (射正6 射偏6) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -2629,13 +2651,13 @@
                 "highlight": ""
               },
               {
-                "team": "FK-Kauno-Zalgiris-vs-SK-Brann",
-                "team_url": "https://betsapi.com/r/13044439/FK-Kauno-Zalgiris-vs-SK-Brann",
+                "team": "Lech-Poznan-vs-Sunderland",
+                "team_url": "https://betsapi.com/r/13044772/Lech-Poznan-vs-Sunderland",
                 "cols": [
-                  "FK-Kauno-Zalgiris-vs-SK-Brann",
+                  "Lech-Poznan-vs-Sunderland",
                   "2026-10-23 02:00:01",
-                  "FK Kauno Zalgiris (射正1 射偏5) | 1-3 | SK Brann (射正6 射偏7) | 偵測時間56",
-                  "押數據二(B) SK Brann"
+                  "Lech Poznan (射正2 射偏5) | 0-1 | Sunderland (射正9 射偏8) | 偵測時間58",
+                  "押數據二(B) Sunderland"
                 ],
                 "highlight": ""
               },
@@ -2644,7 +2666,49 @@
                 "team_url": "",
                 "cols": [
                   "",
-                  "FK Kauno Zalgiris (射正1 射偏1) | 1-3 | SK Brann (射正6 射偏6) | 偵測時間45",
+                  "Lech Poznan (射正2 射偏4) | 0-1 | Sunderland (射正8 射偏6) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Jablonec-vs-Brighton",
+                "team_url": "https://betsapi.com/r/13044919/FK-Jablonec-vs-Brighton",
+                "cols": [
+                  "FK-Jablonec-vs-Brighton",
+                  "2026-10-23 02:00:01",
+                  "FK Jablonec (射正1 射偏1) | 0-0 | Brighton (射正3 射偏11) | 偵測時間59",
+                  "押數據二(B) Brighton"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Jablonec (射正1 射偏1) | 0-0 | Brighton (射正3 射偏8) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "OFI-Crete-vs-Bayer-Leverkusen",
+                "team_url": "https://betsapi.com/r/13044235/OFI-Crete-vs-Bayer-Leverkusen",
+                "cols": [
+                  "OFI-Crete-vs-Bayer-Leverkusen",
+                  "2026-10-23 02:00:01",
+                  "OFI Crete (射正2 射偏1) | 0-2 | Bayer Leverkusen (射正11 射偏10) | 偵測時間56",
+                  "押數據二(B) Bayer Leverkusen"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "OFI Crete (射正1 射偏1) | 0-2 | Bayer Leverkusen (射正8 射偏9) | 偵測時間45",
                   ""
                 ],
                 "highlight": ""
@@ -2711,27 +2775,6 @@
                   ""
                 ],
                 "highlight": ""
-              },
-              {
-                "team": "FC-Flora-Tallinn-II-vs-JK-Nomm",
-                "team_url": "https://betsapi.com/r/13233279/FC-Flora-Tallinn-II-vs-JK-Nomme-United-II",
-                "cols": [
-                  "FC-Flora-Tallinn-II-vs-JK-Nomm",
-                  "2026-10-23 01:15:02",
-                  "FC Flora Tallinn II (射正10 射偏8) | 2-2 | JK Nomme United II (射正2 射偏1) | 偵測時間58",
-                  "押數據二(A) FC Flora Tallinn II"
-                ],
-                "highlight": ""
-              },
-              {
-                "team": "",
-                "team_url": "",
-                "cols": [
-                  "",
-                  "FC Flora Tallinn II (射正9 射偏8) | 1-2 | JK Nomme United II (射正2 射偏1) | 偵測時間45",
-                  ""
-                ],
-                "highlight": ""
               }
             ],
             "total": 40
@@ -2745,6 +2788,17 @@
               "參考"
             ],
             "matches": [
+              {
+                "team": "Porto-PE-vs-Central-SC",
+                "team_url": "https://betsapi.com/r/13334387/Porto-PE-vs-Central-SC",
+                "cols": [
+                  "Porto-PE-vs-Central-SC",
+                  "2026-10-23 08:05:01",
+                  "Porto PE (射正1 射偏3) | 0-1 | Central SC (射正5 射偏6) | 偵測時間45",
+                  "押數據二(B) Central SC"
+                ],
+                "highlight": ""
+              },
               {
                 "team": "TSG-Hoffenheim-vs-Lyon",
                 "team_url": "https://betsapi.com/r/13043456/TSG-Hoffenheim-vs-Lyon",
@@ -3043,16 +3097,16 @@
                 "highlight": ""
               }
             ],
-            "total": 27
+            "total": 28
           }
         ],
-        "scraped_at": "21:07:28"
+        "scraped_at": "00:12:20"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "21:07:29"
+        "scraped_at": "00:12:21"
       }
     }
   }
