@@ -1,81 +1,921 @@
 {
   "status": "正常",
   "error": "",
-  "updated_at": "2026-11-02 07:15:09",
+  "updated_at": "2026-11-02 17:18:39",
   "data": {
-    "timestamp": "2026-11-02 07:15:09",
+    "timestamp": "2026-11-02 17:18:39",
     "strategies": {
       "獨贏一": {
         "url": "https://sports.icux.xyz/football/index1.php?t=21",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "07:15:11"
+        "scraped_at": "17:18:42"
       },
       "獨贏二": {
         "url": "https://sports.icux.xyz/football/index1.php?t=6",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "07:15:12"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時隊伍 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Deportivo-Maldonado-Reserves-v",
+                "team_url": "https://betsapi.com/r/13376792/Deportivo-Maldonado-Reserves-vs-Boston-River-Reserves",
+                "cols": [
+                  "Deportivo-Maldonado-Reserves-v",
+                  "2026-11-03 01:15:01",
+                  "Deportivo Maldonado Reserves (射正5 射偏6) | 1-0 | Boston River Reserves (射正3 射偏4) | 偵測時間43",
+                  "押獨贏二(A) Deportivo Maldonado Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "US-Goree-vs-US-Ouakam",
+                "team_url": "https://betsapi.com/r/13380330/US-Goree-vs-US-Ouakam",
+                "cols": [
+                  "US-Goree-vs-US-Ouakam",
+                  "2026-11-03 01:15:01",
+                  "US Goree (射正3 射偏2) | 2-0 | US Ouakam (射正0 射偏1) | 偵測時間45",
+                  "押獨贏二(A) US Goree"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VPS-Vaasa-vs-HJK-Helsinki",
+                "team_url": "https://betsapi.com/r/13068443/VPS-Vaasa-vs-HJK-Helsinki",
+                "cols": [
+                  "VPS-Vaasa-vs-HJK-Helsinki",
+                  "2026-11-03 01:05:01",
+                  "VPS Vaasa (射正0 射偏1) | 0-3 | HJK Helsinki (射正3 射偏8) | 偵測時間45",
+                  "押獨贏二(B) HJK Helsinki"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 3
+          }
+        ],
+        "scraped_at": "17:18:44"
       },
       "大分二": {
         "url": "https://sports.icux.xyz/football/index3.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "07:15:14"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Al-Wasl-SC-vs-Al-Quwa-Al-Jawiy",
+                "team_url": "https://betsapi.com/r/12457943/Al-Wasl-SC-vs-Al-Quwa-Al-Jawiya",
+                "cols": [
+                  "Al-Wasl-SC-vs-Al-Quwa-Al-Jawiy",
+                  "2026-11-03 01:05:01",
+                  "Al Wasl SC (射正6 射偏1) | 3-1 | Al Quwa Al Jawiya (射正1 射偏1) | 偵測時間45",
+                  "押大分二"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 1
+          }
+        ],
+        "scraped_at": "17:18:46"
       },
       "大分三": {
         "url": "https://sports.icux.xyz/football/index3.php?t=3",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "07:15:15"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時大小 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Banik-Ostrava-B-vs-Vysocina-Ji",
+                "team_url": "https://betsapi.com/r/12091360/Banik-Ostrava-B-vs-Vysocina-Jihlava",
+                "cols": [
+                  "Banik-Ostrava-B-vs-Vysocina-Ji",
+                  "2026-11-03 01:15:01",
+                  "Banik Ostrava B (射正3 射偏1) | 0-2 | Vysocina Jihlava (射正7 射偏5) | 偵測時間58",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Banik Ostrava B (射正3 射偏1) | 0-2 | Vysocina Jihlava (射正6 射偏5) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hapoel-Azor-vs-MS-Jerusalem",
+                "team_url": "https://betsapi.com/r/13087756/Hapoel-Azor-vs-MS-Jerusalem",
+                "cols": [
+                  "Hapoel-Azor-vs-MS-Jerusalem",
+                  "2026-11-03 00:50:01",
+                  "Hapoel Azor (射正3 射偏4) | 1-0 | MS Jerusalem (射正5 射偏0) | 偵測時間57",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Hapoel Azor (射正3 射偏4) | 1-0 | MS Jerusalem (射正3 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時大小 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "NK-Bravo-vs-FC-Koper",
+                "team_url": "https://betsapi.com/r/12087414/NK-Bravo-vs-FC-Koper",
+                "cols": [
+                  "NK-Bravo-vs-FC-Koper",
+                  "2026-11-03 01:05:01",
+                  "NK Bravo (射正3 射偏1) | 0-0 | FC Koper (射正5 射偏3) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Banik-Ostrava-B-vs-Vysocina-Ji",
+                "team_url": "https://betsapi.com/r/12091360/Banik-Ostrava-B-vs-Vysocina-Jihlava",
+                "cols": [
+                  "Banik-Ostrava-B-vs-Vysocina-Ji",
+                  "2026-11-03 01:00:02",
+                  "Banik Ostrava B (射正3 射偏1) | 0-2 | Vysocina Jihlava (射正6 射偏5) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hapoel-Azor-vs-MS-Jerusalem",
+                "team_url": "https://betsapi.com/r/13087756/Hapoel-Azor-vs-MS-Jerusalem",
+                "cols": [
+                  "Hapoel-Azor-vs-MS-Jerusalem",
+                  "2026-11-03 00:35:01",
+                  "Hapoel Azor (射正3 射偏4) | 1-0 | MS Jerusalem (射正3 射偏0) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Montana-vs-Spartak-Pleven",
+                "team_url": "https://betsapi.com/r/12126231/Montana-vs-Spartak-Pleven",
+                "cols": [
+                  "Montana-vs-Spartak-Pleven",
+                  "2026-11-03 00:30:02",
+                  "Montana (射正4 射偏2) | 1-1 | Spartak Pleven (射正2 射偏2) | 偵測時間45",
+                  "押大分三"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 4
+          }
+        ],
+        "scraped_at": "17:18:48"
       },
       "策略一": {
         "url": "https://sports.icux.xyz/football/index5.php?t=6",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "07:15:17"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "AS-Nordia-Jerusalem-vs-Kfar-Sa",
+                "team_url": "https://betsapi.com/r/13087754/AS-Nordia-Jerusalem-vs-Kfar-Saba-1928",
+                "cols": [
+                  "AS-Nordia-Jerusalem-vs-Kfar-Sa",
+                  "2026-11-03 01:15:01",
+                  "AS Nordia Jerusalem (射正0 射偏2) | 0-0 | Kfar Saba 1928 (射正2 射偏2) | 偵測時間44",
+                  "押策略一2(B) Kfar Saba 1928"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Wasl-SC-vs-Al-Quwa-Al-Jawiy",
+                "team_url": "https://betsapi.com/r/12457943/Al-Wasl-SC-vs-Al-Quwa-Al-Jawiya",
+                "cols": [
+                  "Al-Wasl-SC-vs-Al-Quwa-Al-Jawiy",
+                  "2026-11-03 01:05:01",
+                  "Al Wasl SC (射正6 射偏1) | 3-1 | Al Quwa Al Jawiya (射正1 射偏1) | 偵測時間45",
+                  "押策略一2(A) Al Wasl SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "NK-Bravo-vs-FC-Koper",
+                "team_url": "https://betsapi.com/r/12087414/NK-Bravo-vs-FC-Koper",
+                "cols": [
+                  "NK-Bravo-vs-FC-Koper",
+                  "2026-11-03 01:05:01",
+                  "NK Bravo (射正3 射偏1) | 0-0 | FC Koper (射正5 射偏3) | 偵測時間45",
+                  "押策略一2(B) FC Koper"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Montana-vs-Spartak-Pleven",
+                "team_url": "https://betsapi.com/r/12126231/Montana-vs-Spartak-Pleven",
+                "cols": [
+                  "Montana-vs-Spartak-Pleven",
+                  "2026-11-03 00:30:02",
+                  "Montana (射正4 射偏2) | 1-1 | Spartak Pleven (射正2 射偏2) | 偵測時間45",
+                  "押策略一2(A) Montana"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 4
+          }
+        ],
+        "scraped_at": "17:18:50"
       },
       "策略二": {
         "url": "https://sports.icux.xyz/football/index5.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "07:15:19"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Al-Shabab-Manama-vs-Al-Tadamun",
+                "team_url": "https://betsapi.com/r/13391546/Al-Shabab-Manama-vs-Al-Tadamun-Buri",
+                "cols": [
+                  "Al-Shabab-Manama-vs-Al-Tadamun",
+                  "2026-11-03 01:05:01",
+                  "Al Shabab Manama (射正3 射偏2) | 1-1 | Al Tadamun Buri (射正1 射偏3) | 偵測時間45",
+                  "押策略二(A) Al Shabab Manama"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Diarra-vs-Djoliba-AC",
+                "team_url": "https://betsapi.com/r/13373011/FC-Diarra-vs-Djoliba-AC",
+                "cols": [
+                  "FC-Diarra-vs-Djoliba-AC",
+                  "2026-11-03 01:05:01",
+                  "FC Diarra (射正1 射偏2) | 0-0 | Djoliba AC (射正2 射偏1) | 偵測時間45",
+                  "押策略二(B) Djoliba AC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Sadd-vs-Al-Ahli-Jeddah",
+                "team_url": "https://betsapi.com/r/12457694/Al-Sadd-vs-Al-Ahli-Jeddah",
+                "cols": [
+                  "Al-Sadd-vs-Al-Ahli-Jeddah",
+                  "2026-11-03 01:05:01",
+                  "Al Sadd (射正1 射偏3) | 0-0 | Al Ahli Jeddah (射正2 射偏2) | 偵測時間45",
+                  "押策略二(B) Al Ahli Jeddah"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Atromitos-Athinon-vs-Volos-NFC",
+                "team_url": "https://betsapi.com/r/13323193/Atromitos-Athinon-vs-Volos-NFC",
+                "cols": [
+                  "Atromitos-Athinon-vs-Volos-NFC",
+                  "2026-11-03 01:00:02",
+                  "Atromitos Athinon (射正1 射偏4) | 1-0 | Volos NFC (射正2 射偏2) | 偵測時間45",
+                  "押策略二(B) Volos NFC"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 4
+          }
+        ],
+        "scraped_at": "17:18:52"
       },
       "策略四": {
         "url": "https://sports.icux.xyz/football/index7.php?t=0",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "07:15:20"
+        "scraped_at": "17:18:54"
       },
       "策略五": {
         "url": "https://sports.icux.xyz/football/index7.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "07:15:22"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時假賽 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Sport-Huancayo-vs-FBC-Melgar",
+                "team_url": "https://betsapi.com/r/11993146/Sport-Huancayo-vs-FBC-Melgar",
+                "cols": [
+                  "Sport-Huancayo-vs-FBC-Melgar",
+                  "2026-11-03 01:15:01",
+                  "Sport Huancayo (射正5 射偏5) | 0-0 | FBC Melgar (射正1 射偏4) | 偵測時間58",
+                  "押策略五(A) Sport Huancayo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Montana-vs-Spartak-Pleven",
+                "team_url": "https://betsapi.com/r/12126231/Montana-vs-Spartak-Pleven",
+                "cols": [
+                  "Montana-vs-Spartak-Pleven",
+                  "2026-11-03 00:45:01",
+                  "Montana (射正5 射偏6) | 1-1 | Spartak Pleven (射正2 射偏2) | 偵測時間59",
+                  "押策略五(A) Montana"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時假賽 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Cherno-More-Varna-vs-Botev-Vra",
+                "team_url": "https://betsapi.com/r/12011561/Cherno-More-Varna-vs-Botev-Vratsa",
+                "cols": [
+                  "Cherno-More-Varna-vs-Botev-Vra",
+                  "2026-11-03 01:15:01",
+                  "Cherno More Varna (射正0 射偏2) | 0-0 | Botev Vratsa (射正4 射偏3) | 偵測時間44",
+                  "押策略五(B) Botev Vratsa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "NK-Bravo-vs-FC-Koper",
+                "team_url": "https://betsapi.com/r/12087414/NK-Bravo-vs-FC-Koper",
+                "cols": [
+                  "NK-Bravo-vs-FC-Koper",
+                  "2026-11-03 01:05:01",
+                  "NK Bravo (射正3 射偏1) | 0-0 | FC Koper (射正5 射偏3) | 偵測時間45",
+                  "押策略五(B) FC Koper"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Banik-Ostrava-B-vs-Vysocina-Ji",
+                "team_url": "https://betsapi.com/r/12091360/Banik-Ostrava-B-vs-Vysocina-Jihlava",
+                "cols": [
+                  "Banik-Ostrava-B-vs-Vysocina-Ji",
+                  "2026-11-03 01:00:02",
+                  "Banik Ostrava B (射正3 射偏1) | 0-2 | Vysocina Jihlava (射正6 射偏5) | 偵測時間45",
+                  "押策略五(B) Vysocina Jihlava"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Dubocica-vs-FK-Vozdovac",
+                "team_url": "https://betsapi.com/r/12314464/FK-Dubocica-vs-FK-Vozdovac",
+                "cols": [
+                  "FK-Dubocica-vs-FK-Vozdovac",
+                  "2026-11-03 00:05:01",
+                  "FK Dubocica (射正3 射偏5) | 0-0 | FK Vozdovac (射正0 射偏4) | 偵測時間45",
+                  "押策略五(A) FK Dubocica"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 4
+          }
+        ],
+        "scraped_at": "17:18:56"
       },
       "隊伍三": {
         "url": "https://sports.icux.xyz/football/index7.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "07:15:23"
+        "scraped_at": "17:18:58"
       },
       "數據一": {
         "url": "https://sports.icux.xyz/football/index9.php?t=0",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "07:15:25"
+        "sections": [
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Al-Wasl-SC-vs-Al-Quwa-Al-Jawiy",
+                "team_url": "https://betsapi.com/r/12457943/Al-Wasl-SC-vs-Al-Quwa-Al-Jawiya",
+                "cols": [
+                  "Al-Wasl-SC-vs-Al-Quwa-Al-Jawiy",
+                  "2026-11-03 01:05:01",
+                  "Al Wasl SC (射正6 射偏1) | 3-1 | Al Quwa Al Jawiya (射正1 射偏1) | 偵測時間45",
+                  "押數據一(A) Al Wasl SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Montana-vs-Spartak-Pleven",
+                "team_url": "https://betsapi.com/r/12126231/Montana-vs-Spartak-Pleven",
+                "cols": [
+                  "Montana-vs-Spartak-Pleven",
+                  "2026-11-03 00:30:02",
+                  "Montana (射正4 射偏2) | 1-1 | Spartak Pleven (射正2 射偏2) | 偵測時間45",
+                  "押數據一(A) Montana"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 2
+          }
+        ],
+        "scraped_at": "17:19:00"
       },
       "數據二": {
         "url": "https://sports.icux.xyz/football/index9.php?t=2",
         "update_info": "更新59",
-        "sections": [],
-        "scraped_at": "07:15:27"
+        "sections": [
+          {
+            "title": "陳庚溥",
+            "headers": [
+              "即時賽事 60 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "FC-Inter-vs-IF-Gnistan",
+                "team_url": "https://betsapi.com/r/13068444/FC-Inter-vs-IF-Gnistan",
+                "cols": [
+                  "FC-Inter-vs-IF-Gnistan",
+                  "2026-11-03 01:15:01",
+                  "FC Inter (射正3 射偏4) | 2-1 | IF Gnistan (射正4 射偏5) | 偵測時間56",
+                  "押數據二(B) IF Gnistan"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FC Inter (射正2 射偏4) | 1-1 | IF Gnistan (射正3 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Banik-Ostrava-B-vs-Vysocina-Ji",
+                "team_url": "https://betsapi.com/r/12091360/Banik-Ostrava-B-vs-Vysocina-Jihlava",
+                "cols": [
+                  "Banik-Ostrava-B-vs-Vysocina-Ji",
+                  "2026-11-03 01:15:01",
+                  "Banik Ostrava B (射正3 射偏1) | 0-2 | Vysocina Jihlava (射正7 射偏5) | 偵測時間58",
+                  "押數據二(B) Vysocina Jihlava"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Banik Ostrava B (射正3 射偏1) | 0-2 | Vysocina Jihlava (射正6 射偏5) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "NK-Brezice-vs-ND-Beltinci",
+                "team_url": "https://betsapi.com/r/12088936/NK-Brezice-vs-ND-Beltinci",
+                "cols": [
+                  "NK-Brezice-vs-ND-Beltinci",
+                  "2026-11-03 01:15:01",
+                  "NK Brezice (射正1 射偏8) | 0-5 | ND Beltinci (射正7 射偏5) | 偵測時間59",
+                  "押數據二(B) ND Beltinci"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "NK Brezice (射正1 射偏6) | 0-5 | ND Beltinci (射正7 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Sport-Huancayo-vs-FBC-Melgar",
+                "team_url": "https://betsapi.com/r/11993146/Sport-Huancayo-vs-FBC-Melgar",
+                "cols": [
+                  "Sport-Huancayo-vs-FBC-Melgar",
+                  "2026-11-03 01:15:01",
+                  "Sport Huancayo (射正5 射偏5) | 0-0 | FBC Melgar (射正1 射偏4) | 偵測時間58",
+                  "押數據二(A) Sport Huancayo"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Naser-SC-vs-Al-Shabab-Club",
+                "team_url": "https://betsapi.com/r/13240265/Al-Naser-SC-vs-Al-Shabab-Club",
+                "cols": [
+                  "Al-Naser-SC-vs-Al-Shabab-Club",
+                  "2026-11-03 01:05:01",
+                  "Al Naser SC (射正3 射偏6) | 1-0 | Al Shabab Club (射正4 射偏4) | 偵測時間59",
+                  "押數據二(B) Al Shabab Club"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Al Naser SC (射正3 射偏3) | 1-0 | Al Shabab Club (射正4 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Hapoel-Azor-vs-MS-Jerusalem",
+                "team_url": "https://betsapi.com/r/13087756/Hapoel-Azor-vs-MS-Jerusalem",
+                "cols": [
+                  "Hapoel-Azor-vs-MS-Jerusalem",
+                  "2026-11-03 00:50:01",
+                  "Hapoel Azor (射正3 射偏4) | 1-0 | MS Jerusalem (射正5 射偏0) | 偵測時間57",
+                  "押數據二(B) MS Jerusalem"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Montana-vs-Spartak-Pleven",
+                "team_url": "https://betsapi.com/r/12126231/Montana-vs-Spartak-Pleven",
+                "cols": [
+                  "Montana-vs-Spartak-Pleven",
+                  "2026-11-03 00:45:01",
+                  "Montana (射正5 射偏6) | 1-1 | Spartak Pleven (射正2 射偏2) | 偵測時間59",
+                  "押數據二(A) Montana"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Oviedo-vs-Las-Palmas",
+                "team_url": "https://betsapi.com/r/12130512/Oviedo-vs-Las-Palmas",
+                "cols": [
+                  "Oviedo-vs-Las-Palmas",
+                  "2026-11-03 00:35:01",
+                  "Oviedo (射正0 射偏9) | 0-3 | Las Palmas (射正5 射偏6) | 偵測時間57",
+                  "押數據二(B) Las Palmas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Oviedo (射正0 射偏6) | 0-2 | Las Palmas (射正4 射偏6) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Dubocica-vs-FK-Vozdovac",
+                "team_url": "https://betsapi.com/r/12314464/FK-Dubocica-vs-FK-Vozdovac",
+                "cols": [
+                  "FK-Dubocica-vs-FK-Vozdovac",
+                  "2026-11-03 00:20:01",
+                  "FK Dubocica (射正3 射偏7) | 0-0 | FK Vozdovac (射正1 射偏5) | 偵測時間60",
+                  "押數據二(A) FK Dubocica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "FK Dubocica (射正3 射偏5) | 0-0 | FK Vozdovac (射正0 射偏4) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Umm-Al-Hassam-vs-Bahrain-SC",
+                "team_url": "https://betsapi.com/r/13391547/Umm-Al-Hassam-vs-Bahrain-SC",
+                "cols": [
+                  "Umm-Al-Hassam-vs-Bahrain-SC",
+                  "2026-11-03 00:20:01",
+                  "Umm Al Hassam (射正0 射偏3) | 0-2 | Bahrain SC (射正4 射偏2) | 偵測時間58",
+                  "押數據二(B) Bahrain SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Umm Al Hassam (射正0 射偏3) | 0-2 | Bahrain SC (射正3 射偏0) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Zulfi-vs-Al-Jandal",
+                "team_url": "https://betsapi.com/r/12325246/Al-Zulfi-vs-Al-Jandal",
+                "cols": [
+                  "Al-Zulfi-vs-Al-Jandal",
+                  "2026-11-03 00:15:02",
+                  "Al Zulfi (射正3 射偏8) | 1-0 | Al Jandal (射正5 射偏4) | 偵測時間58",
+                  "押數據二(B) Al Jandal"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "",
+                "team_url": "",
+                "cols": [
+                  "",
+                  "Al Zulfi (射正1 射偏6) | 0-0 | Al Jandal (射正5 射偏2) | 偵測時間45",
+                  ""
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 11
+          },
+          {
+            "title": "參考",
+            "headers": [
+              "即時賽事 45 (Min)",
+              "時間",
+              "數據",
+              "參考"
+            ],
+            "matches": [
+              {
+                "team": "Cherno-More-Varna-vs-Botev-Vra",
+                "team_url": "https://betsapi.com/r/12011561/Cherno-More-Varna-vs-Botev-Vratsa",
+                "cols": [
+                  "Cherno-More-Varna-vs-Botev-Vra",
+                  "2026-11-03 01:15:01",
+                  "Cherno More Varna (射正0 射偏2) | 0-0 | Botev Vratsa (射正4 射偏3) | 偵測時間44",
+                  "押數據二(B) Botev Vratsa"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Deportivo-Maldonado-Reserves-v",
+                "team_url": "https://betsapi.com/r/13376792/Deportivo-Maldonado-Reserves-vs-Boston-River-Reserves",
+                "cols": [
+                  "Deportivo-Maldonado-Reserves-v",
+                  "2026-11-03 01:15:01",
+                  "Deportivo Maldonado Reserves (射正5 射偏6) | 1-0 | Boston River Reserves (射正3 射偏4) | 偵測時間43",
+                  "押數據二(A) Deportivo Maldonado Reserves"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "US-Goree-vs-US-Ouakam",
+                "team_url": "https://betsapi.com/r/13380330/US-Goree-vs-US-Ouakam",
+                "cols": [
+                  "US-Goree-vs-US-Ouakam",
+                  "2026-11-03 01:15:01",
+                  "US Goree (射正3 射偏2) | 2-0 | US Ouakam (射正0 射偏1) | 偵測時間45",
+                  "押數據二(A) US Goree"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "VPS-Vaasa-vs-HJK-Helsinki",
+                "team_url": "https://betsapi.com/r/13068443/VPS-Vaasa-vs-HJK-Helsinki",
+                "cols": [
+                  "VPS-Vaasa-vs-HJK-Helsinki",
+                  "2026-11-03 01:05:01",
+                  "VPS Vaasa (射正0 射偏1) | 0-3 | HJK Helsinki (射正3 射偏8) | 偵測時間45",
+                  "押數據二(B) HJK Helsinki"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "NK-Bravo-vs-FC-Koper",
+                "team_url": "https://betsapi.com/r/12087414/NK-Bravo-vs-FC-Koper",
+                "cols": [
+                  "NK-Bravo-vs-FC-Koper",
+                  "2026-11-03 01:05:01",
+                  "NK Bravo (射正3 射偏1) | 0-0 | FC Koper (射正5 射偏3) | 偵測時間45",
+                  "押數據二(B) FC Koper"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Banik-Ostrava-B-vs-Vysocina-Ji",
+                "team_url": "https://betsapi.com/r/12091360/Banik-Ostrava-B-vs-Vysocina-Jihlava",
+                "cols": [
+                  "Banik-Ostrava-B-vs-Vysocina-Ji",
+                  "2026-11-03 01:00:02",
+                  "Banik Ostrava B (射正3 射偏1) | 0-2 | Vysocina Jihlava (射正6 射偏5) | 偵測時間45",
+                  "押數據二(B) Vysocina Jihlava"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "NK-Brezice-vs-ND-Beltinci",
+                "team_url": "https://betsapi.com/r/12088936/NK-Brezice-vs-ND-Beltinci",
+                "cols": [
+                  "NK-Brezice-vs-ND-Beltinci",
+                  "2026-11-03 01:00:02",
+                  "NK Brezice (射正1 射偏6) | 0-5 | ND Beltinci (射正7 射偏4) | 偵測時間45",
+                  "押數據二(B) ND Beltinci"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FC-Inter-vs-IF-Gnistan",
+                "team_url": "https://betsapi.com/r/13068444/FC-Inter-vs-IF-Gnistan",
+                "cols": [
+                  "FC-Inter-vs-IF-Gnistan",
+                  "2026-11-03 01:00:02",
+                  "FC Inter (射正2 射偏4) | 1-1 | IF Gnistan (射正3 射偏4) | 偵測時間45",
+                  "押數據二(B) IF Gnistan"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Naser-SC-vs-Al-Shabab-Club",
+                "team_url": "https://betsapi.com/r/13240265/Al-Naser-SC-vs-Al-Shabab-Club",
+                "cols": [
+                  "Al-Naser-SC-vs-Al-Shabab-Club",
+                  "2026-11-03 00:50:01",
+                  "Al Naser SC (射正3 射偏3) | 1-0 | Al Shabab Club (射正4 射偏4) | 偵測時間45",
+                  "押數據二(B) Al Shabab Club"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Oviedo-vs-Las-Palmas",
+                "team_url": "https://betsapi.com/r/12130512/Oviedo-vs-Las-Palmas",
+                "cols": [
+                  "Oviedo-vs-Las-Palmas",
+                  "2026-11-03 00:20:01",
+                  "Oviedo (射正0 射偏6) | 0-2 | Las Palmas (射正4 射偏6) | 偵測時間45",
+                  "押數據二(B) Las Palmas"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "FK-Dubocica-vs-FK-Vozdovac",
+                "team_url": "https://betsapi.com/r/12314464/FK-Dubocica-vs-FK-Vozdovac",
+                "cols": [
+                  "FK-Dubocica-vs-FK-Vozdovac",
+                  "2026-11-03 00:05:01",
+                  "FK Dubocica (射正3 射偏5) | 0-0 | FK Vozdovac (射正0 射偏4) | 偵測時間45",
+                  "押數據二(A) FK Dubocica"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Umm-Al-Hassam-vs-Bahrain-SC",
+                "team_url": "https://betsapi.com/r/13391547/Umm-Al-Hassam-vs-Bahrain-SC",
+                "cols": [
+                  "Umm-Al-Hassam-vs-Bahrain-SC",
+                  "2026-11-03 00:05:01",
+                  "Umm Al Hassam (射正0 射偏3) | 0-2 | Bahrain SC (射正3 射偏0) | 偵測時間45",
+                  "押數據二(B) Bahrain SC"
+                ],
+                "highlight": ""
+              },
+              {
+                "team": "Al-Zulfi-vs-Al-Jandal",
+                "team_url": "https://betsapi.com/r/12325246/Al-Zulfi-vs-Al-Jandal",
+                "cols": [
+                  "Al-Zulfi-vs-Al-Jandal",
+                  "2026-11-03 00:00:02",
+                  "Al Zulfi (射正1 射偏6) | 0-0 | Al Jandal (射正5 射偏2) | 偵測時間45",
+                  "押數據二(B) Al Jandal"
+                ],
+                "highlight": ""
+              }
+            ],
+            "total": 13
+          }
+        ],
+        "scraped_at": "17:19:02"
       },
       "數據三": {
         "url": "https://sports.icux.xyz/football/index9.php?t=4",
         "update_info": "更新59",
         "sections": [],
-        "scraped_at": "07:15:28"
+        "scraped_at": "17:19:04"
       }
     }
   }
